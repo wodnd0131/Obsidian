@@ -5,7 +5,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "V"
+      "key": "B"
     }
   ],
   "app:toggle-left-sidebar": [
@@ -14,7 +14,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "B"
+      "key": "V"
     }
   ]
 }
