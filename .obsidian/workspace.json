@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Calender/2024-12-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2024-12-17"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Calender/2024-12-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README의 백링크"
+              "title": "2024-12-17의 백링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.canvas"
+                "file": "Calender/2024-12-17.md"
               },
               "icon": "lucide-list",
-              "title": "무제 파일 개요"
+              "title": "2024-12-17 개요"
             }
           },
           {
@@ -164,9 +164,19 @@
               "icon": "history",
               "title": "History"
             }
+          },
+          {
+            "id": "e51c1aea37c951a4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,9 +196,14 @@
   },
   "active": "015ee87c40c39e23",
   "lastOpenFiles": [
-    "Welcome.md",
     "README.md",
+    "Calender/2024-12-17.md",
     "2024-12-17.md",
+    "무제 파일.md",
+    "무제 폴더",
+    "Calender/2024-12-18.md",
+    "Calander.md",
+    "Calender",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "이름 없는 보드.md"
