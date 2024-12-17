@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1a416dec37e8b1b3",
+        "id": "dafef1bb210e8613",
         "type": "tabs",
         "children": [
           {
-            "id": "a74ac1397f224d99",
+            "id": "ba2b27dbd633ea5b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "canvas",
+              "state": {
+                "file": "Todo/Canvas.canvas",
+                "viewState": {
+                  "x": -1560,
+                  "y": -1090,
+                  "zoom": -0.7704614274429037
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas"
             }
           }
         ]
@@ -43,23 +50,6 @@
             }
           },
           {
-            "id": "d69d66e15186e73a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
-            }
-          },
-          {
             "id": "e7854759faa2e954",
             "type": "leaf",
             "state": {
@@ -78,9 +68,25 @@
               "icon": "clock",
               "title": "Recent Files"
             }
+          },
+          {
+            "id": "40731c9d797e40f1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,38 +101,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd24264312d2d85c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "백링크"
-            }
-          },
-          {
-            "id": "c868b99809ce5500",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "무제 파일.canvas",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "무제 파일의 나가는 링크"
-            }
-          },
-          {
             "id": "52d40d14fc27d7ea",
             "type": "leaf",
             "state": {
@@ -137,16 +111,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "92a7adb9b84cf8d3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "개요"
             }
           },
           {
@@ -180,53 +144,84 @@
             }
           },
           {
-            "id": "62529a6ff13a8ada",
+            "id": "2442e7dbd81933ad",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "type": "outline",
+              "state": {
+                "file": "Todo/Canvas.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Canvas 개요"
+            }
+          },
+          {
+            "id": "7db7c46aa47d8c5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Todo/Canvas.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Canvas의 나가는 링크"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-custom-frames:Open Todo.List": false,
-      "obsidian-custom-frames:Open Google Calendar": false,
-      "switcher:퀵 스위처 열기": false,
+      "canvas:새 캔버스 만들기": false,
       "graph:그래프 뷰 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
+      "switcher:퀵 스위처 열기": false,
+      "obsidian-custom-frames:Open Todo.List": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:새 보드 만들기": false,
-      "canvas:새 캔버스 만들기": false,
+      "obsidian-custom-frames:Open Google Calendar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a74ac1397f224d99",
+  "active": "e51c1aea37c951a4",
   "lastOpenFiles": [
-    "Calender/2024-12-17.md",
+    "Todo/Dev.md",
+    "3. Resource/index.md",
+    "4. Archive/index.md",
+    "2. Area/index.md",
+    "1. Project/index.md",
+    "Todo/Canvas.canvas",
     "README.md",
-    "무제 폴더",
+    "etc",
+    "4. Archive",
+    "Todo",
+    "3. Resource",
+    "2. Area",
+    "1. Project",
+    "Todo/Task.md",
+    "이름 없는 보드.md",
+    "Calender/2024-12-17.md",
+    "Todo.List/All Task.md",
+    "dashborard.md",
+    "Todo",
+    "todoist-backup-20241217155311.json",
+    "Excalidraw/Drawing 2024-12-17 15.47.02.excalidraw.md",
+    "Excalidraw",
     "무제 파일 1.canvas",
-    "무제 파일.canvas",
     "무제 파일 3.canvas",
     "무제 파일 2.canvas",
     "Calender/2024-12-18.md",
     "2024-12-17.md",
-    "무제 파일.md",
     "Calander.md",
-    "Calender",
-    "이름 없는 보드.md"
+    "Calender"
   ]
 }

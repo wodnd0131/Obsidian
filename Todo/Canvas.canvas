@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c3a3d27db8975141","type":"file","file":"Todo/Task.md","x":-1560,"y":-1340,"width":680,"height":500},
+		{"id":"727958cc0818c711","type":"file","file":"Todo/Dev.md","x":-2240,"y":-1340,"width":560,"height":500}
+	],
+	"edges":[
+		{"id":"c5c154fa7e6bd6d1","fromNode":"727958cc0818c711","fromSide":"right","toNode":"c3a3d27db8975141","toSide":"left"}
+	]
+}

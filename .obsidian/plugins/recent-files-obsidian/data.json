@@ -1,5 +1,38 @@
 {
-  "recentFiles": [],
+  "recentFiles": [
+    {
+      "basename": "Canvas",
+      "path": "Todo/Canvas.canvas"
+    },
+    {
+      "basename": "Task",
+      "path": "Todo/Task.md"
+    },
+    {
+      "basename": "Dev",
+      "path": "Todo/Dev.md"
+    },
+    {
+      "basename": "index",
+      "path": "3. Resource/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "4. Archive/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "2. Area/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "1. Project/index.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    }
+  ],
   "omittedPaths": [],
   "omittedTags": [],
   "omitBookmarks": false

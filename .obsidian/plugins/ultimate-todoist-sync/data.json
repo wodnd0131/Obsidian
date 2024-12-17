@@ -1,0 +1,65 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 300,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2345230610",
+        "parentId": null,
+        "order": 0,
+        "color": "charcoal",
+        "name": "Inbox",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6Wv6gJ4CpjhMcXP5",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2345230734",
+        "parentId": null,
+        "order": 1,
+        "color": "magenta",
+        "name": "Dev",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://app.todoist.com/app/project/6Wv6gwXMcM5mgMXV",
+        "viewStyle": "list"
+      }
+    ],
+    "tasks": [],
+    "events": [
+      {
+        "event_date": "2024-12-17T06:34:39.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/7271",
+          "name": "Dev",
+          "note_count": 0
+        },
+        "extra_data_id": 26388835659,
+        "id": 26302507282,
+        "initiator_id": null,
+        "object_id": "2345230734",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null,
+        "v2_object_id": "6Wv6gwXMcM5mgMXV",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": null
+      }
+    ]
+  },
+  "fileMetadata": {},
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "7b393c34e79cd5fe8a2357502f5926d704ed4551"
+}

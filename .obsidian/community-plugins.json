@@ -4,9 +4,9 @@
   "obsidian-tasks-plugin",
   "obsidian-kanban",
   "obsidian-icon-folder",
-  "obsidian-excalidraw-plugin",
   "remember-cursor-position",
   "recent-files-obsidian",
-  "table-editor-obsidian",
-  "obsidian-custom-frames"
+  "obsidian-custom-frames",
+  "todoist-sync-plugin",
+  "ultimate-todoist-sync"
 ]
