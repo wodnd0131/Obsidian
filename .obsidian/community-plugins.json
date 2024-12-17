@@ -3,5 +3,9 @@
   "calendar",
   "obsidian-tasks-plugin",
   "obsidian-kanban",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-excalidraw-plugin",
+  "remember-cursor-position",
+  "recent-files-obsidian",
+  "table-editor-obsidian"
 ]
