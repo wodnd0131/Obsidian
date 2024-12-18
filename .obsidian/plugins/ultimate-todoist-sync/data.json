@@ -54,6 +54,44 @@
         "v2_object_id": "6Wv6gwXMcM5mgMXV",
         "v2_parent_item_id": null,
         "v2_parent_project_id": null
+      },
+      {
+        "event_date": "2024-12-17T08:16:07.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/7271",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 26389678550,
+        "id": 26303350170,
+        "initiator_id": null,
+        "object_id": "2345230715",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null,
+        "v2_object_id": "6Wv6gqH3V7WHqjp8",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": null
+      },
+      {
+        "event_date": "2024-12-17T07:55:12.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/7271",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 26389486031,
+        "id": 26303157663,
+        "initiator_id": null,
+        "object_id": "2345230620",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null,
+        "v2_object_id": "6Wv6gMV8M8gCqXJr",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": null
       }
     ]
   },

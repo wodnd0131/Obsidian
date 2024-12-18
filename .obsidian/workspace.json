@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e13773e78e8be43c",
+        "id": "ffc35525f3239c0c",
         "type": "tabs",
         "children": [
           {
-            "id": "563a782e6b78ca8c",
+            "id": "ba100b78e5f279d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "canvas",
+              "state": {
+                "file": "1. Project/객체지향의 오해와 진실/Study.canvas",
+                "viewState": {
+                  "x": -441.8326012322782,
+                  "y": -807.5820530445652,
+                  "zoom": -0.49241239164241074
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Study"
             }
           }
         ]
@@ -182,9 +189,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "563a782e6b78ca8c",
+  "active": "ba100b78e5f279d3",
   "lastOpenFiles": [
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
     "1. Project/객체지향의 오해와 진실/Study.canvas",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방으로 보는 객체 지향.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
     "1. Project/index.md",
@@ -207,7 +218,6 @@
     "Todo.List/All Task.md",
     "dashborard.md",
     "Todo",
-    "todoist-backup-20241217155311.json",
     "Excalidraw/Drawing 2024-12-17 15.47.02.excalidraw.md",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
