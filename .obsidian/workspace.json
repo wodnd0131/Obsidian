@@ -16,7 +16,7 @@
                 "file": "Todo/Canvas.canvas",
                 "viewState": {
                   "x": -1560,
-                  "y": -1090,
+                  "y": -1248.6408209806157,
                   "zoom": -0.7704614274429037
                 }
               },
@@ -65,8 +65,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -119,8 +119,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -129,8 +129,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -181,15 +181,11 @@
       "canvas:새 캔버스 만들기": false,
       "graph:그래프 뷰 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
       "switcher:퀵 스위처 열기": false,
-      "obsidian-custom-frames:Open Todo.List": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:새 보드 만들기": false,
-      "obsidian-custom-frames:Open Google Calendar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "command-palette:명령어 팔레트 열기": false
+      "obsidian-custom-frames:Open Todo.List": false,
+      "obsidian-custom-frames:Open Google Calendar": false
     }
   },
   "active": "e51c1aea37c951a4",
