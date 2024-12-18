@@ -1,6 +1,6 @@
 {
   "theme": "system",
-  "textFontFamily": "Pretendard,Arial",
+  "textFontFamily": "Pretendard",
   "monospaceFontFamily": "Pretendard",
   "cssTheme": "AnuPpuccin",
   "accentColor": "#ff9494",
@@ -11,6 +11,9 @@
     "extended-colorschemes",
     "its-frontmatter"
   ],
-  "baseFontSize": 18,
-  "nativeMenus": false
+  "baseFontSize": 16,
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "interfaceFontFamily": "Pretendard",
+  "baseFontSizeAction": false
 }

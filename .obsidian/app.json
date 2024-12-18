@@ -4,5 +4,6 @@
   "foldHeading": true,
   "newFileLocation": "current",
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "Repository"
+  "attachmentFolderPath": "Repository",
+  "showRibbon": true
 }

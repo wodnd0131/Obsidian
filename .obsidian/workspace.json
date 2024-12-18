@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04716fe791533405",
+        "id": "18bd43a498adb61a",
         "type": "tabs",
         "children": [
           {
-            "id": "6d41096225faeb01",
+            "id": "267ee49e79780dd2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
-                "viewState": {
-                  "x": -558.3533195095372,
-                  "y": -438.15785062887977,
-                  "zoom": -1.1669473016424168
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "객체 지향의 개념"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -99,6 +92,7 @@
       {
         "id": "a9ba36cb23a231c4",
         "type": "tabs",
+        "dimension": 63.83399209486166,
         "children": [
           {
             "id": "52d40d14fc27d7ea",
@@ -114,33 +108,13 @@
             }
           },
           {
-            "id": "18f0845905970fea",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
             "id": "7ce944d1220cc2f4",
             "type": "leaf",
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
-            "id": "e51c1aea37c951a4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -148,11 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Todo/Canvas.canvas"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Canvas 개요"
+              "title": "개요"
             }
           },
           {
@@ -161,16 +133,41 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo/Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Canvas의 나가는 링크"
+              "title": "나가는 링크"
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "d3528216916afc7f",
+        "type": "tabs",
+        "dimension": 36.16600790513834,
+        "children": [
+          {
+            "id": "d3b4aa81e8f67e2b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          },
+          {
+            "id": "18f0845905970fea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,21 +179,26 @@
       "canvas:새 캔버스 만들기": false,
       "obsidian-kanban:새 보드 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "switcher:퀵 스위처 열기": false,
+      "switcher:퀵 스위처 열기": true,
       "obsidian-git:Open Git source control": true,
       "obsidian-custom-frames:Open Todo.List": false,
-      "obsidian-custom-frames:Open Google Calendar": false,
-      "command-palette:명령어 팔레트 열기": true
+      "obsidian-custom-frames:Open Google Calendar": true,
+      "command-palette:명령어 팔레트 열기": true,
+      "markdown-importer:마크다운 형식 가져오기 열기": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e51c1aea37c951a4",
+  "active": "267ee49e79780dd2",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "체크박스 사용법.md",
+    "Calender/2024-12-18.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
+    "Calender",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
+    "Repository",
     "역할,책임,협력의 관점.md",
     "1. Project/index.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md",
     "Pasted image 20241218104829.png",
@@ -206,7 +208,6 @@
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
-    "무제 폴더",
     "Todo/Canvas.canvas",
     "Todo/Dev.md",
     "3. Resource/index.md",
@@ -218,7 +219,6 @@
     "Todo",
     "3. Resource",
     "2. Area",
-    "1. Project",
     "Todo/Task.md",
     "이름 없는 보드.md",
     "Calender/2024-12-17.md",
@@ -228,7 +228,6 @@
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
     "무제 파일 2.canvas",
-    "Calender/2024-12-18.md",
     "2024-12-17.md",
     "Calander.md"
   ]
