@@ -2,10 +2,11 @@
 	"nodes":[
 		{"id":"2b74ed504b7b7fc6","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md","x":-1740,"y":-680,"width":460,"height":400},
 		{"id":"e36fb01fe4f53913","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md","x":-1040,"y":-400,"width":680,"height":480},
-		{"id":"5de564e449fb93a1","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md","x":-1040,"y":-920,"width":620,"height":400},
+		{"id":"5de564e449fb93a1","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계를 모방한다는 은유.md","x":-1040,"y":-920,"width":620,"height":400},
 		{"id":"c59d2e3c23b329d8","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md","x":-600,"y":-1400,"width":800,"height":400,"color":"2"},
 		{"id":"36f1e7a1b7078651","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md","x":0,"y":-920,"width":660,"height":400},
-		{"id":"acf3cd5987827b99","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md","x":-745,"y":240,"width":650,"height":480}
+		{"id":"acf3cd5987827b99","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md","x":-745,"y":240,"width":650,"height":480},
+		{"id":"daacac7b7baf1789","type":"text","text":"워드 커닝헴, 켄트백 **\"객체는 어떠한 섬도 아니다.\"**","x":-1080,"y":120,"width":420,"height":50}
 	],
 	"edges":[
 		{"id":"7812c274c03266c8","fromNode":"5de564e449fb93a1","fromSide":"right","toNode":"36f1e7a1b7078651","toSide":"left","color":"6"},

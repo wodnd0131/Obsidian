@@ -11,10 +11,17 @@
             "id": "f9703381778c09ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "canvas",
+              "state": {
+                "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
+                "viewState": {
+                  "x": -397.2553423608172,
+                  "y": -62.42793430306724,
+                  "zoom": -1.2655111361260065
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "객체 지향의 개념"
             }
           }
         ]
@@ -158,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,24 +181,24 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "2bc5d761b7ec59ec",
+  "active": "f9703381778c09ea",
   "lastOpenFiles": [
     "1. Project/객체지향의 오해와 진실/무제 파일.md",
-    "체크박스 사용법.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
-    "Calender/2024-12-18.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
-    "Calender",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계를 모방한다는 은유.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md",
+    "체크박스 사용법.md",
+    "Calender/2024-12-18.md",
+    "Calender",
     "Repository",
     "역할,책임,협력의 관점.md",
     "1. Project/index.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md",
     "Pasted image 20241218104829.png",
     "1. Project/객체지향의 오해와 진실/무제 폴더",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
