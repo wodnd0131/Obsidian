@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34e77e074bdef04a",
+        "id": "5d470604e7f37371",
         "type": "tabs",
         "children": [
           {
-            "id": "3faf71111b269221",
+            "id": "11b42eb69f919ef5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,11 +175,13 @@
       "obsidian-custom-frames:Open Todo.List": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:새 보드 만들기": false,
-      "obsidian-custom-frames:Open Google Calendar": false
+      "obsidian-custom-frames:Open Google Calendar": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3faf71111b269221",
+  "active": "e51c1aea37c951a4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실/Study.canvas",
     "2. Area/개발자 한달에 한 권 스터디",
     "1. Project/index.md",
