@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "18bd43a498adb61a",
+        "id": "e3e6bbab628bb8d9",
         "type": "tabs",
         "children": [
           {
-            "id": "267ee49e79780dd2",
+            "id": "f9703381778c09ea",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -58,12 +58,12 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
-            "id": "40731c9d797e40f1",
+            "id": "0592068ed4e28b5d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,8 +92,45 @@
       {
         "id": "a9ba36cb23a231c4",
         "type": "tabs",
-        "dimension": 63.83399209486166,
+        "dimension": 32.11462450592885,
         "children": [
+          {
+            "id": "b3ce4889b64b3f8a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3528216916afc7f",
+        "type": "tabs",
+        "dimension": 67.88537549407114,
+        "children": [
+          {
+            "id": "18f0845905970fea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "5c6fbd34ebe90899",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
           {
             "id": "52d40d14fc27d7ea",
             "type": "leaf",
@@ -116,58 +153,9 @@
               "icon": "history",
               "title": "History"
             }
-          },
-          {
-            "id": "2442e7dbd81933ad",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "개요"
-            }
-          },
-          {
-            "id": "7db7c46aa47d8c5a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "나가는 링크"
-            }
           }
-        ]
-      },
-      {
-        "id": "d3528216916afc7f",
-        "type": "tabs",
-        "dimension": 36.16600790513834,
-        "children": [
-          {
-            "id": "d3b4aa81e8f67e2b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
-            "id": "18f0845905970fea",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,22 +163,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "graph:그래프 뷰 열기": false,
       "obsidian-kanban:새 보드 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
-      "switcher:퀵 스위처 열기": true,
       "obsidian-git:Open Git source control": true,
       "obsidian-custom-frames:Open Todo.List": false,
-      "obsidian-custom-frames:Open Google Calendar": true,
       "command-palette:명령어 팔레트 열기": true,
       "markdown-importer:마크다운 형식 가져오기 열기": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "267ee49e79780dd2",
+  "active": "7ce944d1220cc2f4",
   "lastOpenFiles": [
     "체크박스 사용법.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
     "Calender/2024-12-18.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "Calender",
@@ -203,7 +193,6 @@
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md",
     "Pasted image 20241218104829.png",
     "1. Project/객체지향의 오해와 진실/무제 폴더",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
