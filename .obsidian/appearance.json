@@ -1,7 +1,13 @@
 {
-  "theme": "obsidian",
+  "theme": "system",
   "textFontFamily": "Pretendard",
   "monospaceFontFamily": "Pretendard",
   "cssTheme": "AnuPpuccin",
-  "accentColor": "#d57bd2"
+  "accentColor": "#ad7bd5",
+  "enabledCssSnippets": [
+    "custom-background",
+    "custom-rainbow-colors",
+    "minimal-cards",
+    "extended-colorschemes"
+  ]
 }

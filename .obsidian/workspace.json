@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ffc35525f3239c0c",
+        "id": "f78a2b9abc24ade4",
         "type": "tabs",
         "children": [
           {
-            "id": "ba100b78e5f279d3",
+            "id": "5dcbe3df36f9352d",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -17,7 +17,7 @@
                 "viewState": {
                   "x": -560,
                   "y": -410,
-                  "zoom": -1.1314417709627336
+                  "zoom": -1.165101082313965
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -189,13 +189,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba100b78e5f279d3",
+  "active": "5dcbe3df36f9352d",
   "lastOpenFiles": [
+    "체크박스 사용법.md",
+    "역할,책임,협력의 관점.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/index.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
-    "역할.md",
-    "역할,책임,협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md",

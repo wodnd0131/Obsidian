@@ -5,32 +5,28 @@
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas"
     },
     {
-      "basename": "index",
-      "path": "1. Project/index.md"
-    },
-    {
       "basename": "역할",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md"
     },
     {
-      "basename": "역할, 책임, 협력의 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
+      "basename": "체크박스 사용법",
+      "path": "체크박스 사용법.md"
     },
     {
-      "basename": "역할",
-      "path": "역할.md"
-    },
-    {
-      "basename": "역할,책임,협력의 관점",
-      "path": "역할,책임,협력의 관점.md"
+      "basename": "실세계 모방 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md"
     },
     {
       "basename": "객체 지향 이해를 위한 관점",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md"
     },
     {
-      "basename": "실세계 모방 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md"
+      "basename": "index",
+      "path": "1. Project/index.md"
+    },
+    {
+      "basename": "역할, 책임, 협력의 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
     },
     {
       "basename": "모방 관점과 실제 개발의 괴리",
