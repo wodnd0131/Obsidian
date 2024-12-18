@@ -15,9 +15,9 @@
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
                 "viewState": {
-                  "x": -146.16270011700604,
-                  "y": -841.5880335294896,
-                  "zoom": -0.825745724975744
+                  "x": -250.93627209289878,
+                  "y": -873.8022671840963,
+                  "zoom": -0.49241239164241074
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +192,10 @@
   },
   "active": "ba100b78e5f279d3",
   "lastOpenFiles": [
+    "Pasted image 20241218104829.png",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/객체지향의 오해와 진실/무제 폴더",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방으로 보는 객체 지향.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
@@ -218,7 +220,6 @@
     "Calender/2024-12-17.md",
     "Todo.List/All Task.md",
     "dashborard.md",
-    "Todo",
     "Excalidraw/Drawing 2024-12-17 15.47.02.excalidraw.md",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
