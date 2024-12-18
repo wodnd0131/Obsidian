@@ -16,8 +16,19 @@
               "icon": "lucide-file",
               "title": "새 탭"
             }
+          },
+          {
+            "id": "e6490e2dd7de3c3d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +190,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e51c1aea37c951a4",
+  "active": "e6490e2dd7de3c3d",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실/Study.canvas",
