@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Study",
+      "path": "1. Project/객체지향의 오해와 진실/Study.canvas"
+    },
+    {
+      "basename": "index",
+      "path": "1. Project/index.md"
+    },
+    {
       "basename": "Canvas",
       "path": "Todo/Canvas.canvas"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "index",
       "path": "2. Area/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "1. Project/index.md"
     },
     {
       "basename": "README",
