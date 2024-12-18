@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "객체 지향의 개념",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas"
+    },
+    {
+      "basename": "index",
+      "path": "1. Project/index.md"
+    },
+    {
+      "basename": "역할",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md"
+    },
+    {
       "basename": "역할, 책임, 협력의 관점",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
     },
     {
-      "basename": "객체 지향의 개념",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas"
+      "basename": "역할",
+      "path": "역할.md"
     },
     {
       "basename": "역할,책임,협력의 관점",
@@ -31,10 +43,6 @@
     {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
-    },
-    {
-      "basename": "index",
-      "path": "1. Project/index.md"
     },
     {
       "basename": "Canvas",

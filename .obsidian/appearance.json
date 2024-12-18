@@ -1,5 +1,7 @@
 {
   "theme": "obsidian",
   "textFontFamily": "Pretendard",
-  "monospaceFontFamily": "Pretendard"
+  "monospaceFontFamily": "Pretendard",
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#d57bd2"
 }

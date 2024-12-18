@@ -1,8 +1,8 @@
 {
   "commitMessage": "docs: manual update {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 3,
-  "autoPushInterval": 5,
+  "autoSaveInterval": 10,
+  "autoPushInterval": 30,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
   "disablePush": false,

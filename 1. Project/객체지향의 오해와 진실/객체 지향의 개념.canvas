@@ -4,13 +4,15 @@
 		{"id":"36f1e7a1b7078651","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md","x":-40,"y":-920,"width":660,"height":400},
 		{"id":"c59d2e3c23b329d8","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md","x":-560,"y":-1360,"width":620,"height":380,"color":"2"},
 		{"id":"2b74ed504b7b7fc6","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md","x":-1740,"y":-680,"width":460,"height":400},
-		{"id":"e36fb01fe4f53913","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md","x":-1040,"y":-400,"width":620,"height":400}
+		{"id":"e36fb01fe4f53913","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md","x":-1040,"y":-400,"width":620,"height":400},
+		{"id":"acf3cd5987827b99","type":"file","file":"1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md","x":-1040,"y":80,"width":580,"height":460}
 	],
 	"edges":[
 		{"id":"7812c274c03266c8","fromNode":"5de564e449fb93a1","fromSide":"right","toNode":"36f1e7a1b7078651","toSide":"left","color":"6"},
 		{"id":"1c7c480e11496d3e","fromNode":"c59d2e3c23b329d8","fromSide":"right","toNode":"36f1e7a1b7078651","toSide":"top","color":"2"},
 		{"id":"de01e8eb6e939539","fromNode":"5de564e449fb93a1","fromSide":"top","toNode":"c59d2e3c23b329d8","toSide":"left","color":"2"},
 		{"id":"3f179acba4920b29","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"5de564e449fb93a1","toSide":"left","color":"6"},
-		{"id":"09c6165e92943f3e","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"e36fb01fe4f53913","toSide":"left","color":"5"}
+		{"id":"09c6165e92943f3e","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"e36fb01fe4f53913","toSide":"left","color":"5"},
+		{"id":"e859724330b95bac","fromNode":"e36fb01fe4f53913","fromSide":"bottom","toNode":"acf3cd5987827b99","toSide":"top","color":"2"}
 	]
 }

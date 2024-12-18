@@ -15,9 +15,9 @@
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
                 "viewState": {
-                  "x": -386.0070105785115,
-                  "y": -280.4776076869859,
-                  "zoom": -0.05335618187609581
+                  "x": -560,
+                  "y": -410,
+                  "zoom": -1.1314417709627336
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +191,11 @@
   },
   "active": "ba100b78e5f279d3",
   "lastOpenFiles": [
-    "역할,책임,협력의 관점.md",
+    "1. Project/index.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
+    "역할.md",
+    "역할,책임,협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계 모방 관점.md",
@@ -204,7 +206,6 @@
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
-    "1. Project/index.md",
     "무제 폴더",
     "Todo/Canvas.canvas",
     "Todo/Dev.md",
