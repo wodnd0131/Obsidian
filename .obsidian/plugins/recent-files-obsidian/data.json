@@ -5,6 +5,10 @@
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas"
     },
     {
+      "basename": "역할, 책임, 협력의 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
+    },
+    {
       "basename": "역할",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "index",
       "path": "1. Project/index.md"
-    },
-    {
-      "basename": "역할, 책임, 협력의 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
     },
     {
       "basename": "모방 관점과 실제 개발의 괴리",

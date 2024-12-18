@@ -13,6 +13,6 @@
 		{"id":"de01e8eb6e939539","fromNode":"5de564e449fb93a1","fromSide":"top","toNode":"c59d2e3c23b329d8","toSide":"left","color":"2"},
 		{"id":"3f179acba4920b29","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"5de564e449fb93a1","toSide":"left","color":"6"},
 		{"id":"09c6165e92943f3e","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"e36fb01fe4f53913","toSide":"left","color":"5"},
-		{"id":"e859724330b95bac","fromNode":"e36fb01fe4f53913","fromSide":"bottom","toNode":"acf3cd5987827b99","toSide":"top","color":"2"}
+		{"id":"e859724330b95bac","fromNode":"e36fb01fe4f53913","fromSide":"bottom","toNode":"acf3cd5987827b99","toSide":"top","color":"5"}
 	]
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlbum",
       "LiMap",
       "SiTask",
       "LiCalendar",
-      "LiArchive",
-      "LiPictureInPicture2"
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,6 +39,6 @@
   "4. Archive": "LiArchive",
   "3. Resource": "LiFolder",
   "2. Area": "LiMap",
-  "1. Project": "SiTask",
+  "1. Project": "LiAlbum",
   "Todo": "SiTodoist"
 }
