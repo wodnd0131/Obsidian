@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f78a2b9abc24ade4",
+        "id": "04716fe791533405",
         "type": "tabs",
         "children": [
           {
-            "id": "5dcbe3df36f9352d",
+            "id": "6d41096225faeb01",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
                 "viewState": {
-                  "x": -464.5534539813317,
-                  "y": -327.4668118091349,
-                  "zoom": -0.49843441564729835
+                  "x": -558.3533195095372,
+                  "y": -438.15785062887977,
+                  "zoom": -1.1669473016424168
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -178,22 +178,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
       "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "obsidian-kanban:새 보드 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "switcher:퀵 스위처 열기": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:새 보드 만들기": false,
+      "obsidian-git:Open Git source control": true,
       "obsidian-custom-frames:Open Todo.List": false,
       "obsidian-custom-frames:Open Google Calendar": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": true
     }
   },
-  "active": "5dcbe3df36f9352d",
+  "active": "e51c1aea37c951a4",
   "lastOpenFiles": [
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "체크박스 사용법.md",
     "역할,책임,협력의 관점.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/index.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",

@@ -1,13 +1,16 @@
 {
   "theme": "system",
-  "textFontFamily": "Pretendard",
+  "textFontFamily": "Pretendard,Arial",
   "monospaceFontFamily": "Pretendard",
   "cssTheme": "AnuPpuccin",
-  "accentColor": "#ff0000",
+  "accentColor": "#ff9494",
   "enabledCssSnippets": [
     "custom-background",
     "custom-rainbow-colors",
     "minimal-cards",
-    "extended-colorschemes"
-  ]
+    "extended-colorschemes",
+    "its-frontmatter"
+  ],
+  "baseFontSize": 18,
+  "nativeMenus": false
 }
