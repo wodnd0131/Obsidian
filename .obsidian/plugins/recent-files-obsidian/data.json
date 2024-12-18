@@ -5,16 +5,40 @@
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas"
     },
     {
-      "basename": "무제 파일",
-      "path": "1. Project/객체지향의 오해와 진실/무제 파일.md"
+      "basename": "Index",
+      "path": "4. Archive/Index.md"
     },
     {
-      "basename": "역할, 책임, 협력의 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
+      "basename": "Index",
+      "path": "2. Area/Index.md"
+    },
+    {
+      "basename": "Index",
+      "path": "1. Project/Index.md"
+    },
+    {
+      "basename": "Canvas.todo",
+      "path": "Todo/Canvas.todo.canvas"
+    },
+    {
+      "basename": "Dev",
+      "path": "Todo/Dev.md"
+    },
+    {
+      "basename": "객체 지향 이해를 위한 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md"
     },
     {
       "basename": "역할",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md"
+    },
+    {
+      "basename": "객체지향의 사실과 오해_조영조",
+      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
+    },
+    {
+      "basename": "역할, 책임, 협력의 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md"
     },
     {
       "basename": "실세계를 모방한다는 은유",
@@ -29,44 +53,20 @@
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md"
     },
     {
-      "basename": "객체 지향 이해를 위한 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md"
-    },
-    {
       "basename": "체크박스 사용법",
       "path": "체크박스 사용법.md"
-    },
-    {
-      "basename": "index",
-      "path": "1. Project/index.md"
     },
     {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
     {
-      "basename": "Canvas",
-      "path": "Todo/Canvas.canvas"
-    },
-    {
       "basename": "Task",
       "path": "Todo/Task.md"
     },
     {
-      "basename": "Dev",
-      "path": "Todo/Dev.md"
-    },
-    {
       "basename": "index",
       "path": "3. Resource/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "4. Archive/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "2. Area/index.md"
     },
     {
       "basename": "README",

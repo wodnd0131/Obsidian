@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e3e6bbab628bb8d9",
+        "id": "a45b4229c9dc0b40",
         "type": "tabs",
         "children": [
           {
-            "id": "f9703381778c09ea",
+            "id": "4f8b399c11f573ef",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
                 "viewState": {
-                  "x": -397.2553423608172,
-                  "y": -62.42793430306724,
-                  "zoom": -1.2655111361260065
+                  "x": -689.3747428133287,
+                  "y": 124.76566023503021,
+                  "zoom": -0.6564992618795495
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +182,19 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "f9703381778c09ea",
+  "active": "4f8b399c11f573ef",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/무제 파일.md",
+    "4. Archive/Index.md",
+    "2. Area/Index.md",
+    "1. Project/Index.md",
+    "Todo/Canvas.todo.canvas",
+    "Todo/Dev.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할,책임,협력의 관점.md",
+    "Repository/객체지향의 사실과 오해_조영조.jpg",
+    "1. Project/객체지향의 오해와 진실/--.md",
+    "무제 파일.canvas",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계를 모방한다는 은유.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
@@ -196,17 +205,12 @@
     "Calender",
     "Repository",
     "역할,책임,협력의 관점.md",
-    "1. Project/index.md",
     "Pasted image 20241218104829.png",
     "1. Project/객체지향의 오해와 진실/무제 폴더",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
-    "Todo/Canvas.canvas",
-    "Todo/Dev.md",
     "3. Resource/index.md",
-    "4. Archive/index.md",
-    "2. Area/index.md",
     "README.md",
     "etc",
     "4. Archive",
@@ -222,7 +226,6 @@
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
     "무제 파일 2.canvas",
-    "2024-12-17.md",
-    "Calander.md"
+    "2024-12-17.md"
   ]
 }
