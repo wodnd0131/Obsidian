@@ -4,24 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "dafef1bb210e8613",
+        "id": "1616cb112b0732b6",
         "type": "tabs",
         "children": [
           {
-            "id": "ba2b27dbd633ea5b",
+            "id": "7f59cfca60bc3ca5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "diff-view",
               "state": {
-                "file": "Todo/Canvas.canvas",
-                "viewState": {
-                  "x": -1560,
-                  "y": -1248.6408209806157,
-                  "zoom": -0.7704614274429037
-                }
+                "file": "1. Project/index.md",
+                "staged": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
+              "icon": "git-pull-request",
+              "title": "Diff View (index)"
             }
           }
         ]
@@ -188,14 +184,15 @@
       "obsidian-custom-frames:Open Google Calendar": false
     }
   },
-  "active": "e51c1aea37c951a4",
+  "active": "7f59cfca60bc3ca5",
   "lastOpenFiles": [
+    "1. Project/index.md",
+    "무제 폴더",
+    "Todo/Canvas.canvas",
     "Todo/Dev.md",
     "3. Resource/index.md",
     "4. Archive/index.md",
     "2. Area/index.md",
-    "1. Project/index.md",
-    "Todo/Canvas.canvas",
     "README.md",
     "etc",
     "4. Archive",
@@ -217,7 +214,6 @@
     "무제 파일 2.canvas",
     "Calender/2024-12-18.md",
     "2024-12-17.md",
-    "Calander.md",
-    "Calender"
+    "Calander.md"
   ]
 }
