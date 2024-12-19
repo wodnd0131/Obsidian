@@ -9,6 +9,18 @@
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/메서드와 자율성.md"
     },
     {
+      "basename": "객체 지향의 본질",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 본질.md"
+    },
+    {
+      "basename": "객체지향의 사실과 오해_조영조",
+      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
+    },
+    {
+      "basename": "객체 지향 이해를 위한 관점",
+      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md"
+    },
+    {
       "basename": "객체의 자율성(autonomus)",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체의 자율성(autonomus).md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "자율성(autonomus)",
       "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/자율성(autonomus).md"
-    },
-    {
-      "basename": "객체지향의 사실과 오해_조영조",
-      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
     },
     {
       "basename": "역할",
@@ -51,10 +59,6 @@
     {
       "basename": "Dev",
       "path": "Todo/Dev.md"
-    },
-    {
-      "basename": "객체 지향 이해를 위한 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향 이해를 위한 관점.md"
     },
     {
       "basename": "실세계를 모방한다는 은유",
