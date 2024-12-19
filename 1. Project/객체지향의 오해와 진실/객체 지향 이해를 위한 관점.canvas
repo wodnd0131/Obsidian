@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"e36fb01fe4f53913","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/역할, 책임, 협력.md","x":-1040,"y":-400,"width":680,"height":480},
+		{"id":"5de564e449fb93a1","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/실세계를 모방한다는 은유.md","x":-1040,"y":-920,"width":620,"height":400},
+		{"id":"c59d2e3c23b329d8","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/모방 관점과 실제 개발의 괴리.md","x":-600,"y":-1400,"width":800,"height":400,"color":"2"},
+		{"id":"36f1e7a1b7078651","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향의 다양한 측면.md","x":0,"y":-920,"width":660,"height":400},
+		{"id":"acf3cd5987827b99","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/역할.md","x":-745,"y":240,"width":650,"height":480},
+		{"id":"daacac7b7baf1789","type":"text","text":"워드 커닝헴, 켄트백 **\"객체는 어떠한 섬도 아니다.\"**","x":-1150,"y":100,"width":420,"height":50},
+		{"id":"7d54d31555308a51","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체의 자율성(autonomus).md","x":0,"y":-360,"width":660,"height":760},
+		{"id":"2b74ed504b7b7fc6","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향 이해를 위한 관점.md","x":-1720,"y":-300,"width":420,"height":280},
+		{"id":"e0a8d57f5e6f3fc3","type":"file","file":"Repository/객체지향의 사실과 오해_조영조.jpg","x":-1720,"y":-920,"width":380,"height":521},
+		{"id":"05973f926935265e","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체를 지향하라.md","x":-1600,"y":240,"width":720,"height":860,"color":"2"},
+		{"id":"1a920caa123b7aa9","type":"text","text":" 협력은 메시지를 송신하는 객체와 \n수신하는 객체 사이의 관계로 구성된다.","x":520,"y":40,"width":360,"height":80,"color":"5"},
+		{"id":"5ae630007f7058ca","type":"text","text":"그렇다면 객체지향의 본질은 뭘까?","x":440,"y":370,"width":310,"height":60,"color":"5"},
+		{"id":"0e6c7928bc9bc39b","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향의 본질.md","x":960,"y":210,"width":690,"height":320},
+		{"id":"8be1466df64688c6","type":"file","file":"1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/메서드와 자율성.md","x":950,"y":-360,"width":700,"height":400}
+	],
+	"edges":[
+		{"id":"7812c274c03266c8","fromNode":"5de564e449fb93a1","fromSide":"right","toNode":"36f1e7a1b7078651","toSide":"left","color":"6"},
+		{"id":"1c7c480e11496d3e","fromNode":"c59d2e3c23b329d8","fromSide":"right","toNode":"36f1e7a1b7078651","toSide":"top","color":"2"},
+		{"id":"de01e8eb6e939539","fromNode":"5de564e449fb93a1","fromSide":"top","toNode":"c59d2e3c23b329d8","toSide":"left","color":"2"},
+		{"id":"3f179acba4920b29","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"5de564e449fb93a1","toSide":"left","color":"6"},
+		{"id":"09c6165e92943f3e","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"e36fb01fe4f53913","toSide":"left","color":"5"},
+		{"id":"e859724330b95bac","fromNode":"e36fb01fe4f53913","fromSide":"bottom","toNode":"acf3cd5987827b99","toSide":"top","color":"5"},
+		{"id":"426882afd9cc2e65","fromNode":"e36fb01fe4f53913","fromSide":"right","toNode":"7d54d31555308a51","toSide":"left","color":"5","label":"aka. 객체의 덕목"},
+		{"id":"8649b3ecbcc289d8","fromNode":"2b74ed504b7b7fc6","fromSide":"right","toNode":"05973f926935265e","toSide":"top","color":"2"},
+		{"id":"98cfca4957d44cb1","fromNode":"5ae630007f7058ca","fromSide":"right","toNode":"0e6c7928bc9bc39b","toSide":"left","color":"5"},
+		{"id":"72aca574601bd963","fromNode":"1a920caa123b7aa9","fromSide":"right","toNode":"8be1466df64688c6","toSide":"left","color":"5"}
+	]
+}
