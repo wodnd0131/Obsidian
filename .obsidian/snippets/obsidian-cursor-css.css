@@ -1,0 +1,21 @@
+/* 기본 텍스트 커서 스타일 */
+.cm-cursor {
+  border-left: 1px solid #ffffff !important; /* 흰색 커서, 1px 두께 */
+  border-right: none !important;
+  width: 1px !important;
+}
+
+/* 선택 영역 스타일 */
+.cm-selectionBackground {
+  background-color: rgba(255, 255, 255, 0.2) !important; /* 옅은 흰색 선택 영역 */
+}
+
+/* 읽기 모드 선택 영역 */
+.markdown-preview-view::selection {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 라이브 프리뷰 모드 선택 영역 */
+.markdown-rendered::selection {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}

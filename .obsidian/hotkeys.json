@@ -17,13 +17,12 @@
       "key": "V"
     }
   ],
-  "highlightr-plugin:highlighter-plugin-menu": [
+  "highlightr-plugin:Cyan": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "Z"
+      "key": "Q"
     }
   ]
 }

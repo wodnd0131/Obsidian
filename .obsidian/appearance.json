@@ -9,7 +9,8 @@
     "custom-rainbow-colors",
     "minimal-cards",
     "extended-colorschemes",
-    "its-frontmatter"
+    "its-frontmatter",
+    "obsidian-cursor-css"
   ],
   "baseFontSize": 16,
   "nativeMenus": false,
