@@ -11,20 +11,51 @@
             "id": "4f8b399c11f573ef",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체의 자율성(autonomus).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체의 자율성(autonomus)"
+            }
+          },
+          {
+            "id": "ea1e0ad2d86e2984",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
                 "viewState": {
-                  "x": -689.3747428133287,
-                  "y": 124.76566023503021,
-                  "zoom": -0.6564992618795495
+                  "x": 593.912573367216,
+                  "y": -101.086744937784,
+                  "zoom": -1.1102230246251565e-16
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "객체 지향의 개념"
             }
+          },
+          {
+            "id": "3ca15862814b4bdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체의 자율성(autonomus).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체의 자율성(autonomus)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,20 +213,25 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "4f8b399c11f573ef",
+  "active": "ea1e0ad2d86e2984",
   "lastOpenFiles": [
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/자율성(autonomus).md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/상태(state)와 행동(behaivor).md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체의 자율성(autonomus).md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/메서드와 자율성.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
+    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/행동(behaivor).md",
     "4. Archive/Index.md",
     "2. Area/Index.md",
     "1. Project/Index.md",
     "Todo/Canvas.todo.canvas",
     "Todo/Dev.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할, 책임, 협력의 관점.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할,책임,협력의 관점.md",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "1. Project/객체지향의 오해와 진실/--.md",
     "무제 파일.canvas",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/실세계를 모방한다는 은유.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/모방 관점과 실제 개발의 괴리.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체 지향의 다양한 측면.md",
@@ -219,13 +255,8 @@
     "2. Area",
     "Todo/Task.md",
     "이름 없는 보드.md",
-    "Calender/2024-12-17.md",
-    "Todo.List/All Task.md",
-    "dashborard.md",
-    "Excalidraw/Drawing 2024-12-17 15.47.02.excalidraw.md",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
-    "무제 파일 2.canvas",
-    "2024-12-17.md"
+    "무제 파일 2.canvas"
   ]
 }
