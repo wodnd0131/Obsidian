@@ -11,10 +11,17 @@
             "id": "3a008f6b7df978a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "canvas",
+              "state": {
+                "file": "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
+                "viewState": {
+                  "x": -80,
+                  "y": -340,
+                  "zoom": -1.6483568104425796
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "객체 지향의 개념"
             }
           }
         ]
@@ -175,7 +182,7 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "3a008f6b7df978a8",
+  "active": "2bc5d761b7ec59ec",
   "lastOpenFiles": [
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념.canvas",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/객체의 자율성(autonomus).md",
