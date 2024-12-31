@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2.이상한 나라의 객체",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
+    },
+    {
       "basename": "이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
     },
     {
-      "basename": "2.이상한 나라의 객체",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
+      "basename": "상태(state)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md"
+    },
+    {
+      "basename": "행동(behavior)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
+    },
+    {
+      "basename": "식별자(indentity)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
     },
     {
       "basename": "1.협력하는 객체들의 공동체",
