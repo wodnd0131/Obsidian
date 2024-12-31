@@ -1,56 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "객체 지향 이해를 위한 관점",
-      "path": "1. Project/객체지향의 오해와 진실/객체 지향 이해를 위한 관점.canvas"
+      "basename": "협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
     },
     {
-      "basename": "무제 파일",
-      "path": "1. Project/객체지향의 오해와 진실/무제 파일.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.canvas"
-    },
-    {
-      "basename": "객체 지향 이해를 위한 관점",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향 이해를 위한 관점.md"
-    },
-    {
-      "basename": "객체를 지향하라",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체를 지향하라.md"
-    },
-    {
-      "basename": "객체 지향의 본질",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향의 본질.md"
-    },
-    {
-      "basename": "메서드와 자율성",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/메서드와 자율성.md"
-    },
-    {
-      "basename": "역할, 책임, 협력",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/역할, 책임, 협력.md"
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
     },
     {
       "basename": "객체지향의 사실과 오해_조영조",
       "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
     },
     {
+      "basename": "무제 파일",
+      "path": "1. Project/객체지향의 오해와 진실/무제 파일.canvas"
+    },
+    {
+      "basename": "실세계를 모방한다는 은유",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "무제 파일.canvas"
+    },
+    {
+      "basename": "객체를 지향하라",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md"
+    },
+    {
+      "basename": "객체 지향의 본질",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md"
+    },
+    {
+      "basename": "메서드와 자율성",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md"
+    },
+    {
+      "basename": "역할, 책임, 협력",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md"
+    },
+    {
       "basename": "객체의 자율성(autonomus)",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체의 자율성(autonomus).md"
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md"
     },
     {
       "basename": "객체 지향의 다양한 측면",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체 지향의 다양한 측면.md"
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
     },
     {
       "basename": "자율성(autonomus)",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/자율성(autonomus).md"
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/자율성(autonomus).md"
     },
     {
       "basename": "역할",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/역할.md"
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md"
     },
     {
       "basename": "Index",
@@ -73,12 +77,8 @@
       "path": "Todo/Dev.md"
     },
     {
-      "basename": "실세계를 모방한다는 은유",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/실세계를 모방한다는 은유.md"
-    },
-    {
       "basename": "모방 관점과 실제 개발의 괴리",
-      "path": "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/모방 관점과 실제 개발의 괴리.md"
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md"
     },
     {
       "basename": "체크박스 사용법",
