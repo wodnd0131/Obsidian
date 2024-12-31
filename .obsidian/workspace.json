@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+                "file": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
                 "viewState": {
-                  "x": -343.0741383203916,
-                  "y": 605.6456481289929,
-                  "zoom": 1.1102230246251565e-16
+                  "x": 121.09761940927011,
+                  "y": 74.29104002981796,
+                  "zoom": -0.4605934636868141
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "1.협력하는 객체들의 공동체"
+              "title": "2.이상한 나라의 객체"
             }
           }
         ]
@@ -182,15 +182,16 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "2bc5d761b7ec59ec",
+  "active": "d7604e32471c2b9d",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/무제 파일.canvas",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
-    "1. Project/객체지향의 오해와 진실/무제 폴더",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/상태(state)와 행동(behaivor).md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md",
@@ -218,7 +219,6 @@
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실",
-    "3. Resource/index.md",
     "etc",
     "4. Archive",
     "Todo",
