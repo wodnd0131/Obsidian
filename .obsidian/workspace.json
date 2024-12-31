@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "1. Project/객체지향의 오해와 진실/무제 파일.canvas",
+                "file": "1. Project/객체지향의 오해와 진실/객체 지향 이해를 위한 관점.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -683.0530483798666,
+                  "y": -568.0967404859796,
+                  "zoom": -0.0032554936108467603
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "title": "객체 지향 이해를 위한 관점"
             }
           }
         ]
@@ -182,10 +182,10 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "2bc5d761b7ec59ec",
+  "active": "343dd6d4d3ad924a",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/객체 지향 이해를 위한 관점.canvas",
     "1. Project/객체지향의 오해와 진실/무제 파일.canvas",
+    "1. Project/객체지향의 오해와 진실/객체 지향 이해를 위한 관점.canvas",
     "1. Project/객체지향의 오해와 진실/무제 폴더",
     "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/객체를 지향하라.md",
     "1. Project/객체지향의 오해와 진실/1.객체 지향의 개념/역할, 책임, 협력.md",
