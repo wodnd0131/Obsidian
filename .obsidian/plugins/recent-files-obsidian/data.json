@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "식별자(indentity)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
+    },
+    {
       "basename": "2.이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
     },
     {
-      "basename": "행동(behavior)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
-    },
-    {
       "basename": "상태(state)",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md"
+    },
+    {
+      "basename": "캡슐화(encapsulation)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
+    },
+    {
+      "basename": "객체의 자율성(autonomus)",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md"
+    },
+    {
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+    },
+    {
+      "basename": "협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
+    },
+    {
+      "basename": "메서드와 자율성",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md"
+    },
+    {
+      "basename": "행동(behavior)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
     },
     {
       "basename": "정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이",
@@ -21,28 +45,12 @@
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
     },
     {
-      "basename": "식별자(indentity)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
-    },
-    {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
-    },
-    {
       "basename": "객체를 지향하라",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md"
     },
     {
       "basename": "객체 지향의 본질",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md"
-    },
-    {
-      "basename": "메서드와 자율성",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md"
-    },
-    {
-      "basename": "객체의 자율성(autonomus)",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md"
     },
     {
       "basename": "역할",
@@ -55,10 +63,6 @@
     {
       "basename": "객체 지향의 다양한 측면",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
-    },
-    {
-      "basename": "협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
     },
     {
       "basename": "객체지향의 사실과 오해_조영조",

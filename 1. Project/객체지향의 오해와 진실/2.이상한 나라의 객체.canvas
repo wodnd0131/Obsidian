@@ -1,18 +1,21 @@
 {
 	"nodes":[
-		{"id":"eb605c461038b3d5","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md","x":240,"y":80,"width":640,"height":680},
-		{"id":"d2eee341a97e4dfe","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md","x":-560,"y":360,"width":580,"height":400},
 		{"id":"9882a4faf6489dee","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md","x":-640,"y":-380,"width":700,"height":580},
 		{"id":"efbcd8901e24c020","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md","x":1080,"y":-1339,"width":800,"height":860},
-		{"id":"83877a6ec2326012","type":"text","text":"```java\npublic class Order { // 링크 예시\nprivate Customer customer; // 다른 객체를 참조하는 링크\nprivate int orderId; // 단순한 값(프리미티브 타입) \n}\n```","x":980,"y":-447,"width":552,"height":134},
 		{"id":"79523b8c260831a9","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md","x":240,"y":-1000,"width":640,"height":760},
-		{"id":"95acfda886410ea0","type":"text","text":"ex). 자판기는 현재까지 자판기의 투입 금액을 기억한다.\n비행기 탑승 가능 여부는 항공권의 발급 여부로 판단한다.","x":480,"y":-1035,"width":456,"height":71,"color":"4"}
+		{"id":"95acfda886410ea0","type":"text","text":"ex). 자판기는 현재까지 자판기의 투입 금액을 기억한다.\n비행기 탑승 가능 여부는 항공권의 발급 여부로 판단한다.","x":480,"y":-1035,"width":456,"height":71,"color":"4"},
+		{"id":"eb605c461038b3d5","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md","x":240,"y":-140,"width":680,"height":840},
+		{"id":"83877a6ec2326012","type":"text","text":"```java\npublic class Order { // 링크 예시\nprivate Customer customer; // 다른 객체를 참조하는 링크\nprivate int orderId; // 단순한 값(프리미티브 타입) \n}\n```","x":1248,"y":-380,"width":552,"height":134},
+		{"id":"e64e9b440c454196","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md","x":1056,"y":-140,"width":744,"height":520},
+		{"id":"d2eee341a97e4dfe","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md","x":-280,"y":820,"width":630,"height":760}
 	],
 	"edges":[
-		{"id":"c3c479d60c3fcbbc","fromNode":"9882a4faf6489dee","fromSide":"bottom","toNode":"d2eee341a97e4dfe","toSide":"top","color":"3"},
 		{"id":"15f4d822414a89ca","fromNode":"9882a4faf6489dee","fromSide":"right","toNode":"eb605c461038b3d5","toSide":"left","color":"5"},
 		{"id":"1349e8a9160f1a6f","fromNode":"9882a4faf6489dee","fromSide":"right","toNode":"79523b8c260831a9","toSide":"left","color":"4"},
 		{"id":"2d8f5f820d5bf54d","fromNode":"79523b8c260831a9","fromSide":"right","toNode":"efbcd8901e24c020","toSide":"left","color":"4"},
-		{"id":"49f20b17e02921bb","fromNode":"79523b8c260831a9","fromSide":"right","toNode":"83877a6ec2326012","toSide":"left","color":"4"}
+		{"id":"49f20b17e02921bb","fromNode":"79523b8c260831a9","fromSide":"right","toNode":"83877a6ec2326012","toSide":"left","color":"4"},
+		{"id":"14fb745b36b7bc03","fromNode":"9882a4faf6489dee","fromSide":"bottom","toNode":"d2eee341a97e4dfe","toSide":"left","color":"2"},
+		{"id":"db57571d34a70d25","fromNode":"79523b8c260831a9","fromSide":"right","toNode":"e64e9b440c454196","toSide":"left","color":"4"},
+		{"id":"b30475da015781de","fromNode":"eb605c461038b3d5","fromSide":"right","toNode":"e64e9b440c454196","toSide":"left","color":"5"}
 	]
 }

@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0737b80eb23f397e",
+        "id": "5976c26b7a6b11e5",
         "type": "tabs",
         "children": [
           {
-            "id": "757913beb540df29",
+            "id": "313de112a336ff1a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
                 "viewState": {
-                  "x": 590.7487478988913,
-                  "y": 290.266374022393,
-                  "zoom": -0.09544509776511034
+                  "x": 252.02396492659796,
+                  "y": 1185.9773824967567,
+                  "zoom": 0.26970326815659296
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -182,19 +182,21 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "757913beb540df29",
+  "active": "313de112a336ff1a",
   "lastOpenFiles": [
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/캡슐화(encapsulation).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체와 값의 차이.md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
@@ -212,8 +214,6 @@
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/역할,책임,협력의 관점.md",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
-    "1. Project/객체지향의 오해와 진실/--.md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
     "Calender",
     "Repository",
     "Pasted image 20241218104829.png",
