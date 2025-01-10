@@ -5,16 +5,24 @@
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
     },
     {
-      "basename": "캡슐화(encapsulation)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
+      "basename": "객체지향에서 쉽게 빠지는 함정",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md"
+    },
+    {
+      "basename": "식별자(indentity)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
     },
     {
       "basename": "이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
     },
     {
-      "basename": "식별자(indentity)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
+      "basename": "행동(behavior)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
+    },
+    {
+      "basename": "캡슐화(encapsulation)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
     },
     {
       "basename": "상태(state)",
@@ -35,10 +43,6 @@
     {
       "basename": "메서드와 자율성",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md"
-    },
-    {
-      "basename": "행동(behavior)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
     },
     {
       "basename": "정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이",
