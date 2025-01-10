@@ -5,16 +5,20 @@
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
     },
     {
+      "basename": "행동(behavior)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
+    },
+    {
       "basename": "상태(state)",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md"
     },
     {
-      "basename": "이상한 나라의 객체",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
+      "basename": "정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md"
     },
     {
-      "basename": "행동(behavior)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
+      "basename": "이상한 나라의 객체",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
     },
     {
       "basename": "식별자(indentity)",

@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2bdec01b700705d6",
+        "id": "0737b80eb23f397e",
         "type": "tabs",
         "children": [
           {
-            "id": "d7604e32471c2b9d",
+            "id": "757913beb540df29",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
                 "viewState": {
-                  "x": 588.9479902054311,
-                  "y": -661.34906879757,
-                  "zoom": -0.09544509776511056
+                  "x": 590.7487478988913,
+                  "y": 290.266374022393,
+                  "zoom": -0.09544509776511034
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -182,17 +182,18 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "d7604e32471c2b9d",
+  "active": "757913beb540df29",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동.md",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
+    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체와 값의 차이.md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md",
@@ -213,7 +214,6 @@
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "1. Project/객체지향의 오해와 진실/--.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md",
     "Calender",
     "Repository",
     "Pasted image 20241218104829.png",
