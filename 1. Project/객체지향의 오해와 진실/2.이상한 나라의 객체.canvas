@@ -3,7 +3,8 @@
 		{"id":"eb605c461038b3d5","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md","x":240,"y":80,"width":640,"height":680},
 		{"id":"79523b8c260831a9","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md","x":240,"y":-960,"width":640,"height":800},
 		{"id":"d2eee341a97e4dfe","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md","x":-560,"y":360,"width":580,"height":400},
-		{"id":"9882a4faf6489dee","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md","x":-640,"y":-380,"width":700,"height":580}
+		{"id":"9882a4faf6489dee","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md","x":-640,"y":-380,"width":700,"height":580},
+		{"id":"95acfda886410ea0","x":560,"y":-995,"width":456,"height":71,"color":"4","type":"text","text":"ex). 자판기는 현재까지 자판기의 투입 금액을 기억한다.\n비행기 탑승 가능 여부는 항공권의 발급 여부로 판단한다."}
 	],
 	"edges":[
 		{"id":"c3c479d60c3fcbbc","fromNode":"9882a4faf6489dee","fromSide":"bottom","toNode":"d2eee341a97e4dfe","toSide":"top","color":"3"},
