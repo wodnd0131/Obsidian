@@ -8,10 +8,10 @@
 		{"id":"89c174094adba770","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md","x":760,"y":-1690,"width":720,"height":700,"color":"5"},
 		{"id":"9f6d1566fa15966f","type":"text","text":"**개념의 세 가지 관점**\n- 심볼(Symbol) : 개념을 가리키는 간략한 이름이나 명칭 ( a.k.a Class/Type의 명칭)\n- 내연(Intension) : 개념의 완전한 정의를 나타내며 내연의 의미를 이용해 객체가 개념에 속하는지 여부를 확인할 수 있다. ( a.k.a property )\n- 외연(extension) : 개념에 속하는 모든 객체의 집합(set), 즉 개념의 인스턴스들","x":1260,"y":-1120,"width":680,"height":180},
 		{"id":"4e50c4e0867b015a","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md","x":1610,"y":-1778,"width":660,"height":529,"color":"5"},
-		{"id":"feee6312a4350653","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md","x":120,"y":-320,"width":749,"height":1140,"color":"2"},
-		{"id":"804c2a99de0972a1","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md","x":1060,"y":-320,"width":400,"height":400},
-		{"id":"49ae2e9ac383a121","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md","x":120,"y":1000,"width":400,"height":400},
-		{"id":"a1abefa49edfe658","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md","x":1880,"y":-320,"width":400,"height":400}
+		{"id":"feee6312a4350653","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md","x":180,"y":-320,"width":749,"height":1140,"color":"2"},
+		{"id":"804c2a99de0972a1","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md","x":1130,"y":-320,"width":700,"height":740,"color":"2"},
+		{"id":"49ae2e9ac383a121","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md","x":-480,"y":220,"width":400,"height":400},
+		{"id":"a1abefa49edfe658","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md","x":1880,"y":120,"width":920,"height":760,"color":"6"}
 	],
 	"edges":[
 		{"id":"e825ef30e0a89596","fromNode":"b689431e128d5c97","fromSide":"right","toNode":"389139aafc0ce74a","toSide":"left","color":"5"},
@@ -19,6 +19,8 @@
 		{"id":"38b4e991362684b1","fromNode":"89c174094adba770","fromSide":"right","toNode":"4e50c4e0867b015a","toSide":"left","color":"5"},
 		{"id":"229b6862ed48b91d","fromNode":"4e50c4e0867b015a","fromSide":"bottom","toNode":"4e80867bd12a34b6","toSide":"top","color":"4"},
 		{"id":"f643cbdd7b9be810","fromNode":"89c174094adba770","fromSide":"bottom","toNode":"4e80867bd12a34b6","toSide":"top","color":"4"},
-		{"id":"bf59716de88c2671","fromNode":"89c174094adba770","fromSide":"bottom","toNode":"feee6312a4350653","toSide":"top","color":"3"}
+		{"id":"bf59716de88c2671","fromNode":"89c174094adba770","fromSide":"bottom","toNode":"feee6312a4350653","toSide":"top","color":"3"},
+		{"id":"dc8e4c08359a1bec","fromNode":"feee6312a4350653","fromSide":"right","toNode":"804c2a99de0972a1","toSide":"left","color":"3"},
+		{"id":"5e9ebcb8e0247024","fromNode":"804c2a99de0972a1","fromSide":"bottom","toNode":"a1abefa49edfe658","toSide":"left","color":"6"}
 	]
 }
