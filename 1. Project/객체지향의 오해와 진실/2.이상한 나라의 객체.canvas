@@ -6,10 +6,10 @@
 		{"id":"eb605c461038b3d5","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md","x":240,"y":-140,"width":680,"height":860},
 		{"id":"83877a6ec2326012","type":"text","text":"```java\npublic class Order { // 링크 예시\nprivate Customer customer; // 다른 객체를 참조하는 링크\nprivate int orderId; // 단순한 값(프리미티브 타입) \n}\n```","x":1248,"y":-380,"width":552,"height":134},
 		{"id":"e64e9b440c454196","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md","x":1056,"y":-140,"width":744,"height":520,"color":"6"},
-		{"id":"9882a4faf6489dee","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md","x":-630,"y":-964,"width":700,"height":740},
 		{"id":"d2eee341a97e4dfe","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md","x":-630,"y":240,"width":630,"height":760},
-		{"id":"bcde4c28873fd425","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md","x":-1520,"y":-1164,"width":660,"height":1140,"color":"6"},
-		{"id":"478181854eaca974","type":"text","text":"참조 객체(reference object), 또는 엔티티(entity)는 식별자를 지닌 전통적인 객체를 가리키고,\n값 객체(value object)는 식별자를 가지지 않는 값을 가리킨다.","x":-740,"y":980,"width":700,"height":80,"color":"3"}
+		{"id":"478181854eaca974","type":"text","text":"참조 객체(reference object), 또는 엔티티(entity)는 식별자를 지닌 전통적인 객체를 가리키고,\n값 객체(value object)는 식별자를 가지지 않는 값을 가리킨다.","x":-740,"y":980,"width":700,"height":80,"color":"3"},
+		{"id":"9882a4faf6489dee","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md","x":-630,"y":-1000,"width":700,"height":740},
+		{"id":"bcde4c28873fd425","type":"file","file":"1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md","x":-1560,"y":-1339,"width":660,"height":1140,"color":"6"}
 	],
 	"edges":[
 		{"id":"15f4d822414a89ca","fromNode":"9882a4faf6489dee","fromSide":"right","toNode":"eb605c461038b3d5","toSide":"left","color":"5"},

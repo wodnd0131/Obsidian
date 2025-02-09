@@ -15,29 +15,16 @@
               "state": {
                 "file": "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
                 "viewState": {
-                  "x": 1283.5705089085593,
-                  "y": -674.7000412426546,
-                  "zoom": 0.6306996792313453
+                  "x": 945.8153953330716,
+                  "y": -227.97090317397294,
+                  "zoom": -1.5560385614519245
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "3.타입과 추상화"
             }
-          },
-          {
-            "id": "63b9863b18933993",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,14 +183,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63b9863b18933993",
+  "active": "313de112a336ff1a",
   "lastOpenFiles": [
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념의 세 가지 관점.md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/첫 번째 차원 - 개념(Concept).md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md",
+    "Repository/이갓지트럼프.jpg",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류는 추상화를 위한 도구다..md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md",
@@ -224,10 +217,6 @@
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/자율성(autonomus).md",
     "1. Project/객체지향의 오해와 진실/객체 지향의 개념/상태(state)와 행동(behaivor).md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md",
-    "1. Project/객체지향의 오해와 진실/객체 지향의 개념/행동(behaivor).md",
-    "4. Archive/Index.md",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Calender",

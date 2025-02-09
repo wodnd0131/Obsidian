@@ -5,24 +5,44 @@
       "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas"
     },
     {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+      "basename": "행동이 우선이다.",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md"
     },
     {
-      "basename": "개념의 세 가지 관점",
-      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념의 세 가지 관점.md"
+      "basename": "타입의 계층",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md"
     },
     {
-      "basename": "첫 번째 차원 - 개념(Concept)",
-      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/첫 번째 차원 - 개념(Concept).md"
+      "basename": "객체와 타입",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md"
     },
     {
-      "basename": "추상화",
-      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md"
+      "basename": "타입은 개념이다.",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md"
+    },
+    {
+      "basename": "분류(Classification)",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md"
+    },
+    {
+      "basename": "개념(Concept)",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md"
+    },
+    {
+      "basename": "이갓지트럼프",
+      "path": "Repository/이갓지트럼프.jpg"
     },
     {
       "basename": "타입과 추상화",
       "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md"
+    },
+    {
+      "basename": "분류는 추상화를 위한 도구다.",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류는 추상화를 위한 도구다..md"
+    },
+    {
+      "basename": "추상화",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md"
     },
     {
       "basename": "2.이상한 나라의 객체",
@@ -33,12 +53,16 @@
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md"
     },
     {
-      "basename": "식별자(indentity)",
-      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
-    },
-    {
       "basename": "이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md"
+    },
+    {
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+    },
+    {
+      "basename": "식별자(indentity)",
+      "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
     },
     {
       "basename": "행동(behavior)",
