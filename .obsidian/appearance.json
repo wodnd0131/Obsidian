@@ -16,5 +16,6 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "interfaceFontFamily": "Pretendard",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "showRibbon": true
 }

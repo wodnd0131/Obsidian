@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "3.타입과 추상화",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas"
+    },
+    {
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+    },
+    {
+      "basename": "개념의 세 가지 관점",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념의 세 가지 관점.md"
+    },
+    {
+      "basename": "첫 번째 차원 - 개념(Concept)",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/첫 번째 차원 - 개념(Concept).md"
+    },
+    {
+      "basename": "추상화",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md"
+    },
+    {
+      "basename": "타입과 추상화",
+      "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md"
+    },
+    {
       "basename": "2.이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
     },
@@ -31,10 +55,6 @@
     {
       "basename": "객체의 자율성(autonomus)",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md"
-    },
-    {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
     },
     {
       "basename": "협력하는 객체들의 공동체",

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"1e97048892f708df","x":1066,"y":-629,"width":250,"height":60,"type":"text","text":""},
+		{"id":"b689431e128d5c97","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md","x":-1000,"y":-600,"width":760,"height":560},
+		{"id":"389139aafc0ce74a","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md","x":-20,"y":-1020,"width":700,"height":380,"color":"5"},
+		{"id":"89c174094adba770","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/첫 번째 차원 - 개념(Concept).md","x":780,"y":-1020,"width":720,"height":640},
+		{"id":"4e50c4e0867b015a","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념의 세 가지 관점.md","x":1660,"y":-1200,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"e825ef30e0a89596","fromNode":"b689431e128d5c97","fromSide":"right","toNode":"389139aafc0ce74a","toSide":"left","color":"5"},
+		{"id":"42acfa0a1216fd24","fromNode":"389139aafc0ce74a","fromSide":"right","toNode":"89c174094adba770","toSide":"left","color":"4"},
+		{"id":"e568cacaff467078","fromNode":"89c174094adba770","fromSide":"right","toNode":"4e50c4e0867b015a","toSide":"left"}
+	]
+}
