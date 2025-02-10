@@ -8,13 +8,15 @@
 		{"id":"9f6d1566fa15966f","type":"text","text":"**개념의 세 가지 관점**\n- 심볼(Symbol) : 개념을 가리키는 간략한 이름이나 명칭 ( a.k.a Class/Type의 명칭)\n- 내연(Intension) : 개념의 완전한 정의를 나타내며 내연의 의미를 이용해 객체가 개념에 속하는지 여부를 확인할 수 있다. ( a.k.a property )\n- 외연(extension) : 개념에 속하는 모든 객체의 집합(set), 즉 개념의 인스턴스들","x":1260,"y":-1120,"width":680,"height":180},
 		{"id":"4e50c4e0867b015a","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md","x":1610,"y":-1778,"width":660,"height":529,"color":"5"},
 		{"id":"b689431e128d5c97","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md","x":-1040,"y":-1310,"width":760,"height":560},
-		{"id":"804c2a99de0972a1","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md","x":1480,"y":-320,"width":700,"height":740,"color":"2"},
-		{"id":"a1abefa49edfe658","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md","x":2230,"y":120,"width":920,"height":660,"color":"6"},
 		{"id":"49ae2e9ac383a121","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md","x":-781,"y":-440,"width":760,"height":360,"color":"6"},
 		{"id":"feee6312a4350653","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md","x":547,"y":-440,"width":749,"height":1140,"color":"2"},
 		{"id":"e60714386ce7988c","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화&특수화.md","x":-560,"y":60,"width":740,"height":480,"color":"6"},
-		{"id":"a6430280df8625f4","type":"file","file":"1. Project/객체지향의 오해와 진실/일반화는 추상화를 위한 도구다..md","x":-100,"y":780,"width":740,"height":340,"color":"5"},
-		{"id":"4e62f867db949d1b","x":2640,"y":-840,"width":900,"height":660,"color":"6","type":"file","file":"1. Project/객체지향의 오해와 진실/무제.md"}
+		{"id":"a6430280df8625f4","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화는 추상화를 위한 도구다..md","x":-100,"y":780,"width":740,"height":340,"color":"5"},
+		{"id":"a1abefa49edfe658","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md","x":2420,"y":130,"width":920,"height":660,"color":"6"},
+		{"id":"804c2a99de0972a1","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md","x":1480,"y":-320,"width":700,"height":740,"color":"2"},
+		{"id":"4e62f867db949d1b","type":"file","file":"1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 목적.md","x":2540,"y":-899,"width":800,"height":949,"color":"6"},
+		{"id":"87755e86840f313d","x":3280,"y":-424,"width":620,"height":240,"color":"5","type":"text","text":"### 클래스\n객체 지향 프로그래밍 언어에서 정적인 모델은 클래스를 이용해 구현한다.\n따라서 타입을 구현하는 가장 보편적인 방법은 클래스를 이용하는 것이다.\n그러나, 클래스와 타입을 동일시 해서는 안된다.\n자바 스크립트와 같은 프로토타입 기반 언어는 클래스가 존재하지도 않는다.\n\n단순히 클래스는 타입을 구현하기 위한  방법 중 하나일 뿐이다."},
+		{"id":"2910719c5704ad79","x":3360,"y":-212,"width":733,"height":57,"color":"1","type":"text","text":"결국, 객체 지향에서 중요한 것은 동적으로 변하는 객체의 '상태'와 상태를 변경하는 '행위'이다."}
 	],
 	"edges":[
 		{"id":"e825ef30e0a89596","fromNode":"b689431e128d5c97","fromSide":"right","toNode":"389139aafc0ce74a","toSide":"left","color":"5"},
