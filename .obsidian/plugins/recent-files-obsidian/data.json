@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Index",
+      "path": "1. Project/Index.md"
+    },
+    {
       "basename": "3.타입과 추상화",
       "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas"
     },
@@ -147,10 +151,6 @@
     {
       "basename": "Index",
       "path": "2. Area/Index.md"
-    },
-    {
-      "basename": "Index",
-      "path": "1. Project/Index.md"
     },
     {
       "basename": "Canvas.todo",
