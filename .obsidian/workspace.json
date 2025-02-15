@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5976c26b7a6b11e5",
+        "id": "7eee006528b16d60",
         "type": "tabs",
         "children": [
           {
-            "id": "313de112a336ff1a",
+            "id": "c06bceba137bc41f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/Index.md",
+                "file": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "JUnit5"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -123,8 +124,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -181,8 +182,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bc5d761b7ec59ec",
+  "active": "c06bceba137bc41f",
   "lastOpenFiles": [
+    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
+    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit",
+    "Calender/2025-02-16.md",
+    "1. Project/Index.md",
+    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ",
+    "무제",
+    "1. Project/우아한 테크 코스/Level. 1",
+    "1. Project/우아한 테크 코스/무제.md",
+    "1. Project/우아한 테크 코스",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
@@ -210,21 +220,12 @@
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태.md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체와 값의 차이.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Calender",
     "Repository",
     "Pasted image 20241218104829.png",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체",
-    "1. Project/객체지향의 오해와 진실",
-    "etc",
-    "4. Archive",
-    "Todo",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",
     "무제 파일 2.canvas"

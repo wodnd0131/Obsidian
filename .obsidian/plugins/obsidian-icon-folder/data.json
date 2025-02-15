@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAnchor",
       "FarObjectGroup",
       "LiImages",
       "LiAlbum",
-      "LiMap",
-      "SiTask"
+      "LiMap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "1. Project": "LiAlbum",
   "Todo": "SiTodoist",
   "Repository": "LiImages",
-  "1. Project/객체지향의 오해와 진실": "FarObjectGroup"
+  "1. Project/객체지향의 오해와 진실": "FarObjectGroup",
+  "1. Project/우아한 테크 코스": "LiAnchor"
 }
