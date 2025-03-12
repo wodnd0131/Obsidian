@@ -32,4 +32,40 @@ void Test_애노테이션을_붙여_테스트_메서드로_만든다() {}
 '@Test'와 함께 사용된다.
 
 # Assertions
-1. 
+1. assertEquals
+'assertEquals' 메서드는 두 값이 같은지 비교한다.
+두 값이 같다면 테스트는 성공하며, 다를 경우 실패한다.
+
+'assertEquals' 메서드는 'org.junit.jupiter.api.Assertions' 클래스에 정의되어 있다.
+따라서, 'Assertion' 클래스를 static으로 import 하여 사용하는 것이 좋다.
+
+'assertEquals(expected, actual)'의 형태로 오버로딩되어 있다.
+'expected'는 예상되는 값이며, 'actual'은 실제 값이다.
+
+또한, 'equals' 메소드를 사용하기에 'expected'와 'actual' 각각에 'equals'가 정의되어 있어야 사용 가능하다.
+
+다음은, eqauls를 정의하는 예시다.
+```java
+class LocalObject {  
+    private final int value;  
+  
+    public LocalObject(int value) {  
+        this.value = value;  
+    }  
+  
+    @Override  
+    public boolean equals(Object o){  
+        if(!(o instanceof LocalObject object)){  
+            return false;  
+        }  
+        return this.value==object.value;  
+    }  
+}
+```
+`o instanceof LocalObject object` 이 코드에서는 o가 LocalObject 타입인지, 그리고 해당 타입으로 캐스팅한 object를 선언함을 의미한다.
+'assertEquals(expected,actural,message)' 에서 message는 실패했을 경우 출력되는 메세지이다.
+
+반대로 'assertNotEquals' 메서드는 두 값이 서로 다름을 테스트한다.
+
+2. assertSame
+'assertSame' 메서드는

@@ -17,7 +17,8 @@
         "isInboxProject": true,
         "isTeamInbox": false,
         "url": "https://app.todoist.com/app/project/6Wv6gJ4CpjhMcXP5",
-        "viewStyle": "list"
+        "viewStyle": "list",
+        "description": ""
       },
       {
         "id": "2345230734",
@@ -31,7 +32,8 @@
         "isInboxProject": false,
         "isTeamInbox": false,
         "url": "https://app.todoist.com/app/project/6Wv6gwXMcM5mgMXV",
-        "viewStyle": "list"
+        "viewStyle": "list",
+        "description": ""
       }
     ],
     "tasks": [],
