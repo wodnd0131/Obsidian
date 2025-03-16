@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "JUnit5",
-      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
+      "basename": "4.역할,협력,책임",
+      "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임.canvas"
+    },
+    {
+      "basename": "책임과 메세지",
+      "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md"
+    },
+    {
+      "basename": "책임",
+      "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임.md"
+    },
+    {
+      "basename": "협력",
+      "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/협력.md"
     },
     {
       "basename": "Index",
       "path": "1. Project/Index.md"
+    },
+    {
+      "basename": "JUnit5",
+      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
     },
     {
       "basename": "3.타입과 추상화",
@@ -183,10 +199,6 @@
     {
       "basename": "index",
       "path": "3. Resource/index.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
