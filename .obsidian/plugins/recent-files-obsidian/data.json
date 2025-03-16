@@ -5,6 +5,10 @@
       "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임.canvas"
     },
     {
+      "basename": "역할",
+      "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/역할.md"
+    },
+    {
       "basename": "책임과 메세지",
       "path": "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Task",
       "path": "Todo/Task.md"
-    },
-    {
-      "basename": "index",
-      "path": "3. Resource/index.md"
     }
   ],
   "omittedPaths": [],

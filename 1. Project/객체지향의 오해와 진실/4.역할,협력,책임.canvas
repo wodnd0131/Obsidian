@@ -2,11 +2,13 @@
 	"nodes":[
 		{"id":"b5bdab94d3b14157","type":"file","file":"1. Project/객체지향의 오해와 진실/4.역할,협력,책임/협력.md","x":-1140,"y":-760,"width":560,"height":400,"color":"4"},
 		{"id":"254425e9b768634a","type":"file","file":"1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임.md","x":-440,"y":-1440,"width":580,"height":800,"color":"3"},
-		{"id":"e92c9d0297ab46dd","x":-400,"y":-660,"width":660,"height":80,"color":"1","type":"text","text":"책임은 객체의 외부에 정보해줄 수 있는 정보(아는 것)와 서비스(하는 것)의 목록이다. \n따라서 책임은 객체의 ==**공용 인터페이스(Public Interface)**==를 구성한다."},
-		{"id":"6cf78976b1023892","type":"file","file":"1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md","x":300,"y":-1500,"width":680,"height":540,"color":"2"}
+		{"id":"e92c9d0297ab46dd","type":"text","text":"책임은 객체의 외부에 정보해줄 수 있는 정보(아는 것)와 서비스(하는 것)의 목록이다. \n따라서 책임은 객체의 ==**공용 인터페이스(Public Interface)**==를 구성한다.","x":-400,"y":-660,"width":660,"height":80,"color":"1"},
+		{"id":"6cf78976b1023892","type":"file","file":"1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md","x":300,"y":-1500,"width":620,"height":780,"color":"2"},
+		{"id":"21910d53a44543de","x":-440,"y":-380,"width":780,"height":580,"color":"5","type":"file","file":"1. Project/객체지향의 오해와 진실/4.역할,협력,책임/역할.md"}
 	],
 	"edges":[
 		{"id":"b70f8095846c6a9d","fromNode":"b5bdab94d3b14157","fromSide":"right","toNode":"254425e9b768634a","toSide":"left","color":"4"},
-		{"id":"af72841a1c3369c0","fromNode":"254425e9b768634a","fromSide":"right","toNode":"6cf78976b1023892","toSide":"left","color":"3"}
+		{"id":"af72841a1c3369c0","fromNode":"254425e9b768634a","fromSide":"right","toNode":"6cf78976b1023892","toSide":"left","color":"3"},
+		{"id":"f1dc7dbca8caf364","fromNode":"b5bdab94d3b14157","fromSide":"right","toNode":"21910d53a44543de","toSide":"left"}
 	]
 }
