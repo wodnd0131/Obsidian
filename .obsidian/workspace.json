@@ -13,31 +13,18 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
+                "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
                 "viewState": {
-                  "x": -85,
-                  "y": -260,
-                  "zoom": 0
+                  "x": 848.0514295369633,
+                  "y": -119.0005282643934,
+                  "zoom": 0.0846040564513052
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "077965ea8ab80331",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "장기 - 메세징"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -113,7 +101,7 @@
       {
         "id": "a9ba36cb23a231c4",
         "type": "tabs",
-        "dimension": 32.11462450592885,
+        "dimension": 74.87437185929649,
         "children": [
           {
             "id": "b3ce4889b64b3f8a",
@@ -124,13 +112,24 @@
               "icon": "lucide-git-fork",
               "title": "그래프 뷰"
             }
+          },
+          {
+            "id": "6d960f9cc4b1d677",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d3528216916afc7f",
         "type": "tabs",
-        "dimension": 67.88537549407114,
+        "dimension": 25.125628140703515,
         "children": [
           {
             "id": "18f0845905970fea",
@@ -179,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +194,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "077965ea8ab80331",
+  "active": "4ec5234109cd9dda",
   "lastOpenFiles": [
-    "Calender/2025-03-12.md",
+    "3. Resource/index.md",
+    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "1. Project/우아한 테크 코스/Level. 1/장기",
+    "Calender/2025-03-12.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit",
     "Calender/2025-02-16.md",
@@ -211,7 +213,6 @@
     "1. Project/우아한 테크 코스",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화&특수화.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 목적.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화는 추상화를 위한 도구다..md",
@@ -235,12 +236,10 @@
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/행동.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/이상한 나라의 객체.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/상태.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Calender",
-    "Repository",
     "Pasted image 20241218104829.png",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",

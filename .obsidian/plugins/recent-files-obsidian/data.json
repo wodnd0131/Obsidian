@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "무제",
-      "path": "1. Project/우아한 테크 코스/Level. 1/무제.canvas"
+      "basename": "장기 - 메세징",
+      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
+    },
+    {
+      "basename": "index",
+      "path": "3. Resource/index.md"
+    },
+    {
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
     },
     {
       "basename": "2025-03-12",
@@ -23,10 +31,6 @@
     {
       "basename": "2.이상한 나라의 객체",
       "path": "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
-    },
-    {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
     },
     {
       "basename": "타입의 목적",
@@ -187,10 +191,6 @@
     {
       "basename": "Task",
       "path": "Todo/Task.md"
-    },
-    {
-      "basename": "index",
-      "path": "3. Resource/index.md"
     },
     {
       "basename": "README",
