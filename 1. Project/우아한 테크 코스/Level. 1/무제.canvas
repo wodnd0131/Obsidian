@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"de9d4974dea2860c","x":-220,"y":-380,"width":250,"height":120,"color":"1","type":"text","text":"Participant\n\n----\nhand"},
+		{"id":"252921193a9cc2b0","x":-380,"y":-200,"width":250,"height":60,"color":"1","type":"text","text":"Player"},
+		{"id":"d2c9dd8b39ff052c","x":-40,"y":-200,"width":250,"height":60,"color":"1","type":"text","text":"Dealer"}
+	],
+	"edges":[
+		{"id":"bcae50732c4912e3","fromNode":"de9d4974dea2860c","fromSide":"bottom","toNode":"252921193a9cc2b0","toSide":"top"},
+		{"id":"fa1f9ad429041052","fromNode":"de9d4974dea2860c","fromSide":"bottom","toNode":"d2c9dd8b39ff052c","toSide":"top"}
+	]
+}
