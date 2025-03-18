@@ -5,6 +5,10 @@
       "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
     },
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "index",
       "path": "3. Resource/index.md"
     },
@@ -183,10 +187,6 @@
     {
       "basename": "체크박스 사용법",
       "path": "체크박스 사용법.md"
-    },
-    {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "Task",
