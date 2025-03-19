@@ -15,9 +15,9 @@
               "state": {
                 "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
                 "viewState": {
-                  "x": 848.0514295369633,
-                  "y": -119.0005282643934,
-                  "zoom": 0.0846040564513052
+                  "x": 278.2103920340011,
+                  "y": -234.4682070960297,
+                  "zoom": -0.5820626102153614
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -178,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
