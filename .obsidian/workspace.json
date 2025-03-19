@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "92c47f0f22580fad",
+        "id": "3687239397bbf702",
         "type": "tabs",
         "children": [
           {
-            "id": "4ec5234109cd9dda",
+            "id": "ce54eb9dbf6eb9cc",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
                 "viewState": {
-                  "x": 278.2103920340011,
-                  "y": -234.4682070960297,
-                  "zoom": -0.5820626102153614
+                  "x": 52.366380617099594,
+                  "y": -88.80418395226557,
+                  "zoom": -0.6874604269662175
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -195,10 +195,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4ec5234109cd9dda",
+  "active": "ce54eb9dbf6eb9cc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Calender/2025-03-19.md",
     "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/협력.md",
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md",
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임.md",
@@ -207,7 +209,6 @@
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
     "3. Resource/index.md",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
-    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
     "1. Project/우아한 테크 코스/Level. 1/장기",
     "Calender/2025-03-12.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
@@ -237,7 +238,6 @@
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/추상화.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입과 추상화.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화",
-    "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체/객체지향에서 쉽게 빠지는 함정.md",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
