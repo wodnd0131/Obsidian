@@ -5,20 +5,44 @@
       "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
     },
     {
+      "basename": "index",
+      "path": "3. Resource/index.md"
+    },
+    {
+      "basename": "Index",
+      "path": "4. Archive/Index.md"
+    },
+    {
+      "basename": "2025-03-12",
+      "path": "Calender/2025-03-12.md"
+    },
+    {
+      "basename": "객체지향의 사실과 오해_조영조",
+      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
+    },
+    {
+      "basename": "이갓지트럼프",
+      "path": "Repository/이갓지트럼프.jpg"
+    },
+    {
+      "basename": "Dev",
+      "path": "Todo/Dev.md"
+    },
+    {
+      "basename": "Task",
+      "path": "Todo/Task.md"
+    },
+    {
+      "basename": "Canvas.todo",
+      "path": "Todo/Canvas.todo.canvas"
+    },
+    {
       "basename": "2025-03-19",
       "path": "Calender/2025-03-19.md"
     },
     {
       "basename": "1.협력하는 객체들의 공동체",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
-    },
-    {
-      "basename": "index",
-      "path": "3. Resource/index.md"
-    },
-    {
-      "basename": "2025-03-12",
-      "path": "Calender/2025-03-12.md"
     },
     {
       "basename": "JUnit5",
@@ -75,10 +99,6 @@
     {
       "basename": "개념(Concept)",
       "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md"
-    },
-    {
-      "basename": "이갓지트럼프",
-      "path": "Repository/이갓지트럼프.jpg"
     },
     {
       "basename": "분류는 추상화를 위한 도구다.",
@@ -149,10 +169,6 @@
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
     },
     {
-      "basename": "객체지향의 사실과 오해_조영조",
-      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
-    },
-    {
       "basename": "실세계를 모방한다는 은유",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
     },
@@ -166,19 +182,7 @@
     },
     {
       "basename": "Index",
-      "path": "4. Archive/Index.md"
-    },
-    {
-      "basename": "Index",
       "path": "2. Area/Index.md"
-    },
-    {
-      "basename": "Canvas.todo",
-      "path": "Todo/Canvas.todo.canvas"
-    },
-    {
-      "basename": "Dev",
-      "path": "Todo/Dev.md"
     },
     {
       "basename": "모방 관점과 실제 개발의 괴리",
@@ -187,10 +191,6 @@
     {
       "basename": "체크박스 사용법",
       "path": "체크박스 사용법.md"
-    },
-    {
-      "basename": "Task",
-      "path": "Todo/Task.md"
     },
     {
       "basename": "README",
