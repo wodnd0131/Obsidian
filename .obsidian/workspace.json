@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3687239397bbf702",
+        "id": "273786dacad069e5",
         "type": "tabs",
         "children": [
           {
-            "id": "ce54eb9dbf6eb9cc",
+            "id": "b6f8819b00c91e29",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
-                "viewState": {
-                  "x": 493.9222486544539,
-                  "y": 255.6620081032901,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "장기 - 메세징"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -195,8 +188,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce54eb9dbf6eb9cc",
+  "active": "b6f8819b00c91e29",
   "lastOpenFiles": [
+    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "3. Resource/index.md",
     "4. Archive/Index.md",
     "Calender/2025-03-12.md",
@@ -205,7 +199,6 @@
     "Todo/Dev.md",
     "Todo/Task.md",
     "Todo/Canvas.todo.canvas",
-    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Calender/2025-03-19.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
     "conflict-files-obsidian-git.md",
@@ -239,7 +232,6 @@
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류는 추상화를 위한 도구다..md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "Pasted image 20241218104829.png",
