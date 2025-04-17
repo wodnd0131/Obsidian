@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "273786dacad069e5",
+        "id": "2cff62192bbaf70d",
         "type": "tabs",
         "children": [
           {
-            "id": "b6f8819b00c91e29",
+            "id": "1f82c3481beb0efe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "canvas",
+              "state": {
+                "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
+                "viewState": {
+                  "x": 1218.734363554501,
+                  "y": -483.33635735379335,
+                  "zoom": -0.7910023432713711
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "장기 - 메세징"
             }
           }
         ]
@@ -84,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -188,12 +194,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b6f8819b00c91e29",
+  "active": "1f82c3481beb0efe",
   "lastOpenFiles": [
+    "Calender/2025-03-12.md",
+    "Calender/2025-03-27.md",
     "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "3. Resource/index.md",
     "4. Archive/Index.md",
-    "Calender/2025-03-12.md",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Repository/이갓지트럼프.jpg",
     "Todo/Dev.md",
