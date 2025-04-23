@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2cff62192bbaf70d",
+        "id": "1ad322090bce7fe0",
         "type": "tabs",
         "children": [
           {
-            "id": "1f82c3481beb0efe",
+            "id": "a6592e0119a96302",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
-                "viewState": {
-                  "x": 1218.734363554501,
-                  "y": -483.33635735379335,
-                  "zoom": -0.7910023432713711
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "장기 - 메세징"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -76,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:OOD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +80,8 @@
               "title": "검색"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,20 +188,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f82c3481beb0efe",
+  "active": "a6592e0119a96302",
   "lastOpenFiles": [
-    "Calender/2025-03-12.md",
-    "Calender/2025-03-27.md",
-    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
-    "3. Resource/index.md",
-    "4. Archive/Index.md",
-    "Repository/객체지향의 사실과 오해_조영조.jpg",
-    "Repository/이갓지트럼프.jpg",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
+    "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md",
+    "Todo/Canvas.todo.canvas",
     "Todo/Dev.md",
     "Todo/Task.md",
-    "Todo/Canvas.todo.canvas",
-    "Calender/2025-03-19.md",
+    "Repository/객체지향의 사실과 오해_조영조.jpg",
+    "Repository/이갓지트럼프.jpg",
+    "4. Archive/Index.md",
+    "1. Project/Index.md",
+    "Calender/2025-04-17.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "체크박스 사용법.md",
+    "README.md",
+    "202504171447.md",
+    "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
+    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
+    "Calender/2025-03-12.md",
+    "Calender/2025-03-27.md",
+    "3. Resource/index.md",
+    "Calender/2025-03-19.md",
     "conflict-files-obsidian-git.md",
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/협력.md",
     "1. Project/객체지향의 오해와 진실/4.역할,협력,책임/책임과 메세지.md",
@@ -220,25 +226,13 @@
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit",
     "Calender/2025-02-16.md",
-    "1. Project/Index.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ",
     "무제",
     "1. Project/우아한 테크 코스/Level. 1",
     "1. Project/우아한 테크 코스/무제.md",
     "1. Project/우아한 테크 코스",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화&특수화.md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 목적.md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/일반화는 추상화를 위한 도구다..md",
-    "일반화/특수화.md",
     "일반화",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입의 계층.md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/타입은 개념이다..md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류는 추상화를 위한 도구다..md",
-    "1. Project/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체",
     "Pasted image 20241218104829.png",

@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "장기 - 메세징",
-      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
+      "basename": "역할",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md"
     },
     {
-      "basename": "index",
-      "path": "3. Resource/index.md"
+      "basename": "역할, 책임, 협력",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md"
     },
     {
-      "basename": "Index",
-      "path": "4. Archive/Index.md"
+      "basename": "협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
     },
     {
-      "basename": "객체지향의 사실과 오해_조영조",
-      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
+      "basename": "객체 지향의 다양한 측면",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
     },
     {
-      "basename": "이갓지트럼프",
-      "path": "Repository/이갓지트럼프.jpg"
+      "basename": "실세계를 모방한다는 은유",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
+    },
+    {
+      "basename": "모방 관점과 실제 개발의 괴리",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md"
+    },
+    {
+      "basename": "Canvas.todo",
+      "path": "Todo/Canvas.todo.canvas"
     },
     {
       "basename": "Dev",
@@ -29,24 +37,48 @@
       "path": "Todo/Task.md"
     },
     {
-      "basename": "Canvas.todo",
-      "path": "Todo/Canvas.todo.canvas"
+      "basename": "객체지향의 사실과 오해_조영조",
+      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
     },
     {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+      "basename": "이갓지트럼프",
+      "path": "Repository/이갓지트럼프.jpg"
     },
     {
-      "basename": "JUnit5",
-      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
+      "basename": "Index",
+      "path": "4. Archive/Index.md"
     },
     {
       "basename": "Index",
       "path": "1. Project/Index.md"
     },
     {
+      "basename": "1.협력하는 객체들의 공동체",
+      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
+    },
+    {
+      "basename": "체크박스 사용법",
+      "path": "체크박스 사용법.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "3.타입과 추상화",
       "path": "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas"
+    },
+    {
+      "basename": "장기 - 메세징",
+      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
+    },
+    {
+      "basename": "index",
+      "path": "3. Resource/index.md"
+    },
+    {
+      "basename": "JUnit5",
+      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
     },
     {
       "basename": "2.이상한 나라의 객체",
@@ -129,10 +161,6 @@
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체의 자율성(autonomus).md"
     },
     {
-      "basename": "협력하는 객체들의 공동체",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
-    },
-    {
       "basename": "메서드와 자율성",
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/메서드와 자율성.md"
     },
@@ -149,22 +177,6 @@
       "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md"
     },
     {
-      "basename": "역할",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md"
-    },
-    {
-      "basename": "역할, 책임, 협력",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md"
-    },
-    {
-      "basename": "객체 지향의 다양한 측면",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
-    },
-    {
-      "basename": "실세계를 모방한다는 은유",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "무제 파일.canvas"
     },
@@ -175,18 +187,6 @@
     {
       "basename": "Index",
       "path": "2. Area/Index.md"
-    },
-    {
-      "basename": "모방 관점과 실제 개발의 괴리",
-      "path": "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md"
-    },
-    {
-      "basename": "체크박스 사용법",
-      "path": "체크박스 사용법.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
