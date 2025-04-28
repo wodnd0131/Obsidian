@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1ad322090bce7fe0",
+        "id": "a0766e30c437d158",
         "type": "tabs",
         "children": [
           {
-            "id": "a6592e0119a96302",
+            "id": "a4020ba2c50f54e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
         ]
@@ -69,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:OOD",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +82,7 @@
               "title": "검색"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,8 +189,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6592e0119a96302",
+  "active": "a4020ba2c50f54e7",
   "lastOpenFiles": [
+    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
     "1. Project/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md",
@@ -209,7 +211,6 @@
     "README.md",
     "202504171447.md",
     "1. Project/객체지향의 오해와 진실/3.타입과 추상화.canvas",
-    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Calender/2025-03-12.md",
     "Calender/2025-03-27.md",
     "3. Resource/index.md",
@@ -229,7 +230,6 @@
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ",
     "무제",
     "1. Project/우아한 테크 코스/Level. 1",
-    "1. Project/우아한 테크 코스/무제.md",
     "1. Project/우아한 테크 코스",
     "1. Project/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
     "일반화",
