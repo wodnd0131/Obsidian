@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/2주차/README.md",
+                "file": "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "자동차 경주 - 초간단 애플리케이션"
             }
           }
         ]
@@ -195,15 +195,16 @@
   },
   "active": "d1111c6d02fb1555",
   "lastOpenFiles": [
-    "1. Project/SCG 코드 리뷰/1주차/README.md",
     "1. Project/SCG 코드 리뷰/2주차/README.md",
+    "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md",
+    "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md",
+    "1. Project/SCG 코드 리뷰/1주차/README.md",
     "1. Project/SCG 코드 리뷰/2주차",
     "Todo/Canvas.todo.canvas",
     "Todo/Dev.md",
     "1. Project/SCG 코드 리뷰/1주차/학습 정리.md",
     "Repository/Pasted image 20260321090933.png",
     "Repository/Pasted image 20260321090839.png",
-    "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md",
     "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
     "1. Project/Index.md",
     "1. Project/SCG 코드 리뷰/1주차",
@@ -232,7 +233,6 @@
     "3. Resource/index.md",
     "Calender/2025-03-19.md",
     "conflict-files-obsidian-git.md",
-    "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임/협력.md",
     "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임",
     "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",

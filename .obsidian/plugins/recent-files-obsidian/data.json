@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "자동차 경주 - 초간단 애플리케이션",
+      "path": "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md"
+    },
+    {
       "basename": "README",
       "path": "1. Project/SCG 코드 리뷰/2주차/README.md"
+    },
+    {
+      "basename": "계산기 - 단위 테스트",
+      "path": "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md"
     },
     {
       "basename": "README",
@@ -19,10 +27,6 @@
     {
       "basename": "학습 정리",
       "path": "1. Project/SCG 코드 리뷰/1주차/학습 정리.md"
-    },
-    {
-      "basename": "계산기 - 단위 테스트",
-      "path": "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md"
     },
     {
       "basename": "SCG 코드 리뷰어",
@@ -195,10 +199,6 @@
     {
       "basename": "무제 파일",
       "path": "무제 파일.canvas"
-    },
-    {
-      "basename": "자율성(autonomus)",
-      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/자율성(autonomus).md"
     }
   ],
   "omittedPaths": [],
