@@ -2,11 +2,55 @@
   "recentFiles": [
     {
       "basename": "README",
+      "path": "1. Project/SCG 코드 리뷰/3주차/README.md"
+    },
+    {
+      "basename": "로또 게임",
+      "path": "1. Project/SCG 코드 리뷰/3주차/로또 게임.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
       "path": "1. Project/SCG 코드 리뷰/2주차/README.md"
+    },
+    {
+      "basename": "JUnit5",
+      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
+    },
+    {
+      "basename": "장기 - 메세징",
+      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
     },
     {
       "basename": "자동차 경주 - 초간단 애플리케이션",
       "path": "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md"
+    },
+    {
+      "basename": "SCG 코드 리뷰어",
+      "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
+    },
+    {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
+      "basename": "무제",
+      "path": "무제.base"
+    },
+    {
+      "basename": "체크박스 사용법",
+      "path": "체크박스 사용법.md"
+    },
+    {
+      "basename": "객체 지향의 다양한 측면",
+      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
+    },
+    {
+      "basename": "실세계를 모방한다는 은유",
+      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
     },
     {
       "basename": "계산기 - 단위 테스트",
@@ -17,20 +61,12 @@
       "path": "1. Project/SCG 코드 리뷰/1주차/README.md"
     },
     {
-      "basename": "Canvas.todo",
-      "path": "Todo/Canvas.todo.canvas"
-    },
-    {
       "basename": "Pasted image 20260321090933",
       "path": "Repository/Pasted image 20260321090933.png"
     },
     {
       "basename": "학습 정리",
       "path": "1. Project/SCG 코드 리뷰/1주차/학습 정리.md"
-    },
-    {
-      "basename": "SCG 코드 리뷰어",
-      "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
     },
     {
       "basename": "Index",
@@ -49,18 +85,6 @@
       "path": "Repository/이갓지트럼프.jpg"
     },
     {
-      "basename": "JUnit5",
-      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
-    },
-    {
-      "basename": "객체 지향의 다양한 측면",
-      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
-    },
-    {
-      "basename": "장기 - 메세징",
-      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
-    },
-    {
       "basename": "역할",
       "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md"
     },
@@ -73,24 +97,12 @@
       "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
     },
     {
-      "basename": "실세계를 모방한다는 은유",
-      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
-    },
-    {
       "basename": "모방 관점과 실제 개발의 괴리",
       "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md"
     },
     {
       "basename": "1.협력하는 객체들의 공동체",
       "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
-    },
-    {
-      "basename": "체크박스 사용법",
-      "path": "체크박스 사용법.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "3.타입과 추상화",
@@ -187,21 +199,10 @@
     {
       "basename": "정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이",
       "path": "1. Project/독서/객체지향의 오해와 진실/2.이상한 나라의 객체/정적(static) 프로퍼티와 동적(dynamic) 프로퍼티의 차이.md"
-    },
-    {
-      "basename": "객체를 지향하라",
-      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체를 지향하라.md"
-    },
-    {
-      "basename": "객체 지향의 본질",
-      "path": "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 본질.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.canvas"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
+  "updateOn": "file-open",
   "omitBookmarks": false
 }

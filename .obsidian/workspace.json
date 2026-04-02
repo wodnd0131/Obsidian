@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "85d21d4d093a5e5e",
+        "id": "2b859b8c421a00cb",
         "type": "tabs",
         "children": [
           {
-            "id": "2580c8b0ac45cdbc",
+            "id": "87650dbe01192f96",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/SCG 코드 리뷰/3주차/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "README"
             }
           }
         ]
@@ -80,8 +85,7 @@
               "title": "검색"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,8 +116,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -127,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d3528216916afc7f",
@@ -194,16 +198,35 @@
       "command-palette:명령어 팔레트 열기": true,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:새 보드 만들기": false,
-      "obsidian-custom-frames:Open Todo.List": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "tickticksync:TickTickSync": false,
-      "templater-obsidian:Templater": false
+      "obsidian-custom-frames:Open Todo.List": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "2580c8b0ac45cdbc",
+  "active": "87650dbe01192f96",
   "lastOpenFiles": [
+    "1. Project/SCG 코드 리뷰/3주차/로또 게임.md",
+    "1. Project/SCG 코드 리뷰/3주차/README.md",
+    "README.md",
     "1. Project/SCG 코드 리뷰/2주차/README.md",
+    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
+    "1. Project/SCG 코드 리뷰/3주차",
+    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md",
+    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
+    "Templates/DATE_TAMPLATE.md",
+    "Daily/2026/04/04-03.md",
+    "무제.base",
+    "체크박스 사용법.md",
+    "무제.md",
+    "Daily/2026/04/2026-04-03 일일루틴.md",
+    "Daily/2026/04",
+    "Daily/2026",
+    "Templates/2026-04-03 일일루틴.md",
+    "Templates/2026-04-02 일일루틴.md",
+    "Templates",
+    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md",
+    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
     "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md",
     "1. Project/SCG 코드 리뷰/1주차/README.md",
     "1. Project/SCG 코드 리뷰/2주차",
@@ -212,7 +235,6 @@
     "1. Project/SCG 코드 리뷰/1주차/학습 정리.md",
     "Repository/Pasted image 20260321090933.png",
     "Repository/Pasted image 20260321090839.png",
-    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
     "1. Project/Index.md",
     "1. Project/SCG 코드 리뷰/1주차",
     "1. Project/SCG 코드 리뷰",
@@ -220,34 +242,15 @@
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Repository/이갓지트럼프.jpg",
     "1. Project/독서",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md",
-    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
-    "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md",
     "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
     "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
     "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md",
-    "Todo/Task.md",
-    "Calender/2025-04-17.md",
     "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
-    "체크박스 사용법.md",
-    "README.md",
-    "202504171447.md",
     "1. Project/독서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
-    "Calender/2025-03-12.md",
-    "Calender/2025-03-27.md",
-    "3. Resource/index.md",
-    "Calender/2025-03-19.md",
-    "conflict-files-obsidian-git.md",
     "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임",
     "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
-    "1. Project/우아한 테크 코스/Level. 1/장기",
-    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit",
-    "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ",
-    "무제",
-    "1. Project/우아한 테크 코스/Level. 1",
     "1. Project/독서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
     "Pasted image 20241218104829.png",
     "무제 파일 1.canvas",

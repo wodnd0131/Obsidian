@@ -24,5 +24,39 @@
       ],
       "key": "Q"
     }
+  ],
+  "templater-obsidian:create-Templates/DATE_TAMPLATE.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Home"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Home"
+    }
+  ],
+  "periodic-notes:next-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Home"
+    }
+  ],
+  "periodic-notes:prev-daily-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Home"
+    }
   ]
 }
