@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
+                "file": "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1단계 힌트에 관하여"
+              "title": "클로드 코드 기록"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -206,13 +207,13 @@
   },
   "active": "87650dbe01192f96",
   "lastOpenFiles": [
+    "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md",
+    "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md",
+    "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md",
+    "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
     "1. Project/독서/전공 도서/인상적인 글귀 모음.md",
     "1. Project/독서/일반 도서",
     "1. Project/독서/전공 도서",
-    "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
-    "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md",
-    "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md",
-    "1. Project/SCG 코드 리뷰/3주차/무제.md",
     "1. Project/SCG 코드 리뷰/3주차/README.md",
     "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
     "README.md",

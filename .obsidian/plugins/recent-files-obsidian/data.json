@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "1단계 힌트에 관하여",
-      "path": "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md"
+      "basename": "클로드 코드 기록",
+      "path": "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md"
     },
     {
-      "basename": "인상적인 글귀 모음",
-      "path": "1. Project/독서/전공 도서/인상적인 글귀 모음.md"
+      "basename": "리뷰 가이드 라인",
+      "path": "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md"
     },
     {
       "basename": "로또 게임 요구 사항",
       "path": "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md"
     },
     {
-      "basename": "리뷰 가이드 라인",
-      "path": "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md"
+      "basename": "1단계 힌트에 관하여",
+      "path": "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md"
+    },
+    {
+      "basename": "인상적인 글귀 모음",
+      "path": "1. Project/독서/전공 도서/인상적인 글귀 모음.md"
     },
     {
       "basename": "README",
@@ -195,10 +199,6 @@
     {
       "basename": "캡슐화(encapsulation)",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
-    },
-    {
-      "basename": "상태(state)",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/상태(state).md"
     }
   ],
   "omittedPaths": [],
