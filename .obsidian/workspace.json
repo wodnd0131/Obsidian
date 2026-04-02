@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/3주차/README.md",
+                "file": "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "1단계 힌트에 관하여"
             }
           }
         ]
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,15 +206,21 @@
   },
   "active": "87650dbe01192f96",
   "lastOpenFiles": [
-    "1. Project/SCG 코드 리뷰/3주차/로또 게임.md",
+    "1. Project/독서/전공 도서/인상적인 글귀 모음.md",
+    "1. Project/독서/일반 도서",
+    "1. Project/독서/전공 도서",
+    "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
+    "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md",
+    "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md",
+    "1. Project/SCG 코드 리뷰/3주차/무제.md",
     "1. Project/SCG 코드 리뷰/3주차/README.md",
+    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
     "README.md",
     "1. Project/SCG 코드 리뷰/2주차/README.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
     "1. Project/SCG 코드 리뷰/3주차",
     "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md",
-    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
     "Templates/DATE_TAMPLATE.md",
     "Daily/2026/04/04-03.md",
     "무제.base",
@@ -225,8 +232,8 @@
     "Templates/2026-04-03 일일루틴.md",
     "Templates/2026-04-02 일일루틴.md",
     "Templates",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md",
     "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md",
     "1. Project/SCG 코드 리뷰/1주차/README.md",
     "1. Project/SCG 코드 리뷰/2주차",
@@ -238,20 +245,13 @@
     "1. Project/Index.md",
     "1. Project/SCG 코드 리뷰/1주차",
     "1. Project/SCG 코드 리뷰",
-    "4. Archive/Index.md",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Repository/이갓지트럼프.jpg",
-    "1. Project/독서",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md",
-    "1. Project/독서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
-    "1. Project/독서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
-    "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임",
-    "1. Project/독서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
-    "1. Project/독서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
     "Pasted image 20241218104829.png",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",

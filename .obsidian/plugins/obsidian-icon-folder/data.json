@@ -42,7 +42,7 @@
   "Repository": "LiImages",
   "1. Project/우아한 테크 코스": "LiAnchor",
   "1. Project/독서": "LiAlbum",
-  "1. Project/독서/객체지향의 오해와 진실": "FarObjectGroup",
   "Daily": "LiCalendar",
-  "Templates": "LiStamp"
+  "Templates": "LiStamp",
+  "1. Project/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup"
 }
