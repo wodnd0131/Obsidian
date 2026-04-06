@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2b859b8c421a00cb",
+        "id": "aa5f09036ab4b0b1",
         "type": "tabs",
         "children": [
           {
-            "id": "87650dbe01192f96",
+            "id": "34aa8901ae8e8ac4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md",
+                "file": "1. Project/SCG 코드 리뷰/3주차/질의응답.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "클로드 코드 기록"
+              "title": "질의응답"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -194,6 +193,7 @@
       "bases:새 베이스 생성하기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
+      "periodic-notes:Open today": false,
       "zk-prefixer:새 고유 노트 생성": false,
       "canvas:새 캔버스 만들기": false,
       "graph:그래프 뷰 열기": false,
@@ -201,22 +201,25 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:새 보드 만들기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-custom-frames:Open Todo.List": false,
-      "periodic-notes:Open today": false
+      "obsidian-custom-frames:Open Todo.List": false
     }
   },
-  "active": "87650dbe01192f96",
+  "active": "34aa8901ae8e8ac4",
   "lastOpenFiles": [
-    "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md",
+    "1. Project/SCG 코드 리뷰/3주차/질의응답.md",
     "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md",
+    "Daily/2026/04/04-06.md",
+    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
+    "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md",
+    "1. Project/SCG 코드 리뷰/3주차/README.md",
+    "README.md",
+    "무제.base",
+    "체크박스 사용법.md",
     "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md",
     "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md",
     "1. Project/독서/전공 도서/인상적인 글귀 모음.md",
     "1. Project/독서/일반 도서",
     "1. Project/독서/전공 도서",
-    "1. Project/SCG 코드 리뷰/3주차/README.md",
-    "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md",
-    "README.md",
     "1. Project/SCG 코드 리뷰/2주차/README.md",
     "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md",
     "1. Project/SCG 코드 리뷰/3주차",
@@ -224,8 +227,6 @@
     "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md",
     "Templates/DATE_TAMPLATE.md",
     "Daily/2026/04/04-03.md",
-    "무제.base",
-    "체크박스 사용법.md",
     "무제.md",
     "Daily/2026/04/2026-04-03 일일루틴.md",
     "Daily/2026/04",
@@ -243,7 +244,6 @@
     "1. Project/SCG 코드 리뷰/1주차/학습 정리.md",
     "Repository/Pasted image 20260321090933.png",
     "Repository/Pasted image 20260321090839.png",
-    "1. Project/Index.md",
     "1. Project/SCG 코드 리뷰/1주차",
     "1. Project/SCG 코드 리뷰",
     "Repository/객체지향의 사실과 오해_조영조.jpg",

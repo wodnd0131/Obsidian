@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "질의응답",
+      "path": "1. Project/SCG 코드 리뷰/3주차/질의응답.md"
+    },
+    {
       "basename": "클로드 코드 기록",
       "path": "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md"
     },
     {
+      "basename": "04-06",
+      "path": "Daily/2026/04/04-06.md"
+    },
+    {
+      "basename": "SCG 코드 리뷰어",
+      "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
+    },
+    {
       "basename": "리뷰 가이드 라인",
       "path": "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/SCG 코드 리뷰/3주차/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "무제",
+      "path": "무제.base"
+    },
+    {
+      "basename": "체크박스 사용법",
+      "path": "체크박스 사용법.md"
     },
     {
       "basename": "로또 게임 요구 사항",
@@ -19,18 +47,6 @@
     {
       "basename": "인상적인 글귀 모음",
       "path": "1. Project/독서/전공 도서/인상적인 글귀 모음.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/3주차/README.md"
-    },
-    {
-      "basename": "SCG 코드 리뷰어",
-      "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "README",
@@ -51,14 +67,6 @@
     {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
-      "basename": "무제",
-      "path": "무제.base"
-    },
-    {
-      "basename": "체크박스 사용법",
-      "path": "체크박스 사용법.md"
     },
     {
       "basename": "객체 지향의 다양한 측면",
@@ -191,14 +199,6 @@
     {
       "basename": "식별자(indentity)",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/식별자(indentity).md"
-    },
-    {
-      "basename": "행동(behavior)",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/행동(behavior).md"
-    },
-    {
-      "basename": "캡슐화(encapsulation)",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
     }
   ],
   "omittedPaths": [],
