@@ -193,7 +193,6 @@
       "bases:새 베이스 생성하기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
-      "periodic-notes:Open today": false,
       "zk-prefixer:새 고유 노트 생성": false,
       "canvas:새 캔버스 만들기": false,
       "graph:그래프 뷰 열기": false,
