@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "OOP 지식 서핑하기",
-      "path": "1. Project/SCG 코드 리뷰/4주차/OOP 지식 서핑하기.md"
+      "basename": "이전 리뷰 살펴보기 - 메이",
+      "path": "1. Project/SCG 코드 리뷰/4주차/이전 리뷰 살펴보기 - 메이.md"
     },
     {
-      "basename": "이전 리뷰 살펴보기",
-      "path": "1. Project/SCG 코드 리뷰/4주차/이전 리뷰 살펴보기.md"
+      "basename": "이전 리뷰 살펴보기 - 비타",
+      "path": "1. Project/SCG 코드 리뷰/4주차/이전 리뷰 살펴보기 - 비타.md"
+    },
+    {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
     },
     {
       "basename": "질의응답",
       "path": "1. Project/SCG 코드 리뷰/4주차/질의응답.md"
+    },
+    {
+      "basename": "OOP 지식 서핑하기",
+      "path": "1. Project/SCG 코드 리뷰/4주차/OOP 지식 서핑하기.md"
     },
     {
       "basename": "README",
@@ -79,10 +87,6 @@
     {
       "basename": "자동차 경주 - 초간단 애플리케이션",
       "path": "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
     },
     {
       "basename": "객체 지향의 다양한 측면",
@@ -191,14 +195,6 @@
     {
       "basename": "분류(Classification)",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/분류(Classification).md"
-    },
-    {
-      "basename": "개념(Concept)",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/개념(Concept).md"
-    },
-    {
-      "basename": "분류는 추상화를 위한 도구다.",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/분류는 추상화를 위한 도구다..md"
     }
   ],
   "omittedPaths": [],
