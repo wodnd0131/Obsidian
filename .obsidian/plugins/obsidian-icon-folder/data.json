@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiStamp",
       "LiAnchor",
       "FarObjectGroup",
-      "LiImages",
-      "LiAlbum"
+      "LiImages"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,6 @@
   "1. Project/독서": "LiAlbum",
   "Daily": "LiCalendar",
   "Templates": "LiStamp",
-  "1. Project/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup"
+  "1. Project/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
+  "1. Project/인생론": "LiActivity"
 }
