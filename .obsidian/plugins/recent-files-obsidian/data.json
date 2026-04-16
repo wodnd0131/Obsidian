@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "3. Resource/index.md"
+    },
+    {
+      "basename": "에니어그램에서 말하는 나태",
+      "path": "1. Project/인생론/에니어그램에서 말하는 나태.md"
+    },
+    {
+      "basename": "무제",
+      "path": "1. Project/SCG 코드 리뷰/Spring/무제.md"
+    },
+    {
+      "basename": "MVC에 대해",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/MVC에 대해.md"
+    },
+    {
       "basename": "질의응답 -2",
-      "path": "1. Project/SCG 코드 리뷰/4주차/질의응답 -2.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -2.md"
     },
     {
       "basename": "질의응답 -1",
-      "path": "1. Project/SCG 코드 리뷰/4주차/질의응답 -1.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md"
     },
     {
       "basename": "04-14",
@@ -29,44 +45,40 @@
       "path": "무제 1.base"
     },
     {
-      "basename": "에니어그램 9번 나태",
-      "path": "1. Project/인생론/에니어그램 9번 나태.md"
-    },
-    {
       "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/4주차/README.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md"
     },
     {
       "basename": "이전 리뷰 살펴보기 - 비타",
-      "path": "1. Project/SCG 코드 리뷰/4주차/이전 리뷰 살펴보기 - 비타.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 비타.md"
     },
     {
       "basename": "이전 리뷰 살펴보기 - 메이",
-      "path": "1. Project/SCG 코드 리뷰/4주차/이전 리뷰 살펴보기 - 메이.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 메이.md"
     },
     {
       "basename": "테스트 단위에 대해",
-      "path": "1. Project/SCG 코드 리뷰/4주차/테스트 단위에 대해.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/테스트 단위에 대해.md"
     },
     {
       "basename": "OOP 지식 서핑하기",
-      "path": "1. Project/SCG 코드 리뷰/4주차/OOP 지식 서핑하기.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/OOP 지식 서핑하기.md"
     },
     {
       "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/3주차/README.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/README.md"
     },
     {
       "basename": "질의응답",
-      "path": "1. Project/SCG 코드 리뷰/3주차/질의응답.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/질의응답.md"
     },
     {
       "basename": "리뷰 가이드 라인",
-      "path": "1. Project/SCG 코드 리뷰/3주차/리뷰 가이드 라인.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/리뷰 가이드 라인.md"
     },
     {
       "basename": "클로드 코드 기록",
-      "path": "1. Project/SCG 코드 리뷰/3주차/클로드 코드 기록.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/클로드 코드 기록.md"
     },
     {
       "basename": "SCG 코드 리뷰어",
@@ -86,11 +98,11 @@
     },
     {
       "basename": "로또 게임 요구 사항",
-      "path": "1. Project/SCG 코드 리뷰/3주차/로또 게임 요구 사항.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/로또 게임 요구 사항.md"
     },
     {
       "basename": "1단계 힌트에 관하여",
-      "path": "1. Project/SCG 코드 리뷰/3주차/1단계 힌트에 관하여.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/1단계 힌트에 관하여.md"
     },
     {
       "basename": "인상적인 글귀 모음",
@@ -98,7 +110,7 @@
     },
     {
       "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/2주차/README.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/2주차/README.md"
     },
     {
       "basename": "JUnit5",
@@ -110,7 +122,7 @@
     },
     {
       "basename": "자동차 경주 - 초간단 애플리케이션",
-      "path": "1. Project/SCG 코드 리뷰/2주차/자동차 경주 - 초간단 애플리케이션.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/2주차/자동차 경주 - 초간단 애플리케이션.md"
     },
     {
       "basename": "객체 지향의 다양한 측면",
@@ -122,11 +134,11 @@
     },
     {
       "basename": "계산기 - 단위 테스트",
-      "path": "1. Project/SCG 코드 리뷰/1주차/계산기 - 단위 테스트.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/계산기 - 단위 테스트.md"
     },
     {
       "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/1주차/README.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/README.md"
     },
     {
       "basename": "Pasted image 20260321090933",
@@ -134,7 +146,7 @@
     },
     {
       "basename": "학습 정리",
-      "path": "1. Project/SCG 코드 리뷰/1주차/학습 정리.md"
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/학습 정리.md"
     },
     {
       "basename": "Index",
@@ -177,10 +189,6 @@
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas"
     },
     {
-      "basename": "index",
-      "path": "3. Resource/index.md"
-    },
-    {
       "basename": "2.이상한 나라의 객체",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "객체와 타입",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md"
-    },
-    {
-      "basename": "행동이 우선이다.",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/행동이 우선이다..md"
-    },
-    {
-      "basename": "일반화는 추상화를 위한 도구다.",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/일반화는 추상화를 위한 도구다..md"
     }
   ],
   "omittedPaths": [],
