@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "aa5c0108ba1a6469",
+        "id": "404e9ba7f70a7620",
         "type": "tabs",
         "children": [
           {
-            "id": "5603a2345f25ec90",
+            "id": "97dad60349f7485e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/AI/1. MCP (Model Context Protocol).md",
+                "file": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1. MCP (Model Context Protocol)"
+              "title": "1주차 리뷰 포인트 정리"
             }
           }
         ]
@@ -85,8 +85,7 @@
               "title": "검색"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,12 +204,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5603a2345f25ec90",
+  "active": "97dad60349f7485e",
   "lastOpenFiles": [
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/4주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/3주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/2주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/README.md",
+    "무제.base",
+    "1. Project/AI/1. MCP (Model Context Protocol).md",
     "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md",
     "1. Project/AI/2. Streamable HTTP.md",
     "1. Project/AI/0. Keyword.md",
-    "1. Project/AI/1. MCP (Model Context Protocol).md",
     "1. Project/자료구조 - 자바",
     "1. Project/AI/Cowork.md",
     "1. Project/AI/하네스.md",
@@ -225,7 +231,6 @@
     "README.md",
     "202604161131.md",
     "무제 5.base",
-    "무제.base",
     "무제 3.base",
     "무제 4.base",
     "무제 2.base",
@@ -243,12 +248,6 @@
     "1. Project/SCG 코드 리뷰/Spring/무제.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/MVC에 대해.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -2.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md",
-    "Daily/2026/04/04-14.md",
-    "Templates/DATE_TAMPLATE.md",
-    "Daily/2026/04/04-06.md",
-    "Daily/2026/04/04-13.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",

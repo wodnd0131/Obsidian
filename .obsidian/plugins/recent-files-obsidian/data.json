@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "1주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "나의 주차별 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "4주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/4주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "3주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/3주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "2주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/2주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/README.md"
+    },
+    {
+      "basename": "무제",
+      "path": "무제.base"
+    },
+    {
       "basename": "1. MCP (Model Context Protocol)",
       "path": "1. Project/AI/1. MCP (Model Context Protocol).md"
     },
@@ -171,30 +199,6 @@
     {
       "basename": "장기 - 메세징",
       "path": "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
-    },
-    {
-      "basename": "자동차 경주 - 초간단 애플리케이션",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/2주차/자동차 경주 - 초간단 애플리케이션.md"
-    },
-    {
-      "basename": "객체 지향의 다양한 측면",
-      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
-    },
-    {
-      "basename": "실세계를 모방한다는 은유",
-      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
-    },
-    {
-      "basename": "계산기 - 단위 테스트",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/계산기 - 단위 테스트.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/README.md"
-    },
-    {
-      "basename": "학습 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/학습 정리.md"
     }
   ],
   "omittedPaths": [],
