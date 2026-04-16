@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "232316c785698902",
+        "id": "a5af994e05022c03",
         "type": "tabs",
         "children": [
           {
-            "id": "e79fc741a3ca1a7c",
+            "id": "430ab4a345d87619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1. Project/ProjectLikeMe/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 538.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -204,8 +204,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e79fc741a3ca1a7c",
+  "active": "430ab4a345d87619",
   "lastOpenFiles": [
+    "1. Project/ProjectLikeMe/Jira/Purpose.md",
+    "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
+    "1. Project/ProjectLikeMe/Jira/무제.base",
+    "README.md",
     "202604161131.md",
     "무제 5.base",
     "무제.base",
@@ -213,10 +217,7 @@
     "무제 4.base",
     "무제 2.base",
     "1. Project/ProjectLikeMe/Jira/무제 1.base",
-    "1. Project/ProjectLikeMe/Jira/무제.base",
-    "1. Project/ProjectLikeMe/Jira/Purpose.md",
     "1. Project/ProjectLikeMe/README.md",
-    "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
     "1. Project/ProjectLikeMe/Jira",
     "Repository/Use Jira.png",
     "Repository/Use Jira-{{date}}-{{md5}}.png",
@@ -246,7 +247,6 @@
     "Daily/2026/04/04-10.md",
     "1. Project/SCG 코드 리뷰/4주차/코드 리뷰 포인트.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/3주차/README.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/3주차/질의응답.md",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
