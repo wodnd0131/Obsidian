@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MCP",
+                "query": "tag:#JVM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "title": "검색"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,11 +208,13 @@
   },
   "active": "97dad60349f7485e",
   "lastOpenFiles": [
+    "1. Project/자바/JVM.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
+    "1. Project/자바",
     "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
     "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md",
     "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
     "1. Project/ProjectLikeMe/Jira/README.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/4주차 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/3주차 리뷰 포인트 정리.md",
@@ -235,7 +238,6 @@
     "무제 3.base",
     "무제 4.base",
     "무제 2.base",
-    "1. Project/ProjectLikeMe/Jira/무제 1.base",
     "Repository/Use Jira.png",
     "Repository/Use Jira-{{date}}-{{md5}}.png",
     "Repository/Pasted image 20260416104822.png",
@@ -248,7 +250,6 @@
     "2. Area/인생론/에니어그램에서 말하는 나태.md",
     "1. Project/SCG 코드 리뷰/Spring/무제.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/MVC에 대해.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -2.md",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
