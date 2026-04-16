@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "MCP",
+      "path": "1. Project/AI/MCP.md"
+    },
+    {
+      "basename": "Cowork",
+      "path": "1. Project/AI/Cowork.md"
+    },
+    {
+      "basename": "하네스",
+      "path": "1. Project/AI/하네스.md"
+    },
+    {
+      "basename": "Skill & hook",
+      "path": "1. Project/AI/Skill & hook.md"
+    },
+    {
       "basename": "Scrum의 철학",
       "path": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md"
     },
     {
-      "basename": "README",
-      "path": "1. Project/ProjectLikeMe/README.md"
+      "basename": "Request to MCP Chat",
+      "path": "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md"
     },
     {
       "basename": "Purpose",
@@ -15,6 +31,10 @@
     {
       "basename": "About Use Jira",
       "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/ProjectLikeMe/README.md"
     },
     {
       "basename": "README",
