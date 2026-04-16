@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/ProjectLikeMe/README.md",
+                "file": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Scrum의 철학"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "430ab4a345d87619",
   "lastOpenFiles": [
+    "1. Project/ProjectLikeMe/README.md",
+    "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
     "1. Project/ProjectLikeMe/Jira/Purpose.md",
     "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
     "1. Project/ProjectLikeMe/Jira/무제.base",
@@ -217,7 +219,6 @@
     "무제 4.base",
     "무제 2.base",
     "1. Project/ProjectLikeMe/Jira/무제 1.base",
-    "1. Project/ProjectLikeMe/README.md",
     "1. Project/ProjectLikeMe/Jira",
     "Repository/Use Jira.png",
     "Repository/Use Jira-{{date}}-{{md5}}.png",
