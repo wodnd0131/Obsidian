@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
+                "file": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Scrum의 철학"
+              "title": "1주차 리뷰 포인트 정리"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -206,10 +207,10 @@
   },
   "active": "97dad60349f7485e",
   "lastOpenFiles": [
+    "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
     "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md",
     "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
     "1. Project/ProjectLikeMe/Jira/README.md",
-    "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/4주차 리뷰 포인트 정리.md",
