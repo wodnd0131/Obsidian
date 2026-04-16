@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "04-16",
+      "path": "Daily/2026/04/04-16.md"
+    },
+    {
       "basename": "index",
       "path": "3. Resource/index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "타입의 목적",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/타입의 목적.md"
-    },
-    {
-      "basename": "객체와 타입",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/객체와 타입.md"
     }
   ],
   "omittedPaths": [],

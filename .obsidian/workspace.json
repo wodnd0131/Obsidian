@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/index.md",
+                "file": "Daily/2026/04/04-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "04-16"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "b9b93c605301b356",
   "lastOpenFiles": [
+    "3. Resource/index.md",
+    "Daily/2026/04/04-16.md",
     "1. Project/인생론/에니어그램에서 말하는 나태.md",
     "1. Project/SCG 코드 리뷰/Spring/무제.md",
     "1. Project/SCG 코드 리뷰/Spring",
@@ -239,7 +241,6 @@
     "무제.base",
     "체크박스 사용법.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/3주차/로또 게임 요구 사항.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/3주차/1단계 힌트에 관하여.md",
     "1. Project/독서/일반 도서",
     "1. Project/독서/전공 도서",
     "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
