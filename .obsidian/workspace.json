@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/AI/MCP.md",
+                "file": "1. Project/AI/0. MCP (Model Context Protocol).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MCP"
+              "title": "0. MCP (Model Context Protocol)"
             }
           }
         ]
@@ -98,7 +98,7 @@
       {
         "id": "a9ba36cb23a231c4",
         "type": "tabs",
-        "dimension": 74.87437185929649,
+        "dimension": 49.87437185929649,
         "children": [
           {
             "id": "b3ce4889b64b3f8a",
@@ -136,7 +136,7 @@
       {
         "id": "d3528216916afc7f",
         "type": "tabs",
-        "dimension": 25.125628140703515,
+        "dimension": 50.12562814070351,
         "children": [
           {
             "id": "18f0845905970fea",
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 538.5,
+    "width": 310.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -206,10 +206,11 @@
   },
   "active": "430ab4a345d87619",
   "lastOpenFiles": [
+    "1. Project/자료구조 - 자바",
     "1. Project/AI/Cowork.md",
     "1. Project/AI/하네스.md",
     "1. Project/AI/Skill & hook.md",
-    "1. Project/AI/MCP.md",
+    "1. Project/AI/0. MCP (Model Context Protocol).md",
     "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고",
     "1. Project/AI",
@@ -247,16 +248,15 @@
     "Daily/2026/04/04-13.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 비타.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 메이.md",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",
     "Repository/이갓지트럼프.jpg",
-    "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
-    "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
-    "1. Project/독서/전공 도서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
+    "2. Area/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
+    "2. Area/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
+    "2. Area/독서/전공 도서/객체지향의 오해와 진실/4.역할,협력,책임.canvas",
     "1. Project/우아한 테크 코스/Level. 1/무제.canvas",
-    "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
+    "2. Area/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas",
     "Pasted image 20241218104829.png",
     "무제 파일 1.canvas",
     "무제 파일 3.canvas",

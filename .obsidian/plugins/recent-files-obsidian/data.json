@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "MCP",
-      "path": "1. Project/AI/MCP.md"
+      "basename": "0. MCP (Model Context Protocol)",
+      "path": "1. Project/AI/0. MCP (Model Context Protocol).md"
     },
     {
       "basename": "Cowork",
@@ -150,7 +150,7 @@
     },
     {
       "basename": "인상적인 글귀 모음",
-      "path": "1. Project/독서/전공 도서/인상적인 글귀 모음.md"
+      "path": "2. Area/독서/전공 도서/인상적인 글귀 모음.md"
     },
     {
       "basename": "README",
@@ -170,11 +170,11 @@
     },
     {
       "basename": "객체 지향의 다양한 측면",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
+      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/객체 지향의 다양한 측면.md"
     },
     {
       "basename": "실세계를 모방한다는 은유",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
+      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/실세계를 모방한다는 은유.md"
     },
     {
       "basename": "계산기 - 단위 테스트",
