@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "0. MCP (Model Context Protocol)",
-      "path": "1. Project/AI/0. MCP (Model Context Protocol).md"
+      "basename": "1. MCP (Model Context Protocol)",
+      "path": "1. Project/AI/1. MCP (Model Context Protocol).md"
+    },
+    {
+      "basename": "Request to MCP Chat",
+      "path": "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md"
+    },
+    {
+      "basename": "2. Streamable HTTP",
+      "path": "1. Project/AI/2. Streamable HTTP.md"
+    },
+    {
+      "basename": "0. Keyword",
+      "path": "1. Project/AI/0. Keyword.md"
     },
     {
       "basename": "Cowork",
@@ -19,10 +31,6 @@
     {
       "basename": "Scrum의 철학",
       "path": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md"
-    },
-    {
-      "basename": "Request to MCP Chat",
-      "path": "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md"
     },
     {
       "basename": "Purpose",
