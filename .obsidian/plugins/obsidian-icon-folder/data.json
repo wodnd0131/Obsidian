@@ -40,10 +40,10 @@
   "2. Area": "LiMap",
   "1. Project": "LiAlbum",
   "Repository": "LiImages",
-  "1. Project/우아한 테크 코스": "LiAnchor",
   "1. Project/독서": "LiAlbum",
   "Daily": "LiCalendar",
   "Templates": "LiStamp",
   "1. Project/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
-  "1. Project/인생론": "LiActivity"
+  "3. Resource/우아한 테크 코스": "LiAnchor",
+  "2. Area/인생론": "LiActivity"
 }

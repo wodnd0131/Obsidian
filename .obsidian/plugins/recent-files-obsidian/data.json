@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Use Jira",
+      "path": "1. Project/ProjectLikeMe/Use Jira.md"
+    },
+    {
+      "basename": "Pasted image 20260416104822",
+      "path": "Repository/Pasted image 20260416104822.png"
+    },
+    {
+      "basename": "Pasted image 20260411060233",
+      "path": "Repository/Pasted image 20260411060233.png"
+    },
+    {
+      "basename": "Pasted image 20260321090933",
+      "path": "Repository/Pasted image 20260321090933.png"
+    },
+    {
+      "basename": "Pasted image 20260321090839",
+      "path": "Repository/Pasted image 20260321090839.png"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/ProjectLikeMe/README.md"
+    },
+    {
+      "basename": "Index",
+      "path": "2. Area/Index.md"
+    },
+    {
       "basename": "04-16",
       "path": "Daily/2026/04/04-16.md"
     },
@@ -10,7 +38,7 @@
     },
     {
       "basename": "에니어그램에서 말하는 나태",
-      "path": "1. Project/인생론/에니어그램에서 말하는 나태.md"
+      "path": "2. Area/인생론/에니어그램에서 말하는 나태.md"
     },
     {
       "basename": "무제",
@@ -118,11 +146,11 @@
     },
     {
       "basename": "JUnit5",
-      "path": "1. Project/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
+      "path": "3. Resource/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
     },
     {
       "basename": "장기 - 메세징",
-      "path": "1. Project/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
+      "path": "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas"
     },
     {
       "basename": "자동차 경주 - 초간단 애플리케이션",
@@ -143,10 +171,6 @@
     {
       "basename": "README",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/README.md"
-    },
-    {
-      "basename": "Pasted image 20260321090933",
-      "path": "Repository/Pasted image 20260321090933.png"
     },
     {
       "basename": "학습 정리",
@@ -175,30 +199,6 @@
     {
       "basename": "역할, 책임, 협력",
       "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md"
-    },
-    {
-      "basename": "협력하는 객체들의 공동체",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/협력하는 객체들의 공동체.md"
-    },
-    {
-      "basename": "모방 관점과 실제 개발의 괴리",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/모방 관점과 실제 개발의 괴리.md"
-    },
-    {
-      "basename": "1.협력하는 객체들의 공동체",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas"
-    },
-    {
-      "basename": "3.타입과 추상화",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas"
-    },
-    {
-      "basename": "2.이상한 나라의 객체",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체.canvas"
-    },
-    {
-      "basename": "타입의 목적",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화/타입의 목적.md"
     }
   ],
   "omittedPaths": [],
