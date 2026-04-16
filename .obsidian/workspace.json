@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1a0b1ae460801561",
+        "id": "232316c785698902",
         "type": "tabs",
         "children": [
           {
-            "id": "32507a4ae3913d42",
+            "id": "e79fc741a3ca1a7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/ProjectLikeMe/Use Jira.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Use Jira"
+              "title": "README"
             }
           }
         ]
@@ -204,14 +204,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "32507a4ae3913d42",
+  "active": "e79fc741a3ca1a7c",
   "lastOpenFiles": [
+    "202604161131.md",
+    "무제 5.base",
+    "무제.base",
+    "무제 3.base",
+    "무제 4.base",
+    "무제 2.base",
+    "1. Project/ProjectLikeMe/Jira/무제 1.base",
+    "1. Project/ProjectLikeMe/Jira/무제.base",
+    "1. Project/ProjectLikeMe/Jira/Purpose.md",
+    "1. Project/ProjectLikeMe/README.md",
+    "1. Project/ProjectLikeMe/Jira/About Use Jira.md",
+    "1. Project/ProjectLikeMe/Jira",
+    "Repository/Use Jira.png",
+    "Repository/Use Jira-{{date}}-{{md5}}.png",
     "Repository/Pasted image 20260416104822.png",
     "Repository/Pasted image 20260411060233.png",
     "Repository/Pasted image 20260321090933.png",
     "Repository/Pasted image 20260321090839.png",
-    "1. Project/ProjectLikeMe/Use Jira.md",
-    "1. Project/ProjectLikeMe/README.md",
     "2. Area/Index.md",
     "Daily/2026/04/04-16.md",
     "1. Project/ProjectLikeMe",
@@ -220,17 +232,12 @@
     "1. Project/SCG 코드 리뷰/Spring/무제.md",
     "1. Project/SCG 코드 리뷰/Spring",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/MVC에 대해.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -2.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md",
     "Daily/2026/04/04-14.md",
     "Templates/DATE_TAMPLATE.md",
     "Daily/2026/04/04-06.md",
-    "무제 3.base",
-    "무제 2.base",
-    "무제 1.base",
     "Daily/2026/04/04-13.md",
-    "2. Area/인생론",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 비타.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 메이.md",
@@ -240,11 +247,6 @@
     "1. Project/SCG 코드 리뷰/4주차/코드 리뷰 포인트.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/3주차/README.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/3주차/질의응답.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/3주차/리뷰 가이드 라인.md",
-    "1. Project/SCG 코드 리뷰/OOP 기본/4주차",
-    "1. Project/SCG 코드 리뷰/OOP 기본/3주차/클로드 코드 기록.md",
-    "무제.base",
-    "1. Project/독서/일반 도서",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "Repository/객체지향의 사실과 오해_조영조.jpg",

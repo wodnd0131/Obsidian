@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Use Jira",
-      "path": "1. Project/ProjectLikeMe/Use Jira.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "202604161131",
+      "path": "202604161131.md"
+    },
+    {
+      "basename": "무제 1",
+      "path": "1. Project/ProjectLikeMe/Jira/무제 1.base"
+    },
+    {
+      "basename": "무제",
+      "path": "1. Project/ProjectLikeMe/Jira/무제.base"
+    },
+    {
+      "basename": "Purpose",
+      "path": "1. Project/ProjectLikeMe/Jira/Purpose.md"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/ProjectLikeMe/README.md"
+    },
+    {
+      "basename": "About Use Jira",
+      "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
     },
     {
       "basename": "Pasted image 20260416104822",
@@ -19,10 +43,6 @@
     {
       "basename": "Pasted image 20260321090839",
       "path": "Repository/Pasted image 20260321090839.png"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/ProjectLikeMe/README.md"
     },
     {
       "basename": "Index",
@@ -65,18 +85,6 @@
       "path": "Templates/DATE_TAMPLATE.md"
     },
     {
-      "basename": "무제 3",
-      "path": "무제 3.base"
-    },
-    {
-      "basename": "무제 2",
-      "path": "무제 2.base"
-    },
-    {
-      "basename": "무제 1",
-      "path": "무제 1.base"
-    },
-    {
       "basename": "README",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md"
     },
@@ -115,18 +123,6 @@
     {
       "basename": "SCG 코드 리뷰어",
       "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "무제",
-      "path": "무제.base"
-    },
-    {
-      "basename": "체크박스 사용법",
-      "path": "체크박스 사용법.md"
     },
     {
       "basename": "로또 게임 요구 사항",
@@ -175,30 +171,6 @@
     {
       "basename": "학습 정리",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/1주차/학습 정리.md"
-    },
-    {
-      "basename": "Index",
-      "path": "1. Project/Index.md"
-    },
-    {
-      "basename": "Index",
-      "path": "4. Archive/Index.md"
-    },
-    {
-      "basename": "객체지향의 사실과 오해_조영조",
-      "path": "Repository/객체지향의 사실과 오해_조영조.jpg"
-    },
-    {
-      "basename": "이갓지트럼프",
-      "path": "Repository/이갓지트럼프.jpg"
-    },
-    {
-      "basename": "역할",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할.md"
-    },
-    {
-      "basename": "역할, 책임, 협력",
-      "path": "1. Project/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체/역할, 책임, 협력.md"
     }
   ],
   "omittedPaths": [],
