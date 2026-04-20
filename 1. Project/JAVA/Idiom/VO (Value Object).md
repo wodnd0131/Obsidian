@@ -1,4 +1,4 @@
-#VO #값_객체 #Value_Object #Status/완료 
+#Java/Idiom  #Status/완료 
 ### 핵심 특성
 
 값 객체는 **식별자가 아닌 값으로 동등성을 판단**하는 객체다.
