@@ -1,6 +1,7 @@
 #CS/Exception/Runtime #Status/진행
 
 # RunTimeException
+[공식 문서](https://docs.oracle.com/javase/8/docs/api/java/lang/RuntimeException.html)
 
 ## ArithmeticException
 정수를 0으로 나눌 때 발생하는 런타임 예외예요.

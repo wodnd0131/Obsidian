@@ -74,5 +74,21 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "obsidian-scroll-to-top-plugin:scroll-to-bottom": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-scroll-to-top-plugin:scroll-to-top": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
   ]
 }
