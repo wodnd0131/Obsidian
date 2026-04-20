@@ -2,7 +2,27 @@
   "recentFiles": [
     {
       "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/JAVA/Idiom/동등성(Equality) vs 동일성(Identity).md"
+      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
+    },
+    {
+      "basename": "Primitive Vs Wrapper",
+      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
+    },
+    {
+      "basename": "JVM 참조(Reference)",
+      "path": "1. Project/JAVA/CS/JVM/JVM 참조(Reference).md"
+    },
+    {
+      "basename": "JVM",
+      "path": "1. Project/JAVA/CS/JVM/JVM.md"
+    },
+    {
+      "basename": "04-20",
+      "path": "Daily/2026/04/04-20.md"
+    },
+    {
+      "basename": "LSP (리스코프 치환 원칙)",
+      "path": "1. Project/JAVA/OOP/LSP (리스코프 치환 원칙).md"
     },
     {
       "basename": "VO (Value Object)",
@@ -27,10 +47,6 @@
     {
       "basename": "Singleton",
       "path": "1. Project/JAVA/Pattern/Singleton.md"
-    },
-    {
-      "basename": "04-20",
-      "path": "Daily/2026/04/04-20.md"
     },
     {
       "basename": "팩토리 패턴 (Factory Pattern)",
@@ -177,28 +193,12 @@
       "path": "1. Project/JAVA/OOP/OOP.md"
     },
     {
-      "basename": "Primitive Vs Wrapper",
-      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
-    },
-    {
       "basename": "About Use Jira",
       "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
     },
     {
       "basename": "README",
       "path": "1. Project/ProjectLikeMe/README.md"
-    },
-    {
-      "basename": "Test Fixture",
-      "path": "1. Project/JAVA/Test/Test Fixture.md"
-    },
-    {
-      "basename": "Scrum의 철학",
-      "path": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md"
-    },
-    {
-      "basename": "Java Collections Framework",
-      "path": "1. Project/JAVA/CS/자료구조/Java Collections Framework.md"
     }
   ],
   "omittedPaths": [],
