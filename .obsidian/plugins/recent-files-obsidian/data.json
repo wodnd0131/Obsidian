@@ -5,124 +5,20 @@
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/1주차 리뷰 포인트 정리.md"
     },
     {
-      "basename": "JVM",
-      "path": "1. Project/자바/JVM.md"
+      "basename": "캡슐화",
+      "path": "1. Project/JAVA/OOP/캡슐화.md"
     },
     {
-      "basename": "Scrum의 철학",
-      "path": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md"
+      "basename": "캡슐화(encapsulation)",
+      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
     },
     {
-      "basename": "Request to MCP Chat",
-      "path": "1. Project/ProjectLikeMe/Jira/Request to MCP Chat.md"
+      "basename": "AssertJ",
+      "path": "1. Project/JAVA/Test/AssertJ.md"
     },
     {
-      "basename": "About Use Jira",
-      "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/ProjectLikeMe/Jira/README.md"
-    },
-    {
-      "basename": "나의 주차별 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "4주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/4주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "3주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/3주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/2주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/README.md"
-    },
-    {
-      "basename": "무제",
-      "path": "무제.base"
-    },
-    {
-      "basename": "1. MCP (Model Context Protocol)",
-      "path": "1. Project/AI/1. MCP (Model Context Protocol).md"
-    },
-    {
-      "basename": "2. Streamable HTTP",
-      "path": "1. Project/AI/2. Streamable HTTP.md"
-    },
-    {
-      "basename": "0. Keyword",
-      "path": "1. Project/AI/0. Keyword.md"
-    },
-    {
-      "basename": "Cowork",
-      "path": "1. Project/AI/Cowork.md"
-    },
-    {
-      "basename": "하네스",
-      "path": "1. Project/AI/하네스.md"
-    },
-    {
-      "basename": "Skill & hook",
-      "path": "1. Project/AI/Skill & hook.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/ProjectLikeMe/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "202604161131",
-      "path": "202604161131.md"
-    },
-    {
-      "basename": "Pasted image 20260416104822",
-      "path": "Repository/Pasted image 20260416104822.png"
-    },
-    {
-      "basename": "Pasted image 20260411060233",
-      "path": "Repository/Pasted image 20260411060233.png"
-    },
-    {
-      "basename": "Pasted image 20260321090933",
-      "path": "Repository/Pasted image 20260321090933.png"
-    },
-    {
-      "basename": "Pasted image 20260321090839",
-      "path": "Repository/Pasted image 20260321090839.png"
-    },
-    {
-      "basename": "Index",
-      "path": "2. Area/Index.md"
-    },
-    {
-      "basename": "04-16",
-      "path": "Daily/2026/04/04-16.md"
-    },
-    {
-      "basename": "index",
-      "path": "3. Resource/index.md"
-    },
-    {
-      "basename": "에니어그램에서 말하는 나태",
-      "path": "2. Area/인생론/에니어그램에서 말하는 나태.md"
-    },
-    {
-      "basename": "무제",
-      "path": "1. Project/SCG 코드 리뷰/Spring/무제.md"
-    },
-    {
-      "basename": "MVC에 대해",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/MVC에 대해.md"
+      "basename": "Junit",
+      "path": "1. Project/JAVA/Test/Junit.md"
     },
     {
       "basename": "질의응답 -2",
@@ -133,72 +29,176 @@
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md"
     },
     {
-      "basename": "04-14",
-      "path": "Daily/2026/04/04-14.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/README.md"
-    },
-    {
-      "basename": "이전 리뷰 살펴보기 - 비타",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 비타.md"
-    },
-    {
-      "basename": "이전 리뷰 살펴보기 - 메이",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/이전 리뷰 살펴보기 - 메이.md"
-    },
-    {
-      "basename": "테스트 단위에 대해",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/테스트 단위에 대해.md"
-    },
-    {
-      "basename": "OOP 지식 서핑하기",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/OOP 지식 서핑하기.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/README.md"
-    },
-    {
       "basename": "질의응답",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/질의응답.md"
     },
     {
-      "basename": "리뷰 가이드 라인",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/리뷰 가이드 라인.md"
+      "basename": "3주차 OOP 기반 리뷰 가이드",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/3주차 OOP 기반 리뷰 가이드.md"
     },
     {
-      "basename": "클로드 코드 기록",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/클로드 코드 기록.md"
+      "basename": "SCG OOP 리뷰 포인트",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/SCG OOP 리뷰 포인트.md"
     },
     {
-      "basename": "SCG 코드 리뷰어",
-      "path": "1. Project/SCG 코드 리뷰/SCG 코드 리뷰어.md"
+      "basename": "Static",
+      "path": "1. Project/JAVA/CS/Static.md"
     },
     {
-      "basename": "로또 게임 요구 사항",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/로또 게임 요구 사항.md"
+      "basename": "No newline at end of file (EoF)",
+      "path": "1. Project/JAVA/Anti Pattern/No newline at end of file (EoF).md"
     },
     {
-      "basename": "1단계 힌트에 관하여",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/1단계 힌트에 관하여.md"
+      "basename": "Given-When-Then",
+      "path": "1. Project/JAVA/Test/Given-When-Then.md"
     },
     {
-      "basename": "인상적인 글귀 모음",
-      "path": "2. Area/독서/전공 도서/인상적인 글귀 모음.md"
+      "basename": "RunTimeException",
+      "path": "1. Project/JAVA/CS/RunTimeException.md"
+    },
+    {
+      "basename": "리뷰 살펴보기 - 메이",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/리뷰 살펴보기 - 메이.md"
+    },
+    {
+      "basename": "OOP",
+      "path": "1. Project/JAVA/OOP/OOP.md"
+    },
+    {
+      "basename": "TDD (Test-Driven Development)",
+      "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
+    },
+    {
+      "basename": "접근 제어자 (Access Modifier)",
+      "path": "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md"
+    },
+    {
+      "basename": "Primitive Vs Wrapper",
+      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
+    },
+    {
+      "basename": "About Use Jira",
+      "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
     },
     {
       "basename": "README",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/2주차/README.md"
+      "path": "1. Project/ProjectLikeMe/README.md"
     },
     {
-      "basename": "JUnit5",
-      "path": "3. Resource/우아한 테크 코스/Level. 1/JUnit과 AssertJ/JUnit/JUnit5.md"
+      "basename": "Test Fixture",
+      "path": "1. Project/JAVA/Test/Test Fixture.md"
+    },
+    {
+      "basename": "Test Unit",
+      "path": "1. Project/JAVA/Test/Test Unit.md"
+    },
+    {
+      "basename": "Scrum의 철학",
+      "path": "1. Project/ProjectLikeMe/Jira/Scrum의 철학.md"
+    },
+    {
+      "basename": "Java Collections Framework",
+      "path": "1. Project/JAVA/CS/자료구조/Java Collections Framework.md"
+    },
+    {
+      "basename": "Enum Class",
+      "path": "1. Project/JAVA/CS/자료구조/Enum Class.md"
+    },
+    {
+      "basename": "Collections Func",
+      "path": "1. Project/JAVA/CS/자료구조/Collections Func.md"
+    },
+    {
+      "basename": "Constants",
+      "path": "1. Project/JAVA/Anti Pattern/Constants.md"
+    },
+    {
+      "basename": "정적 팩토리 메서드",
+      "path": "1. Project/JAVA/Anti Pattern/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "SVN",
+      "path": "1. Project/Git/SVN.md"
+    },
+    {
+      "basename": "Skill & hook",
+      "path": "1. Project/AI/Skill & hook.md"
+    },
+    {
+      "basename": "README",
+      "path": "1. Project/AI/README.md"
+    },
+    {
+      "basename": "MCP (Model Context Protocol)",
+      "path": "1. Project/AI/MCP (Model Context Protocol).md"
+    },
+    {
+      "basename": "JVM 최적화",
+      "path": "1. Project/JAVA/Optimization/JVM 최적화.md"
+    },
+    {
+      "basename": "In-Memory DB",
+      "path": "1. Project/JAVA/Optimization/In-Memory DB.md"
+    },
+    {
+      "basename": "SSE",
+      "path": "1. Project/Network/SSE.md"
+    },
+    {
+      "basename": "HTTP&HTTPS",
+      "path": "1. Project/Network/HTTP&HTTPS.md"
+    },
+    {
+      "basename": "Clean Code",
+      "path": "1. Project/JAVA/Clean Code.md"
+    },
+    {
+      "basename": "VO (Value Object)",
+      "path": "1. Project/JAVA/OOP/VO (Value Object).md"
+    },
+    {
+      "basename": "Tell Don't Ask",
+      "path": "1. Project/JAVA/OOP/Tell Don't Ask.md"
+    },
+    {
+      "basename": "SRP (단일 책임 원칙)",
+      "path": "1. Project/JAVA/OOP/SRP (단일 책임 원칙).md"
+    },
+    {
+      "basename": "MVC (Model-View-Controller)",
+      "path": "1. Project/JAVA/OOP/MVC (Model-View-Controller).md"
+    },
+    {
+      "basename": "Anemic vs Rich Domain Model",
+      "path": "1. Project/JAVA/OOP/Anemic vs Rich Domain Model.md"
+    },
+    {
+      "basename": "일급 컬렉션 (First-Class Collection)",
+      "path": "1. Project/JAVA/OOP/일급 컬렉션 (First-Class Collection).md"
+    },
+    {
+      "basename": "원시값 포장 (Primitive Obsession)",
+      "path": "1. Project/JAVA/OOP/원시값 포장 (Primitive Obsession).md"
+    },
+    {
+      "basename": "불변 객체(Immutable)",
+      "path": "1. Project/JAVA/OOP/불변 객체(Immutable).md"
+    },
+    {
+      "basename": "JVM",
+      "path": "1. Project/JAVA/CS/JVM.md"
+    },
+    {
+      "basename": "나의 주차별 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/나의 주차별 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "Streamable HTTP",
+      "path": "1. Project/Network/Streamable HTTP.md"
+    },
+    {
+      "basename": "04-16",
+      "path": "Daily/2026/04/04-16.md"
     }
   ],
   "omittedPaths": [],

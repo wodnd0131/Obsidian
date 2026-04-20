@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNetwork",
+      "FabJava",
+      "SiGit",
       "LiConstruction",
-      "SiRobotframework",
-      "🤖",
-      "LiAudioLines",
-      "LiAlarmCheck"
+      "SiRobotframework"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,7 +47,9 @@
   "1. Project/ProjectLikeMe": "LiAlarmCheck",
   "1. Project/SCG 코드 리뷰": "LiAudioLines",
   "1. Project/AI": "SiRobotframework",
-  "1. Project/자료구조 - 자바": "LiConstruction",
   "2. Area/독서": "LiAlbum",
-  "2. Area/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup"
+  "2. Area/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
+  "1. Project/Git": "SiGit",
+  "1. Project/JAVA": "FabJava",
+  "1. Project/Network": "LiNetwork"
 }

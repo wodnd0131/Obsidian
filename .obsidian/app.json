@@ -5,7 +5,9 @@
   "newFileLocation": "current",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "Repository",
-  "focusNewTab": true,
+  "focusNewTab": false,
   "showUnsupportedFiles": false,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "defaultViewMode": "source",
+  "showLineNumber": false
 }
