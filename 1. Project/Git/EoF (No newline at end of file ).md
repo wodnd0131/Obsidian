@@ -1,4 +1,4 @@
-#Java/Anti-Pattern #Status/완료 
+#Java/Idiom #Status/완료 
 
 ### 뭔가요?
 

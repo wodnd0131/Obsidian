@@ -1,7 +1,12 @@
-#Java/Anti-Pattern #Status/진행
+#Java/Idiom  #Status/완료 
 
 ---
 
+정팩메 만드는 기준은
+`특별한` 경우
+기본 생성자로 표현이 어렵다고 느껴질 때 사용한다.
+
+*상속 불가 문제는 실은 **장점으로 볼 수도 있다** — [[../OOP/상속|상속]]보다 컴포지션을 유도하기 때문. 
 # 1. Problem First
 
 생성자만 있을 때 어떤 고통이 생기는가.
@@ -76,7 +81,7 @@ public class LottoNumber {
 Bloch이 제시한 5가지 장점:
 
 1. 이름을 가질 수 있다
-2. 호출마다 새 인스턴스를 생성하지 않아도 된다
+2. 호출마다 새 인스턴스를 생성하지 않아도 된다 (캐싱 가능)
 3. 반환 타입의 하위 타입 객체를 반환할 수 있다
 4. 입력 매개변수에 따라 다른 클래스의 객체를 반환할 수 있다
 5. 반환할 객체의 클래스가 작성 시점에 없어도 된다
@@ -108,7 +113,8 @@ Bloch이 제시한 5가지 장점:
 | 의도 표현      | 불가       | 가능              |
 | 하위 타입 반환   | 불가       | 가능              |
 
-상속 불가 문제는 실은 **장점으로 볼 수도 있다** — 상속보다 컴포지션을 유도하기 때문. Effective Java Item 18("상속보다 컴포지션")과 맥락이 이어진다.
+상속 불가 문제는 실은 **장점으로 볼 수도 있다** — 상속보다 컴포지션을 유도하기 때문. 
+Effective Java Item 18("상속보다 컴포지션")과 맥락이 이어진다.
 
 ---
 
@@ -200,16 +206,16 @@ Lotto.withNumbers(numbers)   // 명시적 의도
 
 ---
 ---
-## 정적 팩토리 메서드 vs 정적 팩토리 클래스
+## 정적 팩토리 메서드 vs 정적 팩토리 클래스(생성자 Util 클래스)
 
 ---
 
 ### 먼저 용어 정리
 
-||위치|예시|
-|---|---|---|
-|**정적 팩토리 메서드**|생성 대상 클래스 내부|`LottoNumber.of(7)`|
-|**정적 팩토리 클래스**|별도 유틸 클래스|`LottoFactory.createNumber(7)`|
+|                | 위치           | 예시                             |
+| -------------- | ------------ | ------------------------------ |
+| **정적 팩토리 메서드** | 생성 대상 클래스 내부 | `LottoNumber.of(7)`            |
+| **정적 팩토리 클래스** | 별도 유틸 클래스    | `LottoFactory.createNumber(7)` |
 
 GoF _Design Patterns_의 **Factory Method 패턴**은 또 다르다 — 인스턴스 메서드, 상속 기반. Bloch의 Item 1과 GoF의 Factory Method는 이름만 비슷하고 다른 개념이다. 이 혼동이 논쟁의 출발점 중 하나다.
 
@@ -320,11 +326,15 @@ public class TestLottoGeneratorFactory implements LottoGeneratorFactory {
 
 ### 커뮤니티 논쟁
 
-Stack Overflow에서 반복적으로 올라오는 질문: _"Should factory methods be in a separate class or in the class itself?"_
+Stack Overflow에서 반복적으로 올라오는 질문: 
+_"Should factory methods be in a separate class or in the class itself?"_
 
 높은 투표를 받은 답변들의 공통된 결론:
 
-> 생성 로직이 단순하면 → 대상 클래스 내부 정적 팩토리 메서드 생성 로직이 복잡하거나 외부 의존성이 필요하면 → 별도 팩토리 클래스
+> 생성 로직이 단순하면 
+> → 대상 클래스 내부 
+> 정적 팩토리 메서드 생성 로직이 복잡하거나 외부 의존성이 필요하면 
+> → 별도 팩토리 클래스
 
 공식 근거로는 Bloch Item 1이 "대상 클래스 내부"를 기본으로 설명하고 있고, 별도 팩토리 클래스를 권장하는 공식 문서는 찾지 못했다. 커뮤니티 관행 수준.
 
@@ -336,3 +346,9 @@ Stack Overflow에서 반복적으로 올라오는 질문: _"Should factory metho
 - **정적 팩토리 클래스** — 안티패턴은 아니지만 기본값이 되면 안 됨. 복잡한 생성 로직이 있을 때만 정당화됨.
 
 구분 기준은 하나다: **생성 책임이 대상 클래스에 자연스럽게 속하는가.**
+
+---
+
+
+@ 참고
+> [[../Pattern/팩토리 패턴 (Factory Pattern)|팩토리 패턴 (Factory Pattern)]]
