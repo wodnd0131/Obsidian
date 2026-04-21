@@ -1,32 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "TLAB (Thread-Local Allocation Buffer)",
+      "path": "1. Project/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
+    },
+    {
+      "basename": "JVM Heap",
+      "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
+    },
+    {
       "basename": "04-21",
       "path": "Daily/2026/04/04-21.md"
     },
     {
-      "basename": "04-20",
-      "path": "Daily/2026/04/04-20.md"
-    },
-    {
-      "basename": "불변 객체(Immutable)",
-      "path": "1. Project/JAVA/Idiom/불변 객체(Immutable).md"
-    },
-    {
-      "basename": "Primitive Vs Wrapper",
-      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
+      "basename": "Weak Generational Hypothesis",
+      "path": "1. Project/JAVA/CS/JVM/GC/Weak Generational Hypothesis.md"
     },
     {
       "basename": "JVM 참조(Reference)",
       "path": "1. Project/JAVA/CS/JVM/JVM 참조(Reference).md"
     },
     {
-      "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
+      "basename": "private 메서드를 테스트해야 하나",
+      "path": "1. Project/JAVA/Test/private 메서드를 테스트해야 하나.md"
     },
     {
       "basename": "JVM",
       "path": "1. Project/JAVA/CS/JVM/JVM.md"
+    },
+    {
+      "basename": "Entity는 가변이 자연스러운가",
+      "path": "1. Project/JAVA/OOP/Entity는 가변이 자연스러운가.md"
+    },
+    {
+      "basename": "불변 객체(Immutable)",
+      "path": "1. Project/JAVA/Idiom/불변 객체(Immutable).md"
+    },
+    {
+      "basename": "HashCode",
+      "path": "1. Project/JAVA/CS/JVM/HashCode.md"
+    },
+    {
+      "basename": "동등성(Equality) vs 동일성(Identity)",
+      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
+    },
+    {
+      "basename": "04-20",
+      "path": "Daily/2026/04/04-20.md"
+    },
+    {
+      "basename": "Primitive Vs Wrapper",
+      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
     },
     {
       "basename": "LSP (리스코프 치환 원칙)",
@@ -121,10 +145,6 @@
       "path": "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md"
     },
     {
-      "basename": "private 메서드를 테스트해야 하나",
-      "path": "1. Project/JAVA/Test/private 메서드를 테스트해야 하나.md"
-    },
-    {
       "basename": "TDD (Test-Driven Development)",
       "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
     },
@@ -175,30 +195,6 @@
     {
       "basename": "질의응답 -1",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md"
-    },
-    {
-      "basename": "질의응답",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/질의응답.md"
-    },
-    {
-      "basename": "3주차 OOP 기반 리뷰 가이드",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/3주차/3주차 OOP 기반 리뷰 가이드.md"
-    },
-    {
-      "basename": "SCG OOP 리뷰 포인트",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/SCG OOP 리뷰 포인트.md"
-    },
-    {
-      "basename": "Given-When-Then",
-      "path": "1. Project/JAVA/Test/Given-When-Then.md"
-    },
-    {
-      "basename": "리뷰 살펴보기 - 메이",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/리뷰 회고/리뷰 살펴보기 - 메이.md"
-    },
-    {
-      "basename": "OOP",
-      "path": "1. Project/JAVA/OOP/OOP.md"
     }
   ],
   "omittedPaths": [],
