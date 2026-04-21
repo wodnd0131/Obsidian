@@ -1,5 +1,5 @@
 #CS/JVM #Status/완료 
-## 1. Problem First
+# 1. Problem First
 
 ```java
 LottoNumber a = new LottoNumber(5);
@@ -9,11 +9,13 @@ a = new LottoNumber(10);
 System.out.println(b.getValue()); // 5? 10?
 ```
 
-"b = a로 복사했으니 a가 바뀌면 b도 바뀌는 거 아닌가?" — 참조가 무엇인지 모르면 이 질문에 답할 수 없다. GC, `==`, 메모리 누수 전부 참조 개념 위에 서 있다.
+"b = a로 복사했으니 a가 바뀌면 b도 바뀌는 거 아닌가?" 
+— 참조가 무엇인지 모르면 이 질문에 답할 수 없다. 
+GC, `==`, 메모리 누수 전부 참조 개념 위에 서 있다.
 
 ---
 
-## 2. Mechanics
+# 2. Mechanics
 
 ### 변수는 객체가 아니다
 
@@ -26,9 +28,9 @@ LottoNumber a = new LottoNumber(5);
 ```
 Stack                    Heap
 ┌─────────────┐         ┌──────────────────┐
-│ a │ 0x4A2F  │────────▶│ LottoNumber      │
+│ a      │ 0x4A2F   │────────▶│ LottoNumber      │
 └─────────────┘         │   value = 5      │
-                        └──────────────────┘
+                    └──────────────────┘
 ```
 
 - `new LottoNumber(5)` → 힙에 객체 할당, 주소(`0x4A2F`) 반환
@@ -140,7 +142,8 @@ a = new LottoNumber(10);            // a가 새 객체를 가리킴
 // → GC 수거 대상
 ```
 
-GC는 **어떤 참조도 가리키지 않는 객체**를 수거한다. 참조 개수가 0이 되는 순간 수거 대상이 된다. 이것이 **도달 가능성(reachability)** 기반 GC의 핵심 원리다.
+GC는 **어떤 참조도 가리키지 않는 객체**를 수거한다. 참조 개수가 0이 되는 순간 수거 대상이 된다. 
+이것이 **도달 가능성(reachability)** 기반 GC의 핵심 원리다.
 
 ---
 
@@ -187,7 +190,9 @@ List<LottoNumber> t = lottoTickets.getTickets();
 t.clear(); // LottoTickets 내부 상태가 파괴됨
 ```
 
-두 변수가 같은 객체를 가리키는 **aliasing** 문제. 방어적 복사(`Collections.unmodifiableList`, `new ArrayList<>(tickets)`)로 막아야 한다. 비용은 복사 오버헤드.
+두 변수가 같은 객체를 가리키는 **aliasing** 문제. 
+방어적 복사(`Collections.unmodifiableList`, `new ArrayList<>(tickets)`)로 막아야 한다. 
+비용은 복사 오버헤드.
 
 **GC 압박 — 참조를 오래 들고 있으면**
 
@@ -198,7 +203,8 @@ private static LottoResult lastResult; // 오래된 참조를 계속 보유
 // GC가 수거 못함 → 메모리 누수
 ```
 
-정적 필드나 long-lived 객체가 참조를 들고 있으면 GC 수거가 안 된다. `WeakReference`로 완화하거나, 명시적으로 null 처리가 필요.
+정적 필드나 long-lived 객체가 참조를 들고 있으면 GC 수거가 안 된다. 
+`WeakReference`로 완화하거나, 명시적으로 null 처리가 필요.
 
 ---
 

@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
+      "basename": "04-20",
+      "path": "Daily/2026/04/04-20.md"
+    },
+    {
+      "basename": "불변 객체(Immutable)",
+      "path": "1. Project/JAVA/Idiom/불변 객체(Immutable).md"
     },
     {
       "basename": "Primitive Vs Wrapper",
@@ -13,12 +17,12 @@
       "path": "1. Project/JAVA/CS/JVM/JVM 참조(Reference).md"
     },
     {
-      "basename": "JVM",
-      "path": "1. Project/JAVA/CS/JVM/JVM.md"
+      "basename": "동등성(Equality) vs 동일성(Identity)",
+      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
     },
     {
-      "basename": "04-20",
-      "path": "Daily/2026/04/04-20.md"
+      "basename": "JVM",
+      "path": "1. Project/JAVA/CS/JVM/JVM.md"
     },
     {
       "basename": "LSP (리스코프 치환 원칙)",
@@ -195,10 +199,6 @@
     {
       "basename": "About Use Jira",
       "path": "1. Project/ProjectLikeMe/Jira/About Use Jira.md"
-    },
-    {
-      "basename": "README",
-      "path": "1. Project/ProjectLikeMe/README.md"
     }
   ],
   "omittedPaths": [],

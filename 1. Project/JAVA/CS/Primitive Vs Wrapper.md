@@ -1,7 +1,4 @@
 #CS/Type/Primitive #CS/Type/Wrapper #Status/진행
-
-
-
 ## primitive가 값 그 자체인 이유
 
 ### JVM 타입 시스템의 설계 결정
@@ -74,7 +71,8 @@ Integer 객체 메모리 레이아웃 (OpenJDK 64bit 기준)
 
 **JVM Spec §2.3**
 
-> "The Java Virtual Machine operates on two kinds of types: primitive types and reference types." "Primitive type variables hold primitive values." (JVM은 두 종류의 타입을 다룬다. primitive 타입 변수는 primitive 값을 직접 보유한다.)
+> "The Java Virtual Machine operates on two kinds of types: primitive types and reference types." "Primitive type variables hold primitive values." 
+> (JVM은 두 종류의 타입을 다룬다. primitive 타입 변수는 primitive 값을 직접 보유한다.)
 
 즉 스펙 레벨에서 primitive는 "값을 직접 보유"하도록 정의되어 있다. 참조를 거치지 않는 게 언어 설계의 일부다.
 
@@ -82,7 +80,8 @@ Integer 객체 메모리 레이아웃 (OpenJDK 64bit 기준)
 
 ### 결국 트레이드오프
 
-primitive가 값 그 자체인 건 성능을 위한 선택이고, 그 대가로 **객체가 아니다** — `null` 불가, `equals()` 없음, 제네릭 불가(`List<int>` 안 됨).
+primitive가 값 그 자체인 건 성능을 위한 선택이고, 그 대가로 **객체가 아니다** 
+— `null` 불가, `equals()` 없음, 제네릭 불가(`List<int>` 안 됨).
 
 그래서 박싱이 존재하는 거고, 박싱하는 순간 힙에 올라가면서 참조 문제가 다시 생기는 것.
 
@@ -210,23 +209,26 @@ for (int i = 0; i < 1_000_000; i++) {
 
 **JLS §5.1.7 — Boxing Conversion**
 
-> "If the value p being boxed is an int between -128 and 127 inclusive, let r1 and r2 be the results of any two boxing conversions of p. It is always the case that r1 == r2." (박싱되는 int 값이 -128~127 사이면 동일한 참조를 반환하도록 보장된다.)
+> "If the value p being boxed is an int between -128 and 127 inclusive, let r1 and r2 be the results of any two boxing conversions of p. It is always the case that r1 == r2." 
+> (박싱되는 int 값이 -128~127 사이면 동일한 참조를 반환하도록 보장된다.)
 
 **JLS §5.1.8 — Unboxing Conversion**
 
-> "If r is a reference of type Integer, then unboxing conversion converts r into r.intValue()" (Integer 타입 참조 r의 unboxing은 r.intValue()로 변환된다.)
+> "If r is a reference of type Integer, then unboxing conversion converts r into r.intValue()" 
+> (Integer 타입 참조 r의 unboxing은 r.intValue()로 변환된다.)
 
 → null인 r에 `.intValue()` 호출 → NPE 발생 근거.
 
 **Effective Java 3rd Edition, Item 61**
 
-> "Prefer primitive types to boxed primitives." "When your program does mixed-type computations involving boxed and unboxed primitives, it does unboxing, and if a null object reference is unboxed, you get a NullPointerException." (primitive를 Wrapper보다 우선하라. 박싱/언박싱이 섞인 연산에서 null을 언박싱하면 NPE가 발생한다.)
+> "Prefer primitive types to boxed primitives." "When your program does mixed-type computations involving boxed and unboxed primitives, it does unboxing, and if a null object reference is unboxed, you get a NullPointerException." 
+> (primitive를 Wrapper보다 우선하라. 박싱/언박싱이 섞인 연산에서 null을 언박싱하면 NPE가 발생한다.)
 
 ---
 
 ## 4. 트레이드오프
 
-||Primitive|Wrapper|
+| |Primitive|Wrapper|
 |---|---|---|
 |메모리|스택, 값만|힙, 헤더 포함|
 |성능|GC 없음|할당/수거 비용|
@@ -315,5 +317,3 @@ Primitive vs Wrapper
             └── VO 보일러플레이트 제거
                 primitive 필드를 가진 불변 객체를 간결하게
 ```
-
-다음으로 팔 곳: **원시값 포장**. `int`를 그냥 쓰는 것과 `LottoNumber`로 감싸는 것의 차이 — Wrapper와 전혀 다른 목적이다.
