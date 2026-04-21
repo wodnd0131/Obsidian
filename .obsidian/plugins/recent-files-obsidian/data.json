@@ -1,32 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "TLAB (Thread-Local Allocation Buffer)",
-      "path": "1. Project/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
+      "basename": "GC (Garbage Collection)",
+      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
     },
     {
       "basename": "JVM Heap",
       "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
     },
     {
-      "basename": "04-21",
-      "path": "Daily/2026/04/04-21.md"
+      "basename": "Java 실행 흐름",
+      "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
+    },
+    {
+      "basename": "HotSpot",
+      "path": "1. Project/JAVA/CS/JVM/HotSpot.md"
+    },
+    {
+      "basename": "HashCode",
+      "path": "1. Project/JAVA/CS/JVM/HashCode.md"
+    },
+    {
+      "basename": "컴파일러와 JIT 컴파일",
+      "path": "1. Project/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
+    },
+    {
+      "basename": "동등성(Equality) vs 동일성(Identity)",
+      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
     },
     {
       "basename": "Weak Generational Hypothesis",
       "path": "1. Project/JAVA/CS/JVM/GC/Weak Generational Hypothesis.md"
     },
     {
-      "basename": "JVM 참조(Reference)",
-      "path": "1. Project/JAVA/CS/JVM/JVM 참조(Reference).md"
+      "basename": "TLAB (Thread-Local Allocation Buffer)",
+      "path": "1. Project/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
     },
     {
-      "basename": "private 메서드를 테스트해야 하나",
-      "path": "1. Project/JAVA/Test/private 메서드를 테스트해야 하나.md"
+      "basename": "CAS (Compare-And-Swap)",
+      "path": "1. Project/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md"
+    },
+    {
+      "basename": "자바는 어떻게 실행되는가",
+      "path": "1. Project/JAVA/CS/자바는 어떻게 실행되는가.md"
+    },
+    {
+      "basename": "Java의 참조 (Reference)",
+      "path": "1. Project/JAVA/CS/Java의 참조 (Reference).md"
+    },
+    {
+      "basename": "접근 제어자 (Access Modifier)",
+      "path": "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md"
     },
     {
       "basename": "JVM",
       "path": "1. Project/JAVA/CS/JVM/JVM.md"
+    },
+    {
+      "basename": "04-21",
+      "path": "Daily/2026/04/04-21.md"
+    },
+    {
+      "basename": "Interpreter",
+      "path": "1. Project/JAVA/CS/CPU/Interpreter.md"
+    },
+    {
+      "basename": "private 메서드를 테스트해야 하나",
+      "path": "1. Project/JAVA/Test/private 메서드를 테스트해야 하나.md"
     },
     {
       "basename": "Entity는 가변이 자연스러운가",
@@ -35,14 +75,6 @@
     {
       "basename": "불변 객체(Immutable)",
       "path": "1. Project/JAVA/Idiom/불변 객체(Immutable).md"
-    },
-    {
-      "basename": "HashCode",
-      "path": "1. Project/JAVA/CS/JVM/HashCode.md"
-    },
-    {
-      "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
     },
     {
       "basename": "04-20",
@@ -141,10 +173,6 @@
       "path": "1. Project/JAVA/Test/Test Unit.md"
     },
     {
-      "basename": "접근 제어자 (Access Modifier)",
-      "path": "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md"
-    },
-    {
       "basename": "TDD (Test-Driven Development)",
       "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
     },
@@ -158,7 +186,7 @@
     },
     {
       "basename": "수학적 지식",
-      "path": "1. Project/JAVA/CS/수학적 지식.md"
+      "path": "1. Project/알고리즘/수학적 지식.md"
     },
     {
       "basename": "Static",
@@ -171,30 +199,6 @@
     {
       "basename": "BDD",
       "path": "1. Project/JAVA/Test/BDD.md"
-    },
-    {
-      "basename": "자바는 어떻게 실행되는가",
-      "path": "1. Project/JAVA/CS/자바는 어떻게 실행되는가.md"
-    },
-    {
-      "basename": "자바와 객체지향은 왜 필요한가",
-      "path": "1. Project/JAVA/OOP/자바와 객체지향은 왜 필요한가.md"
-    },
-    {
-      "basename": "Collections Func",
-      "path": "1. Project/JAVA/CS/자료구조/Collections Func.md"
-    },
-    {
-      "basename": "캡슐화(encapsulation)",
-      "path": "2. Area/독서/전공 도서/객체지향의 오해와 진실/2.이상한 나라의 객체/캡슐화(encapsulation).md"
-    },
-    {
-      "basename": "질의응답 -2",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -2.md"
-    },
-    {
-      "basename": "질의응답 -1",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/4주차/질의응답 -1.md"
     }
   ],
   "omittedPaths": [],

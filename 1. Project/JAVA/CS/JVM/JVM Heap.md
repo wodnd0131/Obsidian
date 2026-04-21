@@ -4,7 +4,7 @@
 java.lang.OutOfMemoryError: Java heap space
 ```
 
-또는 GC가 멈추지 않고 CPU를 100% 잡아먹는 **GC thrashing** 현상이 발생한다.
+또는 [[GC/GC (Garbage Collection)|GC (Garbage Collection)]]가 멈추지 않고 CPU를 100% 잡아먹는 **GC thrashing** 현상이 발생한다.
 
 원인을 진단하려면 `jvisualvm`이나 `jmap`을 열어야 하는데, 
 거기서 보이는 게 바로 Heap 영역 구조다. 
