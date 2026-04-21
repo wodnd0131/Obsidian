@@ -1,4 +1,4 @@
-#CS/JVM/Memory 
+#CS/JVM/Memory #Status/보충 
 ## 1. Problem First
 ```
 java.lang.OutOfMemoryError: Java heap space
@@ -351,3 +351,19 @@ JVM Heap 구조
           ├── String Pool (Heap 내 위치 변화, Java 7+)
           └── Code Cache / JIT 컴파일
 ```
+
+
+
+> [!NOTE]
+> **PermGen(Permanent Generation)** 이 뭔지 간단한 설명과 PermGen의 문제 좀더 자세히
+> 
+> **Native Memory** (OS가 관리하는 힙 바깥)은 뭐지?
+> Metaspace는 실질적인 값이 저장되는 곳인가..?(참조 타입이 가리키는 주소에 있는 실제값들??)
+> 
+> LRU 캐시는 뭐야
+> 
+>  **finalize() 에 의존한 자원 해제** -> `try-with-resources` 또는 `Cleaner` (Java 9+)를 써야 한다.
+> ㄴ 그럼 finalize는 최신 자바코드에선 어떻게 해결하는거지? 이게 바뀌게된 이유 좀더 명확히 설명해줘
+> 
+> 실제 프로세스 메모리 ≈ -Xmx + Metaspace + Code Cache + 스레드 스택 + OS overhead
+> 이거 추가설명, 일단 이 배경은 **Metaspace는 Native Memory를 먹는다** 이거 떄문인거지?

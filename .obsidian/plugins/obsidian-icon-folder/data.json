@@ -43,7 +43,6 @@
   "Daily": "LiCalendar",
   "Templates": "LiStamp",
   "3. Resource/우아한 테크 코스": "LiAnchor",
-  "2. Area/인생론": "LiActivity",
   "1. Project/ProjectLikeMe": "LiAlarmCheck",
   "1. Project/SCG 코드 리뷰": "LiAudioLines",
   "1. Project/AI": "SiRobotframework",
@@ -52,5 +51,6 @@
   "1. Project/Git": "SiGit",
   "1. Project/JAVA": "FabJava",
   "1. Project/Network": "LiNetwork",
-  "1. Project/Spring": "SiSpring"
+  "1. Project/Spring": "SiSpring",
+  "2. Area/심리": "LiActivity"
 }

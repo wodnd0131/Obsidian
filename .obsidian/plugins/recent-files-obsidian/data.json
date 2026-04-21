@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "스택&힙 매핑과 생애주기",
-      "path": "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md"
-    },
-    {
       "basename": "Java 실행 흐름",
       "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
     },
     {
-      "basename": "GC (Garbage Collection)",
-      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
     },
     {
       "basename": "04-21",
       "path": "Daily/2026/04/04-21.md"
     },
     {
+      "basename": "Index",
+      "path": "1. Project/Index.md"
+    },
+    {
+      "basename": "Why Use Java",
+      "path": "1. Project/JAVA/CS/Why Use Java.md"
+    },
+    {
+      "basename": "GIL (Global Interpreter Lock)",
+      "path": "1. Project/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md"
+    },
+    {
+      "basename": "Escape Analysis",
+      "path": "1. Project/JAVA/CS/JVM/GC/Escape Analysis.md"
+    },
+    {
+      "basename": "스택&힙 매핑과 생애주기",
+      "path": "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md"
+    },
+    {
       "basename": "JVM Heap",
       "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
+    },
+    {
+      "basename": "컴파일러와 JIT 컴파일",
+      "path": "1. Project/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
+    },
+    {
+      "basename": "GC (Garbage Collection)",
+      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
     },
     {
       "basename": "HotSpot",
@@ -27,10 +51,6 @@
     {
       "basename": "HashCode",
       "path": "1. Project/JAVA/CS/JVM/HashCode.md"
-    },
-    {
-      "basename": "컴파일러와 JIT 컴파일",
-      "path": "1. Project/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
     },
     {
       "basename": "동등성(Equality) vs 동일성(Identity)",
@@ -129,14 +149,6 @@
       "path": "1. Project/Spring/IoC 컨테이너( ApplicationContext ).md"
     },
     {
-      "basename": "무제",
-      "path": "1. Project/Spring/무제.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
       "basename": "캐싱 & Flyweight",
       "path": "1. Project/JAVA/Pattern/캐싱 & Flyweight.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Clean Code",
       "path": "1. Project/JAVA/Clean Code.md"
-    },
-    {
-      "basename": "수학적 지식",
-      "path": "1. Project/알고리즘/수학적 지식.md"
-    },
-    {
-      "basename": "Static",
-      "path": "1. Project/JAVA/CS/Static.md"
-    },
-    {
-      "basename": "RunTimeException",
-      "path": "1. Project/JAVA/CS/RunTimeException.md"
     }
   ],
   "omittedPaths": [],
