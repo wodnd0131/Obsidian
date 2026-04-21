@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "GC (Garbage Collection)",
-      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
-    },
-    {
-      "basename": "JVM Heap",
-      "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
+      "basename": "스택&힙 매핑과 생애주기",
+      "path": "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md"
     },
     {
       "basename": "Java 실행 흐름",
       "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
+    },
+    {
+      "basename": "GC (Garbage Collection)",
+      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
+    },
+    {
+      "basename": "04-21",
+      "path": "Daily/2026/04/04-21.md"
+    },
+    {
+      "basename": "JVM Heap",
+      "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
     },
     {
       "basename": "HotSpot",
@@ -55,10 +63,6 @@
     {
       "basename": "JVM",
       "path": "1. Project/JAVA/CS/JVM/JVM.md"
-    },
-    {
-      "basename": "04-21",
-      "path": "Daily/2026/04/04-21.md"
     },
     {
       "basename": "Interpreter",
@@ -195,10 +199,6 @@
     {
       "basename": "RunTimeException",
       "path": "1. Project/JAVA/CS/RunTimeException.md"
-    },
-    {
-      "basename": "BDD",
-      "path": "1. Project/JAVA/Test/BDD.md"
     }
   ],
   "omittedPaths": [],
