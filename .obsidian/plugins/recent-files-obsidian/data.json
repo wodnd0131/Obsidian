@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "포트폴리오에서 무엇을 만들어야할까",
+      "path": "1. Project/취업 준비/포트폴리오에서 무엇을 만들어야할까.md"
+    },
+    {
       "basename": "04-23",
       "path": "Daily/2026/04/04-23.md"
+    },
+    {
+      "basename": "2주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "Test Fixture",
@@ -15,10 +23,6 @@
     {
       "basename": "TDD (Test-Driven Development)",
       "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
-    },
-    {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "1주차 리뷰 포인트 정리",
@@ -195,10 +199,6 @@
     {
       "basename": "04-20",
       "path": "Daily/2026/04/04-20.md"
-    },
-    {
-      "basename": "LSP (리스코프 치환 원칙)",
-      "path": "1. Project/JAVA/OOP/LSP (리스코프 치환 원칙).md"
     }
   ],
   "omittedPaths": [],
