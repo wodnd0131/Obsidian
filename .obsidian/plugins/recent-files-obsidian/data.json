@@ -5,20 +5,24 @@
       "path": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md"
     },
     {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
-    },
-    {
       "basename": "04-23",
       "path": "Daily/2026/04/04-23.md"
     },
     {
-      "basename": "문제점과 극복 방향성",
-      "path": "3. Resource/심리/스스로 정의하기/문제점과 극복 방향성.md"
+      "basename": "TDD (Test-Driven Development)",
+      "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
+    },
+    {
+      "basename": "2주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "1주차 리뷰 포인트 정리",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/1주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "문제점과 극복 방향성",
+      "path": "3. Resource/심리/스스로 정의하기/문제점과 극복 방향성.md"
     },
     {
       "basename": "Interpreter",
@@ -195,10 +199,6 @@
     {
       "basename": "VO (Value Object)",
       "path": "1. Project/JAVA/Idiom/VO (Value Object).md"
-    },
-    {
-      "basename": "YAGNI(You Aren't Gonna Need It).",
-      "path": "1. Project/JAVA/Idiom/YAGNI(You Aren't Gonna Need It)..md"
     }
   ],
   "omittedPaths": [],
