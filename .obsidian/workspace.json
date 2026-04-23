@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md",
+                "file": "Daily/2026/04/04-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Test 관련 우아콘 영상"
+              "title": "04-23"
             }
           }
         ],
@@ -218,14 +218,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-custom-frames:Open Todo.List": true,
       "bases:새 베이스 생성하기": false,
-      "daily-notes:오늘의 일일 노트 열기": true
+      "daily-notes:오늘의 일일 노트 열기": true,
+      "periodic-notes:Open today": false
     }
   },
   "active": "303898c9227cca5c",
   "lastOpenFiles": [
-    "Daily/2026/04/04-23.md",
+    "1. Project/JAVA/Test/Test Fixture.md",
     "1. Project/JAVA/Test/Test 관련 우아콘 영상.md",
     "1. Project/JAVA/Test/TDD (Test-Driven Development).md",
+    "Daily/2026/04/04-23.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/1주차 리뷰 포인트 정리.md",
     "3. Resource/심리/스스로 정의하기/문제점과 극복 방향성.md",
@@ -250,7 +252,6 @@
     "1. Project/JAVA/CS/Static.md",
     "1. Project/JAVA/CS/RunTimeException.md",
     "1. Project/JAVA/CS/Why Use Java.md",
-    "1. Project/JAVA/OOP/상속.md",
     "1. Project/SCG 코드 리뷰/OOP 기본/나의 리뷰",
     "3. Resource/독서/전공 도서/오브젝트",
     "Repository/스택&힙 매핑과 생애주기-1.png",

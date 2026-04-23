@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Test 관련 우아콘 영상",
-      "path": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md"
-    },
-    {
       "basename": "04-23",
       "path": "Daily/2026/04/04-23.md"
+    },
+    {
+      "basename": "Test Fixture",
+      "path": "1. Project/JAVA/Test/Test Fixture.md"
+    },
+    {
+      "basename": "Test 관련 우아콘 영상",
+      "path": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md"
     },
     {
       "basename": "TDD (Test-Driven Development)",
@@ -195,10 +199,6 @@
     {
       "basename": "LSP (리스코프 치환 원칙)",
       "path": "1. Project/JAVA/OOP/LSP (리스코프 치환 원칙).md"
-    },
-    {
-      "basename": "VO (Value Object)",
-      "path": "1. Project/JAVA/Idiom/VO (Value Object).md"
     }
   ],
   "omittedPaths": [],
