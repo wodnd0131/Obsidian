@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Test 관련 우아콘 영상",
+      "path": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md"
+    },
+    {
+      "basename": "2주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
+    },
+    {
       "basename": "04-23",
       "path": "Daily/2026/04/04-23.md"
     },
     {
+      "basename": "문제점과 극복 방향성",
+      "path": "3. Resource/심리/스스로 정의하기/문제점과 극복 방향성.md"
+    },
+    {
+      "basename": "1주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/1주차 리뷰 포인트 정리.md"
+    },
+    {
       "basename": "Interpreter",
       "path": "1. Project/JAVA/CS/CPU/Interpreter.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "1. Project/JAVA/CS/JVM/JVM.md"
+    },
+    {
+      "basename": "Java 실행 흐름",
+      "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
+    },
+    {
+      "basename": "GC와 OS 자원",
+      "path": "1. Project/JAVA/CS/JVM/GC/GC와 OS 자원.md"
+    },
+    {
+      "basename": "GC (Garbage Collection)",
+      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
+    },
+    {
+      "basename": "Escape Analysis",
+      "path": "1. Project/JAVA/CS/JVM/GC/Escape Analysis.md"
+    },
+    {
+      "basename": "스택&힙 매핑과 생애주기",
+      "path": "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md"
+    },
+    {
+      "basename": "무제",
+      "path": "1. Project/JAVA/CS/OS/무제.md"
     },
     {
       "basename": "컴파일러와 JIT 컴파일",
@@ -23,10 +67,6 @@
     {
       "basename": "JVM Heap",
       "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
-    },
-    {
-      "basename": "GC (Garbage Collection)",
-      "path": "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md"
     },
     {
       "basename": "Clean Code",
@@ -69,10 +109,6 @@
       "path": "1. Project/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md"
     },
     {
-      "basename": "Escape Analysis",
-      "path": "1. Project/JAVA/CS/JVM/GC/Escape Analysis.md"
-    },
-    {
       "basename": "Weak Generational Hypothesis",
       "path": "1. Project/JAVA/CS/JVM/GC/Weak Generational Hypothesis.md"
     },
@@ -81,20 +117,12 @@
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/나의 리뷰/SCG OOP 리뷰 포인트.md"
     },
     {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
-    },
-    {
       "basename": "3주차 리뷰 포인트 정리",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/3주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "4주차 리뷰 포인트 정리",
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/4주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "1주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/1주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "수학적 지식",
@@ -117,10 +145,6 @@
       "path": "1. Project/JAVA/OOP/캡슐화.md"
     },
     {
-      "basename": "Java 실행 흐름",
-      "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
-    },
-    {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
     },
@@ -131,10 +155,6 @@
     {
       "basename": "GIL (Global Interpreter Lock)",
       "path": "1. Project/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md"
-    },
-    {
-      "basename": "스택&힙 매핑과 생애주기",
-      "path": "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md"
     },
     {
       "basename": "HotSpot",
@@ -151,10 +171,6 @@
     {
       "basename": "TLAB (Thread-Local Allocation Buffer)",
       "path": "1. Project/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
-    },
-    {
-      "basename": "JVM",
-      "path": "1. Project/JAVA/CS/JVM/JVM.md"
     },
     {
       "basename": "private 메서드를 테스트해야 하나",
@@ -183,22 +199,6 @@
     {
       "basename": "YAGNI(You Aren't Gonna Need It).",
       "path": "1. Project/JAVA/Idiom/YAGNI(You Aren't Gonna Need It)..md"
-    },
-    {
-      "basename": "Tell Don't Ask",
-      "path": "1. Project/JAVA/Idiom/Tell Don't Ask.md"
-    },
-    {
-      "basename": "Anemic vs Rich Domain Model",
-      "path": "1. Project/JAVA/OOP/Anemic vs Rich Domain Model.md"
-    },
-    {
-      "basename": "정적 팩토리 메서드 (Static Factory Method)",
-      "path": "1. Project/JAVA/Idiom/정적 팩토리 메서드 (Static Factory Method).md"
-    },
-    {
-      "basename": "Singleton",
-      "path": "1. Project/JAVA/Pattern/Singleton.md"
     }
   ],
   "omittedPaths": [],

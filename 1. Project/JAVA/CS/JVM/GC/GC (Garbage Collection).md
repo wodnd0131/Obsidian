@@ -76,7 +76,7 @@ a.ref = b;  // b.count = 2
 b.ref = a;  // a.count = 2
 a = null;   // a.count = 1 (아직 b가 참조)
 b = null;   // b.count = 1 (아직 a가 참조)
-// 둘 다 도달 불가능한데 count가 0이 안 됨 → 누수
+// 둘 다 도달 불가능한데 count가 0이 안 됨 `→ 누수
 ```
 
 Java GC는 도달 가능성 기반이라 순환 참조를 자동으로 처리한다.
