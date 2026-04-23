@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "04-21",
+      "path": "Daily/2026/04/04-21.md"
+    },
+    {
+      "basename": "요약",
+      "path": "2. Area/독서/전공 도서/오브젝트/요약.md"
+    },
+    {
+      "basename": "OOP (Object-Oriented Programming)",
+      "path": "1. Project/JAVA/OOP/OOP (Object-Oriented Programming).md"
+    },
+    {
+      "basename": "Why Use OOP",
+      "path": "1. Project/JAVA/OOP/Why Use OOP.md"
+    },
+    {
+      "basename": "Why Use Java",
+      "path": "1. Project/JAVA/CS/Why Use Java.md"
+    },
+    {
+      "basename": "객체지향은 왜 필요한가",
+      "path": "1. Project/JAVA/OOP/객체지향은 왜 필요한가.md"
+    },
+    {
+      "basename": "캡슐화",
+      "path": "1. Project/JAVA/OOP/캡슐화.md"
+    },
+    {
       "basename": "Java 실행 흐름",
       "path": "1. Project/JAVA/CS/JVM/Java 실행 흐름.md"
     },
@@ -9,16 +37,8 @@
       "path": "Templates/DATE_TAMPLATE.md"
     },
     {
-      "basename": "04-21",
-      "path": "Daily/2026/04/04-21.md"
-    },
-    {
       "basename": "Index",
       "path": "1. Project/Index.md"
-    },
-    {
-      "basename": "Why Use Java",
-      "path": "1. Project/JAVA/CS/Why Use Java.md"
     },
     {
       "basename": "GIL (Global Interpreter Lock)",
@@ -179,26 +199,6 @@
     {
       "basename": "Matcher와 Pattern",
       "path": "1. Project/JAVA/CS/자료구조/Matcher와 Pattern.md"
-    },
-    {
-      "basename": "AssertJ",
-      "path": "1. Project/JAVA/Test/AssertJ.md"
-    },
-    {
-      "basename": "Test Unit",
-      "path": "1. Project/JAVA/Test/Test Unit.md"
-    },
-    {
-      "basename": "TDD (Test-Driven Development)",
-      "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
-    },
-    {
-      "basename": "캡슐화",
-      "path": "1. Project/JAVA/OOP/캡슐화.md"
-    },
-    {
-      "basename": "Clean Code",
-      "path": "1. Project/JAVA/Clean Code.md"
     }
   ],
   "omittedPaths": [],

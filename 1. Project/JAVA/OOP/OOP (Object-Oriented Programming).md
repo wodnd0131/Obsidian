@@ -1,4 +1,116 @@
 #OOP #Status/정리
+
+
+>  "데이터와 행동을 함께 캡슐화한 객체를 단위로, 
+>  책임에 따라 객체 간 협력으로 도메인을 표현하는 패러다임""
+## 1. Problem First
+- **데이터와 그 데이터를 다루는 행동이 분리**되어 있어서, 로직이 어디에나 복제된다
+- **"로또 번호란 무엇인가"** 라는 개념이 코드 어디에도 명시적으로 존재하지 않는다
+
+---
+
+## 2. Mechanics
+
+**JVM 레벨에서 객체란 무엇인가**
+
+객체는 힙(heap)에 할당된 메모리 덩어리야. 두 부분으로 구성돼:
+
+```
+[ Object Header ]  — 12~16 bytes
+  - Mark Word: GC 정보, 락 상태, 해시코드
+  - Klass Pointer: 이 객체가 어느 클래스인지 (메서드 영역 참조)
+
+[ Instance Data ]
+  - 필드 값들 (primitive는 값 자체, reference는 주소)
+```
+
+**다형성이 JVM에서 작동하는 방식 — vtable**
+
+```java
+interface LottoGenerator {
+    LottoTicket generate();
+}
+
+class RandomLottoGenerator implements LottoGenerator {
+    public LottoTicket generate() { ... }
+}
+
+class TestLottoGenerator implements LottoGenerator {
+    public LottoTicket generate() { ... }
+}
+```
+
+인터페이스 메서드 호출은 **invokeinterface** 바이트코드로 컴파일돼. 런타임에 실제 구현체의 vtable을 탐색해서 메서드를 찾는다. 이게 다형성의 실제 비용 — invokevirtual보다 느린 이유야.
+
+**캡슐화가 강제되는 지점 — 접근 제어자**
+
+`private`은 컴파일러가 강제하는 게 아니라 JVM이 강제해. 리플렉션으로 뚫을 수 있는 건 JVM이 허용하는 예외 경로가 있기 때문이야.
+
+---
+
+## 3. 공식 근거
+
+**캡슐화 + 추상화**
+
+> _"The principle of information hiding... consists of hiding design decisions in a particular module from all other modules."_ (정보 은닉 원칙은 특정 모듈의 설계 결정을 다른 모든 모듈로부터 숨기는 것으로 구성된다.)
+> 
+> — David Parnas, _On the Criteria To Be Used in Decomposing Systems into Modules_ (1972)
+
+OOP의 이론적 뿌리. 캡슐화는 OOP가 발명한 게 아니라 모듈화 원칙에서 온 것.
+
+**객체의 협력**
+
+> _"Objects are not just data structures with procedures attached; they are entities that communicate by sending messages."_ (객체는 단순히 프로시저가 붙은 데이터 구조가 아니라, 메시지를 전송하여 소통하는 엔티티다.)
+> 
+> — Alan Kay, OOP 창시자
+
+Alan Kay가 강조한 건 상속이 아니라 **메시지 패싱**이었어. Java의 메서드 호출이 그 메시지야.
+
+**Effective Java**
+
+> _"Classes and interfaces are the heart of the Java programming language, and one of the primary goals of encapsulation is to separate API from implementation."_ (클래스와 인터페이스는 Java의 핵심이며, 캡슐화의 주요 목표 중 하나는 API와 구현을 분리하는 것이다.)
+> 
+> — Bloch, _Effective Java_ 3rd ed., Item 15
+
+---
+
+
+## 5. 안티패턴 검증
+
+**커뮤니티 논쟁**
+
+함수형 진영의 비판:
+
+> "OOP의 공유 가변 상태(shared mutable state)가 동시성 버그의 근원이다"
+
+OOP 진영의 반론:
+
+> "캡슐화로 상태를 격리하면 해결된다"
+
+실제로 Java도 이 논쟁을 수용해서 `record`, `final`, `Collections.unmodifiableList`가 강화됐어.
+
+---
+
+## 6. 이어지는 개념
+
+```
+OOP
+ ├── SOLID 원칙 — OOP를 잘 하기 위한 설계 원칙
+ │    ├── SRP → 책임 귀속의 기준
+ │    ├── OCP → 다형성 활용의 기준
+ │    └── DIP → 의존성 방향의 기준
+ │
+ ├── 디자인 패턴 — 객체 관계의 검증된 형태
+ │    ├── Strategy → 다형성 활용
+ │    ├── Factory → 생성 책임 귀속
+ │    └── Decorator → 상속 대신 컴포지션
+ │
+ ├── 도메인 모델 — OOP로 도메인을 표현하는 방법
+ │    └── DDD로 이어짐
+ │
+ └── 클린코드 — OOP 구조를 읽기 좋게 만드는 실천
+```
+
 ## OOP 핵심 4가지 개념
 
 ### 1. 캡슐화 (Encapsulation)
@@ -276,16 +388,6 @@ lottoTickets.profitRate(winningLotto);  // LottoTickets가 수익률 계산
 ```
 
 ---
-
-### 스터디 활용 팁
-
-코드 리뷰할 때 Service 클래스가 비대해졌다면 RDD 관점으로 질문을 던져보세요.
-
-> "이 로직이 정말 Service의 책임인가요? 어떤 객체가 이 정보를 가장 잘 알고 있나요?"
-
-정보를 가장 잘 아는 객체가 책임을 져야 한다는 **정보 전문가 패턴**이 RDD의 핵심이에요.
-
----
 ## 데이터 중심 설계의 문제점
 
 ### 전형적인 패턴
@@ -419,18 +521,3 @@ void 당첨_등수_계산() {
     assertThat(winning.rank(lotto)).isEqualTo(Rank.FIRST);
 }
 ```
-
----
-
-### 한 줄 요약
-
-```
-getter가 많다
-    → 데이터를 꺼내서 외부에서 판단하고 있다
-        → 로직이 Service로 몰린다
-            → 변경에 취약하고 테스트하기 어렵다
-```
-
-코드 리뷰할 때 **getter 호출이 보이면** 데이터 중심 설계의 냄새를 의심해볼 수 있어요.
-
----
