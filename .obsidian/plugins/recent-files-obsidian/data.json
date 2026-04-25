@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "최종 정리",
+      "path": "3. Resource/우아한 테크 코스/마틸다/최종 정리.md"
+    },
+    {
+      "basename": "프론트 포폴",
+      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md"
+    },
+    {
+      "basename": "프론트 작업내용",
+      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
+    },
+    {
       "basename": "포트폴리오에서 무엇을 만들어야할까",
       "path": "1. Project/취업 준비/포트폴리오에서 무엇을 만들어야할까.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "private 메서드를 테스트해야 하나",
       "path": "1. Project/JAVA/Test/private 메서드를 테스트해야 하나.md"
-    },
-    {
-      "basename": "Entity는 가변이 자연스러운가",
-      "path": "1. Project/JAVA/OOP/Entity는 가변이 자연스러운가.md"
-    },
-    {
-      "basename": "불변 객체(Immutable)",
-      "path": "1. Project/JAVA/Idiom/불변 객체(Immutable).md"
-    },
-    {
-      "basename": "04-20",
-      "path": "Daily/2026/04/04-20.md"
     }
   ],
   "omittedPaths": [],
