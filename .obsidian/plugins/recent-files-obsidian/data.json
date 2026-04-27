@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP&HTTPS",
+      "path": "1. Project/Network/HTTP/HTTP&HTTPS.md"
+    },
+    {
+      "basename": "TCP (전송 제어 프로토콜)",
+      "path": "1. Project/Network/HTTP/TCP (전송 제어 프로토콜).md"
+    },
+    {
+      "basename": "04-27",
+      "path": "Daily/2026/04/04-27.md"
+    },
+    {
+      "basename": "2주차 리뷰 포인트 정리",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
+    },
+    {
+      "basename": "리뷰 살펴보기 - 메이",
+      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/리뷰 살펴보기 - 메이.md"
+    },
+    {
       "basename": "04-25",
       "path": "Daily/2026/04/04-25.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "04-23",
       "path": "Daily/2026/04/04-23.md"
-    },
-    {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
     },
     {
       "basename": "Test Fixture",
@@ -145,14 +161,6 @@
       "path": "1. Project/SCG 코드 리뷰/OOP 기본/나의 리뷰/SCG OOP 리뷰 포인트.md"
     },
     {
-      "basename": "3주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/3주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "4주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/4주차 리뷰 포인트 정리.md"
-    },
-    {
       "basename": "수학적 지식",
       "path": "2. Area/알고리즘/수학적 지식.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "HashCode",
       "path": "1. Project/JAVA/CS/JVM/HashCode.md"
-    },
-    {
-      "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
-    },
-    {
-      "basename": "TLAB (Thread-Local Allocation Buffer)",
-      "path": "1. Project/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
     }
   ],
   "omittedPaths": [],

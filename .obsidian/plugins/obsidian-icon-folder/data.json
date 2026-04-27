@@ -51,6 +51,6 @@
   "3. Resource/심리": "LiActivity",
   "3. Resource/독서": "LiAlbum",
   "3. Resource/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
-  "2. Area/Network": "LiNetwork",
-  "2. Area/Git": "SiGit"
+  "2. Area/Git": "SiGit",
+  "1. Project/Network": "LiNetwork"
 }

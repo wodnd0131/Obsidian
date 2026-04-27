@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "143aba054d51c452",
+        "id": "ff5a2554b8b92959",
         "type": "tabs",
         "children": [
           {
-            "id": "2706a01738e956de",
+            "id": "21c345df2e753697",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/Network/HTTP/HTTP&HTTPS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HTTP&HTTPS"
+            }
+          },
+          {
+            "id": "3717cbe350cfbb69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026/04/04-25.md",
+                "file": "1. Project/Network/HTTP/TCP (전송 제어 프로토콜).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "04-25"
+              "title": "TCP (전송 제어 프로토콜)"
             }
           }
         ]
@@ -204,17 +221,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2706a01738e956de",
+  "active": "21c345df2e753697",
   "lastOpenFiles": [
-    "3. Resource/우아한 테크 코스/마틸다/최종 정리.md",
+    "1. Project/Network/HTTP/TCP (전송 제어 프로토콜).md",
+    "1. Project/Network/HTTP/HTTP&HTTPS.md",
+    "1. Project/Network/HTTP",
+    "Repository/HTTP&HTTPS-2.png",
+    "Repository/HTTP&HTTPS-1.png",
+    "Daily/2026/04/04-27.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/리뷰 살펴보기 - 메이.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/3주차 리뷰 포인트 정리.md",
+    "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/4주차 리뷰 포인트 정리.md",
     "Daily/2026/04/04-25.md",
+    "3. Resource/우아한 테크 코스/마틸다/최종 정리.md",
     "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md",
     "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md",
     "1. Project/취업 준비/포트폴리오에서 무엇을 만들어야할까.md",
     "3. Resource/우아한 테크 코스/마틸다",
     "Daily/2026/04/04-23.md",
     "1. Project/취업 준비",
-    "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md",
     "1. Project/JAVA/Test/Test Fixture.md",
     "1. Project/JAVA/Test/Test 관련 우아콘 영상.md",
     "1. Project/JAVA/Test/TDD (Test-Driven Development).md",
@@ -228,14 +254,7 @@
     "1. Project/JAVA/CS/JVM/GC/GC (Garbage Collection).md",
     "1. Project/JAVA/CS/JVM/GC/Escape Analysis.md",
     "1. Project/JAVA/CS/JVM/GC/스택&힙 매핑과 생애주기.md",
-    "1. Project/JAVA/CS/OS/무제.md",
     "1. Project/JAVA/CS/OS",
-    "1. Project/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md",
-    "Daily/2026/04/04-21.md",
-    "1. Project/JAVA/CS/자바는 어떻게 실행되는가.md",
-    "1. Project/JAVA/CS/JVM/JVM Heap.md",
-    "1. Project/JAVA/Clean Code.md",
-    "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md",
     "1. Project/SCG 코드 리뷰/OOP 기본/나의 리뷰",
     "3. Resource/독서/전공 도서/오브젝트",
     "Repository/스택&힙 매핑과 생애주기-1.png",
@@ -243,7 +262,6 @@
     "Repository/JVM-1.png",
     "1. Project/JAVA/CS/CPU",
     "1. Project/JAVA/CS/JVM/GC",
-    "1. Project/JAVA/CS/JVM/Thread",
     "Repository/JVM Heap-1.png",
     "Repository/1주차 리뷰 포인트 정리-자바를참고.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
@@ -251,8 +269,6 @@
     "Repository/Use Jira-{{date}}-{{md5}}.png",
     "Repository/Pasted image 20260416104822.png",
     "Repository/Pasted image 20260411060233.png",
-    "Repository/Pasted image 20260321090933.png",
-    "Repository/Pasted image 20260321090839.png",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/1.협력하는 객체들의 공동체.canvas",
