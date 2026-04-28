@@ -111,3 +111,21 @@ HTTP는 클라이언트-서버 프로토콜입니다. 요청은 하나의 개체
 - **HTTP/2 (Multiplexing):** 파이프라이닝의 단점을 극복하고, 단일 연결 상에서 여러 메시지를 동시에 전송할 수 있도록 개선되었습니다.
     
 - **QUIC:** 구글에서 실험 중인 UDP 기반 프로토콜로, 더 빠르고 신뢰성 있는 전송을 목표로 합니다.
+
+
+![[../../../Repository/HTTP&HTTPS-httpStructure.png]]
+
+- HTTP [메서드](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods), 보통 클라이언트가 수행하고자 하는 동작을 정의한 [`GET`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/GET), [`POST`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/POST) 같은 동사나 [`OPTIONS`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/OPTIONS)나 [`HEAD`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/HEAD)와 같은 명사입니다. 일반적으로, 클라이언트는 리소스를 가져오거나(`GET`을 사용하여) [HTML 폼](https://developer.mozilla.org/ko/docs/Learn_web_development/Extensions/Forms)의 데이터를 전송(`POST`를 사용하여)하려고 하지만, 다른 경우에는 다른 동작이 요구될 수도 있습니다.
+- 가져오려는 리소스의 경로; 예를 들면 [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol) (`http://`), [도메인](https://developer.mozilla.org/ko/docs/Glossary/Domain) (여기서는 `developer.mozilla.org`), 또는 TCP [포트](https://developer.mozilla.org/ko/docs/Glossary/Port) (여기서는 `80`)인 요소들을 제거한 리소스의 URL입니다.
+- HTTP 프로토콜의 버전.
+- 서버에 대한 추가 정보를 전달하는 선택적 [헤더들](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Headers).
+- `POST`와 같은 몇 가지 메서드를 위한, 전송된 리소스를 포함하는 응답의 본문과 유사한 본문.
+## HTTP 기반 API
+
+HTTP 기반으로 가장 일반적으로 사용된 API는 [user agent](https://developer.mozilla.org/ko/docs/Glossary/User_agent)와 서버간에 데이터를 교환하는데 사용될 수 있는 [`XMLHttpRequest`](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest) API 입니다. 최신 [`Fetch API`](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API)는 보다 강력하고 유연한 기능을 제공합니다.
+
+또 다른 API인 [서버-전송 이벤트](https://developer.mozilla.org/ko/docs/Web/API/Server-sent_events)는 서버가 전송 메커니즘으로 HTTP를 사용하여, 클라이언트로 이벤트를 보낼 수 있도록 하는 단방향 서비스입니다. 클라이언트는 [`EventSource`](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) 인터페이스를 사용하여, 연결을 맺고 이벤트 핸들러를 설정합니다. 클라이언트 브라우저는 HTTP 스트림으로 도착한 메시지를 적절한 [`Event`](https://developer.mozilla.org/ko/docs/Web/API/Event) 객체로 자동 변환하여, 알려진 경우 해당 이벤트 [`type`](https://developer.mozilla.org/ko/docs/Web/API/Event/type "type")에 대해 등록된 이벤트 핸들러로 전달하거나 또는 특정 유형의 이벤트가 설정되지 않은 경우에는 [`onmessage`](https://developer.mozilla.org/ko/docs/Web/API/EventSource/message_event "onmessage") 이벤트 핸들러로 전달합니다.
+## 결론
+HTTP는 사용이 쉬운 확장 가능한 프로토콜입니다. 헤더를 쉽게 추가하는 능력을 지닌 클라이언트-서버 구조는 HTTP가 웹의 확장된 수용력과 함께 발전할 수 있게 합니다.
+
+HTTP/2가 성능 향상을 위해 HTTP 메시지를 프레임 내로 임베드하여 약간의 복잡함을 더했을지라도, 애플리케이션의 관점에서 볼 때, 메시지의 기본적인 구조는 HTTP/1.0이 릴리즈된 이후와 동일합니다. 세션의 흐름은 여전히 단순하여, 간단한 [HTTP 메시지 모니터](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html)를 이용한 조사와 디버그를 가능하게 해줍니다.

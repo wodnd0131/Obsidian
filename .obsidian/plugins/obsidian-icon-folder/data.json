@@ -46,11 +46,11 @@
   "1. Project/SCG 코드 리뷰": "LiAudioLines",
   "1. Project/AI": "SiRobotframework",
   "1. Project/JAVA": "FabJava",
-  "1. Project/Spring": "SiSpring",
   "2. Area/Project Management": "LiAlarmCheck",
   "3. Resource/심리": "LiActivity",
   "3. Resource/독서": "LiAlbum",
   "3. Resource/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
   "2. Area/Git": "SiGit",
-  "1. Project/Network": "LiNetwork"
+  "1. Project/Network": "LiNetwork",
+  "1. Project/SpringBoot": "SiSpring"
 }

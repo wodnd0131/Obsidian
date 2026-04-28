@@ -1,16 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "Catalina",
+      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
+    },
+    {
+      "basename": "Spring MVC",
+      "path": "1. Project/SpringBoot/Spring/Spring MVC.md"
+    },
+    {
+      "basename": "DispatcherServlet",
+      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
+    },
+    {
+      "basename": "Spring Boot 내장 Tomcat 초기화 순서",
+      "path": "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
+    },
+    {
+      "basename": "04-27",
+      "path": "Daily/2026/04/04-27.md"
+    },
+    {
+      "basename": "GraalVM Native Image + Spring AOT",
+      "path": "1. Project/SpringBoot/GraalVM Native Image + Spring AOT.md"
+    },
+    {
+      "basename": "NIO와 블로킹 IO",
+      "path": "1. Project/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
+    },
+    {
+      "basename": "Bean",
+      "path": "1. Project/SpringBoot/Spring/Bean.md"
+    },
+    {
+      "basename": "Coyote",
+      "path": "1. Project/SpringBoot/Tomcat/Coyote.md"
+    },
+    {
+      "basename": "Tomcat의 내부 구조",
+      "path": "1. Project/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
+    },
+    {
+      "basename": "서블릿의 정의",
+      "path": "1. Project/SpringBoot/Tomcat/서블릿의 정의.md"
+    },
+    {
+      "basename": "서블릿 컨테이너",
+      "path": "1. Project/SpringBoot/Tomcat/서블릿 컨테이너.md"
+    },
+    {
+      "basename": "IoC 컨테이너( ApplicationContext )",
+      "path": "1. Project/SpringBoot/Spring/IoC 컨테이너( ApplicationContext ).md"
+    },
+    {
+      "basename": "Spring Boot HTTP 요청,응답 처리 흐름",
+      "path": "1. Project/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
+    },
+    {
+      "basename": "Springboot",
+      "path": "1. Project/SpringBoot/Springboot.md"
+    },
+    {
+      "basename": "HTTP&HTTPS",
+      "path": "1. Project/Network/HTTP/HTTP&HTTPS.md"
+    },
+    {
       "basename": "JWT",
       "path": "1. Project/Network/HTTP/JWT.md"
     },
     {
       "basename": "JWT 저장 방식",
       "path": "1. Project/Network/HTTP/JWT 저장 방식.md"
-    },
-    {
-      "basename": "HTTP&HTTPS",
-      "path": "1. Project/Network/HTTP/HTTP&HTTPS.md"
     },
     {
       "basename": "무상태(Stateless)와 세션",
@@ -31,10 +91,6 @@
     {
       "basename": "패킷",
       "path": "1. Project/Network/HTTP/패킷.md"
-    },
-    {
-      "basename": "04-27",
-      "path": "Daily/2026/04/04-27.md"
     },
     {
       "basename": "2주차 리뷰 포인트 정리",
@@ -139,66 +195,6 @@
     {
       "basename": "Clean Code",
       "path": "1. Project/JAVA/Clean Code.md"
-    },
-    {
-      "basename": "접근 제어자 (Access Modifier)",
-      "path": "1. Project/JAVA/CS/접근 제어자 (Access Modifier).md"
-    },
-    {
-      "basename": "Java의 참조 (Reference)",
-      "path": "1. Project/JAVA/CS/Java의 참조 (Reference).md"
-    },
-    {
-      "basename": "Primitive Vs Wrapper",
-      "path": "1. Project/JAVA/CS/Primitive Vs Wrapper.md"
-    },
-    {
-      "basename": "Static",
-      "path": "1. Project/JAVA/CS/Static.md"
-    },
-    {
-      "basename": "RunTimeException",
-      "path": "1. Project/JAVA/CS/RunTimeException.md"
-    },
-    {
-      "basename": "Why Use Java",
-      "path": "1. Project/JAVA/CS/Why Use Java.md"
-    },
-    {
-      "basename": "상속",
-      "path": "1. Project/JAVA/OOP/상속.md"
-    },
-    {
-      "basename": "객체지향은 왜 필요한가",
-      "path": "1. Project/JAVA/OOP/객체지향은 왜 필요한가.md"
-    },
-    {
-      "basename": "CAS (Compare-And-Swap)",
-      "path": "1. Project/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md"
-    },
-    {
-      "basename": "Weak Generational Hypothesis",
-      "path": "1. Project/JAVA/CS/JVM/GC/Weak Generational Hypothesis.md"
-    },
-    {
-      "basename": "SCG OOP 리뷰 포인트",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/나의 리뷰/SCG OOP 리뷰 포인트.md"
-    },
-    {
-      "basename": "수학적 지식",
-      "path": "2. Area/알고리즘/수학적 지식.md"
-    },
-    {
-      "basename": "OOP (Object-Oriented Programming)",
-      "path": "1. Project/JAVA/OOP/OOP (Object-Oriented Programming).md"
-    },
-    {
-      "basename": "요약",
-      "path": "3. Resource/독서/전공 도서/오브젝트/요약.md"
-    },
-    {
-      "basename": "Why Use OOP",
-      "path": "1. Project/JAVA/OOP/Why Use OOP.md"
     }
   ],
   "omittedPaths": [],

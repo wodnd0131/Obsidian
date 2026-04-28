@@ -425,7 +425,7 @@ void 테스트() {
 
 ### 2. Spring 배경 지식부터
 
-Spring의 핵심은 [[../../Spring/IoC 컨테이너( ApplicationContext )|IoC 컨테이너( ApplicationContext )]] 다.
+Spring의 핵심은 [[../../SpringBoot/Spring/IoC 컨테이너( ApplicationContext )|IoC 컨테이너( ApplicationContext )]] 다.
 
 IoC가 뭔가. Inversion of Control — 제어의 역전.
 
