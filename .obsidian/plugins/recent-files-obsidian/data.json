@@ -5,6 +5,10 @@
       "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
     },
     {
+      "basename": "나의 컬처핏",
+      "path": "1. Project/취업 준비/나의 컬처핏.md"
+    },
+    {
       "basename": "Catalina",
       "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "프론트 작업내용",
       "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
-    },
-    {
-      "basename": "포트폴리오에서 무엇을 만들어야할까",
-      "path": "1. Project/취업 준비/포트폴리오에서 무엇을 만들어야할까.md"
     },
     {
       "basename": "04-23",
