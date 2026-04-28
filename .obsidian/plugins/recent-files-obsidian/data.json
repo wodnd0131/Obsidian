@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Catalina",
-      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
+      "basename": "메서드",
+      "path": "1. Project/Network/HTTP/HTTP 메서드/메서드.md"
     },
     {
-      "basename": "04-28",
-      "path": "Daily/2026/04/04-28.md"
+      "basename": "멱등성",
+      "path": "1. Project/Network/HTTP/HTTP 메서드/멱등성.md"
+    },
+    {
+      "basename": "안전함 (HTTP 메서드)",
+      "path": "1. Project/Network/HTTP/HTTP 메서드/안전함 (HTTP 메서드).md"
+    },
+    {
+      "basename": "ETag와 낙관적 잠금",
+      "path": "1. Project/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
+    },
+    {
+      "basename": "HTTP 캐시",
+      "path": "1. Project/Network/HTTP/HTTP 메서드/HTTP 캐시.md"
     },
     {
       "basename": "Spring MVC",
@@ -19,6 +31,14 @@
     {
       "basename": "Spring Boot 내장 Tomcat 초기화 순서",
       "path": "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
+    },
+    {
+      "basename": "Catalina",
+      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
+    },
+    {
+      "basename": "04-28",
+      "path": "Daily/2026/04/04-28.md"
     },
     {
       "basename": "04-27",
@@ -179,26 +199,6 @@
     {
       "basename": "무제",
       "path": "1. Project/JAVA/CS/OS/무제.md"
-    },
-    {
-      "basename": "컴파일러와 JIT 컴파일",
-      "path": "1. Project/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
-    },
-    {
-      "basename": "04-21",
-      "path": "Daily/2026/04/04-21.md"
-    },
-    {
-      "basename": "자바는 어떻게 실행되는가",
-      "path": "1. Project/JAVA/CS/자바는 어떻게 실행되는가.md"
-    },
-    {
-      "basename": "JVM Heap",
-      "path": "1. Project/JAVA/CS/JVM/JVM Heap.md"
-    },
-    {
-      "basename": "Clean Code",
-      "path": "1. Project/JAVA/Clean Code.md"
     }
   ],
   "omittedPaths": [],
