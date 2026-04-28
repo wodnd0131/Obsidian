@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CSRF 토큰 + XSS 공격과 방어",
-      "path": "1. Project/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md"
+      "basename": "DispatcherServlet",
+      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
+    },
+    {
+      "basename": "Catalina",
+      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
+    },
+    {
+      "basename": "Coyote",
+      "path": "1. Project/SpringBoot/Tomcat/Coyote.md"
     },
     {
       "basename": "JWT 저장 방식",
       "path": "1. Project/Network/HTTP/JWT 저장 방식.md"
     },
     {
-      "basename": "Coyote",
-      "path": "1. Project/SpringBoot/Tomcat/Coyote.md"
+      "basename": "CSRF 토큰 + XSS 공격과 방어",
+      "path": "1. Project/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md"
     },
     {
       "basename": "JWT",
@@ -23,14 +31,6 @@
     {
       "basename": "CORS (Cross-Origin Resource Sharing)",
       "path": "1. Project/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
-    },
-    {
-      "basename": "DispatcherServlet",
-      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
-    },
-    {
-      "basename": "Catalina",
-      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
     },
     {
       "basename": "프록시",

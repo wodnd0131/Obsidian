@@ -422,11 +422,11 @@ Wrapper: "이 서블릿의 생명주기 관리"  만 담당
 
 ### 트레이드오프
 
-|손실|구체적 상황|
-|---|---|
-|**단일 앱에서 과한 구조**|Spring Boot 단일 앱은 Context 하나, Wrapper 하나다. Engine→Host→Context→Wrapper 4계층을 거치는 건 단순 앱에선 오버헤드|
-|**서블릿 싱글턴**|Wrapper는 서블릿 인스턴스를 하나만 유지한다. 모든 요청이 같은 DispatcherServlet 인스턴스를 공유한다. 인스턴스 변수에 상태를 저장하면 동시성 문제 발생|
-|**Session Manager 메모리**|Context의 Session Manager가 HTTP 세션을 메모리에 관리한다. 세션이 많으면 메모리 압박. 외부 세션 저장소(Redis)로 대체하는 이유|
+| 손실                      | 구체적 상황                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------ |
+| **단일 앱에서 과한 구조**        | Spring Boot 단일 앱은 Context 하나, Wrapper 하나다. Engine→Host→Context→Wrapper 4계층을 거치는 건 단순 앱에선 오버헤드    |
+| **서블릿 싱글턴**             | Wrapper는 서블릿 인스턴스를 하나만 유지한다. 모든 요청이 같은 DispatcherServlet 인스턴스를 공유한다. 인스턴스 변수에 상태를 저장하면 동시성 문제 발생 |
+| **Session Manager 메모리** | Context의 Session Manager가 HTTP 세션을 메모리에 관리한다. 세션이 많으면 메모리 압박. 외부 세션 저장소(Redis)로 대체하는 이유          |
 
 ---
 
