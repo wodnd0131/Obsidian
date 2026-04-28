@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md",
+                "file": "1. Project/취업 준비/나의 컬처핏.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DispatcherServlet"
+              "title": "나의 컬처핏"
             }
           }
         ]
@@ -206,9 +206,10 @@
   },
   "active": "12fddd564c916def",
   "lastOpenFiles": [
+    "1. Project/취업 준비/자기 소개.md",
     "1. Project/취업 준비/나의 컬처핏.md",
-    "Repository/화면 캡처 2026-04-28 150051.png",
     "1. Project/SpringBoot/Tomcat/DispatcherServlet.md",
+    "Repository/화면 캡처 2026-04-28 150051.png",
     "1. Project/SpringBoot/Tomcat/Catalina.md",
     "1. Project/SpringBoot/Tomcat/Coyote.md",
     "1. Project/Network/HTTP/JWT 저장 방식.md",
@@ -233,7 +234,6 @@
     "1. Project/SpringBoot/Spring/Spring MVC.md",
     "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md",
     "1. Project/Network/HTTP/HTTP 메서드",
-    "Daily/2026/04/04-28.md",
     "1. Project/SpringBoot/Tomcat/무제",
     "1. Project/SpringBoot/Tomcat",
     "1. Project/SpringBoot/Spring",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "DispatcherServlet",
-      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
-    },
-    {
       "basename": "나의 컬처핏",
       "path": "1. Project/취업 준비/나의 컬처핏.md"
+    },
+    {
+      "basename": "자기 소개",
+      "path": "1. Project/취업 준비/자기 소개.md"
+    },
+    {
+      "basename": "DispatcherServlet",
+      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
     },
     {
       "basename": "Catalina",
@@ -195,10 +199,6 @@
     {
       "basename": "Interpreter",
       "path": "1. Project/JAVA/CS/CPU/Interpreter.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "1. Project/JAVA/CS/JVM/JVM.md"
     }
   ],
   "omittedPaths": [],
