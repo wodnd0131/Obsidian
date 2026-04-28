@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "나의 컬처핏",
-      "path": "1. Project/취업 준비/나의 컬처핏.md"
+      "basename": "Bean Lifecycle",
+      "path": "1. Project/SpringBoot/Spring/Bean Lifecycle.md"
     },
     {
-      "basename": "자기 소개",
-      "path": "1. Project/취업 준비/자기 소개.md"
+      "basename": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다",
+      "path": "1. Project/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
+    },
+    {
+      "basename": "PSA (Portable Service Abstraction)",
+      "path": "1. Project/SpringBoot/Spring/PSA (Portable Service Abstraction).md"
+    },
+    {
+      "basename": "ApplicationContext",
+      "path": "1. Project/SpringBoot/Spring/ApplicationContext.md"
+    },
+    {
+      "basename": "AOP",
+      "path": "1. Project/SpringBoot/Spring/AOP/AOP.md"
+    },
+    {
+      "basename": "Spring MVC",
+      "path": "1. Project/SpringBoot/Spring/Spring MVC.md"
+    },
+    {
+      "basename": "스프링 핵심 키워드",
+      "path": "1. Project/SpringBoot/Spring/스프링 핵심 키워드.md"
+    },
+    {
+      "basename": "Spring AOP 프록시",
+      "path": "1. Project/SpringBoot/Spring/AOP/Spring AOP 프록시.md"
+    },
+    {
+      "basename": "Chain of Responsibility",
+      "path": "1. Project/JAVA/Pattern/Chain of Responsibility.md"
+    },
+    {
+      "basename": "IoC & DI",
+      "path": "1. Project/SpringBoot/Spring/IoC & DI.md"
+    },
+    {
+      "basename": "Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴",
+      "path": "1. Project/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
+    },
+    {
+      "basename": "Bean",
+      "path": "1. Project/SpringBoot/Spring/Bean.md"
+    },
+    {
+      "basename": "서블릿 컨테이너",
+      "path": "1. Project/SpringBoot/Tomcat/서블릿 컨테이너.md"
     },
     {
       "basename": "DispatcherServlet",
       "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
+    },
+    {
+      "basename": "필터(Filter) vs 인터셉터(Interceptor)",
+      "path": "1. Project/SpringBoot/필터(Filter) vs 인터셉터(Interceptor).md"
+    },
+    {
+      "basename": "서블릿의 정의",
+      "path": "1. Project/SpringBoot/Tomcat/서블릿의 정의.md"
     },
     {
       "basename": "Catalina",
@@ -19,6 +71,38 @@
     {
       "basename": "Coyote",
       "path": "1. Project/SpringBoot/Tomcat/Coyote.md"
+    },
+    {
+      "basename": "Springboot",
+      "path": "1. Project/SpringBoot/Springboot.md"
+    },
+    {
+      "basename": "Spring Boot HTTP 요청,응답 처리 흐름",
+      "path": "1. Project/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
+    },
+    {
+      "basename": "Spring Boot 내장 Tomcat 초기화 순서",
+      "path": "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
+    },
+    {
+      "basename": "GraalVM Native Image + Spring AOT",
+      "path": "1. Project/SpringBoot/GraalVM Native Image + Spring AOT.md"
+    },
+    {
+      "basename": "Tomcat의 내부 구조",
+      "path": "1. Project/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
+    },
+    {
+      "basename": "NIO와 블로킹 IO",
+      "path": "1. Project/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
+    },
+    {
+      "basename": "나의 컬처핏",
+      "path": "2. Area/취업 준비/나의 컬처핏.md"
+    },
+    {
+      "basename": "자기 소개",
+      "path": "2. Area/취업 준비/자기 소개.md"
     },
     {
       "basename": "JWT 저장 방식",
@@ -97,56 +181,12 @@
       "path": "1. Project/Network/HTTP/HTTP 메서드/메서드.md"
     },
     {
-      "basename": "Spring MVC",
-      "path": "1. Project/SpringBoot/Spring/Spring MVC.md"
-    },
-    {
-      "basename": "Spring Boot 내장 Tomcat 초기화 순서",
-      "path": "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
-    },
-    {
       "basename": "04-28",
       "path": "Daily/2026/04/04-28.md"
     },
     {
       "basename": "04-27",
       "path": "Daily/2026/04/04-27.md"
-    },
-    {
-      "basename": "GraalVM Native Image + Spring AOT",
-      "path": "1. Project/SpringBoot/GraalVM Native Image + Spring AOT.md"
-    },
-    {
-      "basename": "NIO와 블로킹 IO",
-      "path": "1. Project/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
-    },
-    {
-      "basename": "Bean",
-      "path": "1. Project/SpringBoot/Spring/Bean.md"
-    },
-    {
-      "basename": "Tomcat의 내부 구조",
-      "path": "1. Project/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
-    },
-    {
-      "basename": "서블릿의 정의",
-      "path": "1. Project/SpringBoot/Tomcat/서블릿의 정의.md"
-    },
-    {
-      "basename": "서블릿 컨테이너",
-      "path": "1. Project/SpringBoot/Tomcat/서블릿 컨테이너.md"
-    },
-    {
-      "basename": "IoC 컨테이너( ApplicationContext )",
-      "path": "1. Project/SpringBoot/Spring/IoC 컨테이너( ApplicationContext ).md"
-    },
-    {
-      "basename": "Spring Boot HTTP 요청,응답 처리 흐름",
-      "path": "1. Project/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
-    },
-    {
-      "basename": "Springboot",
-      "path": "1. Project/SpringBoot/Springboot.md"
     },
     {
       "basename": "2주차 리뷰 포인트 정리",
@@ -159,46 +199,6 @@
     {
       "basename": "04-25",
       "path": "Daily/2026/04/04-25.md"
-    },
-    {
-      "basename": "최종 정리",
-      "path": "3. Resource/우아한 테크 코스/마틸다/최종 정리.md"
-    },
-    {
-      "basename": "프론트 포폴",
-      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md"
-    },
-    {
-      "basename": "프론트 작업내용",
-      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
-    },
-    {
-      "basename": "04-23",
-      "path": "Daily/2026/04/04-23.md"
-    },
-    {
-      "basename": "Test Fixture",
-      "path": "1. Project/JAVA/Test/Test Fixture.md"
-    },
-    {
-      "basename": "Test 관련 우아콘 영상",
-      "path": "1. Project/JAVA/Test/Test 관련 우아콘 영상.md"
-    },
-    {
-      "basename": "TDD (Test-Driven Development)",
-      "path": "1. Project/JAVA/Test/TDD (Test-Driven Development).md"
-    },
-    {
-      "basename": "1주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/1주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "문제점과 극복 방향성",
-      "path": "3. Resource/심리/스스로 정의하기/문제점과 극복 방향성.md"
-    },
-    {
-      "basename": "Interpreter",
-      "path": "1. Project/JAVA/CS/CPU/Interpreter.md"
     }
   ],
   "omittedPaths": [],

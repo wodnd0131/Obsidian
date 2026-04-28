@@ -432,8 +432,151 @@ HTTP 응답
 
 ## 5. 이어지는 개념
 
-|순서|개념|이유|
-|---|---|---|
-|**1**|**Spring Security FilterChain**|DispatcherServlet 앞단인 Filter 레이어가 어떻게 인증/인가를 처리하는지. Filter 예외가 왜 @ControllerAdvice로 안 잡히는지 이해하려면 이 흐름이 필요|
-|**2**|**Spring AOP + @Transactional**|컨트롤러에서 서비스를 호출할 때 `@Transactional`이 어떻게 끼어드는가. DispatcherServlet이 아닌 프록시 레이어에서 동작하는 또 다른 횡단 관심사|
-|**3**|**WebFlux와 DispatcherHandler**|Spring MVC의 DispatcherServlet과 대응되는 WebFlux의 DispatcherHandler. 블로킹 모델의 한계와 논블로킹 모델의 차이|
+| 순서    | 개념                              | 이유                                                                                                        |
+| ----- | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **1** | **Spring Security FilterChain** | DispatcherServlet 앞단인 Filter 레이어가 어떻게 인증/인가를 처리하는지. Filter 예외가 왜 @ControllerAdvice로 안 잡히는지 이해하려면 이 흐름이 필요 |
+| **2** | **Spring AOP + @Transactional** | 컨트롤러에서 서비스를 호출할 때 `@Transactional`이 어떻게 끼어드는가. DispatcherServlet이 아닌 프록시 레이어에서 동작하는 또 다른 횡단 관심사           |
+| **3** | **WebFlux와 DispatcherHandler**  | Spring MVC의 DispatcherServlet과 대응되는 WebFlux의 DispatcherHandler. 블로킹 모델의 한계와 논블로킹 모델의 차이                   |
+
+---
+
+두 질문 모두 핵심을 찌르고 있는데, 둘 다 부분적으로만 맞다. 정확하게 교정한다.
+
+---
+
+## 질문 1: ReturnValueHandler + MessageConverter = ViewResolver?
+
+**아니다. 세 가지는 별개의 컴포넌트다.**
+
+```
+Controller 반환값
+        │
+        ▼
+ReturnValueHandler  ← "이 반환값을 어떻게 처리할지" 결정하는 분기점
+        │
+        ├─ @ResponseBody / ResponseEntity 붙은 경우
+        │         ▼
+        │   MessageConverter  ← Java 객체 → JSON/XML 직렬화
+        │         ▼
+        │   응답 바디에 직접 씀 (ViewResolver 안 탐)
+        │
+        └─ ModelAndView / String(뷰 이름) 반환한 경우
+                  ▼
+            ViewResolver  ← 뷰 이름 → 실제 View 객체 탐색
+                  ▼
+            View.render()  ← 템플릿 렌더링 (Thymeleaf 등)
+```
+
+즉 ReturnValueHandler가 **분기 결정**을 하고,  
+MessageConverter는 **REST API 경로**,  
+ViewResolver는 **전통적 MVC(템플릿) 경로**다.
+
+현대 Spring Boot + REST API 환경에서는 ViewResolver를 거의 안 탄다.  
+`@RestController` = `@Controller` + `@ResponseBody`이므로  
+모든 메서드가 MessageConverter 경로로 처리된다.
+
+**ReturnValueHandler의 실제 동작:**
+
+```java
+// RequestResponseBodyMethodProcessor — @ResponseBody 처리 담당
+// HandlerMethodReturnValueHandler 구현체 중 하나
+public boolean supportsReturnType(MethodParameter returnType) {
+    return returnType.hasMethodAnnotation(ResponseBody.class)
+        || returnType.getContainingClass().hasAnnotation(ResponseBody.class);
+}
+
+public void handleReturnValue(Object returnValue, MethodParameter returnType,
+        ModelAndViewContainer mavContainer, NativeWebRequest webRequest) {
+    // 응답을 직접 썼다고 표시 → ViewResolver 호출 스킵
+    mavContainer.setRequestHandled(true);
+    // MessageConverter에게 직렬화 위임
+    writeWithMessageConverters(returnValue, returnType, webRequest);
+}
+```
+
+`mavContainer.setRequestHandled(true)` — 이 한 줄이 ViewResolver를 건너뛰게 만드는 플래그다.
+
+---
+
+## 질문 2: HandlerAdapter는 그냥 핸들러를 인스턴스로 할당하는 것?
+
+**아니다. HandlerAdapter가 하는 일은 훨씬 많다.**
+
+HandlerMapping이 찾아주는 건 `Object` 타입의 핸들러다.  
+Spring MVC는 컨트롤러 외에도 여러 핸들러 타입을 지원한다.
+
+```
+HandlerMapping.getHandler() 반환값 (Object)
+    │
+    ├─ HandlerMethod          (@Controller 메서드)
+    ├─ HttpRequestHandler     (정적 리소스 서블릿 등)
+    ├─ Servlet                (레거시 서블릿 호환)
+    └─ RouterFunction         (WebFlux 스타일 함수형)
+```
+
+각 타입을 어떻게 실행할지 아는 것이 HandlerAdapter의 역할이다.
+
+```
+핸들러 타입                    담당 HandlerAdapter
+─────────────────────────────────────────────────────
+HandlerMethod              →  RequestMappingHandlerAdapter
+HttpRequestHandler         →  HttpRequestHandlerAdapter
+Servlet                    →  SimpleServletHandlerAdapter
+```
+
+**RequestMappingHandlerAdapter.handle() 내부에서 실제로 하는 일:**
+
+```java
+// 이것들이 전부 HandlerAdapter 안에서 일어난다
+1. ArgumentResolver 목록 순회 → 파라미터 바인딩
+        @PathVariable  → PathVariableMethodArgumentResolver
+        @RequestBody   → RequestResponseBodyMethodProcessor
+                              → MessageConverter로 JSON 역직렬화
+        @ModelAttribute → ModelAttributeMethodProcessor
+
+2. 실제 컨트롤러 메서드 리플렉션 호출
+        method.invoke(controller, resolvedArgs)
+
+3. ReturnValueHandler 목록 순회 → 반환값 처리
+        @ResponseBody  → RequestResponseBodyMethodProcessor
+                              → MessageConverter로 JSON 직렬화
+```
+
+ArgumentResolver와 ReturnValueHandler가 HandlerAdapter 안에 속해있다.  
+다이어그램에서 독립 단계처럼 보이지만, 실제로는 HandlerAdapter가 orchestration하는 내부 단계다.
+
+---
+
+## 교정된 다이어그램
+
+```
+DispatcherServlet.doDispatch()
+    │
+    ├─ HandlerMapping.getHandler()
+    │      URL + HTTP Method → HandlerExecutionChain (Handler + Interceptors)
+    │
+    ├─ HandlerAdapter 선택
+    │      handler 타입 보고 적합한 어댑터 선택
+    │
+    ├─ Interceptor.preHandle()
+    │
+    ├─ HandlerAdapter.handle()          ← 여기서부터 어댑터 내부
+    │      │
+    │      ├─ ArgumentResolver          (파라미터 바인딩)
+    │      │      └─ MessageConverter   (JSON → 객체, 역직렬화)
+    │      │
+    │      ├─ method.invoke()           (컨트롤러 메서드 실행)
+    │      │
+    │      └─ ReturnValueHandler        (반환값 처리 분기)
+    │             ├─ @ResponseBody 경우
+    │             │    └─ MessageConverter  (객체 → JSON, 직렬화)
+    │             │         → 응답 바디 직접 기록, 이후 ViewResolver 스킵
+    │             └─ ModelAndView 경우
+    │                  └─ (ViewResolver로 이어짐)
+    │
+    ├─ Interceptor.postHandle()
+    │
+    ├─ ViewResolver + View.render()     (템플릿 경로만, REST는 스킵)
+    │
+    └─ Interceptor.afterCompletion()
+```
