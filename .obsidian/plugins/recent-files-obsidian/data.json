@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "1분 자기소개",
-      "path": "1. Project/취업 준비/커멘트/1분 자기소개.md"
+      "basename": "Restfull API",
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
+    },
+    {
+      "basename": "힘들었던,어려웠던 경험",
+      "path": "1. Project/취업 준비/커멘트/힘들었던,어려웠던 경험.md"
     },
     {
       "basename": "Claude All in one",
@@ -13,8 +17,16 @@
       "path": "1. Project/취업 준비/커멘트/면접 기본.md"
     },
     {
-      "basename": "Restfull API",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
+      "basename": "AI는 어떻게 생각하시나요",
+      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
+    },
+    {
+      "basename": "1분 자기소개",
+      "path": "1. Project/취업 준비/커멘트/1분 자기소개.md"
+    },
+    {
+      "basename": "04-29",
+      "path": "Daily/2026/04/04-29.md"
     },
     {
       "basename": "Open API",
@@ -187,18 +199,6 @@
     {
       "basename": "ETag와 낙관적 잠금",
       "path": "1. Project/개발/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
-    },
-    {
-      "basename": "SSE",
-      "path": "1. Project/개발/Network/SSE.md"
-    },
-    {
-      "basename": "Streamable HTTP",
-      "path": "1. Project/개발/Network/Streamable HTTP.md"
-    },
-    {
-      "basename": "HTTP&HTTPS",
-      "path": "1. Project/개발/Network/HTTP/HTTP&HTTPS.md"
     }
   ],
   "omittedPaths": [],
