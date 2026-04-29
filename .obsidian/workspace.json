@@ -8,36 +8,56 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12bb3f92435eb9ed",
+            "id": "3bf06077630e3e8d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026/04/04-27.md",
+                "file": "1. Project/취업 준비/커멘트/면접 기본.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "04-27"
+              "title": "면접 기본"
             }
           },
           {
-            "id": "3bf06077630e3e8d",
+            "id": "f2d2422e4f2dfcd2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/취업 준비/커멘트/Claude All in one.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Claude All in one"
+            }
+          },
+          {
+            "id": "8a278f5b7ff8d773",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SpringBoot/Spring/PSA (Portable Service Abstraction).md",
+                "file": "1. Project/취업 준비/커멘트/1분 자기소개.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PSA (Portable Service Abstraction)"
+              "title": "1분 자기소개"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,50 +239,90 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "12bb3f92435eb9ed",
+  "floating": {
+    "id": "304ed7152046cde8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1133130670fd9fdd",
+        "type": "window",
+        "children": [
+          {
+            "id": "2edb9fecf4947cf0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "12bb3f92435eb9ed",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Restfull API"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1022,
+        "y": 67,
+        "width": 1039,
+        "height": 1330,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "8a278f5b7ff8d773",
   "lastOpenFiles": [
-    "Daily/2026/04/04-28.md",
+    "1. Project/취업 준비/커멘트/Claude All in one.md",
+    "1. Project/취업 준비/커멘트/면접 기본.md",
+    "1. Project/취업 준비/커멘트/1분 자기소개.md",
+    "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md",
+    "1. Project/개발/Network/HTTP/HTTP 메서드/Open API.md",
+    "1. Project/취업 준비/커멘트",
+    "1. Project/취업 준비/자기 소개.md",
+    "1. Project/취업 준비/나의 컬처핏.md",
     "Daily/2026/04/04-27.md",
-    "1. Project/SpringBoot/Spring/AOP/AOP.md",
-    "1. Project/SpringBoot/Spring/AOP/Spring AOP 프록시.md",
-    "1. Project/SpringBoot/Tomcat/서블릿의 정의.md",
-    "2. Area/취업 준비/나의 컬처핏.md",
-    "2. Area/취업 준비/자기 소개.md",
-    "1. Project/SpringBoot/Spring/요청 진입부터 스프링 초기화 + 실행 전체 흐름.md",
-    "1. Project/Network/HTTP/HTTP 메서드/HTTP 캐시.md",
-    "1. Project/Network/패킷.md",
-    "1. Project/Network/CDN 동작 원리.md",
-    "1. Project/Network/프록시.md",
-    "1. Project/Network/HTTP/CORS (Cross-Origin Resource Sharing).md",
-    "1. Project/Network/HTTP/무상태(Stateless)와 세션.md",
-    "1. Project/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md",
-    "1. Project/SpringBoot/Spring/ApplicationContext.md",
-    "1. Project/SpringBoot/Spring/Bean Lifecycle.md",
-    "1. Project/SpringBoot/Spring/Bean.md",
-    "1. Project/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
-    "1. Project/Kafka",
-    "1. Project/SpringBoot/Spring/PSA (Portable Service Abstraction).md",
-    "1. Project/SpringBoot/Spring/Spring MVC.md",
-    "1. Project/SpringBoot/Spring/스프링 핵심 키워드.md",
-    "1. Project/SpringBoot/Spring/AOP",
-    "1. Project/JAVA/Pattern/Chain of Responsibility.md",
-    "1. Project/SpringBoot/Spring/IoC & DI.md",
-    "1. Project/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md",
-    "1. Project/SpringBoot/Tomcat/서블릿 컨테이너.md",
+    "1. Project/개발",
+    "Daily/2026/04/04-28.md",
+    "1. Project/개발/SpringBoot/Spring/AOP/AOP.md",
+    "1. Project/개발/SpringBoot/Spring/AOP/Spring AOP 프록시.md",
+    "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md",
+    "1. Project/개발/SpringBoot/Spring/요청 진입부터 스프링 초기화 + 실행 전체 흐름.md",
+    "1. Project/개발/Network/HTTP/HTTP 메서드/HTTP 캐시.md",
+    "1. Project/개발/Network/패킷.md",
+    "1. Project/개발/Network/CDN 동작 원리.md",
+    "1. Project/개발/Network/프록시.md",
+    "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md",
+    "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md",
+    "1. Project/개발/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md",
+    "1. Project/개발/SpringBoot/Spring/ApplicationContext.md",
+    "1. Project/개발/SpringBoot/Spring/Bean Lifecycle.md",
+    "1. Project/개발/SpringBoot/Spring/Bean.md",
+    "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
+    "1. Project/개발/Kafka",
+    "1. Project/개발/SpringBoot/Spring/PSA (Portable Service Abstraction).md",
+    "1. Project/개발/SpringBoot/Spring/Spring MVC.md",
+    "1. Project/개발/SpringBoot/Spring/AOP",
     "Repository/화면 캡처 2026-04-28 150051.png",
-    "1. Project/Network/HTTP/HTTP 메서드",
+    "1. Project/개발/Network/HTTP/HTTP 메서드",
     "1. Project/SpringBoot/Tomcat/무제",
-    "1. Project/SpringBoot/Tomcat",
-    "1. Project/SpringBoot/Spring",
+    "1. Project/개발/SpringBoot/Tomcat",
+    "1. Project/개발/SpringBoot/Spring",
     "Repository/HTTP&HTTPS-httpStructure.png",
     "Repository/HTTP&HTTPS-3.png",
     "Repository/패킷-IPv4 패킷 헤더 구조 (RFC 791).png",
-    "1. Project/Network/HTTP",
+    "1. Project/개발/Network/HTTP",
     "Repository/HTTP&HTTPS-2.png",
     "Repository/HTTP&HTTPS-1.png",
     "3. Resource/우아한 테크 코스/마틸다",
-    "2. Area/취업 준비",
-    "3. Resource/심리/스스로 정의하기",
     "Repository/스택&힙 매핑과 생애주기-1.png",
     "Repository/JVM-1.png",
     "Repository/JVM Heap-1.png",

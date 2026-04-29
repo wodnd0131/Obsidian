@@ -1,7 +1,7 @@
 #Network/HTTP 
 
 **HTTP는 HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
-![[../../../Repository/HTTP&HTTPS-1.png]]
+![[../../../../Repository/HTTP&HTTPS-1.png]]
 
 클라이언트와 서버들은 (데이터 스트림과 대조적으로) 개별적인 메시지 교환에 의해 통신합니다. 보통 브라우저인 클라이언트에 의해 전송되는 메시지를 요청(_requests_)이라고 부르며, 그에 대해 서버에서 응답으로 전송되는 메시지를 응답(_responses_)이라고 부릅니다.
 
@@ -11,7 +11,7 @@
 |**구조**|헤더(Header)와 바디(Body)가 명확히 구분됨|데이터가 잘게 쪼개져 계속 흘러감|
 |**비유**|**택배:** 상자를 보내고, 받는 사람이 확인|**수도꼭지:** 틀면 물이 계속 나오고, 잠그면 멈춤|
 |**상태**|요청이 끝나면 연결이 종료되거나 대기함|연결이 유지된 채 데이터가 계속 오감|
-![[../../../Repository/HTTP&HTTPS-2.png]]
+![[../../../../Repository/HTTP&HTTPS-2.png]]
 
 1990년대 초에 설계된 HTTP는 거듭하여 진화해온 확장 가능한 프로토콜입니다. HTTP는 애플리케이션 계층의 프로토콜로, 신뢰 가능한 전송 프로토콜이라면 이론상으로는 무엇이든 사용할 수 있으나 [[TCP (전송 제어 프로토콜)]] 혹은 암호화된 TCP 연결인 [[TCP (전송 제어 프로토콜)#TLS|TLS]] 를 통해 전송됩니다. HTTP의 확장성 덕분에, 오늘날 하이퍼텍스트 문서 뿐만 아니라 이미지와 비디오 혹은 HTML 폼 결과와 같은 내용을 서버로 포스트(POST)하기 위해서도 사용됩니다. HTTP는 또한 필요할 때마다 웹 페이지를 갱신하기 위해 문서의 일부를 가져오는데 사용될 수도 있습니다.
 
@@ -19,7 +19,7 @@
 HTTP는 클라이언트-서버 프로토콜입니다. 요청은 하나의 개체, 사용자 에이전트(또는 그것을 대신하는 프록시)에 의해 전송됩니다. 대부분의 경우, 사용자 에이전트는 브라우저지만, 무엇이든 될 수 있습니다. 예를 들어, 검색 엔진 인덱스를 채워넣고 유지하기 위해 웹을 돌아다니는 로봇이 그러한 경우입니다.
 
 각각의 개별적인 요청들은 서버로 보내지며, 서버는 요청을 처리하고 `response`라고 불리는 응답을 제공합니다. 이 요청과 응답 사이에는 여러 개체들이 있는데, 예를 들면 다양한 작업을 수행하는 게이트웨이 또는 캐시 역할을 하는 [[../프록시]] 등이 있습니다.
-![[../../../Repository/HTTP&HTTPS-3.png]]
+![[../../../../Repository/HTTP&HTTPS-3.png]]
 ### 클라이언트: 사용자 에이전트
 사용자 에이전트는 사용자를 대신하여 동작하는 모든 도구입니다. 이 역할은 주로 브라우저에 의해 수행됩니다; 엔지니어들과 자신들의 애플리케이션을 디버그하는 웹 개발자들이 사용하는 프로그램들은 예외입니다.
 
@@ -113,7 +113,7 @@ HTTP는 클라이언트-서버 프로토콜입니다. 요청은 하나의 개체
 - **QUIC:** 구글에서 실험 중인 UDP 기반 프로토콜로, 더 빠르고 신뢰성 있는 전송을 목표로 합니다.
 
 
-![[../../../Repository/HTTP&HTTPS-httpStructure.png]]
+![[../../../../Repository/HTTP&HTTPS-httpStructure.png]]
 
 - HTTP [메서드](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods), 보통 클라이언트가 수행하고자 하는 동작을 정의한 [`GET`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/GET), [`POST`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/POST) 같은 동사나 [`OPTIONS`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/OPTIONS)나 [`HEAD`](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods/HEAD)와 같은 명사입니다. 일반적으로, 클라이언트는 리소스를 가져오거나(`GET`을 사용하여) [HTML 폼](https://developer.mozilla.org/ko/docs/Learn_web_development/Extensions/Forms)의 데이터를 전송(`POST`를 사용하여)하려고 하지만, 다른 경우에는 다른 동작이 요구될 수도 있습니다.
 - 가져오려는 리소스의 경로; 예를 들면 [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol) (`http://`), [도메인](https://developer.mozilla.org/ko/docs/Glossary/Domain) (여기서는 `developer.mozilla.org`), 또는 TCP [포트](https://developer.mozilla.org/ko/docs/Glossary/Port) (여기서는 `80`)인 요소들을 제거한 리소스의 URL입니다.

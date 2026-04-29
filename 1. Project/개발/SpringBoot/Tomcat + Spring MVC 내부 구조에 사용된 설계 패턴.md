@@ -75,7 +75,7 @@ public DispatcherServlet dispatcherServlet() {
 
 ---
 
-## 2. [[Chain of Responsibility]] — Filter Chain / Interceptor Chain
+## 2. [[../JAVA/Pattern/Chain of Responsibility]] — Filter Chain / Interceptor Chain
 
 **문제:** 요청 처리 단계를 하드코딩하면 순서 변경, 단계 추가/제거가 불가능하다.
 

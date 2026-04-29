@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "1분 자기소개",
+      "path": "1. Project/취업 준비/커멘트/1분 자기소개.md"
+    },
+    {
+      "basename": "Claude All in one",
+      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
+    },
+    {
+      "basename": "면접 기본",
+      "path": "1. Project/취업 준비/커멘트/면접 기본.md"
+    },
+    {
+      "basename": "Restfull API",
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
+    },
+    {
+      "basename": "Open API",
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Open API.md"
+    },
+    {
+      "basename": "자기 소개",
+      "path": "1. Project/취업 준비/자기 소개.md"
+    },
+    {
+      "basename": "나의 컬처핏",
+      "path": "1. Project/취업 준비/나의 컬처핏.md"
+    },
+    {
       "basename": "04-27",
       "path": "Daily/2026/04/04-27.md"
     },
@@ -10,195 +38,167 @@
     },
     {
       "basename": "AOP",
-      "path": "1. Project/SpringBoot/Spring/AOP/AOP.md"
+      "path": "1. Project/개발/SpringBoot/Spring/AOP/AOP.md"
     },
     {
       "basename": "Spring AOP 프록시",
-      "path": "1. Project/SpringBoot/Spring/AOP/Spring AOP 프록시.md"
+      "path": "1. Project/개발/SpringBoot/Spring/AOP/Spring AOP 프록시.md"
     },
     {
       "basename": "서블릿의 정의",
-      "path": "1. Project/SpringBoot/Tomcat/서블릿의 정의.md"
-    },
-    {
-      "basename": "나의 컬처핏",
-      "path": "2. Area/취업 준비/나의 컬처핏.md"
-    },
-    {
-      "basename": "자기 소개",
-      "path": "2. Area/취업 준비/자기 소개.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
     },
     {
       "basename": "요청 진입부터 스프링 초기화 + 실행 전체 흐름",
-      "path": "1. Project/SpringBoot/Spring/요청 진입부터 스프링 초기화 + 실행 전체 흐름.md"
+      "path": "1. Project/개발/SpringBoot/Spring/요청 진입부터 스프링 초기화 + 실행 전체 흐름.md"
     },
     {
       "basename": "HTTP 캐시",
-      "path": "1. Project/Network/HTTP/HTTP 메서드/HTTP 캐시.md"
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/HTTP 캐시.md"
     },
     {
       "basename": "패킷",
-      "path": "1. Project/Network/패킷.md"
+      "path": "1. Project/개발/Network/패킷.md"
     },
     {
       "basename": "CDN 동작 원리",
-      "path": "1. Project/Network/CDN 동작 원리.md"
+      "path": "1. Project/개발/Network/CDN 동작 원리.md"
     },
     {
       "basename": "프록시",
-      "path": "1. Project/Network/프록시.md"
+      "path": "1. Project/개발/Network/프록시.md"
     },
     {
       "basename": "CORS (Cross-Origin Resource Sharing)",
-      "path": "1. Project/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
+      "path": "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
     },
     {
       "basename": "무상태(Stateless)와 세션",
-      "path": "1. Project/Network/HTTP/무상태(Stateless)와 세션.md"
+      "path": "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md"
     },
     {
       "basename": "CSRF 토큰 + XSS 공격과 방어",
-      "path": "1. Project/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md"
+      "path": "1. Project/개발/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md"
     },
     {
       "basename": "ApplicationContext",
-      "path": "1. Project/SpringBoot/Spring/ApplicationContext.md"
+      "path": "1. Project/개발/SpringBoot/Spring/ApplicationContext.md"
     },
     {
       "basename": "Bean Lifecycle",
-      "path": "1. Project/SpringBoot/Spring/Bean Lifecycle.md"
+      "path": "1. Project/개발/SpringBoot/Spring/Bean Lifecycle.md"
     },
     {
       "basename": "Bean",
-      "path": "1. Project/SpringBoot/Spring/Bean.md"
+      "path": "1. Project/개발/SpringBoot/Spring/Bean.md"
     },
     {
       "basename": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다",
-      "path": "1. Project/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
+      "path": "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
     },
     {
       "basename": "PSA (Portable Service Abstraction)",
-      "path": "1. Project/SpringBoot/Spring/PSA (Portable Service Abstraction).md"
+      "path": "1. Project/개발/SpringBoot/Spring/PSA (Portable Service Abstraction).md"
     },
     {
       "basename": "Spring MVC",
-      "path": "1. Project/SpringBoot/Spring/Spring MVC.md"
+      "path": "1. Project/개발/SpringBoot/Spring/Spring MVC.md"
     },
     {
       "basename": "스프링 핵심 키워드",
-      "path": "1. Project/SpringBoot/Spring/스프링 핵심 키워드.md"
+      "path": "1. Project/개발/SpringBoot/Spring/스프링 핵심 키워드.md"
     },
     {
       "basename": "Chain of Responsibility",
-      "path": "1. Project/JAVA/Pattern/Chain of Responsibility.md"
+      "path": "1. Project/개발/JAVA/Pattern/Chain of Responsibility.md"
     },
     {
       "basename": "IoC & DI",
-      "path": "1. Project/SpringBoot/Spring/IoC & DI.md"
+      "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
     },
     {
       "basename": "Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴",
-      "path": "1. Project/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
     },
     {
       "basename": "서블릿 컨테이너",
-      "path": "1. Project/SpringBoot/Tomcat/서블릿 컨테이너.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
     },
     {
       "basename": "DispatcherServlet",
-      "path": "1. Project/SpringBoot/Tomcat/DispatcherServlet.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/DispatcherServlet.md"
     },
     {
       "basename": "필터(Filter) vs 인터셉터(Interceptor)",
-      "path": "1. Project/SpringBoot/필터(Filter) vs 인터셉터(Interceptor).md"
+      "path": "1. Project/개발/SpringBoot/필터(Filter) vs 인터셉터(Interceptor).md"
     },
     {
       "basename": "Catalina",
-      "path": "1. Project/SpringBoot/Tomcat/Catalina.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
     },
     {
       "basename": "Coyote",
-      "path": "1. Project/SpringBoot/Tomcat/Coyote.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
     },
     {
       "basename": "Springboot",
-      "path": "1. Project/SpringBoot/Springboot.md"
+      "path": "1. Project/개발/SpringBoot/Springboot.md"
     },
     {
       "basename": "Spring Boot HTTP 요청,응답 처리 흐름",
-      "path": "1. Project/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
+      "path": "1. Project/개발/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
     },
     {
       "basename": "Spring Boot 내장 Tomcat 초기화 순서",
-      "path": "1. Project/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
+      "path": "1. Project/개발/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
     },
     {
       "basename": "GraalVM Native Image + Spring AOT",
-      "path": "1. Project/SpringBoot/GraalVM Native Image + Spring AOT.md"
+      "path": "1. Project/개발/SpringBoot/GraalVM Native Image + Spring AOT.md"
     },
     {
       "basename": "Tomcat의 내부 구조",
-      "path": "1. Project/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
     },
     {
       "basename": "NIO와 블로킹 IO",
-      "path": "1. Project/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
+      "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
     },
     {
       "basename": "JWT 저장 방식",
-      "path": "1. Project/Network/HTTP/JWT 저장 방식.md"
+      "path": "1. Project/개발/Network/HTTP/JWT 저장 방식.md"
     },
     {
       "basename": "JWT",
-      "path": "1. Project/Network/HTTP/JWT.md"
+      "path": "1. Project/개발/Network/HTTP/JWT.md"
     },
     {
       "basename": "자격 증명 + CORS + SameSite 쿠키",
-      "path": "1. Project/Network/자격 증명 + CORS + SameSite 쿠키.md"
+      "path": "1. Project/개발/Network/자격 증명 + CORS + SameSite 쿠키.md"
     },
     {
       "basename": "TCP (전송 제어 프로토콜)",
-      "path": "1. Project/Network/HTTP/TCP (전송 제어 프로토콜).md"
+      "path": "1. Project/개발/Network/HTTP/TCP (전송 제어 프로토콜).md"
     },
     {
       "basename": "Refresh Token 저장소는 세션 저장소와 같은가",
-      "path": "1. Project/Network/HTTP/Refresh Token 저장소는 세션 저장소와 같은가.md"
+      "path": "1. Project/개발/Network/HTTP/Refresh Token 저장소는 세션 저장소와 같은가.md"
     },
     {
       "basename": "ETag와 낙관적 잠금",
-      "path": "1. Project/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
     },
     {
       "basename": "SSE",
-      "path": "1. Project/Network/SSE.md"
+      "path": "1. Project/개발/Network/SSE.md"
     },
     {
       "basename": "Streamable HTTP",
-      "path": "1. Project/Network/Streamable HTTP.md"
+      "path": "1. Project/개발/Network/Streamable HTTP.md"
     },
     {
       "basename": "HTTP&HTTPS",
-      "path": "1. Project/Network/HTTP/HTTP&HTTPS.md"
-    },
-    {
-      "basename": "안전함 (HTTP 메서드)",
-      "path": "1. Project/Network/HTTP/HTTP 메서드/안전함 (HTTP 메서드).md"
-    },
-    {
-      "basename": "멱등성",
-      "path": "1. Project/Network/HTTP/HTTP 메서드/멱등성.md"
-    },
-    {
-      "basename": "메서드",
-      "path": "1. Project/Network/HTTP/HTTP 메서드/메서드.md"
-    },
-    {
-      "basename": "2주차 리뷰 포인트 정리",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/2주차 리뷰 포인트 정리.md"
-    },
-    {
-      "basename": "리뷰 살펴보기 - 메이",
-      "path": "1. Project/SCG 코드 리뷰/OOP 기본/타 리뷰 정리/리뷰 살펴보기 - 메이.md"
+      "path": "1. Project/개발/Network/HTTP/HTTP&HTTPS.md"
     }
   ],
   "omittedPaths": [],
