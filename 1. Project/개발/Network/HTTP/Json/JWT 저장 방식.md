@@ -1,5 +1,5 @@
 #Network/HTTP/Security #Network/HTTP #Network/JWT
-## 먼저 — [[JWT]]는 암호화된 쿠키가 아니다
+## 먼저 — [[Json/JWT]]는 암호화된 쿠키가 아니다
 
 이 오해를 먼저 짚고 가야 한다.
 
