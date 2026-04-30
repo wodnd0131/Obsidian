@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
+      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
+    },
+    {
       "basename": "1분 자기소개와 마지막 어필",
       "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
     },
     {
       "basename": "면접 기본 질문 모음",
       "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
+      "basename": "버저닝 인터셉터",
+      "path": "1. Project/취업 준비/소스들/버저닝 인터셉터.md"
+    },
+    {
+      "basename": "CICD 리태깅 복구",
+      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
+    },
+    {
+      "basename": "개발자로서 강점,단점",
+      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
     },
     {
       "basename": "힘들었던,어려웠던 경험",
@@ -23,10 +39,6 @@
     {
       "basename": "팀 갈등 경험과 해결 방식",
       "path": "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md"
-    },
-    {
-      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
-      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
     },
     {
       "basename": "지원 동기",
@@ -187,18 +199,6 @@
     {
       "basename": "Coyote",
       "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
-    },
-    {
-      "basename": "Springboot",
-      "path": "1. Project/개발/SpringBoot/Springboot.md"
-    },
-    {
-      "basename": "Spring Boot HTTP 요청,응답 처리 흐름",
-      "path": "1. Project/개발/SpringBoot/Spring Boot HTTP 요청,응답 처리 흐름.md"
-    },
-    {
-      "basename": "Spring Boot 내장 Tomcat 초기화 순서",
-      "path": "1. Project/개발/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
     }
   ],
   "omittedPaths": [],
