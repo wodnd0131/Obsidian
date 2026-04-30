@@ -25,7 +25,8 @@ String encrypted = AES.encrypt(password, secretKey);
 // DB에 encrypted 저장
 ```
 
-**근본적으로 틀린 접근이다.** 암호화는 복호화가 가능하다는 전제 위에 있다. 즉, `secretKey`가 노출되는 순간 전체 복호화가 가능하다.
+**근본적으로 틀린 접근이다.** 암호화는 복호화가 가능하다는 전제 위에 있다. 
+즉, `secretKey`가 노출되는 순간 전체 복호화가 가능하다.
 
 **진짜 필요한 것은 "검증은 가능하지만, 원본을 되돌릴 수 없는" 연산이다.** → 이것이 Hash가 등장한 근본 이유다.
 
@@ -45,11 +46,11 @@ H : {0,1}* → {0,1}^n
 
 **암호학적 해시 함수(Cryptographic Hash Function)가 추가로 요구하는 세 가지 성질:**
 
-|성질|정의|깨지면 생기는 문제|
-|---|---|---|
-|**Preimage resistance**|`H(x) = y`일 때, `y`만 보고 `x`를 찾는 것이 계산상 불가능|해시값으로 원본 복원 가능|
-|**Second preimage resistance**|`x`가 주어졌을 때, `H(x') = H(x)`인 `x' ≠ x`를 찾는 것이 불가능|다른 입력으로 같은 해시 위조 가능|
-|**Collision resistance**|`H(x) = H(x')`인 임의의 `x ≠ x'` 쌍을 찾는 것이 불가능|같은 해시를 가진 두 문서 생성 가능|
+| 성질                             | 정의                                               | 깨지면 생기는 문제           |
+| ------------------------------ | ------------------------------------------------ | -------------------- |
+| **Preimage resistance**        | `H(x) = y`일 때, `y`만 보고 `x`를 찾는 것이 계산상 불가능        | 해시값으로 원본 복원 가능       |
+| **Second preimage resistance** | `x`가 주어졌을 때, `H(x') = H(x)`인 `x' ≠ x`를 찾는 것이 불가능 | 다른 입력으로 같은 해시 위조 가능  |
+| **Collision resistance**       | `H(x) = H(x')`인 임의의 `x ≠ x'` 쌍을 찾는 것이 불가능        | 같은 해시를 가진 두 문서 생성 가능 |
 
 > 📎 **근거:** NIST FIPS 180-4 _"Secure Hash Standard"_, Section 3 — Security Properties
 
