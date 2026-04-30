@@ -1,28 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Restfull API",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
+      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
+      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
+    },
+    {
+      "basename": "면접 기본 질문 모음",
+      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
+      "basename": "pickeat에서 감내해야할 것",
+      "path": "1. Project/pickeat에서 감내해야할 것.md"
+    },
+    {
+      "basename": "지원 동기",
+      "path": "1. Project/취업 준비/커멘트/인적성/지원 동기.md"
+    },
+    {
+      "basename": "1분 자기소개와 마지막 어필",
+      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
+    },
+    {
+      "basename": "팀 갈등 경험과 해결 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md"
+    },
+    {
+      "basename": "페어, 코드 리뷰 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
+    },
+    {
+      "basename": "협업할 때 어떤 역할인지",
+      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
     },
     {
       "basename": "힘들었던,어려웠던 경험",
-      "path": "1. Project/취업 준비/커멘트/힘들었던,어려웠던 경험.md"
+      "path": "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md"
     },
     {
       "basename": "Claude All in one",
       "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
     },
     {
-      "basename": "면접 기본",
-      "path": "1. Project/취업 준비/커멘트/면접 기본.md"
-    },
-    {
       "basename": "AI는 어떻게 생각하시나요",
       "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
     },
     {
-      "basename": "1분 자기소개",
-      "path": "1. Project/취업 준비/커멘트/1분 자기소개.md"
+      "basename": "단점",
+      "path": "개발자로서 강점/단점.md"
+    },
+    {
+      "basename": "좋은 메서드 명칭 작성법",
+      "path": "1. Project/개발/JAVA/Clean-code/좋은 메서드 명칭 작성법.md"
+    },
+    {
+      "basename": "Clean Code",
+      "path": "1. Project/개발/JAVA/Clean-code/Clean Code.md"
+    },
+    {
+      "basename": "Restfull API",
+      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
     },
     {
       "basename": "04-29",
@@ -163,42 +199,6 @@
     {
       "basename": "Spring Boot 내장 Tomcat 초기화 순서",
       "path": "1. Project/개발/SpringBoot/Spring Boot 내장 Tomcat 초기화 순서.md"
-    },
-    {
-      "basename": "GraalVM Native Image + Spring AOT",
-      "path": "1. Project/개발/SpringBoot/GraalVM Native Image + Spring AOT.md"
-    },
-    {
-      "basename": "Tomcat의 내부 구조",
-      "path": "1. Project/개발/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
-    },
-    {
-      "basename": "NIO와 블로킹 IO",
-      "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
-    },
-    {
-      "basename": "JWT 저장 방식",
-      "path": "1. Project/개발/Network/HTTP/JWT 저장 방식.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "1. Project/개발/Network/HTTP/JWT.md"
-    },
-    {
-      "basename": "자격 증명 + CORS + SameSite 쿠키",
-      "path": "1. Project/개발/Network/자격 증명 + CORS + SameSite 쿠키.md"
-    },
-    {
-      "basename": "TCP (전송 제어 프로토콜)",
-      "path": "1. Project/개발/Network/HTTP/TCP (전송 제어 프로토콜).md"
-    },
-    {
-      "basename": "Refresh Token 저장소는 세션 저장소와 같은가",
-      "path": "1. Project/개발/Network/HTTP/Refresh Token 저장소는 세션 저장소와 같은가.md"
-    },
-    {
-      "basename": "ETag와 낙관적 잠금",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
     }
   ],
   "omittedPaths": [],
