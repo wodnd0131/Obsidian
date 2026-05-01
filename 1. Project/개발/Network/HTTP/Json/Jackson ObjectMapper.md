@@ -42,7 +42,8 @@ public class JacksonConfig {
 }
 ```
 
-이 순간 **Spring Boot의 자동 설정(`JacksonAutoConfiguration`)이 무력화된다.** Spring MVC가 내부적으로 쓰던 ObjectMapper 설정이 전부 날아간다.
+이 순간 **Spring Boot의 자동 설정(`JacksonAutoConfiguration`)이 무력화된다.** 
+Spring MVC가 내부적으로 쓰던 ObjectMapper 설정이 전부 날아간다.
 
 ```
 증상:
@@ -66,14 +67,16 @@ public class OrderService {
 }
 ```
 
-결론부터: **`ObjectMapper` 자체는 스레드 안전하다.** 단, `ObjectReader` / `ObjectWriter`를 만들기 전에 설정을 변경하면 안 된다.
+결론부터: **`ObjectMapper` 자체는 스레드 안전하다.**
+단, `ObjectReader` / `ObjectWriter`를 만들기 전에 설정을 변경하면 안 된다.
 
 ```java
 // DANGEROUS: 런타임에 설정 변경
 objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true); // 레이스 컨디션
 ```
 
-> 📎 **근거:** Jackson 공식 문서 — _"Shared ObjectMapper instances are thread-safe after configuration is done"_
+> 📎 **근거:** Jackson 공식 문서 — 
+> _"Shared ObjectMapper instances are thread-safe after configuration is done"_
 
 ---
 
@@ -424,9 +427,182 @@ mapper.readValue(json, new TypeReference<List<Order>>() {});
 
 ## 5. 이어지는 개념
 
-|순서|개념|이유|
-|---|---|---|
-|1|**Java Type Erasure & TypeReference**|제네릭 타입을 Jackson에 올바르게 전달하려면 Type Erasure가 왜 문제인지 알아야 한다 — `List<Order>` 역직렬화 버그의 근본 원인|
-|2|**Spring MVC `HttpMessageConverter`**|ObjectMapper가 Spring MVC 안에서 어떻게 연결되는지 — `@RequestBody` / `@ResponseBody`가 ObjectMapper를 호출하는 실제 경로|
-|3|**Redis 직렬화 전략 (`RedisTemplate`)**|`GenericJackson2JsonRedisSerializer` vs `Jackson2JsonRedisSerializer` 선택 기준 — 다형성 타입 정보 포함 여부가 핵심|
-|4|**`@JsonView` & DTO 분리 전략**|같은 엔티티를 API마다 다르게 직렬화해야 할 때 — ObjectMapper 설정보다 더 정밀한 제어가 필요한 시점|
+| 순서  | 개념                                    | 이유                                                                                                  |
+| --- | ------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1   | **Java Type Erasure & TypeReference** | 제네릭 타입을 Jackson에 올바르게 전달하려면 Type Erasure가 왜 문제인지 알아야 한다 — `List<Order>` 역직렬화 버그의 근본 원인              |
+| 2   | **Spring MVC `HttpMessageConverter`** | ObjectMapper가 Spring MVC 안에서 어떻게 연결되는지 — `@RequestBody` / `@ResponseBody`가 ObjectMapper를 호출하는 실제 경로 |
+| 3   | **Redis 직렬화 전략 (`RedisTemplate`)**    | `GenericJackson2JsonRedisSerializer` vs `Jackson2JsonRedisSerializer` 선택 기준 — 다형성 타입 정보 포함 여부가 핵심   |
+| 4   | **`@JsonView` & DTO 분리 전략**           | 같은 엔티티를 API마다 다르게 직렬화해야 할 때 — ObjectMapper 설정보다 더 정밀한 제어가 필요한 시점                                    |
+
+---
+# 프로퍼티 탐색 순서 — 직렬화 / 역직렬화 분리
+
+---
+
+## 직렬화 (객체 → JSON) 탐색 순서
+
+```java
+public class Order {
+    public Long id;                    // ① public 필드 → 직렬화 됨
+    private String status;             // 단독으로는 무시
+    private String customerName;
+
+    public String getCustomerName() {  // ② public getter → "customerName" 키로 직렬화
+        return customerName;
+    }
+
+    // status getter 없음 → status 직렬화 안 됨
+}
+```
+
+```json
+// 결과
+{"id": 1, "customerName": "홍길동"}
+// status 없음 — getter가 없으니까
+```
+
+**탐색 우선순위:**
+
+```
+1순위: @JsonProperty 붙은 것 (필드든 getter든)
+2순위: public getter (getXxx 형태)
+3순위: public 필드
+```
+
+---
+
+## 역직렬화 (JSON → 객체) 탐색 순서
+
+직렬화랑 **별개로** 동작한다.
+
+```java
+public class Order {
+    public Long id;                    // ① public 필드 → 값 주입 됨
+    private String status;             // 단독으로는 무시
+    private String customerName;
+
+    public void setCustomerName(String name) { // ② public setter → 값 주입
+        this.customerName = name;
+    }
+
+    // status setter 없음 → JSON에 status 있어도 무시됨
+}
+```
+
+**탐색 우선순위:**
+
+```
+1순위: @JsonProperty 붙은 것
+2순위: public setter (setXxx 형태)
+3순위: public 필드
+```
+
+---
+
+## 직렬화 / 역직렬화 탐색이 분리된 게 문제가 되는 경우
+
+```java
+public class Order {
+    private Long id;
+    private String status;
+
+    // getter만 있고 setter 없음
+    public Long getId() { return id; }
+    public String getStatus() { return status; }
+}
+```
+
+```
+직렬화:  getter 있음 → id, status JSON으로 나감 (정상)
+역직렬화: setter 없음 → id, status 값 주입 안 됨
+          → 기본 생성자로 객체 생성 → 전부 null
+```
+
+```java
+// 실무에서 자주 만나는 패턴
+// "분명히 JSON에 값이 있는데 객체는 null이야"
+Order order = objectMapper.readValue(
+    "{\"id\":1, \"status\":\"PENDING\"}",
+    Order.class
+);
+order.getId(); // null — setter가 없어서 주입 안 됨
+```
+
+---
+
+## 해결책별 동작
+
+```java
+// 해결책 1: setter 추가
+public void setId(Long id) { this.id = id; }
+
+// 해결책 2: @JsonProperty 필드에 직접
+public class Order {
+    @JsonProperty
+    private Long id;       // getter/setter 없어도 직렬화/역직렬화 둘 다 됨
+    @JsonProperty
+    private String status;
+}
+
+// 해결책 3: 가시성 설정 변경
+objectMapper.setVisibility(PropertyAccessor.FIELD, Visibility.ANY);
+// private 필드도 전부 직렬화/역직렬화 대상
+// getter/setter 없어도 됨
+
+// 해결책 4: @JsonCreator (불변 객체)
+public class Order {
+    private final Long id;
+    private final String status;
+
+    @JsonCreator
+    public Order(
+            @JsonProperty("id") Long id,
+            @JsonProperty("status") String status) {
+        this.id = id;
+        this.status = status;
+    }
+    // setter 없어도 역직렬화 가능
+    // 불변 객체 유지 가능
+}
+```
+
+---
+
+## 자주 나는 오류 패턴 정리
+
+```
+오류 상황 1: 역직렬화 후 전부 null
+원인: getter만 있고 setter 없음
+해결: setter 추가 or @JsonProperty or @JsonCreator
+
+오류 상황 2: 직렬화 결과에 필드가 없음
+원인: private 필드인데 getter 없음
+해결: getter 추가 or @JsonProperty
+
+오류 상황 3: JSON 키 이름이 다름
+원인: getter 이름이 필드명과 다름
+      private String URL → getURL() → "url" 아니라 "url"로 나옴
+      (Jackson이 getURL → "url"로 변환하는 규칙 때문)
+해결: @JsonProperty("URL") 명시
+
+오류 상황 4: 역직렬화 자체 실패
+원인: 기본 생성자 없음 + @JsonCreator도 없음
+해결: 기본 생성자 추가 or @JsonCreator 명시
+```
+
+---
+
+## 한 줄 정리
+
+```
+직렬화: getter or public 필드 있으면 JSON으로 나감
+역직렬화: setter or public 필드 있어야 값이 주입됨
+둘은 독립적 — getter만 있으면 직렬화는 되고 역직렬화는 null
+```
+
+**실무 권장:**
+
+```
+API DTO라면 @JsonProperty or @JsonCreator 명시
+가시성에 의존하면 getter/setter 유무에 따라 조용히 깨짐
+```

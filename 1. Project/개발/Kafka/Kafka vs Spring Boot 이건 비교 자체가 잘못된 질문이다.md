@@ -3,12 +3,12 @@
 
 이 두 개는 **같은 레이어에 있지 않다.** 비교 대상이 아니다.
 
-| |Apache Kafka|Spring Boot|
-|---|---|---|
-|**분류**|분산 메시지 스트리밍 플랫폼|JVM 애플리케이션 프레임워크|
-|**만든 곳**|LinkedIn → Apache Foundation|Pivotal → VMware (Spring 팀)|
-|**핵심 역할**|메시지를 저장하고 전달하는 **인프라**|애플리케이션을 빠르게 만드는 **프레임워크**|
-|**관계**|Spring Boot로 Kafka를 사용한다|Kafka는 Spring Boot의 의존 대상 중 하나|
+|           | Apache Kafka                 | Spring Boot                    |
+| --------- | ---------------------------- | ------------------------------ |
+| **분류**    | 분산 메시지 스트리밍 플랫폼              | JVM 애플리케이션 프레임워크               |
+| **만든 곳**  | LinkedIn → Apache Foundation | Pivotal → VMware (Spring 팀)    |
+| **핵심 역할** | 메시지를 저장하고 전달하는 **인프라**       | 애플리케이션을 빠르게 만드는 **프레임워크**      |
+| **관계**    | Spring Boot로 Kafka를 사용한다     | Kafka는 Spring Boot의 의존 대상 중 하나 |
 
 자동차와 도로를 비교하는 것과 같다. 도로 위에서 자동차가 달린다.
 

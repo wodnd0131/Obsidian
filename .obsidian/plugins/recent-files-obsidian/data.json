@@ -1,28 +1,172 @@
 {
   "recentFiles": [
     {
-      "basename": "직렬화, 역직렬화",
-      "path": "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md"
+      "basename": "1분 자기소개와 마지막 어필",
+      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
+    },
+    {
+      "basename": "개발자로서 강점,단점",
+      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
+    },
+    {
+      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
+      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
+    },
+    {
+      "basename": "지원 동기",
+      "path": "1. Project/취업 준비/커멘트/인적성/지원 동기.md"
+    },
+    {
+      "basename": "팀 갈등 경험과 해결 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md"
+    },
+    {
+      "basename": "페어, 코드 리뷰 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
+    },
+    {
+      "basename": "협업할 때 어떤 역할인지",
+      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
+    },
+    {
+      "basename": "힘들었던,어려웠던 경험",
+      "path": "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md"
+    },
+    {
+      "basename": "AI는 어떻게 생각하시나요",
+      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
+    },
+    {
+      "basename": "면접 기본 질문 모음",
+      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
+      "basename": "함께 일하기 힘든 유형",
+      "path": "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md"
+    },
+    {
+      "basename": "User-Agent를 통한 미리보기 문제 해결",
+      "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
+    },
+    {
+      "basename": "Claude All in one",
+      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
+    },
+    {
+      "basename": "나의 컬처핏",
+      "path": "1. Project/취업 준비/나의 컬처핏.md"
+    },
+    {
+      "basename": "무제",
+      "path": "1. Project/개발/JAVA/CS/OS/무제.md"
+    },
+    {
+      "basename": "자바는 어떻게 실행되는가",
+      "path": "1. Project/개발/JAVA/CS/자바는 어떻게 실행되는가.md"
+    },
+    {
+      "basename": "접근 제어자 (Access Modifier)",
+      "path": "1. Project/개발/JAVA/CS/접근 제어자 (Access Modifier).md"
     },
     {
       "basename": "역직렬화 취약점 — Gadget Chain RCE",
       "path": "1. Project/개발/Network/HTTP/Json/역직렬화 취약점 — Gadget Chain RCE.md"
     },
     {
-      "basename": "Jackson ObjectMapper",
-      "path": "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md"
+      "basename": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다",
+      "path": "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
+    },
+    {
+      "basename": "CORS (Cross-Origin Resource Sharing)",
+      "path": "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
+    },
+    {
+      "basename": "무상태(Stateless)와 세션",
+      "path": "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md"
+    },
+    {
+      "basename": "CAS (Compare-And-Swap)",
+      "path": "1. Project/개발/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md"
+    },
+    {
+      "basename": "GIL (Global Interpreter Lock)",
+      "path": "1. Project/개발/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md"
+    },
+    {
+      "basename": "TLAB (Thread-Local Allocation Buffer)",
+      "path": "1. Project/개발/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
+    },
+    {
+      "basename": "Java의 참조 (Reference)",
+      "path": "1. Project/개발/JAVA/CS/Java의 참조 (Reference).md"
+    },
+    {
+      "basename": "Primitive Vs Wrapper",
+      "path": "1. Project/개발/JAVA/CS/Primitive Vs Wrapper.md"
+    },
+    {
+      "basename": "RunTimeException",
+      "path": "1. Project/개발/JAVA/CS/RunTimeException.md"
+    },
+    {
+      "basename": "Static",
+      "path": "1. Project/개발/JAVA/CS/Static.md"
+    },
+    {
+      "basename": "Why Use Java",
+      "path": "1. Project/개발/JAVA/CS/Why Use Java.md"
+    },
+    {
+      "basename": "N+1",
+      "path": "1. Project/개발/JAVA/DB/N+1.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "1. Project/개발/JAVA/DB/MySQL.md"
+    },
+    {
+      "basename": "MVCC (Multi-Version Concurrency Control)",
+      "path": "1. Project/개발/JAVA/DB/MVCC (Multi-Version Concurrency Control).md"
+    },
+    {
+      "basename": "JPA",
+      "path": "1. Project/개발/JAVA/DB/JPA.md"
+    },
+    {
+      "basename": "JDBC vs JPA",
+      "path": "1. Project/개발/JAVA/DB/JDBC vs JPA.md"
+    },
+    {
+      "basename": "InnoDB",
+      "path": "1. Project/개발/JAVA/DB/InnoDB.md"
+    },
+    {
+      "basename": "낙관적 락 vs 비관적 락",
+      "path": "1. Project/개발/JAVA/DB/낙관적 락 vs 비관적 락.md"
+    },
+    {
+      "basename": "@Transactional",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md"
+    },
+    {
+      "basename": "OIDC",
+      "path": "1. Project/개발/Network/OIDC.md"
     },
     {
       "basename": "04-30",
       "path": "Daily/2026/04/04-30.md"
     },
     {
-      "basename": "JSON",
-      "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
+      "basename": "Jackson ObjectMapper",
+      "path": "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md"
     },
     {
-      "basename": "JPA",
-      "path": "1. Project/개발/JAVA/DB/JPA.md"
+      "basename": "직렬화, 역직렬화",
+      "path": "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md"
+    },
+    {
+      "basename": "JSON",
+      "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
     },
     {
       "basename": "소프트 딜리트 패턴",
@@ -41,14 +185,6 @@
       "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
     },
     {
-      "basename": "OIDC",
-      "path": "1. Project/개발/Network/OIDC.md"
-    },
-    {
-      "basename": "@Transactional",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md"
-    },
-    {
       "basename": "gRPC",
       "path": "1. Project/개발/Network/gRPC.md"
     },
@@ -57,148 +193,12 @@
       "path": "1. Project/개발/Network/SSE.md"
     },
     {
-      "basename": "협업할 때 어떤 역할인지",
-      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
-    },
-    {
-      "basename": "면접 기본 질문 모음",
-      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
-    },
-    {
-      "basename": "User-Agent를 통한 미리보기 문제 해결",
-      "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
-    },
-    {
       "basename": "로깅 개선기",
       "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
     },
     {
       "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
       "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
-    },
-    {
-      "basename": "CICD 리태깅 복구",
-      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
-    },
-    {
-      "basename": "버저닝 인터셉터",
-      "path": "1. Project/취업 준비/소스들/버저닝 인터셉터.md"
-    },
-    {
-      "basename": "1분 자기소개와 마지막 어필",
-      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
-    },
-    {
-      "basename": "무중단 스키마 마이그레이션",
-      "path": "1. Project/개발/Infra/가용성/무중단 스키마 마이그레이션.md"
-    },
-    {
-      "basename": "메서드",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/메서드.md"
-    },
-    {
-      "basename": "멱등성",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/멱등성.md"
-    },
-    {
-      "basename": "안전함 (HTTP 메서드)",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/안전함 (HTTP 메서드).md"
-    },
-    {
-      "basename": "ETag와 낙관적 잠금",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/ETag와 낙관적 잠금.md"
-    },
-    {
-      "basename": "HTTP 캐시",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/HTTP 캐시.md"
-    },
-    {
-      "basename": "무상태(Stateless)와 세션",
-      "path": "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md"
-    },
-    {
-      "basename": "CORS (Cross-Origin Resource Sharing)",
-      "path": "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
-    },
-    {
-      "basename": "Restfull API",
-      "path": "1. Project/개발/Network/HTTP/HTTP 메서드/Restfull API.md"
-    },
-    {
-      "basename": "CSRF 토큰 + XSS 공격과 방어",
-      "path": "1. Project/개발/Network/HTTP/CSRF 토큰 + XSS 공격과 방어.md"
-    },
-    {
-      "basename": "Flyway 도입기",
-      "path": "1. Project/개발/Infra/Flyway/Flyway 도입기.md"
-    },
-    {
-      "basename": "MySQL - EXPLAIN",
-      "path": "1. Project/개발/DB/MySQL - EXPLAIN.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "1. Project/개발/Network/HTTP/Json/JWT.md"
-    },
-    {
-      "basename": "LSP (리스코프 치환 원칙)",
-      "path": "1. Project/개발/JAVA/OOP/LSP (리스코프 치환 원칙).md"
-    },
-    {
-      "basename": "힘들었던,어려웠던 경험",
-      "path": "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md"
-    },
-    {
-      "basename": "페어, 코드 리뷰 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
-    },
-    {
-      "basename": "함께 일하기 힘든 유형",
-      "path": "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md"
-    },
-    {
-      "basename": "팀 갈등 경험과 해결 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md"
-    },
-    {
-      "basename": "지원 동기",
-      "path": "1. Project/취업 준비/커멘트/인적성/지원 동기.md"
-    },
-    {
-      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
-      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
-    },
-    {
-      "basename": "개발자로서 강점,단점",
-      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
-    },
-    {
-      "basename": "Claude All in one",
-      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
-    },
-    {
-      "basename": "AI는 어떻게 생각하시나요",
-      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
-    },
-    {
-      "basename": "나의 컬처핏",
-      "path": "1. Project/취업 준비/나의 컬처핏.md"
-    },
-    {
-      "basename": "소프트 딜리트 패턴-1",
-      "path": "Repository/소프트 딜리트 패턴-1.png"
-    },
-    {
-      "basename": "pickeat에서 감내해야할 것",
-      "path": "1. Project/pickeat에서 감내해야할 것.md"
-    },
-    {
-      "basename": "좋은 메서드 명칭 작성법",
-      "path": "1. Project/개발/JAVA/Clean-code/좋은 메서드 명칭 작성법.md"
-    },
-    {
-      "basename": "Clean Code",
-      "path": "1. Project/개발/JAVA/Clean-code/Clean Code.md"
     }
   ],
   "omittedPaths": [],

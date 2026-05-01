@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ff5a2554b8b92959",
+        "id": "ecff8a050d3b7aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "f81b688c570512f6",
+            "id": "833e1b9dd065b03a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md",
+                "file": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "직렬화, 역직렬화"
-            }
-          },
-          {
-            "id": "427c0f9847484023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Jackson ObjectMapper"
-            }
-          },
-          {
-            "id": "f1f3bcf97e015bec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/개발/Network/OIDC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "OIDC"
-            }
-          },
-          {
-            "id": "df8d88f2f2e8dfca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "@Transactional"
+              "title": "1분 자기소개와 마지막 어필"
             }
           }
         ]
@@ -119,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Network/HTTP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,84 +200,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-custom-frames:Open Todo.List": true,
       "bases:새 베이스 생성하기": false,
-      "daily-notes:오늘의 일일 노트 열기": true,
-      "periodic-notes:Open today": false
+      "daily-notes:오늘의 일일 노트 열기": true
     }
   },
-  "floating": {
-    "id": "5e0a805441864990",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9a3070d0d5b315ee",
-        "type": "window",
-        "children": [
-          {
-            "id": "42f9ea90e5f80243",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6bf13ff684cee3c7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Daily/2026/04/04-30.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "04-30"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1832,
-        "y": 0,
-        "width": 728,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "f81b688c570512f6",
+  "active": "833e1b9dd065b03a",
   "lastOpenFiles": [
+    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
+    "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
+    "1. Project/취업 준비/커멘트/인적성/지원 동기.md",
+    "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md",
+    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
+    "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
+    "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md",
+    "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md",
+    "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
+    "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
+    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
+    "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
+    "1. Project/취업 준비/커멘트/Claude All in one.md",
+    "1. Project/취업 준비/나의 컬처핏.md",
+    "1. Project/개발/JAVA/CS/OS/무제.md",
+    "1. Project/개발/JAVA/CS/자바는 어떻게 실행되는가.md",
+    "1. Project/개발/JAVA/CS/접근 제어자 (Access Modifier).md",
     "1. Project/개발/Network/HTTP/Json/역직렬화 취약점 — Gadget Chain RCE.md",
-    "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md",
-    "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md",
-    "Daily/2026/04/04-30.md",
-    "1. Project/개발/Network/HTTP/Json/JSON.md",
+    "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
+    "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md",
+    "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md",
+    "1. Project/개발/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md",
+    "1. Project/개발/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md",
+    "1. Project/개발/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md",
+    "1. Project/개발/JAVA/CS/Java의 참조 (Reference).md",
+    "1. Project/개발/JAVA/CS/Primitive Vs Wrapper.md",
     "1. Project/개발/Network/HTTP/Json",
-    "1. Project/개발/JAVA/DB/JPA.md",
-    "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md",
-    "1. Project/개발/Network/RS256, JWT vs HTTPS.md",
-    "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
-    "1. Project/개발/Network/HTTP/Json/Hash.md",
-    "1. Project/개발/Network/OIDC.md",
-    "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md",
-    "1. Project/개발/Network/gRPC.md",
     "1. Project/개발/SpringBoot/Spring/Transaction",
     "1. Project/개발/JAVA/DB",
-    "1. Project/개발/Network/SSE.md",
-    "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
-    "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
-    "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
-    "1. Project/개발/Infra/모니터링/로깅 개선기.md",
-    "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md",
-    "1. Project/취업 준비/소스들/CICD 리태깅 복구.md",
-    "1. Project/취업 준비/소스들/버저닝 인터셉터.md",
-    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
     "1. Project/개발/Infra/가용성",
     "1. Project/개발/Infra/모니터링",
-    "1. Project/개발/Infra/가용성/무중단 스키마 마이그레이션.md",
-    "1. Project/개발/Network/HTTP/HTTP 메서드/메서드.md",
-    "1. Project/개발/Network/HTTP/HTTP 메서드/멱등성.md",
-    "1. Project/개발/Network/HTTP/HTTP 메서드/안전함 (HTTP 메서드).md",
     "1. Project/개발/DB",
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "1. Project/개발/Infra/Flyway",
