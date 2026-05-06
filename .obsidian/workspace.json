@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/질문별 코멘트.md",
+                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "질문별 코멘트"
+              "title": "검증 관련 리뷰"
             }
           }
         ]
@@ -206,9 +206,9 @@
   },
   "active": "404f7d827c624c67",
   "lastOpenFiles": [
-    "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
-    "1. Project/SCG 코드 리뷰/Spring/6차시/질문별 코멘트.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/변경점.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/질문별 코멘트.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/Spring Boot에서 검증이란.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
     "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
