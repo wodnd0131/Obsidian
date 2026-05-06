@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/무제.md"
+    },
+    {
+      "basename": "검증 관련 리뷰",
+      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md"
+    },
+    {
+      "basename": "변경점",
+      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/변경점.md"
+    },
+    {
+      "basename": "Spring Boot에서 검증이란",
+      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/Spring Boot에서 검증이란.md"
+    },
+    {
       "basename": "6차시",
       "path": "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "JSON",
       "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
-    },
-    {
-      "basename": "소프트 딜리트 패턴",
-      "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
-    },
-    {
-      "basename": "RS256, JWT vs HTTPS",
-      "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
-    },
-    {
-      "basename": "OAuth 2.0, OIDC 전체 흐름",
-      "path": "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md"
-    },
-    {
-      "basename": "Hash",
-      "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
     }
   ],
   "omittedPaths": [],

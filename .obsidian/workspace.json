@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
+                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/무제.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6차시"
+              "title": "무제"
             }
           }
         ]
@@ -206,8 +206,12 @@
   },
   "active": "404f7d827c624c67",
   "lastOpenFiles": [
-    "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/무제.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/변경점.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/Spring Boot에서 검증이란.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
+    "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시",
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05/05-06.md",
@@ -231,10 +235,6 @@
     "1. Project/개발/JAVA/CS/자바는 어떻게 실행되는가.md",
     "1. Project/개발/JAVA/CS/접근 제어자 (Access Modifier).md",
     "1. Project/개발/Network/HTTP/Json/역직렬화 취약점 — Gadget Chain RCE.md",
-    "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
-    "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md",
-    "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md",
-    "1. Project/개발/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",
