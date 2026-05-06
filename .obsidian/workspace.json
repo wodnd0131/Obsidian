@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
+                "file": "Daily/2026/05/05-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1분 자기소개와 마지막 어필"
+              "title": "05-01"
             }
           }
         ]
@@ -205,6 +205,9 @@
   },
   "active": "833e1b9dd065b03a",
   "lastOpenFiles": [
+    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
+    "Daily/2026/05/05-01.md",
+    "Daily/2026/05",
     "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
     "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
     "1. Project/취업 준비/커멘트/인적성/지원 동기.md",
@@ -215,7 +218,6 @@
     "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md",
     "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
     "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
-    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
     "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
     "1. Project/취업 준비/커멘트/Claude All in one.md",
     "1. Project/취업 준비/나의 컬처핏.md",
@@ -230,7 +232,6 @@
     "1. Project/개발/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md",
     "1. Project/개발/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md",
     "1. Project/개발/JAVA/CS/Java의 참조 (Reference).md",
-    "1. Project/개발/JAVA/CS/Primitive Vs Wrapper.md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",
@@ -243,7 +244,6 @@
     "1. Project/개발/Infra",
     "Repository/소프트 딜리트 패턴-1.png",
     "개발자로서 강점",
-    "1. Project/취업 준비/소스들",
     "Repository/화면 캡처 2026-04-28 150051.png",
     "Repository/HTTP&HTTPS-httpStructure.png",
     "Repository/HTTP&HTTPS-3.png",

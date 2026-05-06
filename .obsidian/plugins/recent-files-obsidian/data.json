@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "05-01",
+      "path": "Daily/2026/05/05-01.md"
+    },
+    {
       "basename": "1분 자기소개와 마지막 어필",
       "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "로깅 개선기",
       "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
-    },
-    {
-      "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
-      "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
     }
   ],
   "omittedPaths": [],
