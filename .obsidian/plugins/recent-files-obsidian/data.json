@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "6차시",
+      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md"
+    },
+    {
       "basename": "5차시",
       "path": "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hash",
       "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "1. Project/개발/Network/gRPC.md"
     }
   ],
   "omittedPaths": [],

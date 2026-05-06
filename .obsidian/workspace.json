@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
+                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5차시"
+              "title": "6차시"
             }
           }
         ]
@@ -206,6 +206,9 @@
   },
   "active": "404f7d827c624c67",
   "lastOpenFiles": [
+    "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시",
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05/05-06.md",
     "Daily/2026/05/05-01.md",
@@ -232,7 +235,6 @@
     "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md",
     "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md",
     "1. Project/개발/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md",
-    "1. Project/개발/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",
@@ -242,9 +244,7 @@
     "1. Project/개발/DB",
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "1. Project/개발/Infra/Flyway",
-    "1. Project/개발/Infra",
     "Repository/소프트 딜리트 패턴-1.png",
-    "개발자로서 강점",
     "Repository/화면 캡처 2026-04-28 150051.png",
     "Repository/HTTP&HTTPS-httpStructure.png",
     "Repository/HTTP&HTTPS-3.png",
