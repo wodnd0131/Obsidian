@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "5차시",
+      "path": "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md"
+    },
+    {
+      "basename": "05-06",
+      "path": "Daily/2026/05/05-06.md"
+    },
+    {
       "basename": "05-01",
       "path": "Daily/2026/05/05-01.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "gRPC",
       "path": "1. Project/개발/Network/gRPC.md"
-    },
-    {
-      "basename": "SSE",
-      "path": "1. Project/개발/Network/SSE.md"
-    },
-    {
-      "basename": "로깅 개선기",
-      "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
     }
   ],
   "omittedPaths": [],
