@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
+                "file": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "검증 관련 리뷰"
+              "title": "성격 장단점 특이사항등"
             }
           }
         ]
@@ -206,9 +206,19 @@
   },
   "active": "404f7d827c624c67",
   "lastOpenFiles": [
+    "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
+    "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
+    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
+    "1. Project/취업 준비/커멘트/인적성/지원 동기.md",
+    "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
+    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
+    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
+    "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
+    "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md",
+    "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md",
+    "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/변경점.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/질문별 코멘트.md",
-    "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/Spring Boot에서 검증이란.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md",
     "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md",
@@ -216,25 +226,15 @@
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05/05-06.md",
     "Daily/2026/05/05-01.md",
-    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
     "Daily/2026/05",
-    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
-    "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
-    "1. Project/취업 준비/커멘트/인적성/지원 동기.md",
-    "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md",
-    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
-    "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
-    "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md",
     "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md",
     "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
-    "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
     "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
     "1. Project/취업 준비/커멘트/Claude All in one.md",
     "1. Project/취업 준비/나의 컬처핏.md",
     "1. Project/개발/JAVA/CS/OS/무제.md",
     "1. Project/개발/JAVA/CS/자바는 어떻게 실행되는가.md",
     "1. Project/개발/JAVA/CS/접근 제어자 (Access Modifier).md",
-    "1. Project/개발/Network/HTTP/Json/역직렬화 취약점 — Gadget Chain RCE.md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",
