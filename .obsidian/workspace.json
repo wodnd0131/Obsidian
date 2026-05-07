@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ed8b6af32bd1748b",
+        "id": "5629e7536ddb79a6",
         "type": "tabs",
         "children": [
           {
-            "id": "404f7d827c624c67",
+            "id": "04eca9ffa9885e2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
+                "file": "1. Project/개발/DB/인덱싱 알고리즘.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "미래에셋증권"
+              "title": "인덱싱 알고리즘"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -204,10 +205,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "404f7d827c624c67",
+  "active": "04eca9ffa9885e2b",
   "lastOpenFiles": [
-    "1. Project/취업 준비/커멘트/지원동기/Yapp.md",
+    "1. Project/개발/DB/index.md",
+    "1. Project/개발/DB/인덱싱 알고리즘.md",
     "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
+    "1. Project/취업 준비/커멘트/지원동기/Yapp.md",
     "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md",
     "1. Project/취업 준비/소스들/글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전.md",
     "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
@@ -234,8 +237,6 @@
     "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md",
     "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
     "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
-    "1. Project/취업 준비/커멘트/Claude All in one.md",
-    "1. Project/취업 준비/나의 컬처핏.md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",

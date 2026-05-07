@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "인덱싱 알고리즘",
+      "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
+    },
+    {
+      "basename": "index",
+      "path": "1. Project/개발/DB/index.md"
+    },
+    {
       "basename": "미래에셋증권",
       "path": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "@Transactional",
       "path": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md"
-    },
-    {
-      "basename": "OIDC",
-      "path": "1. Project/개발/Network/OIDC.md"
-    },
-    {
-      "basename": "04-30",
-      "path": "Daily/2026/04/04-30.md"
     }
   ],
   "omittedPaths": [],
