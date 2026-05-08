@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "B+Tree",
+      "path": "1. Project/개발/DB/B+Tree.md"
+    },
+    {
       "basename": "인덱싱 알고리즘",
       "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
     },
     {
-      "basename": "MySQL - EXPLAIN",
-      "path": "1. Project/개발/DB/MySQL - EXPLAIN.md"
+      "basename": "HDD 랜덤 읽기",
+      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
+    },
+    {
+      "basename": "MySQL 옵티마이저",
+      "path": "1. Project/개발/DB/MySQL 옵티마이저.md"
     },
     {
       "basename": "index",
       "path": "1. Project/개발/DB/index.md"
     },
     {
-      "basename": "HDD 랜덤 읽기",
-      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
+      "basename": "MySQL - EXPLAIN",
+      "path": "1. Project/개발/DB/MySQL - EXPLAIN.md"
+    },
+    {
+      "basename": "05-08",
+      "path": "Daily/2026/05/05-08.md"
     },
     {
       "basename": "미래에셋증권",
@@ -187,18 +199,6 @@
     {
       "basename": "MVCC (Multi-Version Concurrency Control)",
       "path": "1. Project/개발/JAVA/DB/MVCC (Multi-Version Concurrency Control).md"
-    },
-    {
-      "basename": "JPA",
-      "path": "1. Project/개발/JAVA/DB/JPA.md"
-    },
-    {
-      "basename": "JDBC vs JPA",
-      "path": "1. Project/개발/JAVA/DB/JDBC vs JPA.md"
-    },
-    {
-      "basename": "InnoDB",
-      "path": "1. Project/개발/JAVA/DB/InnoDB.md"
     }
   ],
   "omittedPaths": [],
