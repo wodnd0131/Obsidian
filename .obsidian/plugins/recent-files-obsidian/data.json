@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "B+Tree",
-      "path": "1. Project/개발/DB/B+Tree.md"
+      "basename": "MySQL 옵티마이저 (Query Optimizer)",
+      "path": "1. Project/개발/DB/MySQL 옵티마이저 (Query Optimizer).md"
     },
     {
-      "basename": "인덱싱 알고리즘",
-      "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
+      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
+      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
+    },
+    {
+      "basename": "B+Tree",
+      "path": "1. Project/개발/DB/B+Tree.md"
     },
     {
       "basename": "HDD 랜덤 읽기",
       "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
     },
     {
-      "basename": "MySQL 옵티마이저",
-      "path": "1. Project/개발/DB/MySQL 옵티마이저.md"
+      "basename": "인덱싱 알고리즘",
+      "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
     },
     {
       "basename": "index",
@@ -195,10 +199,6 @@
     {
       "basename": "MySQL",
       "path": "1. Project/개발/JAVA/DB/MySQL.md"
-    },
-    {
-      "basename": "MVCC (Multi-Version Concurrency Control)",
-      "path": "1. Project/개발/JAVA/DB/MVCC (Multi-Version Concurrency Control).md"
     }
   ],
   "omittedPaths": [],
