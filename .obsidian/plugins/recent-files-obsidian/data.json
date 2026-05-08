@@ -1,14 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "JOIN 알고리즘",
-      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
-    },
-    {
-      "basename": "SQL 기본",
-      "path": "1. Project/개발/DB/SQL 기본.md"
-    },
-    {
       "basename": "Index",
       "path": "1. Project/개발/DB/Index.md"
     },
@@ -23,6 +15,14 @@
     {
       "basename": "선택도(Selectivity)",
       "path": "1. Project/개발/DB/선택도(Selectivity).md"
+    },
+    {
+      "basename": "JOIN 알고리즘",
+      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
+    },
+    {
+      "basename": "SQL 기본",
+      "path": "1. Project/개발/DB/SQL 기본.md"
     },
     {
       "basename": "CBO 절차",
