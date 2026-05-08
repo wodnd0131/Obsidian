@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "JOIN 알고리즘",
+      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
+    },
+    {
+      "basename": "SQL 기본",
+      "path": "1. Project/개발/DB/SQL 기본.md"
+    },
+    {
       "basename": "Index",
       "path": "1. Project/개발/DB/Index.md"
     },
@@ -9,20 +17,16 @@
       "path": "1. Project/개발/DB/인덱스 생성 비용.md"
     },
     {
-      "basename": "선택도(Selectivity)",
-      "path": "1. Project/개발/DB/선택도(Selectivity).md"
-    },
-    {
       "basename": "히스토그램",
       "path": "1. Project/개발/DB/히스토그램.md"
     },
     {
-      "basename": "CBO 절차",
-      "path": "1. Project/개발/DB/CBO 절차.md"
+      "basename": "선택도(Selectivity)",
+      "path": "1. Project/개발/DB/선택도(Selectivity).md"
     },
     {
-      "basename": "JOIN 알고리즘",
-      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
+      "basename": "CBO 절차",
+      "path": "1. Project/개발/DB/CBO 절차.md"
     },
     {
       "basename": "B-Tree와 MySQL 인덱싱",
@@ -195,10 +199,6 @@
     {
       "basename": "Primitive Vs Wrapper",
       "path": "1. Project/개발/JAVA/CS/Primitive Vs Wrapper.md"
-    },
-    {
-      "basename": "RunTimeException",
-      "path": "1. Project/개발/JAVA/CS/RunTimeException.md"
     }
   ],
   "omittedPaths": [],

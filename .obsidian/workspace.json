@@ -8,6 +8,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e4ecacf00adc9af3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/개발/DB/JOIN 알고리즘.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "JOIN 알고리즘"
+            }
+          },
+          {
             "id": "95582008a97af09f",
             "type": "leaf",
             "state": {
@@ -50,21 +65,6 @@
               },
               "icon": "lucide-file",
               "title": "선택도(Selectivity)"
-            }
-          },
-          {
-            "id": "e4ecacf00adc9af3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/개발/DB/JOIN 알고리즘.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "JOIN 알고리즘"
             }
           },
           {
@@ -264,14 +264,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "95582008a97af09f",
+  "active": "e4ecacf00adc9af3",
   "lastOpenFiles": [
-    "1. Project/개발/DB/인덱스 생성 비용.md",
-    "1. Project/개발/DB/선택도(Selectivity).md",
-    "1. Project/개발/DB/Index.md",
-    "1. Project/개발/DB/히스토그램.md",
-    "1. Project/개발/DB/CBO 절차.md",
+    "1. Project/개발/DB/SQL 기본.md",
     "1. Project/개발/DB/JOIN 알고리즘.md",
+    "1. Project/개발/DB/Index.md",
+    "1. Project/개발/DB/인덱스 생성 비용.md",
+    "1. Project/개발/DB/히스토그램.md",
+    "1. Project/개발/DB/선택도(Selectivity).md",
+    "1. Project/개발/DB/CBO 절차.md",
     "1. Project/개발/DB/B-Tree와 MySQL 인덱싱.md",
     "1. Project/개발/DB/B+Tree.md",
     "1. Project/개발/DB/HDD 랜덤 읽기.md",
@@ -292,7 +293,6 @@
     "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
     "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
     "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md",
-    "1. Project/취업 준비/커멘트/인적성/팀 갈등 경험과 해결 방식.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시",
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05",
