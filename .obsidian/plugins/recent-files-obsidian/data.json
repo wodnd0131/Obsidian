@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "SQL 기본",
+      "path": "1. Project/개발/DB/SQL 기본.md"
+    },
+    {
+      "basename": "선택도(Selectivity)",
+      "path": "1. Project/개발/DB/선택도(Selectivity).md"
+    },
+    {
+      "basename": "히스토그램",
+      "path": "1. Project/개발/DB/히스토그램.md"
+    },
+    {
       "basename": "인덱스 생성 비용",
       "path": "1. Project/개발/DB/인덱스 생성 비용.md"
     },
@@ -9,20 +21,8 @@
       "path": "1. Project/개발/DB/Index.md"
     },
     {
-      "basename": "히스토그램",
-      "path": "1. Project/개발/DB/히스토그램.md"
-    },
-    {
-      "basename": "선택도(Selectivity)",
-      "path": "1. Project/개발/DB/선택도(Selectivity).md"
-    },
-    {
       "basename": "JOIN 알고리즘",
       "path": "1. Project/개발/DB/JOIN 알고리즘.md"
-    },
-    {
-      "basename": "SQL 기본",
-      "path": "1. Project/개발/DB/SQL 기본.md"
     },
     {
       "basename": "CBO 절차",
