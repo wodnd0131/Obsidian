@@ -5,8 +5,16 @@
       "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
     },
     {
+      "basename": "MySQL - EXPLAIN",
+      "path": "1. Project/개발/DB/MySQL - EXPLAIN.md"
+    },
+    {
       "basename": "index",
       "path": "1. Project/개발/DB/index.md"
+    },
+    {
+      "basename": "HDD 랜덤 읽기",
+      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
     },
     {
       "basename": "미래에셋증권",
@@ -191,14 +199,6 @@
     {
       "basename": "InnoDB",
       "path": "1. Project/개발/JAVA/DB/InnoDB.md"
-    },
-    {
-      "basename": "낙관적 락 vs 비관적 락",
-      "path": "1. Project/개발/JAVA/DB/낙관적 락 vs 비관적 락.md"
-    },
-    {
-      "basename": "@Transactional",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md"
     }
   ],
   "omittedPaths": [],

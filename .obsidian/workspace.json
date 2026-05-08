@@ -200,13 +200,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-custom-frames:Open Todo.List": true,
       "bases:새 베이스 생성하기": false,
-      "daily-notes:오늘의 일일 노트 열기": true,
-      "periodic-notes:Open today": false
+      "daily-notes:오늘의 일일 노트 열기": true
     }
   },
   "active": "04eca9ffa9885e2b",
   "lastOpenFiles": [
+    "1. Project/개발/DB/MySQL - EXPLAIN.md",
     "1. Project/개발/DB/index.md",
+    "1. Project/개발/DB/HDD 랜덤 읽기.md",
     "1. Project/개발/DB/인덱싱 알고리즘.md",
     "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
     "1. Project/취업 준비/커멘트/지원동기/Yapp.md",
@@ -234,8 +235,6 @@
     "Daily/2026/05/05-01.md",
     "Daily/2026/05",
     "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md",
-    "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
-    "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
     "1. Project/개발/Network/HTTP/Json",
     "Repository/OAuth 2.0, OIDC 전체 흐름-1.png",
     "1. Project/개발/SpringBoot/Spring/Transaction",
