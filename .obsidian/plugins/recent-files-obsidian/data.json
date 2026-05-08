@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "MySQL 옵티마이저 (Query Optimizer)",
-      "path": "1. Project/개발/DB/MySQL 옵티마이저 (Query Optimizer).md"
+      "basename": "Index",
+      "path": "1. Project/개발/DB/Index.md"
     },
     {
-      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
-      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
+      "basename": "인덱스 생성 비용",
+      "path": "1. Project/개발/DB/인덱스 생성 비용.md"
+    },
+    {
+      "basename": "선택도(Selectivity)",
+      "path": "1. Project/개발/DB/선택도(Selectivity).md"
+    },
+    {
+      "basename": "히스토그램",
+      "path": "1. Project/개발/DB/히스토그램.md"
+    },
+    {
+      "basename": "CBO 절차",
+      "path": "1. Project/개발/DB/CBO 절차.md"
+    },
+    {
+      "basename": "JOIN 알고리즘",
+      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
+    },
+    {
+      "basename": "B-Tree와 MySQL 인덱싱",
+      "path": "1. Project/개발/DB/B-Tree와 MySQL 인덱싱.md"
     },
     {
       "basename": "B+Tree",
@@ -17,16 +37,12 @@
       "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
     },
     {
-      "basename": "인덱싱 알고리즘",
-      "path": "1. Project/개발/DB/인덱싱 알고리즘.md"
+      "basename": "MySQL 옵티마이저 (Query Optimizer)",
+      "path": "1. Project/개발/DB/MySQL 옵티마이저 (Query Optimizer).md"
     },
     {
-      "basename": "index",
-      "path": "1. Project/개발/DB/index.md"
-    },
-    {
-      "basename": "MySQL - EXPLAIN",
-      "path": "1. Project/개발/DB/MySQL - EXPLAIN.md"
+      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
+      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
     },
     {
       "basename": "05-08",
@@ -183,22 +199,6 @@
     {
       "basename": "RunTimeException",
       "path": "1. Project/개발/JAVA/CS/RunTimeException.md"
-    },
-    {
-      "basename": "Static",
-      "path": "1. Project/개발/JAVA/CS/Static.md"
-    },
-    {
-      "basename": "Why Use Java",
-      "path": "1. Project/개발/JAVA/CS/Why Use Java.md"
-    },
-    {
-      "basename": "N+1",
-      "path": "1. Project/개발/JAVA/DB/N+1.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "1. Project/개발/JAVA/DB/MySQL.md"
     }
   ],
   "omittedPaths": [],

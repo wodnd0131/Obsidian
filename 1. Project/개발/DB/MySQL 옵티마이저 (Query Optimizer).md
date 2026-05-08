@@ -142,12 +142,12 @@ SELECT * FROM information_schema.COLUMN_STATISTICS;
 
 **통계 항목 상세**
 
-|항목|의미|사용처|
-|---|---|---|
-|`n_rows`|테이블 예상 행 수|풀스캔 비용 기준|
-|`clustered_index_size`|클러스터드 인덱스 페이지 수|I/O 비용|
-|`n_diff_pfx01..N`|인덱스 컬럼 조합별 고유값 수|선택도(Selectivity) 계산|
-|히스토그램|컬럼 값 분포|비균등 분포 처리|
+| 항목                     | 의미               | 사용처                 |
+| ---------------------- | ---------------- | ------------------- |
+| `n_rows`               | 테이블 예상 행 수       | 풀스캔 비용 기준           |
+| `clustered_index_size` | 클러스터드 인덱스 페이지 수  | I/O 비용              |
+| `n_diff_pfx01..N`      | 인덱스 컬럼 조합별 고유값 수 | 선택도(Selectivity) 계산 |
+| 히스토그램                  | 컬럼 값 분포          | 비균등 분포 처리           |
 
 **선택도(Selectivity) 계산 원리**
 
@@ -192,12 +192,13 @@ SELECT * FROM mysql.server_cost;
 SELECT * FROM mysql.engine_cost;
 ```
 
-|항목|기본값|의미|
-|---|---|---|
-|`row_evaluate_cost`|0.1|행 하나 평가 비용|
-|`disk_temptable_create_cost`|20.0|디스크 임시 테이블 생성|
-|`io_block_read_cost`|1.0|디스크 I/O 1블록|
-|`memory_block_read_cost`|0.25|메모리 I/O 1블록|
+| 항목                           | 기본값  | 의미            |
+| ---------------------------- | ---- | ------------- |
+| `row_evaluate_cost`          | 0.1  | 행 하나 평가 비용    |
+| `disk_temptable_create_cost` | 20.0 | 디스크 임시 테이블 생성 |
+| `io_block_read_cost`         | 1.0  | 디스크 I/O 1블록   |
+| `memory_block_read_cost`     | 0.25 | 메모리 I/O 1블록   |
+|                              |      |               |
 
 **인덱스 선택 비용 계산 예시**
 
@@ -248,15 +249,15 @@ EXPLAIN FORMAT=JSON SELECT ...;  -- 비용까지 보려면 JSON 포맷
 EXPLAIN ANALYZE SELECT ...;      -- MySQL 8.0.18+, 실제 실행 후 예측 vs 실제 비교
 ```
 
-|EXPLAIN 컬럼|옵티마이저 결정 내용|
-|---|---|
-|`type`|접근 방식 (풀스캔/인덱스/range 등)|
-|`possible_keys`|옵티마이저가 후보로 고려한 인덱스|
-|`key`|실제 선택한 인덱스|
-|`key_len`|인덱스의 몇 바이트까지 사용했는가|
-|`rows`|옵티마이저의 카디널리티 추정치|
-|`filtered`|rows 중 WHERE 조건 통과 비율 추정|
-|`Extra`|Using index / Using filesort / Using temporary 등|
+| EXPLAIN 컬럼      | 옵티마이저 결정 내용                                      |
+| --------------- | ------------------------------------------------ |
+| `type`          | 접근 방식 (풀스캔/인덱스/range 등)                          |
+| `possible_keys` | 옵티마이저가 후보로 고려한 인덱스                               |
+| `key`           | 실제 선택한 인덱스                                       |
+| `key_len`       | 인덱스의 몇 바이트까지 사용했는가                               |
+| `rows`          | 옵티마이저의 카디널리티 추정치                                 |
+| `filtered`      | rows 중 WHERE 조건 통과 비율 추정                         |
+| `Extra`         | Using index / Using filesort / Using temporary 등 |
 
 ```
 type 성능 순서:
