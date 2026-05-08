@@ -441,12 +441,12 @@ ROLLBACK;
 
 **ACID와 InnoDB**
 
-|속성|InnoDB 구현|
-|---|---|
-|**Atomicity**|Undo Log — 실패 시 이전 상태로 복구|
-|**Consistency**|제약 조건(FK, UNIQUE), 트리거|
-|**Isolation**|MVCC(Multi-Version Concurrency Control) + 락|
-|**Durability**|Redo Log(WAL) + `innodb_flush_log_at_trx_commit`|
+| 속성              | InnoDB 구현                                        |
+| --------------- | ------------------------------------------------ |
+| **Atomicity**   | Undo Log — 실패 시 이전 상태로 복구                        |
+| **Consistency** | 제약 조건(FK, UNIQUE), 트리거                           |
+| **Isolation**   | MVCC(Multi-Version Concurrency Control) + 락      |
+| **Durability**  | Redo Log(WAL) + `innodb_flush_log_at_trx_commit` |
 
 격리 수준(Isolation Level)과 MVCC 동작은 별도의 깊은 주제다 — 여기서는 기본 문법 수준으로 한정.
 

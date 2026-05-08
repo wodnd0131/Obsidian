@@ -5,6 +5,14 @@
       "path": "1. Project/개발/DB/SQL 기본.md"
     },
     {
+      "basename": "05-08",
+      "path": "Daily/2026/05/05-08.md"
+    },
+    {
+      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
+      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
+    },
+    {
       "basename": "선택도(Selectivity)",
       "path": "1. Project/개발/DB/선택도(Selectivity).md"
     },
@@ -17,18 +25,6 @@
       "path": "1. Project/개발/DB/인덱스 생성 비용.md"
     },
     {
-      "basename": "Index",
-      "path": "1. Project/개발/DB/Index.md"
-    },
-    {
-      "basename": "JOIN 알고리즘",
-      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
-    },
-    {
-      "basename": "CBO 절차",
-      "path": "1. Project/개발/DB/CBO 절차.md"
-    },
-    {
       "basename": "B-Tree와 MySQL 인덱싱",
       "path": "1. Project/개발/DB/B-Tree와 MySQL 인덱싱.md"
     },
@@ -37,20 +33,32 @@
       "path": "1. Project/개발/DB/B+Tree.md"
     },
     {
-      "basename": "HDD 랜덤 읽기",
-      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
-    },
-    {
       "basename": "MySQL 옵티마이저 (Query Optimizer)",
       "path": "1. Project/개발/DB/MySQL 옵티마이저 (Query Optimizer).md"
     },
     {
-      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
-      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
+      "basename": "Semi-join & Anti-join",
+      "path": "1. Project/개발/DB/Semi-join & Anti-join.md"
     },
     {
-      "basename": "05-08",
-      "path": "Daily/2026/05/05-08.md"
+      "basename": "JOIN 알고리즘",
+      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
+    },
+    {
+      "basename": "JOIN 종류",
+      "path": "1. Project/개발/DB/JOIN 종류.md"
+    },
+    {
+      "basename": "Index",
+      "path": "1. Project/개발/DB/Index.md"
+    },
+    {
+      "basename": "CBO 절차",
+      "path": "1. Project/개발/DB/CBO 절차.md"
+    },
+    {
+      "basename": "HDD 랜덤 읽기",
+      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
     },
     {
       "basename": "미래에셋증권",
@@ -191,14 +199,6 @@
     {
       "basename": "TLAB (Thread-Local Allocation Buffer)",
       "path": "1. Project/개발/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
-    },
-    {
-      "basename": "Java의 참조 (Reference)",
-      "path": "1. Project/개발/JAVA/CS/Java의 참조 (Reference).md"
-    },
-    {
-      "basename": "Primitive Vs Wrapper",
-      "path": "1. Project/개발/JAVA/CS/Primitive Vs Wrapper.md"
     }
   ],
   "omittedPaths": [],
