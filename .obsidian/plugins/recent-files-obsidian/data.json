@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md"
+    },
+    {
       "basename": "05-08",
       "path": "Daily/2026/05/05-08.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CORS (Cross-Origin Resource Sharing)",
       "path": "1. Project/개발/Network/HTTP/CORS (Cross-Origin Resource Sharing).md"
-    },
-    {
-      "basename": "무상태(Stateless)와 세션",
-      "path": "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md"
     }
   ],
   "omittedPaths": [],

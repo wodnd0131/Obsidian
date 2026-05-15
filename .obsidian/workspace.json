@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026/05/05-08.md",
+                "file": "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "05-08"
+              "title": "무제"
             }
           }
         ]
@@ -206,12 +206,14 @@
   },
   "active": "b69aa8baa1ea3eb3",
   "lastOpenFiles": [
+    "Daily/2026/05/05-08.md",
+    "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md",
+    "1. Project/SCG 코드 리뷰/Spring/7차시",
     "1. Project/하네스/skilll & hook.md",
     "1. Project/하네스/초기 계획.md",
     "2. Area/AI/하네스.md",
     "1. Project/하네스",
     "1. Project/개발/DB/SQL 기본.md",
-    "Daily/2026/05/05-08.md",
     "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md",
     "1. Project/개발/DB/선택도(Selectivity).md",
     "1. Project/개발/DB/히스토그램.md",
@@ -233,7 +235,6 @@
     "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
     "1. Project/취업 준비/커멘트/지원동기",
     "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
-    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시",
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05",
@@ -242,7 +243,6 @@
     "1. Project/개발/SpringBoot/Spring/Transaction",
     "1. Project/개발/JAVA/DB",
     "1. Project/개발/Infra/가용성",
-    "1. Project/개발/Infra/모니터링",
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "Repository/소프트 딜리트 패턴-1.png",
     "Repository/화면 캡처 2026-04-28 150051.png",
