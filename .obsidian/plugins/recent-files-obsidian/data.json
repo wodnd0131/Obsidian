@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "SQL 기본",
-      "path": "1. Project/개발/DB/SQL 기본.md"
-    },
-    {
       "basename": "05-08",
       "path": "Daily/2026/05/05-08.md"
+    },
+    {
+      "basename": "skilll & hook",
+      "path": "1. Project/하네스/skilll & hook.md"
+    },
+    {
+      "basename": "초기 계획",
+      "path": "1. Project/하네스/초기 계획.md"
+    },
+    {
+      "basename": "하네스",
+      "path": "2. Area/AI/하네스.md"
+    },
+    {
+      "basename": "SQL 기본",
+      "path": "1. Project/개발/DB/SQL 기본.md"
     },
     {
       "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
@@ -187,18 +199,6 @@
     {
       "basename": "무상태(Stateless)와 세션",
       "path": "1. Project/개발/Network/HTTP/무상태(Stateless)와 세션.md"
-    },
-    {
-      "basename": "CAS (Compare-And-Swap)",
-      "path": "1. Project/개발/JAVA/CS/JVM/Thread/CAS (Compare-And-Swap).md"
-    },
-    {
-      "basename": "GIL (Global Interpreter Lock)",
-      "path": "1. Project/개발/JAVA/CS/JVM/Thread/GIL (Global Interpreter Lock).md"
-    },
-    {
-      "basename": "TLAB (Thread-Local Allocation Buffer)",
-      "path": "1. Project/개발/JAVA/CS/JVM/Thread/TLAB (Thread-Local Allocation Buffer).md"
     }
   ],
   "omittedPaths": [],
