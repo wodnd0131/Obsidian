@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5470dbb345ddd09e",
+        "id": "9922d5271bbfd3a3",
         "type": "tabs",
         "children": [
           {
-            "id": "b69aa8baa1ea3eb3",
+            "id": "486c3bd9345cc8ab",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md",
+                "file": "Daily/2026/05/05-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "05-20"
             }
           }
         ]
@@ -204,10 +206,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b69aa8baa1ea3eb3",
+  "active": "486c3bd9345cc8ab",
   "lastOpenFiles": [
-    "Daily/2026/05/05-08.md",
+    "1. Project/Index.md",
+    "1. Project/무제.md",
+    "Daily/2026/05/05-20.md",
+    "Templates/DATE_TAMPLATE.md",
+    "1. Project/pickeat에서 감내해야할 것.md",
+    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
+    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
     "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md",
+    "Daily/2026/05/05-08.md",
     "1. Project/SCG 코드 리뷰/Spring/7차시",
     "1. Project/하네스/skilll & hook.md",
     "1. Project/하네스/초기 계획.md",
@@ -227,14 +236,7 @@
     "1. Project/개발/DB/Index.md",
     "1. Project/개발/DB/CBO 절차.md",
     "1. Project/개발/DB/HDD 랜덤 읽기.md",
-    "1. Project/개발/DB/MySQL - EXPLAIN.md",
-    "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
-    "1. Project/취업 준비/커멘트/지원동기/Yapp.md",
-    "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md",
-    "1. Project/취업 준비/소스들/글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전.md",
-    "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
     "1. Project/취업 준비/커멘트/지원동기",
-    "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
     "1. Project/SCG 코드 리뷰/Spring/6차시",
     "1. Project/SCG 코드 리뷰/Spring/5차시",
     "Daily/2026/05",
