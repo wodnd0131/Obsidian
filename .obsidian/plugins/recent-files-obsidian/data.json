@@ -1,16 +1,120 @@
 {
   "recentFiles": [
     {
+      "basename": "서블릿 컨테이너",
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
+    },
+    {
       "basename": "05-20",
       "path": "Daily/2026/05/05-20.md"
     },
     {
-      "basename": "Index",
-      "path": "1. Project/Index.md"
+      "basename": "Coyote",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
+    },
+    {
+      "basename": "Catalina",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
+    },
+    {
+      "basename": "서블릿의 정의",
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
+    },
+    {
+      "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
+      "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
+    },
+    {
+      "basename": "Flyway 도입기",
+      "path": "1. Project/개발/Infra/Flyway/Flyway 도입기.md"
+    },
+    {
+      "basename": "로깅 개선기",
+      "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
+    },
+    {
+      "basename": "동등성(Equality) vs 동일성(Identity)",
+      "path": "1. Project/개발/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
+    },
+    {
+      "basename": "컴파일러와 JIT 컴파일",
+      "path": "1. Project/개발/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
+    },
+    {
+      "basename": "HashCode",
+      "path": "1. Project/개발/JAVA/CS/JVM/HashCode.md"
+    },
+    {
+      "basename": "HotSpot",
+      "path": "1. Project/개발/JAVA/CS/JVM/HotSpot.md"
+    },
+    {
+      "basename": "Java 실행 흐름",
+      "path": "1. Project/개발/JAVA/CS/JVM/Java 실행 흐름.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "1. Project/개발/JAVA/CS/JVM/JVM.md"
+    },
+    {
+      "basename": "JVM Heap",
+      "path": "1. Project/개발/JAVA/CS/JVM/JVM Heap.md"
+    },
+    {
+      "basename": "좋은 메서드 명칭 작성법",
+      "path": "1. Project/개발/JAVA/Clean-code/좋은 메서드 명칭 작성법.md"
+    },
+    {
+      "basename": "자료형",
+      "path": "1. Project/개발/JAVA/CS/자료구조/자료형.md"
+    },
+    {
+      "basename": "Interpreter",
+      "path": "1. Project/개발/JAVA/CS/CPU/Interpreter.md"
+    },
+    {
+      "basename": "필터(Filter) vs 인터셉터(Interceptor)",
+      "path": "1. Project/개발/SpringBoot/필터(Filter) vs 인터셉터(Interceptor).md"
+    },
+    {
+      "basename": "Why Use Java",
+      "path": "1. Project/개발/JAVA/CS/Why Use Java.md"
+    },
+    {
+      "basename": "RS256, JWT vs HTTPS",
+      "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
+    },
+    {
+      "basename": "나의 컬처핏",
+      "path": "1. Project/취업 준비/나의 컬처핏.md"
+    },
+    {
+      "basename": "OIDC",
+      "path": "1. Project/개발/Network/OIDC.md"
+    },
+    {
+      "basename": "SSE",
+      "path": "1. Project/개발/Network/SSE.md"
+    },
+    {
+      "basename": "Streamable HTTP",
+      "path": "1. Project/개발/Network/Streamable HTTP.md"
+    },
+    {
+      "basename": "Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴",
+      "path": "1. Project/개발/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
+    },
+    {
+      "basename": "Springboot",
+      "path": "1. Project/개발/SpringBoot/Springboot.md"
     },
     {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
+      "basename": "Index",
+      "path": "1. Project/Index.md"
     },
     {
       "basename": "pickeat에서 감내해야할 것",
@@ -95,106 +199,6 @@
     {
       "basename": "CBO 절차",
       "path": "1. Project/개발/DB/CBO 절차.md"
-    },
-    {
-      "basename": "HDD 랜덤 읽기",
-      "path": "1. Project/개발/DB/HDD 랜덤 읽기.md"
-    },
-    {
-      "basename": "미래에셋증권",
-      "path": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md"
-    },
-    {
-      "basename": "Yapp",
-      "path": "1. Project/취업 준비/커멘트/지원동기/Yapp.md"
-    },
-    {
-      "basename": "더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지",
-      "path": "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md"
-    },
-    {
-      "basename": "글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전",
-      "path": "1. Project/취업 준비/소스들/글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전.md"
-    },
-    {
-      "basename": "성격 장단점 특이사항등",
-      "path": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md"
-    },
-    {
-      "basename": "함께 일하기 힘든 유형",
-      "path": "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md"
-    },
-    {
-      "basename": "페어, 코드 리뷰 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
-    },
-    {
-      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
-      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
-    },
-    {
-      "basename": "협업할 때 어떤 역할인지",
-      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
-    },
-    {
-      "basename": "힘들었던,어려웠던 경험",
-      "path": "1. Project/취업 준비/커멘트/인적성/힘들었던,어려웠던 경험.md"
-    },
-    {
-      "basename": "검증 관련 리뷰",
-      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/검증 관련 리뷰.md"
-    },
-    {
-      "basename": "변경점",
-      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/변경점.md"
-    },
-    {
-      "basename": "질문별 코멘트",
-      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/질문별 코멘트.md"
-    },
-    {
-      "basename": "Spring Boot에서 검증이란",
-      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/Spring Boot에서 검증이란.md"
-    },
-    {
-      "basename": "6차시",
-      "path": "1. Project/SCG 코드 리뷰/Spring/6차시/6차시.md"
-    },
-    {
-      "basename": "5차시",
-      "path": "1. Project/SCG 코드 리뷰/Spring/5차시/5차시.md"
-    },
-    {
-      "basename": "05-06",
-      "path": "Daily/2026/05/05-06.md"
-    },
-    {
-      "basename": "05-01",
-      "path": "Daily/2026/05/05-01.md"
-    },
-    {
-      "basename": "AI는 어떻게 생각하시나요",
-      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
-    },
-    {
-      "basename": "면접 기본 질문 모음",
-      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
-    },
-    {
-      "basename": "User-Agent를 통한 미리보기 문제 해결",
-      "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
-    },
-    {
-      "basename": "Claude All in one",
-      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
-    },
-    {
-      "basename": "나의 컬처핏",
-      "path": "1. Project/취업 준비/나의 컬처핏.md"
-    },
-    {
-      "basename": "무제",
-      "path": "1. Project/개발/JAVA/CS/OS/무제.md"
     }
   ],
   "omittedPaths": [],
