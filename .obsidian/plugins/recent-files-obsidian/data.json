@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Catalina",
-      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
+      "basename": "Springboot",
+      "path": "1. Project/개발/SpringBoot/Springboot.md"
     },
     {
       "basename": "05-21",
       "path": "Daily/2026/05/05-21.md"
+    },
+    {
+      "basename": "Tomcat의 내부 구조",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Tomcat의 내부 구조.md"
+    },
+    {
+      "basename": "DispatcherServlet",
+      "path": "1. Project/개발/SpringBoot/Tomcat/DispatcherServlet.md"
+    },
+    {
+      "basename": "Catalina",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
     },
     {
       "basename": "05-20",
@@ -47,10 +59,6 @@
     {
       "basename": "Accepter Thread vs Application Thread",
       "path": "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md"
-    },
-    {
-      "basename": "DispatcherServlet",
-      "path": "1. Project/개발/SpringBoot/Tomcat/DispatcherServlet.md"
     },
     {
       "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
@@ -137,10 +145,6 @@
       "path": "1. Project/개발/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
     },
     {
-      "basename": "Springboot",
-      "path": "1. Project/개발/SpringBoot/Springboot.md"
-    },
-    {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "히스토그램",
       "path": "1. Project/개발/DB/히스토그램.md"
-    },
-    {
-      "basename": "인덱스 생성 비용",
-      "path": "1. Project/개발/DB/인덱스 생성 비용.md"
     }
   ],
   "omittedPaths": [],
