@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "05-20",
-      "path": "Daily/2026/05/05-20.md"
-    },
-    {
       "basename": "Thread 튜닝",
       "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
+    },
+    {
+      "basename": "05-21",
+      "path": "Daily/2026/05/05-21.md"
+    },
+    {
+      "basename": "05-20",
+      "path": "Daily/2026/05/05-20.md"
     },
     {
       "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
@@ -195,10 +199,6 @@
     {
       "basename": "B-Tree와 MySQL 인덱싱",
       "path": "1. Project/개발/DB/B-Tree와 MySQL 인덱싱.md"
-    },
-    {
-      "basename": "B+Tree",
-      "path": "1. Project/개발/DB/B+Tree.md"
     }
   ],
   "omittedPaths": [],
