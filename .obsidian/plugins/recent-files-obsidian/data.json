@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Thread 튜닝",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
+      "basename": "Catalina",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
     },
     {
       "basename": "05-21",
@@ -11,6 +11,22 @@
     {
       "basename": "05-20",
       "path": "Daily/2026/05/05-20.md"
+    },
+    {
+      "basename": "서블릿의 정의",
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
+    },
+    {
+      "basename": "Coyote",
+      "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
+    },
+    {
+      "basename": "NIO와 블로킹 IO",
+      "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
+    },
+    {
+      "basename": "Thread 튜닝",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
     },
     {
       "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
@@ -25,10 +41,6 @@
       "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
     },
     {
-      "basename": "Coyote",
-      "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
-    },
-    {
       "basename": "서블릿 컨테이너",
       "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
     },
@@ -39,14 +51,6 @@
     {
       "basename": "DispatcherServlet",
       "path": "1. Project/개발/SpringBoot/Tomcat/DispatcherServlet.md"
-    },
-    {
-      "basename": "Catalina",
-      "path": "1. Project/개발/SpringBoot/Tomcat/Catalina.md"
-    },
-    {
-      "basename": "서블릿의 정의",
-      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
     },
     {
       "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
@@ -195,10 +199,6 @@
     {
       "basename": "인덱스 생성 비용",
       "path": "1. Project/개발/DB/인덱스 생성 비용.md"
-    },
-    {
-      "basename": "B-Tree와 MySQL 인덱싱",
-      "path": "1. Project/개발/DB/B-Tree와 MySQL 인덱싱.md"
     }
   ],
   "omittedPaths": [],
