@@ -605,3 +605,194 @@ public class ExternalApiService {
     YES → 인스턴스 변수로 둬도 안전
            단, 그 객체 자체가 thread-safe한지 확인 필요
 ```
+
+
+---
+---
+# DI/메타데이터가 빠진 IoC
+
+좋은 포인트다. **IoC와 DI는 자주 같이 등장하지만 별개 개념**이다. 이걸 분리해서 보자.
+
+## 1. Problem First — 두 개념을 헷갈리면 생기는 오해
+
+흔한 오해: "IoC = DI = Spring 컨테이너"
+
+이렇게 묶어 이해하면 다음 질문에 답할 수 없다.
+
+```java
+// 이건 IoC인가? DI인가?
+Collections.sort(list, (a, b) -> a.compareTo(b));
+
+// 이건?
+button.addEventListener("click", () -> handleClick());
+
+// 이건?
+@Override
+protected void doGet(HttpServletRequest req, HttpServletResponse resp) { ... }
+```
+
+셋 다 **IoC지만 DI는 아니다.** "프레임워크가 내 코드를 호출하는" 패턴이지만, 어떤 객체도 주입받지 않는다.
+
+거꾸로:
+
+```java
+// 이건 DI지만 IoC 컨테이너 없이 가능
+UserService service = new UserService(new UserRepository(dataSource));
+```
+
+순수 `new`로도 DI는 가능하다. **IoC 컨테이너는 DI를 자동화하는 도구일 뿐**이지, DI의 본질이 아니다.
+
+## 2. Mechanics — IoC의 진짜 정의
+
+### 2.1 IoC의 본질: "호출 방향의 역전"
+
+전통적 제어:
+
+```java
+// 내 코드가 라이브러리를 호출 — Library-style
+public static void main(String[] args) {
+    String input = readInput();           // 내가 부름
+    String result = parse(input);          // 내가 부름
+    String output = transform(result);     // 내가 부름
+    print(output);                         // 내가 부름
+}
+```
+
+→ **흐름의 주인이 나(`main`)다.** 라이브러리는 부르면 응답할 뿐.
+
+역전된 제어:
+
+```java
+// 프레임워크가 내 코드를 호출 — Framework-style
+@GetMapping("/api/users")
+public List<User> list() {                // ← 내가 정의만 함
+    return userService.findAll();          // ← Tomcat이 언젠가 호출함
+}
+```
+
+→ **흐름의 주인이 프레임워크다.** 나는 "이 시점에 이걸 해줘"라고 정의만 한다.
+
+이 둘의 차이를 **Hollywood Principle**이라고 부른다: "Don't call us, we'll call you."
+
+### 2.2 IoC가 발현되는 방식들 (DI는 그중 하나일 뿐)
+
+Martin Fowler가 정리한 IoC의 형태:
+
+|형태|방식|예시|
+|---|---|---|
+|**Template Method**|추상 클래스가 흐름 정의, 자식이 구멍 채움|`HttpServlet.service()` → `doGet()` 호출|
+|**Callback**|함수를 등록해두면 프레임워크가 호출|`Comparator`, 이벤트 리스너|
+|**Lifecycle hooks**|"초기화 시점", "종료 시점"에 호출|`@PostConstruct`, `InitializingBean`|
+|**Scheduler-driven**|프레임워크가 시간에 맞춰 호출|`@Scheduled`|
+|**Dependency Injection**|의존 객체를 외부에서 주입|`@Autowired`, 생성자 주입|
+
+**DI는 5번째 형태일 뿐이다.** 나머지는 DI 없이도 IoC다.
+
+### 2.3 Endpoint에서 작동하는 IoC (DI 없이)
+
+```java
+// org.apache.tomcat.util.net.NioEndpoint (요약)
+public class NioEndpoint {
+    private Acceptor acceptor;
+    private Poller poller;
+    private Executor executor;
+
+    public void startInternal() {
+        // 1. 자식 컴포넌트들을 직접 new로 생성 (DI 아님)
+        executor = new ThreadPoolExecutor(...);
+        poller = new Poller();
+        acceptor = new Acceptor(this);
+
+        // 2. 각각 start() — Lifecycle 주도권을 Endpoint가 쥠
+        new Thread(poller).start();
+        new Thread(acceptor).start();
+    }
+
+    public void stopInternal() {
+        acceptor.stop();
+        poller.destroy();
+        executor.shutdown();
+    }
+}
+```
+
+여기서 작동하는 IoC:
+
+1. **흐름 제어 역전** — Acceptor/Poller/Worker는 "내가 일하고 싶을 때" 일하지 않는다. Endpoint가 start하면 일하고, stop하면 멈춘다
+2. **Lifecycle 위임** — Acceptor는 자기 생명주기를 모른다. Endpoint가 결정
+3. **Hollywood Principle 적용** — `SocketProcessor`(Worker가 실행할 작업)는 자기가 언제 실행될지 모른다. Executor가 알아서 호출
+
+근데 여기 **DI는 없다.** Endpoint가 `new Acceptor(this)`로 직접 만들고, 메타데이터(설정 파일)로 "Acceptor 대신 다른 구현체 써"라고 바꿀 수도 없다.
+
+**→ 그래도 이건 IoC다.** 호출 방향이 역전되어 있으니까.
+
+## 3. 공식 근거
+
+**Martin Fowler — Inversion of Control**
+
+> "The question is: what aspect of control are they inverting? ... The answer is: the control of when the framework is called. The framework calls your code rather than your code calls the framework."
+> 
+> (질문은: 무엇의 제어를 역전시키는가? 답은: 프레임워크가 언제 호출되는지에 대한 제어다. 네 코드가 프레임워크를 호출하는 게 아니라, 프레임워크가 네 코드를 호출한다.)
+
+→ 출처: [Martin Fowler — InversionOfControl](https://martinfowler.com/bliki/InversionOfControl.html)
+
+**Martin Fowler — IoC와 DI는 다르다 (결정적 논문)**
+
+> "Inversion of Control is a common phenomenon that you come across in frameworks ... As a result I think we need a more specific name for this pattern. Inversion of Control is too generic a term, and thus people find it confusing. ... So I'm going to be Mr Picky and stick to the term Dependency Injection for this kind of inversion."
+> 
+> (IoC는 프레임워크에서 흔히 나타나는 일반 현상이다. 그래서 이 패턴에는 더 구체적인 이름이 필요하다. IoC는 너무 일반적인 용어라 혼란스럽다. 그래서 나는 까다롭게 굴자면 이런 종류의 역전에는 Dependency Injection이라는 용어를 쓰겠다.)
+
+→ 출처: [Martin Fowler — Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
+
+**핵심**: Fowler가 명시적으로 **"IoC는 너무 큰 개념이고, DI는 그중 한 가지 구체 패턴"**이라고 못 박았다. 우리가 흔히 "Spring IoC 컨테이너"라고 부르는 건 사실 **"DI 컨테이너"**다.
+
+**Spring Framework 공식 레퍼런스**
+
+> "IoC is also known as dependency injection (DI). It is a process whereby objects define their dependencies ... only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method."
+> 
+> (IoC는 의존성 주입(DI)이라고도 알려져 있다. 객체가 자기 의존성을 생성자 인수, 팩토리 메서드 인수, 또는 객체 생성 후 설정되는 프로퍼티를 통해서만 정의하는 프로세스다.)
+
+→ 출처: [Spring Framework Reference — The IoC Container](https://docs.spring.io/spring-framework/reference/core/beans/introduction.html)
+
+**주의**: Spring 문서는 IoC와 DI를 동일시한다. 이건 **Spring 컨텍스트 한정**이다. Spring이 다루는 IoC는 거의 항상 DI 형태로 구현되기 때문에 동일시한 거지, **IoC 자체의 정의가 그렇다는 게 아니다.** Fowler의 정리가 더 일반론으로 정확하다.
+
+## 4. 이 분리가 왜 중요한가
+
+**잃는 것 vs 얻는 것**
+
+DI 없이 IoC만 적용했을 때:
+
+✓ **단순하다** — `new`로 직접 만들면 코드 흐름이 명확. Tomcat NioEndpoint 소스는 `new Acceptor(...)` 한 줄로 끝남 ✓ **빠르다** — 컨테이너 부트스트랩 비용 없음. 리플렉션, 프록시 생성, BeanDefinition 처리 다 없음 ✓ **추적 쉽다** — IDE에서 "이 객체 어디서 만들어지지?" → `new` 호출 지점 한 군데
+
+✗ **결합도 높다** — Acceptor 구현을 바꾸려면 Endpoint 코드를 수정해야 함 ✗ **테스트 어렵다** — Mock Acceptor 주입 불가 ✗ **설정으로 동작 변경 불가** — 코드 재컴파일 필요
+
+**그래서 Tomcat은 왜 DI를 안 쓰는가**
+
+Tomcat 같은 **저수준 인프라**는:
+
+- 컴포넌트 교체 가능성이 거의 없음 (Acceptor 다른 구현으로 바꿀 일 없음)
+- 부트스트랩 속도가 중요 (서버 시작은 빨라야 함)
+- 메모리 푸세 작음
+
+반면 Spring 같은 **애플리케이션 프레임워크**는:
+
+- 사용자가 컴포넌트를 갈아 끼울 수 있어야 함 (Repository 구현체, DataSource 종류 등)
+- 테스트 가능성이 중요
+- 부트스트랩 시간보다 유연성이 우선
+
+**같은 IoC 철학을 따르되, 인프라 레이어는 hardcoded composition으로, 애플리케이션 레이어는 DI 컨테이너로 풀어낸다.** 이게 같은 시스템 안에서 둘이 공존하는 이유다.
+
+## 5. 이어지는 개념
+
+DI/메타데이터 없는 IoC를 이해했으니, 자연스러운 다음 질문들:
+
+1. **Spring이 DI를 어떻게 자동화하는가** — `BeanDefinition` 메타데이터, `BeanFactory`, `ApplicationContext`의 역할. 네가 전에 공부한 3-level cache가 여기 연결된다. **선행 의존**: IoC 일반론 → Spring의 DI 구현. 지금 흐름의 직선 다음 단계
+    
+2. **Hollywood Principle의 다른 발현 — Template Method 패턴** — Tomcat의 `Valve` 체인, Servlet의 `service()` → `doGet()`이 이 패턴. DI 없는 IoC의 또 다른 전형. Spring MVC `DispatcherServlet`이 이걸로 흐름 제어한다. **실무 임팩트**: Spring MVC 내부 이해의 출발
+    
+3. **`@Configuration` + `@Bean` — 메타데이터 없이 코드로 DI 구성하기** — XML 메타데이터의 대안. "DI는 쓰되 메타데이터 파일은 안 쓰는" 중간 형태. 네가 미뤄둔 Spring 학습 트랙의 다음 토픽과 정확히 일치. **실무 임팩트 + 선행 의존**: 1번 이해 후 가장 자연스러움
+    
+4. **DI 없이 IoC만 쓰는 다른 예: JDK의 `ServiceLoader`** — 메타데이터(`META-INF/services`)로 구현체를 찾지만 컨테이너는 없음. Spring 이전 시대의 IoC 패턴. **참고 수준**: 시야 넓히기용
+    
+
+순서 이유: 1번이 지금 질문의 정확한 후속(IoC → DI 자동화 메커니즘)이고, 2번은 "DI 없는 IoC가 Spring 안에도 있다"는 시야 확장, 3번은 메타데이터 자체를 코드로 대체한 형태로 Spring 학습 트랙과 정확히 만난다. 4번은 흥미용.

@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "서블릿 컨테이너",
-      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
-    },
-    {
       "basename": "05-20",
       "path": "Daily/2026/05/05-20.md"
     },
     {
+      "basename": "Thread 튜닝",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
+    },
+    {
+      "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Spring의 스레드 풀은 ApplicationContext가 관리한다..md"
+    },
+    {
+      "basename": "스레드 풀은 워크  스레드만 있지 않다.",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/스레드 풀은 워크  스레드만 있지 않다..md"
+    },
+    {
+      "basename": "IoC & DI",
+      "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
+    },
+    {
       "basename": "Coyote",
       "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
+    },
+    {
+      "basename": "서블릿 컨테이너",
+      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
+    },
+    {
+      "basename": "Accepter Thread vs Application Thread",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md"
+    },
+    {
+      "basename": "DispatcherServlet",
+      "path": "1. Project/개발/SpringBoot/Tomcat/DispatcherServlet.md"
     },
     {
       "basename": "Catalina",
@@ -175,30 +199,6 @@
     {
       "basename": "B+Tree",
       "path": "1. Project/개발/DB/B+Tree.md"
-    },
-    {
-      "basename": "MySQL 옵티마이저 (Query Optimizer)",
-      "path": "1. Project/개발/DB/MySQL 옵티마이저 (Query Optimizer).md"
-    },
-    {
-      "basename": "Semi-join & Anti-join",
-      "path": "1. Project/개발/DB/Semi-join & Anti-join.md"
-    },
-    {
-      "basename": "JOIN 알고리즘",
-      "path": "1. Project/개발/DB/JOIN 알고리즘.md"
-    },
-    {
-      "basename": "JOIN 종류",
-      "path": "1. Project/개발/DB/JOIN 종류.md"
-    },
-    {
-      "basename": "Index",
-      "path": "1. Project/개발/DB/Index.md"
-    },
-    {
-      "basename": "CBO 절차",
-      "path": "1. Project/개발/DB/CBO 절차.md"
     }
   ],
   "omittedPaths": [],
