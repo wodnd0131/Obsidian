@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "05-21",
+      "path": "Daily/2026/05/05-21.md"
+    },
+    {
       "basename": "Thread 튜닝",
       "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
       "path": "1. Project/개발/SpringBoot/Spring/Transaction/Spring의 스레드 풀은 ApplicationContext가 관리한다..md"
-    },
-    {
-      "basename": "05-21",
-      "path": "Daily/2026/05/05-21.md"
     },
     {
       "basename": "로깅 개선기",
