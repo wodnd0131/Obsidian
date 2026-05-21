@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "96fb336bc4851a25",
+        "id": "b0cd040119e844fd",
         "type": "tabs",
         "children": [
           {
-            "id": "5d20cc72dd8fe601",
+            "id": "897215812f64b1fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2026/05/05-21.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "05-21"
+              "title": "새 탭"
             }
           }
         ]
@@ -204,10 +199,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d20cc72dd8fe601",
+  "active": "897215812f64b1fc",
   "lastOpenFiles": [
-    "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md",
     "Daily/2026/05/05-21.md",
+    "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md",
     "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md",
     "1. Project/개발/SpringBoot/Spring/Transaction/스레드 풀은 워크  스레드만 있지 않다..md",
     "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md",
