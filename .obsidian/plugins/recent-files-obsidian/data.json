@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Springboot",
-      "path": "1. Project/개발/SpringBoot/Springboot.md"
-    },
-    {
       "basename": "05-21",
       "path": "Daily/2026/05/05-21.md"
+    },
+    {
+      "basename": "@ControllerAdvice",
+      "path": "1. Project/개발/SpringBoot/Spring/AOP/@ControllerAdvice.md"
+    },
+    {
+      "basename": "Springboot",
+      "path": "1. Project/개발/SpringBoot/Springboot.md"
     },
     {
       "basename": "Tomcat의 내부 구조",
@@ -195,10 +199,6 @@
     {
       "basename": "선택도(Selectivity)",
       "path": "1. Project/개발/DB/선택도(Selectivity).md"
-    },
-    {
-      "basename": "히스토그램",
-      "path": "1. Project/개발/DB/히스토그램.md"
     }
   ],
   "omittedPaths": [],
