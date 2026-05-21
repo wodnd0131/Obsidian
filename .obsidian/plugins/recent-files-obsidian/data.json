@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Thread 튜닝",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
+    },
+    {
+      "basename": "@Transactional",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md"
+    },
+    {
+      "basename": "스레드 풀은 워크  스레드만 있지 않다.",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/스레드 풀은 워크  스레드만 있지 않다..md"
+    },
+    {
+      "basename": "Accepter Thread vs Application Thread",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md"
+    },
+    {
+      "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
+      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Spring의 스레드 풀은 ApplicationContext가 관리한다..md"
+    },
+    {
       "basename": "05-21",
       "path": "Daily/2026/05/05-21.md"
+    },
+    {
+      "basename": "로깅 개선기",
+      "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
+    },
+    {
+      "basename": "무중단 스키마 마이그레이션",
+      "path": "1. Project/개발/Infra/가용성/무중단 스키마 마이그레이션.md"
+    },
+    {
+      "basename": "대용량 트래픽 처리란",
+      "path": "1. Project/개발/Infra/가용성/대용량 트래픽 처리란.md"
+    },
+    {
+      "basename": "AuthenticationEntryPoint와 AccessDeniedHandler",
+      "path": "1. Project/개발/SpringBoot/Spring/Spring Security/AuthenticationEntryPoint와 AccessDeniedHandler.md"
     },
     {
       "basename": "@ControllerAdvice",
@@ -41,18 +77,6 @@
       "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
     },
     {
-      "basename": "Thread 튜닝",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
-    },
-    {
-      "basename": "Spring의 스레드 풀은 ApplicationContext가 관리한다.",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Spring의 스레드 풀은 ApplicationContext가 관리한다..md"
-    },
-    {
-      "basename": "스레드 풀은 워크  스레드만 있지 않다.",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/스레드 풀은 워크  스레드만 있지 않다..md"
-    },
-    {
       "basename": "IoC & DI",
       "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
     },
@@ -61,20 +85,12 @@
       "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
     },
     {
-      "basename": "Accepter Thread vs Application Thread",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md"
-    },
-    {
       "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
       "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
     },
     {
       "basename": "Flyway 도입기",
       "path": "1. Project/개발/Infra/Flyway/Flyway 도입기.md"
-    },
-    {
-      "basename": "로깅 개선기",
-      "path": "1. Project/개발/Infra/모니터링/로깅 개선기.md"
     },
     {
       "basename": "동등성(Equality) vs 동일성(Identity)",
@@ -183,22 +199,6 @@
     {
       "basename": "초기 계획",
       "path": "1. Project/하네스/초기 계획.md"
-    },
-    {
-      "basename": "하네스",
-      "path": "2. Area/AI/하네스.md"
-    },
-    {
-      "basename": "SQL 기본",
-      "path": "1. Project/개발/DB/SQL 기본.md"
-    },
-    {
-      "basename": "서브쿼리 vs JOIN — 실행 구조 차이",
-      "path": "1. Project/개발/DB/서브쿼리 vs JOIN — 실행 구조 차이.md"
-    },
-    {
-      "basename": "선택도(Selectivity)",
-      "path": "1. Project/개발/DB/선택도(Selectivity).md"
     }
   ],
   "omittedPaths": [],
