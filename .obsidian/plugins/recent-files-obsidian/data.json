@@ -5,8 +5,52 @@
       "path": "1. Project/취업 준비/이력서 기반/마틸다 캐싱.md"
     },
     {
+      "basename": "Claude All in one",
+      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
+    },
+    {
+      "basename": "AI는 어떻게 생각하시나요",
+      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
+    },
+    {
+      "basename": "면접 기본 질문 모음",
+      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
+      "basename": "협업할 때 어떤 역할인지",
+      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
+    },
+    {
+      "basename": "페어, 코드 리뷰 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
+    },
+    {
+      "basename": "성격 장단점 특이사항등",
+      "path": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md"
+    },
+    {
+      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
+      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
+    },
+    {
+      "basename": "개발자로서 강점,단점",
+      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
+    },
+    {
+      "basename": "1분 자기소개와 마지막 어필",
+      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
+    },
+    {
+      "basename": "동아리",
+      "path": "1. Project/취업 준비/커멘트/지원동기/동아리.md"
+    },
+    {
       "basename": "똑독",
       "path": "1. Project/취업 준비/커멘트/지원동기/똑독.md"
+    },
+    {
+      "basename": "미래에셋증권",
+      "path": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md"
     },
     {
       "basename": "05-21",
@@ -155,50 +199,6 @@
     {
       "basename": "나의 컬처핏",
       "path": "1. Project/취업 준비/나의 컬처핏.md"
-    },
-    {
-      "basename": "OIDC",
-      "path": "1. Project/개발/Network/OIDC.md"
-    },
-    {
-      "basename": "SSE",
-      "path": "1. Project/개발/Network/SSE.md"
-    },
-    {
-      "basename": "Streamable HTTP",
-      "path": "1. Project/개발/Network/Streamable HTTP.md"
-    },
-    {
-      "basename": "Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴",
-      "path": "1. Project/개발/SpringBoot/Tomcat + Spring MVC 내부 구조에 사용된 설계 패턴.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
-      "basename": "Index",
-      "path": "1. Project/Index.md"
-    },
-    {
-      "basename": "pickeat에서 감내해야할 것",
-      "path": "1. Project/pickeat에서 감내해야할 것.md"
-    },
-    {
-      "basename": "개발자로서 강점,단점",
-      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
-    },
-    {
-      "basename": "1분 자기소개와 마지막 어필",
-      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
-    },
-    {
-      "basename": "무제",
-      "path": "1. Project/SCG 코드 리뷰/Spring/7차시/무제.md"
-    },
-    {
-      "basename": "05-08",
-      "path": "Daily/2026/05/05-08.md"
     }
   ],
   "omittedPaths": [],
