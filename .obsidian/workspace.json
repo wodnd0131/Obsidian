@@ -11,10 +11,15 @@
             "id": "897215812f64b1fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/취업 준비/커멘트/지원동기/똑독.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "똑독"
             }
           }
         ]
@@ -201,6 +206,7 @@
   },
   "active": "897215812f64b1fc",
   "lastOpenFiles": [
+    "1. Project/취업 준비/커멘트/지원동기/똑독.md",
     "Daily/2026/05/05-21.md",
     "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md",
     "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md",
@@ -232,7 +238,6 @@
     "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md",
     "1. Project/개발/Infra/Flyway/Flyway 도입기.md",
     "1. Project/개발/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md",
-    "1. Project/개발/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md",
     "1. Project/SCG 코드 리뷰/Spring/7차시",
     "1. Project/하네스",
     "1. Project/취업 준비/커멘트/지원동기",
