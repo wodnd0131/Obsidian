@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "05-26",
+      "path": "Daily/2026/05/05-26.md"
+    },
+    {
+      "basename": "05-21",
+      "path": "Daily/2026/05/05-21.md"
+    },
+    {
       "basename": "8주차 예시",
       "path": "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 예시.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "미래에셋증권",
       "path": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md"
-    },
-    {
-      "basename": "05-21",
-      "path": "Daily/2026/05/05-21.md"
     },
     {
       "basename": "Thread 튜닝",
@@ -195,10 +199,6 @@
     {
       "basename": "Why Use Java",
       "path": "1. Project/개발/JAVA/CS/Why Use Java.md"
-    },
-    {
-      "basename": "RS256, JWT vs HTTPS",
-      "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
     }
   ],
   "omittedPaths": [],
