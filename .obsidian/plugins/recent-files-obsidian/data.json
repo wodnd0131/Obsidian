@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "8주차 예시",
+      "path": "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 예시.md"
+    },
+    {
       "basename": "마틸다 캐싱",
       "path": "1. Project/취업 준비/이력서 기반/마틸다 캐싱.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RS256, JWT vs HTTPS",
       "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
-    },
-    {
-      "basename": "나의 컬처핏",
-      "path": "1. Project/취업 준비/나의 컬처핏.md"
     }
   ],
   "omittedPaths": [],
