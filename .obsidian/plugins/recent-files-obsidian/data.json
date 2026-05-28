@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "하네스",
+      "path": "2. Area/AI/하네스.md"
+    },
+    {
+      "basename": "8주차 미션안내",
+      "path": "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 미션안내.md"
+    },
+    {
       "basename": "05-26",
       "path": "Daily/2026/05/05-26.md"
     },
@@ -9,12 +17,12 @@
       "path": "Daily/2026/05/05-21.md"
     },
     {
-      "basename": "8주차 예시",
-      "path": "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 예시.md"
+      "basename": "고찰",
+      "path": "1. Project/취업 준비/이력서/고찰.md"
     },
     {
       "basename": "마틸다 캐싱",
-      "path": "1. Project/취업 준비/이력서 기반/마틸다 캐싱.md"
+      "path": "1. Project/취업 준비/이력서/이력서 기반/마틸다 캐싱.md"
     },
     {
       "basename": "Claude All in one",
@@ -191,14 +199,6 @@
     {
       "basename": "Interpreter",
       "path": "1. Project/개발/JAVA/CS/CPU/Interpreter.md"
-    },
-    {
-      "basename": "필터(Filter) vs 인터셉터(Interceptor)",
-      "path": "1. Project/개발/SpringBoot/필터(Filter) vs 인터셉터(Interceptor).md"
-    },
-    {
-      "basename": "Why Use Java",
-      "path": "1. Project/개발/JAVA/CS/Why Use Java.md"
     }
   ],
   "omittedPaths": [],
