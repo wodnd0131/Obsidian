@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
+      "path": "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md"
+    },
+    {
       "basename": "하네스",
       "path": "2. Area/AI/하네스.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "자료형",
       "path": "1. Project/개발/JAVA/CS/자료구조/자료형.md"
-    },
-    {
-      "basename": "Interpreter",
-      "path": "1. Project/개발/JAVA/CS/CPU/Interpreter.md"
     }
   ],
   "omittedPaths": [],

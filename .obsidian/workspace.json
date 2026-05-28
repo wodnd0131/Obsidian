@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/AI/하네스.md",
+                "file": "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "하네스"
+              "title": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "7c564e4c7084a195",
   "lastOpenFiles": [
+    "2. Area/AI/하네스.md",
+    "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
     "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 미션안내.md",
     "1. Project/SCG 코드 리뷰/Spring/8차시/7주차 리뷰 탐방.md",
     "Daily/2026/05/05-26.md",
@@ -233,8 +235,6 @@
     "1. Project/개발/SpringBoot/Spring/Transaction/Accepter Thread vs Application Thread.md",
     "1. Project/개발/SpringBoot/Spring/Transaction/Spring의 스레드 풀은 ApplicationContext가 관리한다..md",
     "1. Project/개발/Infra/모니터링/로깅 개선기.md",
-    "1. Project/개발/Infra/가용성/무중단 스키마 마이그레이션.md",
-    "1. Project/개발/Infra/가용성/대용량 트래픽 처리란.md",
     "Repository/대용량 트래픽 처리란3.png",
     "Repository/대용량 트래픽 처리란2.png",
     "Repository/대용량 트래픽 처리란-1.png",
