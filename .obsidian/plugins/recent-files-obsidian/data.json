@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
+      "path": "1. Project/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
+    },
+    {
       "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
       "path": "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "좋은 메서드 명칭 작성법",
       "path": "1. Project/개발/JAVA/Clean-code/좋은 메서드 명칭 작성법.md"
-    },
-    {
-      "basename": "자료형",
-      "path": "1. Project/개발/JAVA/CS/자료구조/자료형.md"
     }
   ],
   "omittedPaths": [],
