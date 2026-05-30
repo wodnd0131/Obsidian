@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "밋업",
+      "path": "1. Project/스위프/밋업.md"
+    },
+    {
       "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
-      "path": "1. Project/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
+      "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
+    },
+    {
+      "basename": "Use Jira",
+      "path": "Repository/Use Jira.png"
+    },
+    {
+      "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드-1",
+      "path": "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png"
     },
     {
       "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
@@ -187,18 +199,6 @@
     {
       "basename": "Java 실행 흐름",
       "path": "1. Project/개발/JAVA/CS/JVM/Java 실행 흐름.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "1. Project/개발/JAVA/CS/JVM/JVM.md"
-    },
-    {
-      "basename": "JVM Heap",
-      "path": "1. Project/개발/JAVA/CS/JVM/JVM Heap.md"
-    },
-    {
-      "basename": "좋은 메서드 명칭 작성법",
-      "path": "1. Project/개발/JAVA/Clean-code/좋은 메서드 명칭 작성법.md"
     }
   ],
   "omittedPaths": [],
