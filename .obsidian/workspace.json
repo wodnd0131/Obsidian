@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e2ba4b8344ca2dd8",
+        "id": "fda5c0f3a85e4aaf",
         "type": "tabs",
         "children": [
           {
-            "id": "7c564e4c7084a195",
+            "id": "a2585a533fac3178",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/스위프/밋업.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "밋업"
+              "title": "새 탭"
             }
           }
         ]
@@ -204,10 +199,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c564e4c7084a195",
+  "active": "a2585a533fac3178",
   "lastOpenFiles": [
-    "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
     "1. Project/스위프/밋업.md",
+    "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
     "Repository/Use Jira.png",
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "Repository/밋업-1.png",
