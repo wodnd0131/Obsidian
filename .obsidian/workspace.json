@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/회의록.md",
+                "file": "1. Project/스위프/뤼이도 사용.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "회의록"
+              "title": "뤼이도 사용"
             }
           }
         ]
@@ -200,22 +200,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-custom-frames:Open Todo.List": true,
       "bases:새 베이스 생성하기": false,
-      "daily-notes:오늘의 일일 노트 열기": true,
-      "periodic-notes:Open today": false
+      "daily-notes:오늘의 일일 노트 열기": true
     }
   },
   "active": "a2585a533fac3178",
   "lastOpenFiles": [
+    "Repository/뤼이도 사용.png",
+    "Repository/image (4).png",
+    "Repository/image (3).png",
+    "Repository/image (2).png",
+    "Repository/image (1).png",
+    "Repository/image.png",
+    "Repository/image (1).webp",
     "1. Project/스위프/밋업.md",
-    "1. Project/스위프/회의록.md",
+    "1. Project/스위프/낙서.md",
+    "1. Project/스위프/뤼이도 사용.md",
     "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
     "Repository/Use Jira.png",
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "Repository/밋업-1.png",
     "1. Project/스위프",
     "Repository/벤처3.png",
-    "Repository/벤처2.png",
-    "Repository/기획발굴-1.png",
     "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
     "2. Area/기획",
     "2. Area/AI/하네스.md",
@@ -241,12 +246,6 @@
     "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
     "1. Project/취업 준비/이력서/이력서 기반",
     "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md",
-    "1. Project/개발/SpringBoot/Spring/Transaction/@Transactional.md",
-    "1. Project/개발/SpringBoot/Spring/Transaction/스레드 풀은 워크  스레드만 있지 않다..md",
-    "Repository/대용량 트래픽 처리란3.png",
-    "Repository/대용량 트래픽 처리란2.png",
-    "Repository/대용량 트래픽 처리란-1.png",
-    "Repository/대용량 트래픽 처리란.png",
     "1. Project/개발/SpringBoot/Spring/Spring Security",
     "1. Project/SCG 코드 리뷰/Spring/7차시",
     "1. Project/하네스",
