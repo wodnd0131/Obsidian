@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "무제",
-      "path": "1. Project/AI/챗봇 도전기/무제.md"
+      "basename": "RAG 도입",
+      "path": "1. Project/AI/챗봇 도전기/RAG 도입.md"
+    },
+    {
+      "basename": "ChatResponse",
+      "path": "1. Project/AI/챗봇 도전기/ChatResponse.md"
     },
     {
       "basename": "트러블 슈팅",
@@ -195,10 +199,6 @@
     {
       "basename": "서블릿의 정의",
       "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
-    },
-    {
-      "basename": "Coyote",
-      "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
     }
   ],
   "omittedPaths": [],
