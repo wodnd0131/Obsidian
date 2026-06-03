@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "트러블 슈팅",
+      "path": "1. Project/AI/챗봇 도전기/트러블 슈팅.md"
+    },
+    {
       "basename": "OpenAI platform",
-      "path": "1. Project/AI/OpenAI platform.md"
+      "path": "1. Project/AI/챗봇 도전기/OpenAI platform.md"
     },
     {
       "basename": "Skill & hook",
@@ -195,10 +199,6 @@
     {
       "basename": "NIO와 블로킹 IO",
       "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
-    },
-    {
-      "basename": "IoC & DI",
-      "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
     }
   ],
   "omittedPaths": [],

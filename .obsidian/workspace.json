@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/AI/OpenAI platform.md",
+                "file": "1. Project/AI/챗봇 도전기/트러블 슈팅.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "OpenAI platform"
+              "title": "트러블 슈팅"
             }
           }
         ]
@@ -206,8 +206,10 @@
   },
   "active": "c56a459c915b15d5",
   "lastOpenFiles": [
+    "1. Project/AI/챗봇 도전기/OpenAI platform.md",
+    "1. Project/AI/챗봇 도전기/트러블 슈팅.md",
+    "1. Project/AI/챗봇 도전기",
     "1. Project/AI/Skill & hook.md",
-    "1. Project/AI/OpenAI platform.md",
     "1. Project/AI/MCP (Model Context Protocol).md",
     "1. Project/AI/README.md",
     "1. Project/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
@@ -246,12 +248,10 @@
     "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md",
     "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
     "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
-    "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
     "1. Project/취업 준비/이력서/이력서 기반",
     "1. Project/개발/SpringBoot/Spring/Spring Security",
     "1. Project/SCG 코드 리뷰/Spring/7차시",
     "1. Project/AI/하네스",
-    "1. Project/취업 준비/커멘트/지원동기",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
