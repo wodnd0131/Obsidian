@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/AI/챗봇 도전기/RAG 도입.md",
+                "file": "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RAG 도입"
+              "title": "임베딩 모델 선정"
             }
           }
         ]
@@ -207,9 +207,9 @@
   "active": "c56a459c915b15d5",
   "lastOpenFiles": [
     "1. Project/AI/챗봇 도전기/ChatResponse.md",
-    "1. Project/AI/챗봇 도전기/RAG 도입.md",
     "1. Project/AI/챗봇 도전기/트러블 슈팅.md",
-    "1. Project/AI/챗봇 도전기/OpenAI platform.md",
+    "1. Project/AI/챗봇 도전기/RAG 도입.md",
+    "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기",
     "1. Project/AI/Skill & hook.md",
     "1. Project/AI/MCP (Model Context Protocol).md",

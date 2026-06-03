@@ -89,3 +89,192 @@
 벡터 DB의 본질은 "텍스트를 의미 좌표(벡터)로 바꿔 저장하고, 질문과 의미적으로 가까운 청크를 거리 계산으로 찾아주는 DB"입니다. 당신처럼 잘 구조화된 FAQ가 있으면 절반은 끝난 셈이에요 — `###` 단위 청킹이 자연스럽고, 메타데이터로 섹션명을 붙이기도 쉽습니다.
 
 다음으로 궁금한 게 임베딩·적재를 Spring AI에서 실제 코드로 어떻게 짜는지(ETL 파이프라인)인가요, 아니면 벡터 DB 선택을 더 깊게 비교해보고 싶으신가요? 어느 쪽이든 이 FAQ 문서를 그대로 예시로 이어서 잡아드릴게요.
+
+---
+# ETL 파이프라인은 이렇게 흐릅니다.
+
+```
+FAQ.md 파일
+  → [Extract]   DocumentReader가 읽어 Document로
+  → [Transform] TextSplitter가 청크로 분할 (+ 메타데이터)
+  → [Load]      vectorStore.add() — 내부에서 임베딩 후 저장
+```
+
+## 0. 준비: 의존성과 임베딩 모델 설정
+
+먼저 임베딩 모델이 있어야 합니다. `vectorStore.add()`가 내부에서 이 모델을 호출하니까요. OpenAI 임베딩을 쓴다고 가정하면, 스타터 의존성과 설정이 필요합니다.
+
+```yaml
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      embedding:
+        options:
+          model: text-embedding-3-small   # 1536차원, 저렴하고 무난
+```
+
+이러면 `EmbeddingModel` 빈이 자동 구성됩니다. 그리고 벡터 스토어 빈을 만듭니다(앞서 본 그대로).
+
+```java
+@Bean
+VectorStore vectorStore(EmbeddingModel embeddingModel) {
+    return SimpleVectorStore.builder(embeddingModel).build();
+}
+```
+
+문서 파일은 `src/main/resources/docs/faq.md`에 두었다고 하겠습니다.
+
+## 1. Extract — 파일을 Document로 읽기
+
+원본 FAQ를 읽어들이는 단계입니다. 당신 문서는 마크다운이니 두 가지 선택지가 있어요.
+
+**선택지 A: 마크다운 구조를 인식하는 리더 (`MarkdownDocumentReader`)**
+
+이게 당신 문서에 잘 맞습니다. 마크다운의 헤더·구조를 이해해서 읽어줍니다.
+
+```java
+Resource faqResource = new ClassPathResource("docs/faq.md");
+
+MarkdownDocumentReaderConfig config = MarkdownDocumentReaderConfig.builder()
+        .withHorizontalRuleCreateDocument(true)   // --- 구분선마다 문서 분리
+        .withIncludeCodeBlock(false)
+        .withIncludeBlockquote(false)
+        .build();
+
+MarkdownDocumentReader reader = new MarkdownDocumentReader(faqResource, config);
+List<Document> documents = reader.get();
+```
+
+**선택지 B: 단순 텍스트 리더 (`TextReader`)**
+
+구조 무시하고 통째로 읽습니다. 분할은 다음 단계(Transform)에 전적으로 맡길 때 씁니다.
+
+```java
+TextReader reader = new TextReader(new ClassPathResource("docs/faq.md"));
+List<Document> documents = reader.get();
+```
+
+당신 FAQ는 `###` 질문 단위가 명확하니 마크다운 리더가 자연스럽지만, 입문 단계에선 `TextReader` + 다음 단계의 splitter 조합이 더 직관적이고 제어하기 쉽습니다. 아래는 그 조합으로 이어가겠습니다.
+
+## 2. Transform — 청크로 분할
+
+읽어온 `Document`를 검색에 적합한 크기의 청크로 쪼갭니다. Spring AI 기본 분할기는 `TokenTextSplitter`로, 글자 수가 아니라 **토큰 수** 기준으로 자릅니다(임베딩 모델이 토큰 단위로 동작하니 합리적이에요).
+
+```java
+TokenTextSplitter splitter = TokenTextSplitter.builder()
+        .withChunkSize(400)          // 청크당 목표 토큰 수
+        .withMinChunkSizeChars(350)  // 이 글자 수 넘으면 문장 경계에서 자름
+        .withMaxNumChunks(10000)
+        .build();
+
+List<Document> chunks = splitter.split(documents);
+```
+
+여기서 당신 문서 특성상 주의할 점이 있습니다. 앞서 말했듯 **FAQ는 `###` 단위로 자르는 게 이상적**인데, `TokenTextSplitter`는 의미가 아니라 토큰 수로 자르므로 질문 중간이나 표 중간이 잘릴 수 있어요. 멤버십 표(`| Tier | ... |`)가 끊기면 검색 품질이 떨어집니다.
+
+그래서 잘 구조화된 FAQ라면, 토큰 분할기에 의존하기보다 **`###` 단위로 직접 쪼개는** 편이 품질이 좋습니다. 이 방식이면 메타데이터(섹션명, 출처)도 같이 붙이기 좋고요.
+
+```java
+// faq.md 전체 텍스트를 ### 기준으로 직접 분할
+String fullText = faqResource.getContentAsString(StandardCharsets.UTF_8);
+
+String[] sections = fullText.split("(?=^### )");  // ### 앞에서 분리 (헤더 보존)
+
+List<Document> chunks = Arrays.stream(sections)
+        .map(String::trim)
+        .filter(s -> s.startsWith("### "))         // 헤더 없는 앞부분(제목 등) 제외
+        .map(section -> {
+            // 첫 줄(### 질문)을 메타데이터로 추출
+            String question = section.lines().findFirst().orElse("").replace("### ", "");
+            return new Document(section, Map.of(
+                    "source", "cholog-faq",
+                    "section", question
+            ));
+        })
+        .toList();
+```
+
+이러면 각 청크가 "질문 + 답변(표 포함)"을 통째로 담은 완결 단위가 되고, `section` 메타데이터로 어느 질문인지도 알 수 있습니다. 표가 중간에 잘릴 일도 없어요.
+
+> 둘 중 무엇을 쓰든 결과물은 `List<Document>`로 동일하니, 다음 Load 단계는 그대로입니다. 입문이면 `TokenTextSplitter`로 빠르게 돌려본 뒤, 표가 깨지는 게 보이면 위 수동 분할로 바꾸는 순서를 권합니다.
+
+## 3. Load — 임베딩 + 저장
+
+마지막 단계입니다. `vectorStore.add()` 한 줄이 **임베딩과 저장을 동시에** 합니다. 앞서 설명한 대로, 이 시점에 각 청크가 임베딩 모델로 보내져 벡터가 되고 메모리에 저장돼요.
+
+```java
+vectorStore.add(chunks);
+// 내부 동작: 각 chunk 텍스트 → EmbeddingModel 호출 → 벡터 받음 → 메모리 저장
+```
+
+`SimpleVectorStore`는 휘발성이니, 임베딩 API를 매 기동마다 다시 호출하지 않으려면 파일로 저장해둡니다.
+
+```java
+vectorStore.save(new File("faq-vectors.json"));
+```
+
+## 전체를 하나로 — 앱 시작 시 실행
+
+위 세 단계를 `ApplicationRunner`로 묶어 앱 기동 시 한 번 돌리는 형태입니다. 이미 저장된 벡터 파일이 있으면 임베딩을 건너뛰고 불러오도록 분기를 넣었습니다(임베딩 비용 절약).
+
+```java
+@Configuration
+public class FaqIngestionConfig {
+
+    private static final File VECTOR_FILE = new File("faq-vectors.json");
+
+    @Bean
+    ApplicationRunner ingestFaq(VectorStore vectorStore) {
+        return args -> {
+            // 이미 적재된 벡터 파일이 있으면 임베딩 재호출 없이 복원
+            if (VECTOR_FILE.exists()) {
+                ((SimpleVectorStore) vectorStore).load(VECTOR_FILE);
+                return;
+            }
+
+            // --- Extract ---
+            Resource faqResource = new ClassPathResource("docs/faq.md");
+            String fullText = faqResource.getContentAsString(StandardCharsets.UTF_8);
+
+            // --- Transform (### 단위 분할 + 메타데이터) ---
+            List<Document> chunks = Arrays.stream(fullText.split("(?=^### )", -1))
+                    .map(String::trim)
+                    .filter(s -> s.startsWith("### "))
+                    .map(section -> {
+                        String question = section.lines().findFirst().orElse("").replace("### ", "");
+                        return new Document(section, Map.of(
+                                "source", "cholog-faq",
+                                "section", question
+                        ));
+                    })
+                    .toList();
+
+            // --- Load (임베딩 + 저장) ---
+            vectorStore.add(chunks);
+            ((SimpleVectorStore) vectorStore).save(VECTOR_FILE);
+        };
+    }
+}
+```
+
+## 이게 챗봇과 연결되는 지점
+
+ETL은 여기까지입니다. 한 번 적재해두면, 앞서 컨트롤러에 걸었던 `QuestionAnswerAdvisor`가 이 `vectorStore`를 자동으로 검색합니다. **ETL 코드와 챗 호출 코드는 완전히 분리**돼요 — 적재는 시작 시 한 번, 검색은 매 질문마다, 서로 건드리지 않습니다.
+
+```
+[앱 시작] FaqIngestionConfig → vectorStore에 FAQ 적재 (한 번)
+[매 요청] 사용자 질문 → QuestionAnswerAdvisor가 vectorStore 검색 → 관련 청크 첨부 → 답변
+```
+
+## 짚어둘 실무 포인트
+
+몇 가지 미리 알아두면 좋은 것들:
+
+분할 방식은 정답이 없고 실측으로 정합니다. 위 `###` 수동 분할을 권하긴 했지만, 실제 질문들을 던져보고 "원하는 청크가 검색되는지" 확인하며 조정하는 게 맞습니다. 청크가 너무 크면 관련 없는 내용이 섞이고, 너무 작으면 맥락이 끊겨요.
+
+`(SimpleVectorStore)` 캐스팅이 거슬릴 수 있는데, `save/load`가 `VectorStore` 공통 인터페이스가 아니라 `SimpleVectorStore` 전용 메서드라 그렇습니다. PGVector로 이전하면 이 저장/복원 로직 자체가 불필요해지니(DB가 영속화하니까) 그때 들어냅니다. 이게 앞서 말한 "이전 시 바뀌는 부분"의 한 예예요.
+
+임베딩 비용은 적재할 때 청크 수만큼 발생합니다. 당신 FAQ는 수십 청크 규모라 미미하지만, 문서가 커지면 무시 못 합니다. 그래서 `save/load`로 재호출을 막는 게 중요해요.
+
+다음 단계로는, 적재된 결과로 실제 검색이 잘 되는지 확인하는 방법(검색 결과를 직접 찍어보거나 `QuestionAnswerAdvisor`의 `topK`·유사도 임계값 튜닝)을 보는 게 자연스럽습니다. 그쪽으로 이어갈까요?
