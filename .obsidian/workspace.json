@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/AI/챗봇 도전기/임베딩.md",
+                "file": "1. Project/스위프/회의록 작성하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "임베딩"
+              "title": "회의록 작성하기"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "c56a459c915b15d5",
   "lastOpenFiles": [
-    "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기/임베딩.md",
+    "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기/RAG 도입.md",
     "1. Project/AI/챗봇 도전기/ChatResponse.md",
     "1. Project/AI/챗봇 도전기/트러블 슈팅.md",
@@ -220,7 +220,7 @@
     "1. Project/개발/Kafka/무제.md",
     "1. Project/개발/JAVA/CS/Virtual Threads.md",
     "Daily/2026/06/06-02.md",
-    "1. Project/스위프/무제.md",
+    "1. Project/스위프/회의록 작성하기.md",
     "Daily/2026/06",
     "1. Project/스위프/뤼이도 사용.md",
     "Repository/뤼이도 사용.png",
