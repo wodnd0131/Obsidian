@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "OpenAI platform",
+      "path": "1. Project/AI/OpenAI platform.md"
+    },
+    {
+      "basename": "Skill & hook",
+      "path": "1. Project/AI/Skill & hook.md"
+    },
+    {
+      "basename": "MCP (Model Context Protocol)",
+      "path": "1. Project/AI/MCP (Model Context Protocol).md"
+    },
+    {
+      "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
+      "path": "1. Project/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md"
+    },
+    {
       "basename": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다",
       "path": "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
     },
@@ -37,12 +53,8 @@
       "path": "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png"
     },
     {
-      "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
-      "path": "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md"
-    },
-    {
       "basename": "하네스",
-      "path": "2. Area/AI/하네스.md"
+      "path": "1. Project/AI/하네스/하네스.md"
     },
     {
       "basename": "8주차 미션안내",
@@ -187,14 +199,6 @@
     {
       "basename": "IoC & DI",
       "path": "1. Project/개발/SpringBoot/Spring/IoC & DI.md"
-    },
-    {
-      "basename": "서블릿 컨테이너",
-      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿 컨테이너.md"
-    },
-    {
-      "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
-      "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
     }
   ],
   "omittedPaths": [],

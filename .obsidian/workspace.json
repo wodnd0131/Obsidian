@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
+                "file": "1. Project/AI/OpenAI platform.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다"
+              "title": "OpenAI platform"
             }
           }
         ]
@@ -206,8 +206,13 @@
   },
   "active": "c56a459c915b15d5",
   "lastOpenFiles": [
-    "1. Project/개발/Kafka/무제.md",
+    "1. Project/AI/Skill & hook.md",
+    "1. Project/AI/OpenAI platform.md",
+    "1. Project/AI/MCP (Model Context Protocol).md",
+    "1. Project/AI/README.md",
+    "1. Project/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
     "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md",
+    "1. Project/개발/Kafka/무제.md",
     "1. Project/개발/JAVA/CS/Virtual Threads.md",
     "Daily/2026/06/06-02.md",
     "1. Project/스위프/무제.md",
@@ -226,9 +231,8 @@
     "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png",
     "Repository/밋업-1.png",
     "1. Project/스위프",
-    "2. Area/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
     "2. Area/기획",
-    "2. Area/AI/하네스.md",
+    "1. Project/AI/하네스/하네스.md",
     "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 미션안내.md",
     "1. Project/SCG 코드 리뷰/Spring/8차시/7주차 리뷰 탐방.md",
     "Daily/2026/05/05-26.md",
@@ -243,14 +247,10 @@
     "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
     "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
     "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
-    "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
-    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
-    "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
-    "1. Project/취업 준비/커멘트/지원동기/동아리.md",
     "1. Project/취업 준비/이력서/이력서 기반",
     "1. Project/개발/SpringBoot/Spring/Spring Security",
     "1. Project/SCG 코드 리뷰/Spring/7차시",
-    "1. Project/하네스",
+    "1. Project/AI/하네스",
     "1. Project/취업 준비/커멘트/지원동기",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",

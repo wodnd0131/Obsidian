@@ -49,11 +49,11 @@
   "3. Resource/독서": "LiAlbum",
   "3. Resource/독서/전공 도서/객체지향의 오해와 진실": "FarObjectGroup",
   "2. Area/Git": "SiGit",
-  "2. Area/AI": "SiRobotframework",
   "1. Project/개발/JAVA": "FabJava",
   "1. Project/개발/Kafka": "SiApachekafka",
   "1. Project/개발/Network": "LiNetwork",
   "1. Project/개발/SpringBoot": "SiSpring",
   "1. Project/개발": "LiBaby",
-  "1. Project/취업 준비": "LiBookMarked"
+  "1. Project/취업 준비": "LiBookMarked",
+  "1. Project/AI": "SiRobotframework"
 }
