@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다",
+      "path": "1. Project/개발/Kafka/Kafka vs Spring Boot 이건 비교 자체가 잘못된 질문이다.md"
+    },
+    {
+      "basename": "Virtual Threads",
+      "path": "1. Project/개발/JAVA/CS/Virtual Threads.md"
+    },
+    {
+      "basename": "06-02",
+      "path": "Daily/2026/06/06-02.md"
+    },
+    {
       "basename": "무제",
       "path": "1. Project/스위프/무제.md"
     },
@@ -183,22 +195,6 @@
     {
       "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드",
       "path": "1. Project/개발/Infra/Flyway/WAS,DB 분리 환경에서 Flyway 도입 가이드.md"
-    },
-    {
-      "basename": "Flyway 도입기",
-      "path": "1. Project/개발/Infra/Flyway/Flyway 도입기.md"
-    },
-    {
-      "basename": "동등성(Equality) vs 동일성(Identity)",
-      "path": "1. Project/개발/JAVA/CS/JVM/동등성(Equality) vs 동일성(Identity).md"
-    },
-    {
-      "basename": "컴파일러와 JIT 컴파일",
-      "path": "1. Project/개발/JAVA/CS/JVM/컴파일러와 JIT 컴파일.md"
-    },
-    {
-      "basename": "HashCode",
-      "path": "1. Project/개발/JAVA/CS/JVM/HashCode.md"
     }
   ],
   "omittedPaths": [],
