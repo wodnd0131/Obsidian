@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "임베딩",
+      "path": "1. Project/AI/챗봇 도전기/임베딩.md"
+    },
+    {
       "basename": "임베딩 모델 선정",
       "path": "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md"
+    },
+    {
+      "basename": "RAG 도입",
+      "path": "1. Project/AI/챗봇 도전기/RAG 도입.md"
     },
     {
       "basename": "ChatResponse",
@@ -11,10 +19,6 @@
     {
       "basename": "트러블 슈팅",
       "path": "1. Project/AI/챗봇 도전기/트러블 슈팅.md"
-    },
-    {
-      "basename": "RAG 도입",
-      "path": "1. Project/AI/챗봇 도전기/RAG 도입.md"
     },
     {
       "basename": "Skill & hook",
@@ -195,10 +199,6 @@
     {
       "basename": "05-20",
       "path": "Daily/2026/05/05-20.md"
-    },
-    {
-      "basename": "서블릿의 정의",
-      "path": "1. Project/개발/SpringBoot/Tomcat/서블릿의 정의.md"
     }
   ],
   "omittedPaths": [],
