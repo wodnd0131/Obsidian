@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/AI/챗봇 도전기/무제.md"
+    },
+    {
       "basename": "트러블 슈팅",
       "path": "1. Project/AI/챗봇 도전기/트러블 슈팅.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Coyote",
       "path": "1. Project/개발/SpringBoot/Tomcat/Coyote.md"
-    },
-    {
-      "basename": "NIO와 블로킹 IO",
-      "path": "1. Project/개발/SpringBoot/Tomcat/NIO와 블로킹 IO.md"
     }
   ],
   "omittedPaths": [],
