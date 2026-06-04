@@ -273,12 +273,12 @@ public ResponseEntity<Void> refresh(
 
 은탄환은 없다. 저장 방식마다 구체적으로 무엇을 잃는지:
 
-|방식|얻는 것|잃는 것|
-|---|---|---|
-|localStorage|구현 단순, 영속성|XSS 한 방에 전체 탈취|
-|메모리|XSS 가장 안전|새로고침마다 재인증 필요, Refresh Token 패턴 필수|
-|HttpOnly 쿠키|XSS 안전, 영속성|CSRF 고려 필요, 모바일 앱에서 쿠키 관리 복잡|
-|Access+Refresh 분리|보안과 UX 균형|구현 복잡도 증가, Refresh Token 탈취 시 장기 피해|
+| 방식                | 얻는 것        | 잃는 것                                |
+| ----------------- | ----------- | ----------------------------------- |
+| localStorage      | 구현 단순, 영속성  | XSS 한 방에 전체 탈취                      |
+| 메모리               | XSS 가장 안전   | 새로고침마다 재인증 필요, Refresh Token 패턴 필수  |
+| HttpOnly 쿠키       | XSS 안전, 영속성 | CSRF 고려 필요, 모바일 앱에서 쿠키 관리 복잡        |
+| Access+Refresh 분리 | 보안과 UX 균형   | 구현 복잡도 증가, Refresh Token 탈취 시 장기 피해 |
 
 ---
 
