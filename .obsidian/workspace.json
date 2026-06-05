@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa425f1dc9a5d7c0",
+        "id": "7400ac640ce1f915",
         "type": "tabs",
         "children": [
           {
-            "id": "c56a459c915b15d5",
+            "id": "ede4745c70ce83d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,7 +204,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c56a459c915b15d5",
+  "active": "ede4745c70ce83d3",
   "lastOpenFiles": [
     "Daily/2026/06/06-05.md",
     "해야하는 일.md",
