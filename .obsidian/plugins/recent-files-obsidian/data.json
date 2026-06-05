@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "해야하는 일",
+      "path": "해야하는 일.md"
+    },
+    {
+      "basename": "06-05",
+      "path": "Daily/2026/06/06-05.md"
+    },
+    {
       "basename": "JWT 저장 방식",
       "path": "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "똑독",
       "path": "1. Project/취업 준비/커멘트/지원동기/똑독.md"
-    },
-    {
-      "basename": "미래에셋증권",
-      "path": "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md"
-    },
-    {
-      "basename": "Thread 튜닝",
-      "path": "1. Project/개발/SpringBoot/Spring/Transaction/Thread 튜닝.md"
     }
   ],
   "omittedPaths": [],
