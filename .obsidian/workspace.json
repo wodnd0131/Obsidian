@@ -200,8 +200,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-custom-frames:Open Todo.List": true,
       "bases:새 베이스 생성하기": false,
-      "daily-notes:오늘의 일일 노트 열기": true,
-      "periodic-notes:Open today": false
+      "daily-notes:오늘의 일일 노트 열기": true
     }
   },
   "active": "c56a459c915b15d5",
