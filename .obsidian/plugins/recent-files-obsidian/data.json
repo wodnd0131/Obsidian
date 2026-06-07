@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "낙서장",
+      "path": "1. Project/스위프/낙서장.md"
+    },
+    {
+      "basename": "밋업",
+      "path": "1. Project/스위프/밋업.md"
+    },
+    {
       "basename": "해야하는 일",
       "path": "해야하는 일.md"
     },
@@ -65,10 +73,6 @@
       "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
     },
     {
-      "basename": "회의록 작성하기",
-      "path": "1. Project/스위프/회의록 작성하기.md"
-    },
-    {
       "basename": "임베딩",
       "path": "1. Project/AI/챗봇 도전기/임베딩.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "뤼이도 사용",
       "path": "1. Project/스위프/뤼이도 사용.md"
-    },
-    {
-      "basename": "밋업",
-      "path": "1. Project/스위프/밋업.md"
     },
     {
       "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야하는 일.md",
+                "file": "1. Project/스위프/낙서장.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "해야하는 일"
+              "title": "낙서장"
             }
           }
         ]
@@ -206,8 +206,9 @@
   },
   "active": "ede4745c70ce83d3",
   "lastOpenFiles": [
-    "Daily/2026/06/06-05.md",
+    "1. Project/스위프/밋업.md",
     "해야하는 일.md",
+    "Daily/2026/06/06-05.md",
     "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md",
     "1. Project/개발/Network/HTTP/Json/JWT.md",
     "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md",
@@ -222,7 +223,7 @@
     "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md",
     "1. Project/개발/Network/OIDC.md",
     "1. Project/개발/Network/RS256, JWT vs HTTPS.md",
-    "1. Project/스위프/회의록 작성하기.md",
+    "1. Project/스위프/낙서장.md",
     "1. Project/AI/챗봇 도전기/임베딩.md",
     "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기/RAG 도입.md",
@@ -232,7 +233,6 @@
     "1. Project/AI/Skill & hook.md",
     "1. Project/AI/MCP (Model Context Protocol).md",
     "1. Project/AI/README.md",
-    "1. Project/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",
     "Repository/image (4).png",
