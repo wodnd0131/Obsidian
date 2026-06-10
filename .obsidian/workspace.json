@@ -8,18 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ede4745c70ce83d3",
+            "id": "313bc57114f32b99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
+                "file": "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "스프링 시큐리티 도입 리뷰"
+              "title": "커밋별 정리"
+            }
+          },
+          {
+            "id": "ede4745c70ce83d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Instant expiresAt"
             }
           }
         ]
@@ -204,11 +219,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ede4745c70ce83d3",
+  "active": "313bc57114f32b99",
   "lastOpenFiles": [
+    "1. Project/스위프/개발/시큐리티/Instant expiresAt.md",
+    "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
+    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
     "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
     "1. Project/스위프/개발/시큐리티/SecurityContext.md",
-    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
+    "1. Project/스위프/개발/시큐리티/@JsonProperty.md",
     "1. Project/스위프/개발/지금 해야하는것.md",
     "1. Project/스위프/개발/시큐리티",
     "해야하는 일.md",
@@ -231,9 +249,6 @@
     "1. Project/개발/Network/gRPC.md",
     "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md",
     "1. Project/개발/Network/OIDC.md",
-    "1. Project/개발/Network/RS256, JWT vs HTTPS.md",
-    "1. Project/AI/챗봇 도전기/임베딩.md",
-    "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",

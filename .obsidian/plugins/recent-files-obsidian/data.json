@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "커밋별 정리",
+      "path": "1. Project/스위프/개발/시큐리티/커밋별 정리.md"
+    },
+    {
+      "basename": "Instant expiresAt",
+      "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
+    },
+    {
       "basename": "스프링 시큐리티 도입 리뷰",
       "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
     },
@@ -11,6 +19,10 @@
     {
       "basename": "SecurityContext",
       "path": "1. Project/스위프/개발/시큐리티/SecurityContext.md"
+    },
+    {
+      "basename": "@JsonProperty",
+      "path": "1. Project/스위프/개발/시큐리티/@JsonProperty.md"
     },
     {
       "basename": "지금 해야하는것",
@@ -187,18 +199,6 @@
     {
       "basename": "면접 기본 질문 모음",
       "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
-    },
-    {
-      "basename": "협업할 때 어떤 역할인지",
-      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
-    },
-    {
-      "basename": "페어, 코드 리뷰 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
-    },
-    {
-      "basename": "성격 장단점 특이사항등",
-      "path": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md"
     }
   ],
   "omittedPaths": [],
