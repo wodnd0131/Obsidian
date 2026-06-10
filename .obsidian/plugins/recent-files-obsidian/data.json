@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "SessionCreationPolicy.STATELESS",
+      "path": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md"
+    },
+    {
+      "basename": "스프링 시큐리티 도입 리뷰",
+      "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
+    },
+    {
+      "basename": "지금 해야하는것",
+      "path": "1. Project/스위프/개발/지금 해야하는것.md"
+    },
+    {
+      "basename": "해야하는 일",
+      "path": "해야하는 일.md"
+    },
+    {
       "basename": "낙서장",
       "path": "1. Project/스위프/낙서장.md"
+    },
+    {
+      "basename": "뤼이도 사용",
+      "path": "1. Project/스위프/뤼이도 사용.md"
     },
     {
       "basename": "pickeat에서 감내해야할 것",
@@ -11,10 +31,6 @@
     {
       "basename": "밋업",
       "path": "1. Project/스위프/밋업.md"
-    },
-    {
-      "basename": "해야하는 일",
-      "path": "해야하는 일.md"
     },
     {
       "basename": "06-05",
@@ -121,10 +137,6 @@
       "path": "Daily/2026/06/06-02.md"
     },
     {
-      "basename": "뤼이도 사용",
-      "path": "1. Project/스위프/뤼이도 사용.md"
-    },
-    {
       "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
       "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
       "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
-    },
-    {
-      "basename": "개발자로서 강점,단점",
-      "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
-    },
-    {
-      "basename": "1분 자기소개와 마지막 어필",
-      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
-    },
-    {
-      "basename": "동아리",
-      "path": "1. Project/취업 준비/커멘트/지원동기/동아리.md"
     }
   ],
   "omittedPaths": [],

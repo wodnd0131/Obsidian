@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/낙서장.md",
+                "file": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "낙서장"
+              "title": "SessionCreationPolicy.STATELESS"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -207,10 +206,16 @@
   },
   "active": "ede4745c70ce83d3",
   "lastOpenFiles": [
-    "1. Project/pickeat에서 감내해야할 것.md",
-    "1. Project/스위프/낙서장.md",
-    "1. Project/스위프/밋업.md",
+    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
+    "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
+    "1. Project/스위프/개발/지금 해야하는것.md",
+    "1. Project/스위프/개발/시큐리티",
     "해야하는 일.md",
+    "1. Project/스위프/낙서장.md",
+    "1. Project/스위프/개발",
+    "1. Project/스위프/뤼이도 사용.md",
+    "1. Project/pickeat에서 감내해야할 것.md",
+    "1. Project/스위프/밋업.md",
     "Daily/2026/06/06-05.md",
     "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md",
     "1. Project/개발/Network/HTTP/Json/JWT.md",
@@ -229,11 +234,7 @@
     "1. Project/AI/챗봇 도전기/임베딩.md",
     "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
     "1. Project/AI/챗봇 도전기/RAG 도입.md",
-    "1. Project/AI/챗봇 도전기/ChatResponse.md",
-    "1. Project/AI/챗봇 도전기/트러블 슈팅.md",
     "1. Project/AI/챗봇 도전기",
-    "1. Project/AI/Skill & hook.md",
-    "1. Project/AI/MCP (Model Context Protocol).md",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",
     "Repository/image (4).png",
@@ -251,8 +252,6 @@
     "1. Project/SCG 코드 리뷰/Spring/8차시",
     "1. Project/취업 준비/이력서/이력서 기반",
     "1. Project/개발/SpringBoot/Spring/Spring Security",
-    "1. Project/SCG 코드 리뷰/Spring/7차시",
-    "1. Project/AI/하네스",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
