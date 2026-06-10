@@ -5,6 +5,10 @@
       "path": "1. Project/스위프/개발/시큐리티/커밋별 정리.md"
     },
     {
+      "basename": "@ElementCollection",
+      "path": "1. Project/스위프/개발/시큐리티/@ElementCollection.md"
+    },
+    {
       "basename": "Instant expiresAt",
       "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Claude All in one",
       "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
-    },
-    {
-      "basename": "AI는 어떻게 생각하시나요",
-      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
     }
   ],
   "omittedPaths": [],

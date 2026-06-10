@@ -13,6 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "1. Project/스위프/개발/시큐리티/@ElementCollection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "@ElementCollection"
+            }
+          },
+          {
+            "id": "8ba6d8003589403b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
                 "mode": "source",
                 "source": false,
@@ -22,7 +37,8 @@
               "title": "커밋별 정리"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,11 +220,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ede4745c70ce83d3",
+  "active": "8ba6d8003589403b",
   "lastOpenFiles": [
+    "1. Project/스위프/개발/시큐리티/@ElementCollection.md",
+    "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
     "1. Project/스위프/개발/시큐리티/Instant expiresAt.md",
     "1. Project/스위프/개발/@EntityListeners(AuditingEntityListener.class).md",
-    "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
     "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
     "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
     "1. Project/스위프/개발/시큐리티/SecurityContext.md",
@@ -233,7 +250,6 @@
     "1. Project/개발/Network/프록시.md",
     "1. Project/개발/Network/CDN 동작 원리.md",
     "1. Project/개발/Network/gRPC.md",
-    "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md",
     "1. Project/AI/챗봇 도전기",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",
