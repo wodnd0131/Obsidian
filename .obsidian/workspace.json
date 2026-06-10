@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
+                "file": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SessionCreationPolicy.STATELESS"
+              "title": "스프링 시큐리티 도입 리뷰"
             }
           }
         ]
@@ -206,8 +206,9 @@
   },
   "active": "ede4745c70ce83d3",
   "lastOpenFiles": [
-    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
     "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md",
+    "1. Project/스위프/개발/시큐리티/SecurityContext.md",
+    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
     "1. Project/스위프/개발/지금 해야하는것.md",
     "1. Project/스위프/개발/시큐리티",
     "해야하는 일.md",
@@ -233,7 +234,6 @@
     "1. Project/개발/Network/RS256, JWT vs HTTPS.md",
     "1. Project/AI/챗봇 도전기/임베딩.md",
     "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md",
-    "1. Project/AI/챗봇 도전기/RAG 도입.md",
     "1. Project/AI/챗봇 도전기",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",

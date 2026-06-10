@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "스프링 시큐리티 도입 리뷰",
+      "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
+    },
+    {
       "basename": "SessionCreationPolicy.STATELESS",
       "path": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md"
     },
     {
-      "basename": "스프링 시큐리티 도입 리뷰",
-      "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
+      "basename": "SecurityContext",
+      "path": "1. Project/스위프/개발/시큐리티/SecurityContext.md"
     },
     {
       "basename": "지금 해야하는것",
@@ -195,10 +199,6 @@
     {
       "basename": "성격 장단점 특이사항등",
       "path": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md"
-    },
-    {
-      "basename": "기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지",
-      "path": "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md"
     }
   ],
   "omittedPaths": [],
