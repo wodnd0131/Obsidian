@@ -9,6 +9,10 @@
       "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
     },
     {
+      "basename": "@EntityListeners(AuditingEntityListener.class)",
+      "path": "1. Project/스위프/개발/@EntityListeners(AuditingEntityListener.class).md"
+    },
+    {
       "basename": "스프링 시큐리티 도입 리뷰",
       "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
     },
@@ -22,7 +26,7 @@
     },
     {
       "basename": "@JsonProperty",
-      "path": "1. Project/스위프/개발/시큐리티/@JsonProperty.md"
+      "path": "1. Project/스위프/개발/@JsonProperty.md"
     },
     {
       "basename": "지금 해야하는것",
@@ -195,10 +199,6 @@
     {
       "basename": "AI는 어떻게 생각하시나요",
       "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
-    },
-    {
-      "basename": "면접 기본 질문 모음",
-      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
     }
   ],
   "omittedPaths": [],
