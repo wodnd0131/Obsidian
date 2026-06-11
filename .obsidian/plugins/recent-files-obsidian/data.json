@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "커밋별 정리",
-      "path": "1. Project/스위프/개발/시큐리티/커밋별 정리.md"
+      "basename": "06-11",
+      "path": "Daily/2026/06/06-11.md"
+    },
+    {
+      "basename": "Pickeat Loging",
+      "path": "1. Project/개발/모니터링/Pickeat Loging.md"
+    },
+    {
+      "basename": "로깅 애플리케이션",
+      "path": "Repository/로깅 애플리케이션.png"
+    },
+    {
+      "basename": "글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전",
+      "path": "1. Project/취업 준비/소스들/글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전.md"
+    },
+    {
+      "basename": "더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지",
+      "path": "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md"
+    },
+    {
+      "basename": "버저닝 인터셉터",
+      "path": "1. Project/취업 준비/소스들/버저닝 인터셉터.md"
+    },
+    {
+      "basename": "소프트 딜리트 패턴",
+      "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
+    },
+    {
+      "basename": "CICD 리태깅 복구",
+      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
+    },
+    {
+      "basename": "User-Agent를 통한 미리보기 문제 해결",
+      "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
+    },
+    {
+      "basename": "JWT",
+      "path": "1. Project/개발/Network/HTTP/Json/JWT.md"
+    },
+    {
+      "basename": "JWT 저장 방식",
+      "path": "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md"
+    },
+    {
+      "basename": "Hash",
+      "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
+    },
+    {
+      "basename": "JWT Claims",
+      "path": "1. Project/스위프/개발/시큐리티/JWT Claims.md"
+    },
+    {
+      "basename": "JSON",
+      "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
     },
     {
       "basename": "@ElementCollection",
@@ -61,20 +113,8 @@
       "path": "Daily/2026/06/06-05.md"
     },
     {
-      "basename": "JWT 저장 방식",
-      "path": "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "1. Project/개발/Network/HTTP/Json/JWT.md"
-    },
-    {
       "basename": "Jackson ObjectMapper",
       "path": "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md"
-    },
-    {
-      "basename": "Hash",
-      "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
     },
     {
       "basename": "직렬화, 역직렬화",
@@ -159,46 +199,6 @@
     {
       "basename": "06-02",
       "path": "Daily/2026/06/06-02.md"
-    },
-    {
-      "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
-      "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
-    },
-    {
-      "basename": "Use Jira",
-      "path": "Repository/Use Jira.png"
-    },
-    {
-      "basename": "WAS,DB 분리 환경에서 Flyway 도입 가이드-1",
-      "path": "Repository/WAS,DB 분리 환경에서 Flyway 도입 가이드-1.png"
-    },
-    {
-      "basename": "하네스",
-      "path": "1. Project/AI/하네스/하네스.md"
-    },
-    {
-      "basename": "8주차 미션안내",
-      "path": "1. Project/SCG 코드 리뷰/Spring/8차시/8주차 미션안내.md"
-    },
-    {
-      "basename": "05-26",
-      "path": "Daily/2026/05/05-26.md"
-    },
-    {
-      "basename": "05-21",
-      "path": "Daily/2026/05/05-21.md"
-    },
-    {
-      "basename": "고찰",
-      "path": "1. Project/취업 준비/이력서/고찰.md"
-    },
-    {
-      "basename": "마틸다 캐싱",
-      "path": "1. Project/취업 준비/이력서/이력서 기반/마틸다 캐싱.md"
-    },
-    {
-      "basename": "Claude All in one",
-      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
     }
   ],
   "omittedPaths": [],
