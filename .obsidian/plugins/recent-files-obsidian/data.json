@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "06-11",
-      "path": "Daily/2026/06/06-11.md"
+      "basename": "로깅 시스템 구축",
+      "path": "1. Project/스위프/개발/로깅/로깅 시스템 구축.md"
     },
     {
       "basename": "Pickeat Loging",
       "path": "1. Project/개발/모니터링/Pickeat Loging.md"
+    },
+    {
+      "basename": "06-11",
+      "path": "Daily/2026/06/06-11.md"
     },
     {
       "basename": "로깅 애플리케이션",
@@ -195,10 +199,6 @@
     {
       "basename": "Virtual Threads",
       "path": "1. Project/개발/JAVA/CS/Virtual Threads.md"
-    },
-    {
-      "basename": "06-02",
-      "path": "Daily/2026/06/06-02.md"
     }
   ],
   "omittedPaths": [],
