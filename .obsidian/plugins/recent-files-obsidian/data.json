@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "낙서장",
+      "path": "1. Project/스위프/낙서장.md"
+    },
+    {
       "basename": "OIDC",
       "path": "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "해야하는 일",
       "path": "해야하는 일.md"
-    },
-    {
-      "basename": "낙서장",
-      "path": "1. Project/스위프/낙서장.md"
     },
     {
       "basename": "뤼이도 사용",

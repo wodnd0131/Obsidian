@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md",
+                "file": "1. Project/스위프/낙서장.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "OIDC"
+              "title": "낙서장"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -206,9 +207,10 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
+    "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md",
+    "1. Project/스위프/낙서장.md",
     "Repository/OIDC-1.png",
     "1. Project/스위프/개발/시큐리티/OIDC/Google SSO에 대한 Console 설정 가이드.md",
-    "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md",
     "1. Project/스위프/개발/시큐리티/OIDC",
     "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
     "1. Project/개발/모니터링/Pickeat Loging.md",
@@ -248,7 +250,6 @@
     "Repository/image (2).png",
     "Repository/image (1).png",
     "Repository/image.png",
-    "Repository/image (1).webp",
     "1. Project/스위프",
     "2. Area/기획",
     "1. Project/취업 준비/이력서",
