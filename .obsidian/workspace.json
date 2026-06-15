@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
+                "file": "1. Project/스위프/개발/시큐리티/Google SSO에 대한 Console 설정 가이드.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "로깅 시스템 구축"
+              "title": "Google SSO에 대한 Console 설정 가이드"
             }
           }
         ]
@@ -206,8 +206,9 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
-    "1. Project/개발/모니터링/Pickeat Loging.md",
     "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
+    "1. Project/스위프/개발/시큐리티/Google SSO에 대한 Console 설정 가이드.md",
+    "1. Project/개발/모니터링/Pickeat Loging.md",
     "1. Project/스위프/개발/로깅",
     "Daily/2026/06/06-11.md",
     "Repository/로깅 애플리케이션.png",
@@ -238,7 +239,6 @@
     "해야하는 일.md",
     "1. Project/스위프/낙서장.md",
     "1. Project/스위프/개발",
-    "1. Project/스위프/뤼이도 사용.md",
     "1. Project/AI/챗봇 도전기",
     "Daily/2026/06",
     "Repository/뤼이도 사용.png",
