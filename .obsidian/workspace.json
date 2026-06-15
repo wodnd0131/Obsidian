@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/시큐리티/Google SSO에 대한 Console 설정 가이드.md",
+                "file": "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Google SSO에 대한 Console 설정 가이드"
+              "title": "OIDC"
             }
           }
         ]
@@ -206,8 +206,11 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
+    "Repository/OIDC-1.png",
+    "1. Project/스위프/개발/시큐리티/OIDC/Google SSO에 대한 Console 설정 가이드.md",
+    "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md",
+    "1. Project/스위프/개발/시큐리티/OIDC",
     "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
-    "1. Project/스위프/개발/시큐리티/Google SSO에 대한 Console 설정 가이드.md",
     "1. Project/개발/모니터링/Pickeat Loging.md",
     "1. Project/스위프/개발/로깅",
     "Daily/2026/06/06-11.md",
@@ -236,8 +239,6 @@
     "1. Project/스위프/개발/@JsonProperty.md",
     "1. Project/스위프/개발/지금 해야하는것.md",
     "1. Project/스위프/개발/시큐리티",
-    "해야하는 일.md",
-    "1. Project/스위프/낙서장.md",
     "1. Project/스위프/개발",
     "1. Project/AI/챗봇 도전기",
     "Daily/2026/06",
@@ -251,7 +252,6 @@
     "1. Project/스위프",
     "2. Area/기획",
     "1. Project/취업 준비/이력서",
-    "1. Project/SCG 코드 리뷰/Spring/8차시",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
