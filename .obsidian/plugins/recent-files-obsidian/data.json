@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/개발/OS/무제/무제.md"
+    },
+    {
       "basename": "Why jenkins",
       "path": "1. Project/스위프/개발/cicd/Why jenkins.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ChatResponse",
       "path": "1. Project/AI/챗봇 도전기/ChatResponse.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "1. Project/AI/챗봇 도전기/트러블 슈팅.md"
     }
   ],
   "omittedPaths": [],
