@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/개발/OS/무제/장별 내용 요약.md",
+                "file": "1. Project/개발/OS/공룡책/Part 1. 개관 — OS의 큰 그림 잡기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "장별 내용 요약"
+              "title": "Part 1. 개관 — OS의 큰 그림 잡기"
             }
           }
         ]
@@ -206,9 +206,11 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
+    "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md",
+    "1. Project/개발/OS/공룡책/Part 1. 개관 — OS의 큰 그림 잡기.md",
+    "1. Project/개발/OS/공룡책/장별 내용 요약.md",
     "1. Project/스위프/개발/cicd/Why jenkins.md",
-    "1. Project/개발/OS/무제/장별 내용 요약.md",
-    "1. Project/개발/OS/무제",
+    "1. Project/개발/OS/공룡책",
     "1. Project/개발/OS",
     "1. Project/스위프/개발/cicd/How to Jenkins.md",
     "1. Project/스위프/개발/cicd/what is Jenkins.md",
@@ -240,8 +242,6 @@
     "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
     "1. Project/스위프/개발/시큐리티/@ElementCollection.md",
     "1. Project/스위프/개발/시큐리티/Instant expiresAt.md",
-    "1. Project/스위프/개발/@EntityListeners(AuditingEntityListener.class).md",
-    "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md",
     "1. Project/스위프/개발/시큐리티",
     "1. Project/스위프/개발",
     "1. Project/AI/챗봇 도전기",

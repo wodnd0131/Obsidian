@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Part 1. 개관 — OS의 큰 그림 잡기",
+      "path": "1. Project/개발/OS/공룡책/Part 1. 개관 — OS의 큰 그림 잡기.md"
+    },
+    {
+      "basename": "Operating System Concepts 학습 가이드 (1~15장)",
+      "path": "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md"
+    },
+    {
       "basename": "장별 내용 요약",
-      "path": "1. Project/개발/OS/무제/장별 내용 요약.md"
+      "path": "1. Project/개발/OS/공룡책/장별 내용 요약.md"
     },
     {
       "basename": "Why jenkins",
@@ -191,14 +199,6 @@
     {
       "basename": "임베딩 모델 선정",
       "path": "1. Project/AI/챗봇 도전기/임베딩 모델 선정.md"
-    },
-    {
-      "basename": "RAG 도입",
-      "path": "1. Project/AI/챗봇 도전기/RAG 도입.md"
-    },
-    {
-      "basename": "ChatResponse",
-      "path": "1. Project/AI/챗봇 도전기/ChatResponse.md"
     }
   ],
   "omittedPaths": [],
