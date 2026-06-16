@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "How to Jenkins",
+      "path": "1. Project/스위프/개발/cicd/How to Jenkins.md"
+    },
+    {
+      "basename": "what is Jenkins",
+      "path": "1. Project/스위프/개발/cicd/what is Jenkins.md"
+    },
+    {
       "basename": "낙서장",
       "path": "1. Project/스위프/낙서장.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Skill & hook",
       "path": "1. Project/AI/Skill & hook.md"
-    },
-    {
-      "basename": "MCP (Model Context Protocol)",
-      "path": "1. Project/AI/MCP (Model Context Protocol).md"
-    },
-    {
-      "basename": "클로드 코드(Claude Code) 토큰 관리 및 비용 최적화",
-      "path": "1. Project/AI/클로드 코드(Claude Code) 토큰 관리 및 비용 최적화.md"
     }
   ],
   "omittedPaths": [],
