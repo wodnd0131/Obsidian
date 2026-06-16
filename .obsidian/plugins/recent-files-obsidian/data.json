@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Why jenkins",
+      "path": "1. Project/스위프/개발/cicd/Why jenkins.md"
+    },
+    {
       "basename": "How to Jenkins",
       "path": "1. Project/스위프/개발/cicd/How to Jenkins.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "트러블 슈팅",
       "path": "1. Project/AI/챗봇 도전기/트러블 슈팅.md"
-    },
-    {
-      "basename": "Skill & hook",
-      "path": "1. Project/AI/Skill & hook.md"
     }
   ],
   "omittedPaths": [],
