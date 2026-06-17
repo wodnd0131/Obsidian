@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "장치 레지스터",
+      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md"
+    },
+    {
       "basename": "1장. 서론 (Introduction)",
       "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md"
+    },
+    {
+      "basename": "뤼이도 사용",
+      "path": "1. Project/스위프/뤼이도 사용.md"
+    },
+    {
+      "basename": "해야하는것",
+      "path": "1. Project/스위프/개발/해야하는것.md"
+    },
+    {
+      "basename": "@JsonProperty",
+      "path": "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md"
+    },
+    {
+      "basename": "@EntityListeners(AuditingEntityListener.class)",
+      "path": "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
     },
     {
       "basename": "2장. 운영체제 구조 (Operating-System Structures)",
@@ -27,10 +47,6 @@
     {
       "basename": "what is Jenkins",
       "path": "1. Project/스위프/개발/cicd/what is Jenkins.md"
-    },
-    {
-      "basename": "낙서장",
-      "path": "1. Project/스위프/낙서장.md"
     },
     {
       "basename": "OIDC",
@@ -109,10 +125,6 @@
       "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
     },
     {
-      "basename": "@EntityListeners(AuditingEntityListener.class)",
-      "path": "1. Project/스위프/개발/@EntityListeners(AuditingEntityListener.class).md"
-    },
-    {
       "basename": "스프링 시큐리티 도입 리뷰",
       "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
     },
@@ -125,28 +137,12 @@
       "path": "1. Project/스위프/개발/시큐리티/SecurityContext.md"
     },
     {
-      "basename": "@JsonProperty",
-      "path": "1. Project/스위프/개발/@JsonProperty.md"
-    },
-    {
-      "basename": "지금 해야하는것",
-      "path": "1. Project/스위프/개발/지금 해야하는것.md"
-    },
-    {
       "basename": "해야하는 일",
       "path": "해야하는 일.md"
     },
     {
-      "basename": "뤼이도 사용",
-      "path": "1. Project/스위프/뤼이도 사용.md"
-    },
-    {
       "basename": "pickeat에서 감내해야할 것",
       "path": "1. Project/pickeat에서 감내해야할 것.md"
-    },
-    {
-      "basename": "밋업",
-      "path": "1. Project/스위프/밋업.md"
     },
     {
       "basename": "06-05",
