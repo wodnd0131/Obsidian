@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/개발/OS/공룡책/Part 1. 개관 — OS의 큰 그림 잡기.md",
+                "file": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Part 1. 개관 — OS의 큰 그림 잡기"
+              "title": "1장. 서론 (Introduction)"
             }
           }
         ]
@@ -206,9 +206,11 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
-    "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md",
-    "1. Project/개발/OS/공룡책/Part 1. 개관 — OS의 큰 그림 잡기.md",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md",
     "1. Project/개발/OS/공룡책/장별 내용 요약.md",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기",
+    "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md",
     "1. Project/스위프/개발/cicd/Why jenkins.md",
     "1. Project/개발/OS/공룡책",
     "1. Project/개발/OS",
@@ -241,11 +243,9 @@
     "1. Project/개발/Network/HTTP/Json/JSON.md",
     "1. Project/스위프/개발/시큐리티/커밋별 정리.md",
     "1. Project/스위프/개발/시큐리티/@ElementCollection.md",
-    "1. Project/스위프/개발/시큐리티/Instant expiresAt.md",
     "1. Project/스위프/개발/시큐리티",
     "1. Project/스위프/개발",
     "1. Project/AI/챗봇 도전기",
-    "Daily/2026/06",
     "Repository/뤼이도 사용.png",
     "Repository/image (4).png",
     "Repository/image (3).png",
