@@ -37,8 +37,7 @@
               "title": "장치 레지스터"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,16 +219,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c15e1fcdfe443d12",
+  "active": "c3531f968babd88f",
   "lastOpenFiles": [
-    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md",
-    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md",
     "1. Project/스위프/뤼이도 사용.md",
     "1. Project/스위프/개발/해야하는것.md",
+    "Repository/321.png",
+    "Repository/123444.png",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md",
+    "Daily/2026/06/06-17.md",
+    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md",
     "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md",
     "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md",
     "1. Project/스위프/개발/빌트인클래스",
-    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md",
     "1. Project/개발/OS/공룡책/장별 내용 요약.md",
     "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기",
     "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md",
@@ -258,16 +260,12 @@
     "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md",
     "1. Project/취업 준비/소스들/CICD 리태깅 복구.md",
     "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md",
-    "1. Project/개발/Network/HTTP/Json/JWT.md",
-    "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md",
     "1. Project/스위프/개발/시큐리티",
     "1. Project/스위프/개발",
     "Repository/뤼이도 사용.png",
     "Repository/image (4).png",
     "Repository/image (3).png",
     "Repository/image (2).png",
-    "Repository/image (1).png",
-    "Repository/image.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",
