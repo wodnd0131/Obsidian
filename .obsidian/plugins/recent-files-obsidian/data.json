@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "무제",
-      "path": "1. Project/스위프/개발/cicd/무제.md"
+      "basename": "배포 틀깨기",
+      "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
+    },
+    {
+      "basename": "배포의 push와 pull",
+      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
+    },
+    {
+      "basename": "현재 배포 환경 개선안(첫 배포 기준)",
+      "path": "1. Project/스위프/개발/cicd/현재 배포 환경 개선안(첫 배포 기준).md"
     },
     {
       "basename": "1장. 서론 (Introduction)",
@@ -191,14 +199,6 @@
     {
       "basename": "OAuth 2.0, OIDC 전체 흐름",
       "path": "1. Project/개발/Network/OAuth 2.0, OIDC 전체 흐름.md"
-    },
-    {
-      "basename": "OIDC",
-      "path": "1. Project/개발/Network/OIDC.md"
-    },
-    {
-      "basename": "RS256, JWT vs HTTPS",
-      "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
     }
   ],
   "omittedPaths": [],
