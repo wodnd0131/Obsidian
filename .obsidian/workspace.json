@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/cicd/배포 틀깨기.md",
+                "file": "1. Project/스위프/개발/튜닝/최적화 루틴.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "배포 틀깨기"
+              "title": "최적화 루틴"
             }
           },
           {
@@ -221,11 +221,12 @@
   },
   "active": "c3531f968babd88f",
   "lastOpenFiles": [
-    "1. Project/스위프/개발/cicd/배포의 push와 pull.md",
     "1. Project/스위프/개발/cicd/현재 배포 환경 개선안(첫 배포 기준).md",
+    "1. Project/스위프/개발/튜닝/최적화 루틴.md",
     "1. Project/스위프/개발/cicd/배포 틀깨기.md",
+    "1. Project/스위프/개발/cicd/배포의 push와 pull.md",
     "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md",
-    "1. Project/스위프/개발/무제",
+    "1. Project/스위프/개발/튜닝",
     "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md",
     "1. Project/스위프/뤼이도 사용.md",
     "1. Project/스위프/개발/해야하는것.md",
@@ -261,7 +262,6 @@
     "1. Project/개발/모니터링",
     "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md",
     "1. Project/취업 준비/소스들/버저닝 인터셉터.md",
-    "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md",
     "1. Project/스위프/개발/시큐리티",
     "Repository/뤼이도 사용.png",
     "Repository/image (4).png",
