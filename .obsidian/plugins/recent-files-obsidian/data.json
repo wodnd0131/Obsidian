@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/스위프/개발/cicd/무제.md"
+    },
+    {
       "basename": "1장. 서론 (Introduction)",
       "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RS256, JWT vs HTTPS",
       "path": "1. Project/개발/Network/RS256, JWT vs HTTPS.md"
-    },
-    {
-      "basename": "임베딩",
-      "path": "1. Project/AI/챗봇 도전기/임베딩.md"
     }
   ],
   "omittedPaths": [],
