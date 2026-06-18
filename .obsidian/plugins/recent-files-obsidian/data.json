@@ -5,6 +5,10 @@
       "path": "1. Project/스위프/개발/튜닝/최적화 루틴.md"
     },
     {
+      "basename": "장치 레지스터",
+      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md"
+    },
+    {
       "basename": "현재 배포 환경 개선안(첫 배포 기준)",
       "path": "1. Project/스위프/개발/cicd/현재 배포 환경 개선안(첫 배포 기준).md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "1장. 서론 (Introduction)",
       "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/1장. 서론 (Introduction).md"
-    },
-    {
-      "basename": "장치 레지스터",
-      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md"
     },
     {
       "basename": "뤼이도 사용",
