@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/스위프/개발/cicd/무제.md"
+    },
+    {
       "basename": "최적화 루틴",
       "path": "1. Project/스위프/개발/튜닝/최적화 루틴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CDN 동작 원리",
       "path": "1. Project/개발/Network/CDN 동작 원리.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "1. Project/개발/Network/gRPC.md"
     }
   ],
   "omittedPaths": [],
