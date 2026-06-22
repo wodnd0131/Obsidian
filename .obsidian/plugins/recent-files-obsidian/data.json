@@ -1,32 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "우아한 바톤 사전 설명회",
-      "path": "1. Project/우아한바톤/우아한 바톤 사전 설명회.md"
-    },
-    {
       "basename": "이상적인 이미지 업로드 + 썸네일 생성 플로우",
       "path": "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md"
     },
     {
-      "basename": "우아한 바톤 사전 설명회-4",
-      "path": "Repository/우아한 바톤 사전 설명회-4.png"
+      "basename": "우아한 바톤 사전 설명회",
+      "path": "1. Project/우아한바톤/우아한 바톤 사전 설명회.md"
     },
     {
-      "basename": "pickeat에서 감내해야할 것",
-      "path": "1. Project/pickeat에서 감내해야할 것.md"
+      "basename": "배포의 push와 pull",
+      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
     },
     {
       "basename": "젠킨스 슬랙 알람 추가",
       "path": "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
-    },
-    {
-      "basename": "최적화 루틴",
-      "path": "1. Project/스위프/개발/튜닝/최적화 루틴.md"
-    },
-    {
-      "basename": "장치 레지스터",
-      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md"
     },
     {
       "basename": "현재 배포 환경 개선안(첫 배포 기준)",
@@ -37,8 +25,24 @@
       "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
     },
     {
-      "basename": "배포의 push와 pull",
-      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
+      "basename": "해야하는것",
+      "path": "1. Project/스위프/개발/해야하는것.md"
+    },
+    {
+      "basename": "우아한 바톤 사전 설명회-4",
+      "path": "Repository/우아한 바톤 사전 설명회-4.png"
+    },
+    {
+      "basename": "pickeat에서 감내해야할 것",
+      "path": "1. Project/pickeat에서 감내해야할 것.md"
+    },
+    {
+      "basename": "최적화 루틴",
+      "path": "1. Project/스위프/개발/튜닝/최적화 루틴.md"
+    },
+    {
+      "basename": "장치 레지스터",
+      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md"
     },
     {
       "basename": "1장. 서론 (Introduction)",
@@ -47,10 +51,6 @@
     {
       "basename": "뤼이도 사용",
       "path": "1. Project/스위프/뤼이도 사용.md"
-    },
-    {
-      "basename": "해야하는것",
-      "path": "1. Project/스위프/개발/해야하는것.md"
     },
     {
       "basename": "2장. 운영체제 구조 (Operating-System Structures)",
