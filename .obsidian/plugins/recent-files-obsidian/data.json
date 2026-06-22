@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "해야하는것",
+      "path": "1. Project/스위프/개발/해야하는것.md"
+    },
+    {
       "basename": "이상적인 이미지 업로드 + 썸네일 생성 플로우",
       "path": "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "배포 틀깨기",
       "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
-    },
-    {
-      "basename": "해야하는것",
-      "path": "1. Project/스위프/개발/해야하는것.md"
     },
     {
       "basename": "우아한 바톤 사전 설명회-4",
