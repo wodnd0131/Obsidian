@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md",
+                "file": "1. Project/우아한바톤/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AES-256-GCM"
+              "title": "기획자 없는 팀을 위한 아이디어 발굴 서비스"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "35e5bedd98fc8c33",
   "lastOpenFiles": [
-    "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md",
     "1. Project/스위프/개발/시큐리티/AES-256-GCM.md",
+    "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md",
     "1. Project/스위프/개발/해야하는것.md",
     "1. Project/스위프/개발/sso",
     "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md",

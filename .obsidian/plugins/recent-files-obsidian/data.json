@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
+      "path": "1. Project/우아한바톤/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
+    },
+    {
       "basename": "AES-256-GCM",
       "path": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Jackson ObjectMapper",
       "path": "1. Project/개발/Network/HTTP/Json/Jackson ObjectMapper.md"
-    },
-    {
-      "basename": "직렬화, 역직렬화",
-      "path": "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md"
     }
   ],
   "omittedPaths": [],
