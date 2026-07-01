@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "AES-256-GCM",
+      "path": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md"
+    },
+    {
+      "basename": "Apple 회원탈퇴 시 revoke API 연동",
+      "path": "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
+    },
+    {
       "basename": "해야하는것",
       "path": "1. Project/스위프/개발/해야하는것.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "직렬화, 역직렬화",
       "path": "1. Project/개발/Network/HTTP/Json/직렬화, 역직렬화.md"
-    },
-    {
-      "basename": "역직렬화 취약점 — Gadget Chain RCE",
-      "path": "1. Project/개발/Network/HTTP/Json/역직렬화 취약점 — Gadget Chain RCE.md"
-    },
-    {
-      "basename": "자격 증명 + CORS + SameSite 쿠키",
-      "path": "1. Project/개발/Network/자격 증명 + CORS + SameSite 쿠키.md"
     }
   ],
   "omittedPaths": [],
