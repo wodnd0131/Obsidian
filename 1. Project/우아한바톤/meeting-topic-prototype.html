@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>실시간 회의 토픽 대시보드 — 프로토타입</title>
+<style>
+  :root {
+    --bg: #ede9f0;
+    --panel: #ffffff;
+    --panel-2: #f4f1f7;
+    --panel-3: #e9e3ee;
+    --border: #dcd5e2;
+    --text: #1d1c1d;
+    --text-secondary: #616061;
+    --text-muted: #8a8a8e;
+    --blue: #2f7de1;
+    --coral: #d8562f;
+    --teal: #16916b;
+    --aubergine: #4a154b;
+    --aubergine-dark: #350d36;
+    --aubergine-light: #611f69;
+    --slack-green: #007a5a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.5;
+  }
+  header {
+    padding: 18px 28px;
+    border-bottom: 1px solid var(--aubergine-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--aubergine-dark);
+  }
+  header h1 { font-size: 16px; font-weight: 700; margin: 0; letter-spacing: -0.01em; color: #ffffff; }
+  header .status {
+    font-size: 12px; color: #cfb8d1;
+    display: flex; align-items: center; gap: 6px;
+  }
+  header .dot { width: 7px; height: 7px; border-radius: 50%; background: #2bac76; }
+
+  /* 회의 개요 입력 */
+  .agenda-bar { border-bottom: 1px solid var(--border); padding: 10px 28px; background: var(--panel-2); }
+  .agenda-toggle {
+    background: none; border: none; color: var(--text-secondary);
+    font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 4px 0;
+  }
+  .agenda-toggle:hover { color: var(--text); }
+  .agenda-toggle .chevron { transition: transform 0.15s ease; font-size: 11px; }
+  .agenda-toggle.open .chevron { transform: rotate(90deg); }
+  .agenda-panel { display: none; padding-top: 10px; max-width: 640px; }
+  .agenda-panel.open { display: block; }
+  .agenda-panel textarea {
+    width: 100%; min-height: 60px; background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-size: 13px; font-family: inherit; padding: 10px 12px; resize: vertical;
+  }
+  .agenda-panel textarea::placeholder { color: var(--text-muted); }
+  .agenda-actions { margin-top: 8px; display: flex; align-items: center; gap: 10px; }
+  .agenda-note { font-size: 12px; color: var(--teal); }
+  .apply-btn {
+    background: var(--aubergine); border: 1px solid var(--aubergine); color: #fff;
+    padding: 6px 14px; border-radius: 8px; font-size: 12.5px; cursor: pointer; font-weight: 600;
+  }
+  .apply-btn:hover { background: var(--aubergine-light); }
+
+  main {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    min-height: calc(100vh - 130px);
+  }
+  @media (max-width: 1100px) {
+    main { grid-template-columns: 1fr; }
+  }
+
+  .panel-label {
+    padding: 12px 18px 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    font-weight: 700;
+  }
+
+  /* 좌측 채팅 (기존 그대로, 수정 없음) */
+  .chat-panel {
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: var(--panel);
+  }
+  #chatLog { flex: 1; overflow-y: auto; padding: 6px 14px 14px; }
+
+  .msg-group {
+    border-left: 3px solid transparent;
+    padding: 6px 10px 6px 12px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    transition: border-color 0.25s ease, background 0.25s ease;
+  }
+
+  .speaker-run { display: flex; gap: 8px; padding: 4px 2px; scroll-margin: 24px; }
+  .speaker-run .avatar {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11.5px; font-weight: 700; color: #fff;
+    flex-shrink: 0;
+  }
+  .speaker-run .avatar.spacer { visibility: hidden; }
+  .speaker-run .run-body { flex: 1; min-width: 0; }
+  .speaker-run .name-row { display: flex; align-items: baseline; gap: 7px; margin-bottom: 1px; }
+  .speaker-run .name { font-size: 13px; font-weight: 700; color: var(--text); }
+  .speaker-run .time { font-size: 11px; color: var(--text-muted); }
+  .speaker-run .line { font-size: 13.5px; color: var(--text); padding: 1px 0; scroll-margin: 24px; }
+
+  /* 우측: 현재 주제 카드 + 구조화된 회의록 */
+  .dashboard-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    padding-bottom: 40px;
+  }
+
+  .current-topic-card {
+    margin: 18px 24px 8px;
+    padding: 16px 18px;
+    border-radius: 12px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 2px rgba(20,20,30,0.04);
+    cursor: pointer;
+  }
+  .current-topic-card .label-row {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11px; color: var(--text-muted); margin-bottom: 6px; font-weight: 600;
+  }
+  .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--coral); animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+  .current-topic-card .title { font-size: 17px; font-weight: 700; }
+
+  .minutes-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px 0;
+  }
+  .minutes-header .panel-label { padding: 0; }
+  .minutes-actions { display: flex; gap: 8px; }
+  .minutes-actions button {
+    font-size: 12.5px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .refresh-btn {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+  }
+  .refresh-btn:hover { background: var(--panel-2); }
+  .refresh-btn.spinning .refresh-icon { animation: spin 0.6s linear; }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .bulk-issue-btn {
+    background: var(--aubergine);
+    border: 1px solid var(--aubergine);
+    color: #fff;
+  }
+  .bulk-issue-btn:hover { background: var(--aubergine-light); }
+
+  /* 구조화된 회의록 문서 */
+  .minutes-panel {
+    margin: 14px 24px 0;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    box-shadow: 0 1px 2px rgba(20,20,30,0.04);
+  }
+  .minutes-meta {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin: 0 0 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .minutes-meta strong { color: var(--text-secondary); }
+  .minutes-category {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--aubergine);
+    margin: 22px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--panel-3);
+  }
+  .minutes-category:first-of-type { margin-top: 0; }
+  .minutes-topic-head {
+    font-size: 14.5px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s ease;
+    scroll-margin-top: 90px;
+  }
+  .minutes-topic-head:hover { background: var(--panel-2); }
+  .minutes-topic-head .swatch { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+  .minutes-bullets {
+    margin: 4px 0 16px;
+    padding-left: 30px;
+  }
+  .minutes-bullets li {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    margin-bottom: 3px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    scroll-margin-top: 90px;
+  }
+  .minutes-bullets li:hover { background: var(--panel-2); color: var(--text); }
+
+  .topic-meta {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .priority-badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+  }
+  .priority-badge.priority-low { background: var(--panel-3); color: var(--text-muted); }
+  .priority-badge.priority-mid { background: #f1e4f2; color: var(--aubergine); }
+  .priority-badge.priority-high { background: #fbe1dc; color: #b8391f; }
+  .due-date-input {
+    font-size: 11.5px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 3px 6px;
+    color: var(--text-secondary);
+    background: var(--panel);
+    font-family: inherit;
+  }
+
+  /* 하단 플로팅 패널 (마인드맵 + 이슈 생성) — 회의록 컬럼 좌측에 맞추되 폭은 2/3 수준으로 축소 */
+  .floating-panel {
+    position: fixed;
+    left: 474px;
+    width: min(64%, 620px);
+    bottom: -420px;
+    max-height: 48vh;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(20,20,30,0.18);
+    transition: bottom 0.3s ease;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+  }
+  .floating-panel.open { bottom: 24px; }
+  @media (max-width: 1100px) {
+    .floating-panel { left: 20px; right: 20px; width: auto; }
+  }
+
+  .drawer-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .drawer-header .drawer-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .drawer-header .drawer-title .swatch { width: 9px; height: 9px; border-radius: 2px; }
+  .drawer-close {
+    background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 16px;
+    width: 28px; height: 28px; border-radius: 6px;
+  }
+  .drawer-close:hover { background: var(--panel-2); color: var(--text); }
+
+  .drawer-body { overflow-y: auto; padding: 16px 20px 22px; }
+
+  .dig-sub { font-size: 12px; color: var(--text-muted); margin: 0 0 14px; }
+  .dig-node { cursor: pointer; }
+  .dig-node rect { transition: opacity 0.15s ease, stroke-width 0.15s ease; }
+  .dig-node:hover rect { opacity: 0.85; }
+  .dig-node text { font-size: 12.5px; fill: var(--text); }
+  .dig-legend { display: flex; gap: 16px; margin-top: 8px; font-size: 11.5px; color: var(--text-muted); flex-wrap: wrap; }
+  .dig-legend span { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 2px; }
+
+  button.issue-btn {
+    margin-top: 16px;
+    width: 100%;
+    background: var(--slack-green); border: 1px solid var(--slack-green); color: #fff;
+    padding: 10px 14px; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;
+  }
+  button.issue-btn:hover { opacity: 0.88; }
+
+  .drawer-back {
+    background: none; border: none; color: var(--text-secondary);
+    font-size: 12.5px; cursor: pointer; padding: 0 0 14px; display: flex; align-items: center; gap: 4px;
+  }
+  .drawer-back:hover { color: var(--text); }
+
+  .ip-title { font-size: 15px; font-weight: 700; margin: 0 0 10px; }
+  .ip-body { font-size: 13px; color: var(--text-secondary); margin: 0 0 16px; padding-left: 18px; }
+  .ip-body li { margin-bottom: 4px; }
+  .assignee-row { display: flex; align-items: center; gap: 8px; margin-bottom: 18px; }
+  .assignee-avatar {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: var(--panel-3); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; color: var(--text-secondary);
+  }
+  .assignee-name { font-size: 13px; font-weight: 600; }
+  .assignee-sub { font-size: 11.5px; color: var(--text-muted); }
+  .ip-actions { display: flex; gap: 10px; }
+  .ip-confirm {
+    background: var(--slack-green); border: none; color: #fff;
+    padding: 9px 16px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; flex: 1;
+  }
+  .ip-confirm:hover { opacity: 0.9; }
+  .ip-cancel {
+    background: transparent; border: 1px solid var(--border); color: var(--text-secondary);
+    padding: 9px 14px; border-radius: 8px; font-size: 13px; cursor: pointer;
+  }
+  .ip-cancel:hover { background: var(--panel-2); }
+  .ip-success { font-size: 12.5px; color: var(--teal); margin-top: 12px; font-weight: 600; }
+
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-thumb { background: #d3c8d6; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>실시간 회의 토픽 대시보드</h1>
+  <div class="status"><span class="dot"></span>더미 데이터 모드 (실제 STT 미연결)</div>
+</header>
+
+<div class="agenda-bar">
+  <button class="agenda-toggle" id="agendaToggle" onclick="toggleAgenda()">
+    <span class="chevron">▸</span> 회의 개요 미리 입력하기
+  </button>
+  <div class="agenda-panel" id="agendaPanel">
+    <textarea id="agendaInput" placeholder="예: 오늘은 예산 배분이랑 다음 주 일정 조율을 다룰 예정입니다. 시간 되면 이슈 트래커 연동도 얘기하고 싶어요."></textarea>
+    <div class="agenda-actions">
+      <button class="apply-btn" onclick="applyAgenda()">개요 적용</button>
+      <span class="agenda-note" id="agendaNote"></span>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="chat-panel">
+    <div class="panel-label">채팅 로그 (참고용)</div>
+    <div id="chatLog"></div>
+  </section>
+
+  <section class="dashboard-main">
+    <div class="current-topic-card" id="currentTopicCard"></div>
+
+    <div class="minutes-header">
+      <div class="panel-label">전체 회의록</div>
+      <div class="minutes-actions">
+        <button class="refresh-btn" id="refreshBtn" onclick="refreshMinutes()">
+          <span class="refresh-icon">⟳</span> 새로고침
+        </button>
+        <button class="bulk-issue-btn" onclick="openBulkIssuePanel()">전체 이슈 등록</button>
+      </div>
+    </div>
+    <div class="minutes-panel" id="minutesPanel"></div>
+  </section>
+</main>
+
+<div class="floating-panel" id="floatingPanel">
+  <div class="drawer-header">
+    <div class="drawer-title" id="drawerTitle"></div>
+    <button class="drawer-close" onclick="closeDrawer()">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+</div>
+
+<script>
+/* ============================================================
+   더미 데이터
+   ============================================================ */
+const nodeData = {
+  n1: {
+    title: '예산 배분',
+    color: '#2f7de1',
+    priority: '높음',
+    dueDate: '2026-07-10',
+    outline: [
+      { text: '팀장 승인 필요', msgId: 'm2', narrative: '예산은 팀장 승인을 받아야 진행할 수 있는 것으로 확인됐다.' },
+      { text: '지난 분기 대비 20% 증액안', msgId: 'm4', narrative: '지난 분기 대비 20% 늘린 금액으로 잠정 합의됐다.' },
+      { text: '다음 주까지 초안 제출', msgId: 'm6', narrative: '초안은 다음 주까지 제출하기로 했다.' }
+    ],
+    related: ['n2'],
+    isCurrent: false
+  },
+  n2: {
+    title: '일정 조율',
+    color: '#d8562f',
+    priority: '보통',
+    dueDate: '2026-07-06',
+    outline: [
+      { text: 'QA 일정과 겹치는 부분 확인 필요', msgId: 'm7', narrative: '일정 조율 과정에서 QA 일정과 겹치는 부분이 있다는 점이 지적됐다.' },
+      { text: '내일 오전 QA팀과 조율 미팅 예정', msgId: 'm10', narrative: '내일 오전 QA팀과 조율 미팅을 잡기로 했다.' },
+      { text: '필요 시 하루 순연 가능성', msgId: 'm11', narrative: '필요하면 하루 순연하는 방향으로 잠정 합의됐다.' }
+    ],
+    related: ['n1', 'n3'],
+    isCurrent: false
+  },
+  n3: {
+    title: 'GitHub 이슈 연동',
+    color: '#16916b',
+    priority: '낮음',
+    dueDate: '',
+    outline: [
+      { text: '안건별로 이슈 자동 생성 검토', msgId: 'm12', narrative: '안건별로 GitHub 이슈를 자동 생성하는 방안이 논의됐다.' },
+      { text: '담당자는 발언 빈도로 자동 산출', msgId: 'm15', narrative: '담당자는 발언 빈도를 기준으로 자동 산출하기로 했다.' },
+      { text: '생성 후 담당자 수동 수정 가능해야 함', msgId: 'm17', narrative: '다만 생성 후에는 담당자를 수동으로 바꿀 수 있어야 한다는 의견이 나왔다.' }
+    ],
+    related: ['n2'],
+    isCurrent: true
+  }
+};
+
+// 회의록 문서 구조: 카테고리별로 안건을 묶음 (확정 사항 / 논의 중인 사항)
+const minutesStructure = [
+  { label: '확정 사항', topics: ['n1'] },
+  { label: '논의 중인 사항', topics: ['n2', 'n3'] }
+];
+
+// 전체 안건 순서 (전체 이슈 등록, 새로고침 등에서 사용)
+const allTopicIds = minutesStructure.flatMap(c => c.topics);
+
+const speakerColors = {
+  '민지': '#8b5cf6',
+  '태오': '#f59e0b',
+  '소율': '#ec4899'
+};
+
+const messages = [
+  { id: 'm1', speaker: '민지', time: '19:02', text: '오늘 안건 세 가지예요, 예산이랑 일정, 그리고 이슈 연동.', topic: null },
+
+  { id: 'm2', speaker: '태오', time: '19:03', text: '예산은 팀장님 승인부터 받아야 할 것 같아요.', topic: 'n1' },
+  { id: 'm3', speaker: '민지', time: '19:03', text: '그 전에 대략적인 금액부터 정해야 하지 않을까요?', topic: 'n1' },
+  { id: 'm4', speaker: '소율', time: '19:04', text: '지난 분기 대비 20% 정도 늘려서 잡아볼까요?', topic: 'n1' },
+  { id: 'm5', speaker: '태오', time: '19:04', text: '좋아요, 그 정도면 무리 없이 승인해주실 것 같아요.', topic: 'n1' },
+  { id: 'm6', speaker: '민지', time: '19:05', text: '그럼 초안에 그 수치로 반영해서 다음 주까지 정리할게요.', topic: 'n1' },
+
+  { id: 'm7', speaker: '소율', time: '19:07', text: '일정 얘기하면, QA 일정이랑 겹치는 부분이 있어요.', topic: 'n2' },
+  { id: 'm8', speaker: '태오', time: '19:07', text: '그 부분은 확인해봐야겠네요.', topic: 'n2' },
+  { id: 'm9', speaker: '민지', time: '19:08', text: 'QA 팀이랑 언제 얘기할 수 있을까요?', topic: 'n2' },
+  { id: 'm10', speaker: '소율', time: '19:08', text: '내일 오전에 미팅 잡아볼게요.', topic: 'n2' },
+  { id: 'm11', speaker: '태오', time: '19:09', text: '만약 겹치면 저희 쪽 일정을 하루 미루는 게 나을 것 같아요.', topic: 'n2' },
+
+  { id: 'm12', speaker: '민지', time: '19:11', text: '이런 안건들, GitHub 이슈로 자동 등록되면 편할 것 같아요.', topic: 'n3' },
+  { id: 'm13', speaker: '소율', time: '19:11', text: '좋네요, 안건 끝나자마자 바로 만들어지면 편하겠어요.', topic: 'n3' },
+  { id: 'm14', speaker: '태오', time: '19:12', text: '담당자는 어떻게 정해요?', topic: 'n3' },
+  { id: 'm15', speaker: '민지', time: '19:12', text: '그 안건에서 제일 많이 말한 사람으로 자동 지정하면 어떨까요?', topic: 'n3' },
+  { id: 'm16', speaker: '소율', time: '19:13', text: '괜찮은데, 나중에 수동으로 바꿀 수 있으면 좋겠어요.', topic: 'n3' },
+  { id: 'm17', speaker: '태오', time: '19:13', text: '네, 초안 생성 후에 담당자는 수정 가능하게 하죠.', topic: 'n3' },
+];
+
+/* ============================================================
+   좌측 채팅 로그 렌더링 — 기존 그대로 (수정 없음)
+   ============================================================ */
+const chatLog = document.getElementById('chatLog');
+function avatarInitial(name) { return name.slice(0, 1); }
+
+let gi = 0;
+while (gi < messages.length) {
+  const topic = messages[gi].topic;
+  const group = document.createElement('div');
+  group.className = 'msg-group';
+  if (topic) group.id = 'group-' + topic;
+
+  let runSpeaker = null;
+
+  while (gi < messages.length && messages[gi].topic === topic) {
+    const m = messages[gi];
+    if (m.speaker !== runSpeaker) {
+      runSpeaker = m.speaker;
+      const color = speakerColors[m.speaker] || '#8a8a8e';
+      const runEl = document.createElement('div');
+      runEl.className = 'speaker-run';
+      runEl.id = 'chat-' + m.id;
+      runEl.innerHTML = `
+        <div class="avatar" style="background:${color}">${avatarInitial(m.speaker)}</div>
+        <div class="run-body">
+          <div class="name-row"><span class="name">${m.speaker}</span><span class="time">${m.time}</span></div>
+          <div class="line">${m.text}</div>
+        </div>
+      `;
+      group.appendChild(runEl);
+    } else {
+      const extraLine = document.createElement('div');
+      extraLine.className = 'speaker-run';
+      extraLine.id = 'chat-' + m.id;
+      extraLine.innerHTML = `
+        <div class="avatar spacer">${avatarInitial(m.speaker)}</div>
+        <div class="run-body"><div class="line">${m.text}</div></div>
+      `;
+      group.appendChild(extraLine);
+    }
+    gi++;
+  }
+  chatLog.appendChild(group);
+}
+
+/* ============================================================
+   중요도 사이클링 / 마감일 설정
+   ============================================================ */
+function priorityClass(level) {
+  if (level === '낮음') return 'priority-low';
+  if (level === '높음') return 'priority-high';
+  return 'priority-mid';
+}
+
+function cyclePriority(id) {
+  const order = ['낮음', '보통', '높음'];
+  const cur = nodeData[id].priority || '보통';
+  const next = order[(order.indexOf(cur) + 1) % order.length];
+  nodeData[id].priority = next;
+
+  const btn = document.getElementById('priority-btn-' + id);
+  btn.textContent = next;
+  btn.className = 'priority-badge ' + priorityClass(next);
+}
+
+function setDueDate(id, value) {
+  // TODO: 실제 연동 시 이 지점에서 백엔드로 마감일 갱신 요청
+  nodeData[id].dueDate = value;
+}
+
+/* ============================================================
+   현재 주제 카드
+   ============================================================ */
+function renderCurrentTopic() {
+  const currentId = Object.keys(nodeData).find(id => nodeData[id].isCurrent);
+  const card = document.getElementById('currentTopicCard');
+  if (!currentId) {
+    card.innerHTML = `<div class="label-row">현재 대화 중인 주제</div><div class="title" style="color:var(--text-muted)">대화 대기 중</div>`;
+    return;
+  }
+  const data = nodeData[currentId];
+  card.innerHTML = `
+    <div class="label-row"><span class="live-dot"></span>현재 대화 중인 주제</div>
+    <div class="title" style="color:${data.color}">${data.title}</div>
+  `;
+  card.onclick = () => openDrawer(currentId, undefined, card);
+}
+renderCurrentTopic();
+
+/* ============================================================
+   구조화된 회의록 문서 렌더링
+   ============================================================ */
+function renderMinutes() {
+  const panel = document.getElementById('minutesPanel');
+  const today = new Date().toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
+  let html = `<div class="minutes-meta"><strong>참석자:</strong> 민지, 태오, 소율 &nbsp;·&nbsp; <strong>일시:</strong> ${today} · 진행 중</div>`;
+
+  minutesStructure.forEach(cat => {
+    html += `<div class="minutes-category">${cat.label}</div>`;
+    cat.topics.forEach((id, idx) => {
+      const data = nodeData[id];
+      html += `
+        <div class="minutes-topic-head" onclick="openDrawer('${id}', undefined, this)">
+          <span class="swatch" style="background:${data.color}"></span>${idx + 1}. ${data.title}
+          <div class="topic-meta" onclick="event.stopPropagation()">
+            <button class="priority-badge ${priorityClass(data.priority)}" id="priority-btn-${id}" onclick="cyclePriority('${id}')">${data.priority}</button>
+            <input type="date" class="due-date-input" value="${data.dueDate || ''}" onchange="setDueDate('${id}', this.value)">
+          </div>
+        </div>
+        <ul class="minutes-bullets">
+          ${data.outline.map(o => `<li onclick="openDrawer('${id}', '${o.msgId}', this)">${o.text}</li>`).join('')}
+        </ul>
+      `;
+    });
+  });
+
+  panel.innerHTML = html;
+}
+renderMinutes();
+
+/* ============================================================
+   회의록 새로고침 (더미: 백엔드에서 최신 노드 상태를 다시 받아온다고 가정)
+   ============================================================ */
+function refreshMinutes() {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+  btn.disabled = true;
+  const label = btn.querySelector('.refresh-icon').nextSibling;
+
+  // TODO: 실제 연동 시 여기서 최신 노드 상태를 백엔드에서 fetch 후 nodeData 갱신
+  setTimeout(() => {
+    renderMinutes();
+    renderCurrentTopic();
+    btn.classList.remove('spinning');
+    btn.disabled = false;
+  }, 500);
+}
+
+/* ============================================================
+   전체 이슈 등록: 모든 안건을 한 번에 검토 후 일괄 생성
+   ============================================================ */
+function openBulkIssuePanel() {
+  document.getElementById('drawerTitle').innerHTML = `전체 이슈 등록 미리보기`;
+  const body = document.getElementById('drawerBody');
+
+  const rows = allTopicIds.map(id => {
+    const data = nodeData[id];
+    const assignee = getAssignee(id);
+    return `
+      <div style="display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--border);">
+        <span style="width:9px;height:9px;border-radius:2px;background:${data.color};flex-shrink:0;"></span>
+        <div style="flex:1;">
+          <div style="font-size:13.5px; font-weight:600;">${data.title}</div>
+          <div style="font-size:11.5px; color:var(--text-muted);">${data.outline.length}개 포인트 · 담당자 ${assignee ? assignee.name : '미지정'}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  body.innerHTML = `
+    <p class="dig-sub">아래 ${allTopicIds.length}개 안건을 한 번에 이슈로 생성합니다.</p>
+    <div style="margin-bottom:16px;">${rows}</div>
+    <div class="ip-actions">
+      <button class="ip-confirm" onclick="confirmBulkIssues()">전체 생성하기</button>
+      <button class="ip-cancel" onclick="closeDrawer()">취소</button>
+    </div>
+    <div class="ip-success" id="ipSuccess"></div>
+  `;
+
+  document.getElementById('floatingPanel').classList.add('open');
+}
+
+function confirmBulkIssues() {
+  // TODO: 실제 연동 시 allTopicIds를 순회하며 각각 /api/create-issue 호출
+  document.getElementById('ipSuccess').textContent = `✓ ${allTopicIds.length}개 이슈 생성됨 (시뮬레이션)`;
+  setTimeout(closeDrawer, 1800);
+}
+
+/* ============================================================
+   사이드 드로어: 마인드맵 뷰 / 이슈 생성 뷰를 전환하며 표시
+   ============================================================ */
+let currentDrawerNode = null;
+
+function openDrawer(id, focusMsgId, sourceEl) {
+  currentDrawerNode = id;
+  const data = nodeData[id];
+
+  document.getElementById('drawerTitle').innerHTML = `<span class="swatch" style="background:${data.color}"></span>${data.title}`;
+
+  // 클릭한 지점이 하단 플로팅 패널에 가리지 않도록 화면 상단 쪽으로 스크롤
+  if (sourceEl) {
+    sourceEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // 좌측 채팅 로그 하이라이트 (기존 동작 유지)
+  document.querySelectorAll('.msg-group').forEach(g => {
+    g.style.borderColor = 'transparent';
+    g.style.background = 'transparent';
+  });
+  const group = document.getElementById('group-' + id);
+  if (group) {
+    group.style.borderColor = data.color;
+    group.style.background = data.color + '10';
+  }
+  if (focusMsgId) {
+    document.querySelectorAll('.speaker-run').forEach(r => r.style.background = 'transparent');
+    const row = document.getElementById('chat-' + focusMsgId);
+    if (row) {
+      row.style.background = data.color + '18';
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  renderDrawerMap(id, focusMsgId);
+
+  document.getElementById('floatingPanel').classList.add('open');
+}
+
+function closeDrawer() {
+  document.getElementById('floatingPanel').classList.remove('open');
+}
+
+function renderDrawerMap(id, focusMsgId) {
+  const data = nodeData[id];
+  const body = document.getElementById('drawerBody');
+
+  const childCount = data.outline.length + data.related.length;
+  const rowHeight = 46;
+  const svgHeight = Math.max(childCount * rowHeight + 20, 120);
+  const centerY = svgHeight / 2;
+  const startY = 30;
+
+  let childrenSvg = '';
+  let linksSvg = '';
+
+  data.outline.forEach((o, idx) => {
+    const y = startY + idx * rowHeight;
+    const isFocus = o.msgId === focusMsgId;
+    linksSvg += `<path d="M130 ${centerY} C160 ${centerY}, 170 ${y + 18}, 210 ${y + 18}" fill="none" stroke="var(--border)" stroke-width="1"></path>`;
+    childrenSvg += `
+      <g class="dig-node" onclick="focusChat('${o.msgId}', '${data.color}')">
+        <rect x="210" y="${y}" width="190" height="36" rx="8" fill="${data.color}${isFocus ? '30' : '18'}" stroke="${data.color}" stroke-width="${isFocus ? '2' : '1'}"></rect>
+        <text x="222" y="${y + 22}">${o.text}</text>
+      </g>`;
+  });
+
+  data.related.forEach((rid, idx) => {
+    const y = startY + (data.outline.length + idx) * rowHeight;
+    const rdata = nodeData[rid];
+    linksSvg += `<path d="M130 ${centerY} C160 ${centerY}, 170 ${y + 18}, 210 ${y + 18}" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 3"></path>`;
+    childrenSvg += `
+      <g class="dig-node" onclick="openDrawer('${rid}')">
+        <rect x="210" y="${y}" width="190" height="36" rx="8" fill="transparent" stroke="var(--text-muted)" stroke-dasharray="3 3"></rect>
+        <text x="222" y="${y + 22}" fill="var(--text-secondary)">${rdata.title} →</text>
+      </g>`;
+  });
+
+  body.innerHTML = `
+    <p class="dig-sub">세부 포인트를 클릭하면 채팅 로그의 해당 지점으로 이동합니다.</p>
+    <svg width="100%" viewBox="0 0 420 ${svgHeight}">
+      ${linksSvg}
+      <g>
+        <rect x="10" y="${centerY - 22}" width="110" height="44" rx="10" fill="var(--panel-2)" stroke="var(--border)"></rect>
+        <text x="65" y="${centerY + 5}" text-anchor="middle" style="font-weight:700; font-size:12.5px;">${data.title}</text>
+      </g>
+      ${childrenSvg}
+    </svg>
+    <div class="dig-legend">
+      <span><span class="legend-dot" style="background:${data.color}"></span>세부 논의 포인트</span>
+      <span><span class="legend-dot" style="border:1px dashed var(--text-muted); background:transparent;"></span>연관 주제 (이동)</span>
+    </div>
+    <button class="issue-btn" onclick="renderDrawerIssue('${id}')">이 안건으로 이슈 만들기</button>
+  `;
+}
+
+function focusChat(msgId, color) {
+  document.querySelectorAll('.speaker-run').forEach(r => r.style.background = 'transparent');
+  const row = document.getElementById('chat-' + msgId);
+  if (row) {
+    row.style.background = color + '18';
+    row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+/* ============================================================
+   드로어 내부: 이슈 생성 미리보기 뷰
+   ============================================================ */
+function getAssignee(nodeId) {
+  const speakerCount = {};
+  messages.filter(m => m.topic === nodeId).forEach(m => {
+    speakerCount[m.speaker] = (speakerCount[m.speaker] || 0) + 1;
+  });
+  const sorted = Object.entries(speakerCount).sort((a, b) => b[1] - a[1]);
+  if (sorted.length === 0) return null;
+  return { name: sorted[0][0], count: sorted[0][1], total: messages.filter(m => m.topic === nodeId).length };
+}
+
+function renderDrawerIssue(nodeId) {
+  const data = nodeData[nodeId];
+  const assignee = getAssignee(nodeId);
+  const initials = assignee ? assignee.name.slice(0, 1) : '?';
+  const avatarColor = assignee ? (speakerColors[assignee.name] || '#8a8a8e') : '#8a8a8e';
+
+  const body = document.getElementById('drawerBody');
+  body.innerHTML = `
+    <button class="drawer-back" onclick="renderDrawerMap('${nodeId}')">← 마인드맵으로 돌아가기</button>
+    <p class="ip-title" style="color:${data.color}">${data.title}</p>
+    <ul class="ip-body">
+      ${data.outline.map(o => `<li>${o.text}</li>`).join('')}
+    </ul>
+    <div class="assignee-row">
+      ${assignee ? `
+        <div class="assignee-avatar" style="background:${avatarColor}22; color:${avatarColor}; border-color:${avatarColor}44;">${initials}</div>
+        <div>
+          <div class="assignee-name">${assignee.name} 님이 담당자로 지정됩니다</div>
+          <div class="assignee-sub">이 안건에서 ${assignee.count}/${assignee.total}회 발언 (자동 산출)</div>
+        </div>
+      ` : `<div class="assignee-sub">발언자 정보를 찾을 수 없습니다.</div>`}
+    </div>
+    <div class="ip-actions">
+      <button class="ip-confirm" onclick="confirmIssue('${nodeId}')">이슈 생성하기</button>
+      <button class="ip-cancel" onclick="renderDrawerMap('${nodeId}')">취소</button>
+    </div>
+    <div class="ip-success" id="ipSuccess"></div>
+  `;
+}
+
+function confirmIssue(nodeId) {
+  const data = nodeData[nodeId];
+
+  // TODO: 실제 연동 시 아래 fetch로 교체
+  // const res = await fetch('/api/create-issue', {
+  //   method: 'POST',
+  //   headers: { 'Content-Type': 'application/json' },
+  //   body: JSON.stringify({ title: data.title, outline: data.outline.map(o => o.text), assignee })
+  // });
+
+  document.getElementById('ipSuccess').textContent = `✓ 이슈 생성됨 (시뮬레이션): "${data.title}"`;
+  setTimeout(closeDrawer, 1600);
+}
+
+/* ============================================================
+   회의 개요 미리 입력하기
+   ============================================================ */
+function toggleAgenda() {
+  document.getElementById('agendaPanel').classList.toggle('open');
+  document.getElementById('agendaToggle').classList.toggle('open');
+}
+
+function applyAgenda() {
+  const text = document.getElementById('agendaInput').value.trim();
+  const note = document.getElementById('agendaNote');
+  if (!text) {
+    note.textContent = '개요를 입력해주세요.';
+    note.style.color = 'var(--text-muted)';
+    return;
+  }
+  // TODO: 실제 연동 시 이 지점에서 백엔드로 POST하여 초기 안건 컨텍스트로 전달
+  note.textContent = '✓ 적용됨 (실제 연동 시 회의 시작 전 컨텍스트로 반영됩니다)';
+  note.style.color = 'var(--teal)';
+}
+
+/* ============================================================
+   실제 백엔드 연결 지점 (현재는 비활성)
+   ============================================================ */
+/*
+const socket = new WebSocket('ws://localhost:PORT');
+socket.onmessage = (event) => {
+  const payload = JSON.parse(event.data);
+  if (payload.type === 'new_message') { }
+  if (payload.type === 'node_update') { }
+};
+*/
+</script>
+
+</body>
+</html>
