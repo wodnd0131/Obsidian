@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/SCG 코드 리뷰/무제/무제.md"
+    },
+    {
       "basename": "실시간 회의 토픽 시각화 서비스 기획서",
       "path": "1. Project/우아한바톤/실시간 회의 토픽 시각화 서비스 기획서.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SecurityContext",
       "path": "1. Project/스위프/개발/시큐리티/SecurityContext.md"
-    },
-    {
-      "basename": "해야하는 일",
-      "path": "해야하는 일.md"
     }
   ],
   "omittedPaths": [],
