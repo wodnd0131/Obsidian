@@ -1,3 +1,5 @@
+
+
 기존 ReservationDao.save(ReservationRequest)가 하던 "DTO를 받아 Time/Theme을 조회하고 Reservation을 구성해 저장한다"는 책임을, 이름만 같은 save 메서드로 JpaRepository에 그대로 옮기려 하신 것으로 보입니다.
 
 하지만, 다음 에러가 발생합니다.
