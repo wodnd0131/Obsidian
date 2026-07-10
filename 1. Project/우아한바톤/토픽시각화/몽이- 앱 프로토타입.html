@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클린루프 · 온보딩</title>
+<link rel="stylesheet" as="style" crossorigin
+  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css" />
+<style>
+  :root{
+    --blue: #3182F6;
+    --blue-dark: #2272EB;
+    --blue-tint: #EBF2FF;
+    --blue-tint-2: #F5F9FF;
+    --ink: #191F28;
+    --ink-2: #4E5968;
+    --gray: #8B95A1;
+    --gray-line: #E5E8EB;
+    --surface: #F2F4F6;
+    --green: #00C880;
+    --green-tint: #E6FBF3;
+    --amber: #FFB800;
+    --amber-tint: #FFF6DE;
+    --blush: #FF8FA3;
+    --blush-tint: #FFF0F3;
+    --white: #FFFFFF;
+    --radius-lg: 24px;
+    --radius-md: 16px;
+    --radius-sm: 12px;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  html,body{
+    height:100%;
+    background: radial-gradient(circle at 20% 10%, #EAF1FF 0%, #F4F6F9 45%, #EDEFF3 100%);
+    font-family: 'PretendardVariable', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 40px 16px;
+  }
+
+  .backdrop-label{
+    position:fixed;
+    top:28px; left:50%; transform:translateX(-50%);
+    font-size:13px; font-weight:600; letter-spacing:0.02em;
+    color: var(--gray);
+  }
+
+  .rig{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+  }
+
+  /* ---------- Phone frame ---------- */
+  .phone{
+    position:relative;
+    width:375px;
+    height:812px;
+    max-width:92vw;
+    max-height:82vh;
+    aspect-ratio: 375 / 812;
+    background: var(--white);
+    border-radius: 46px;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.6) inset,
+      0 40px 80px -20px rgba(30,50,90,0.28),
+      0 12px 28px -8px rgba(30,50,90,0.18);
+    overflow:hidden;
+    border: 10px solid #101216;
+  }
+
+  .notch{
+    position:absolute;
+    top:10px; left:50%; transform:translateX(-50%);
+    width:120px; height:26px;
+    background:#101216;
+    border-radius: 0 0 18px 18px;
+    z-index:80;
+  }
+
+  .statusbar{
+    position:absolute; top:0; left:0; right:0;
+    height:46px;
+    display:flex; align-items:flex-end; justify-content:space-between;
+    padding: 0 24px 8px;
+    font-size:14px; font-weight:600;
+    color: var(--ink);
+    z-index:70;
+    pointer-events:none;
+  }
+  .statusbar.on-dark{ color:#fff; }
+  .statusbar .icons{ display:flex; gap:5px; align-items:center; }
+
+  .screens{
+    position:absolute;
+    inset:0;
+    display:flex;
+    width:300%;
+    height:100%;
+    transition: transform 0.55s cubic-bezier(.22,.68,0,1.01);
+  }
+  .screens[data-active="1"]{ transform: translateX(0%); }
+  .screens[data-active="2"]{ transform: translateX(-33.3333%); }
+  .screens[data-active="3"]{ transform: translateX(-66.6666%); }
+
+  .screen{
+    width:33.3333%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .dots{
+    position:absolute;
+    bottom:14px; left:50%; transform:translateX(-50%);
+    display:flex; gap:6px;
+    z-index:75;
+  }
+  .dots span{
+    width:6px; height:6px; border-radius:50%;
+    background: rgba(255,255,255,0.5);
+    transition: all 0.3s ease;
+  }
+  .dots span.on{ background: var(--blue); width:16px; border-radius:4px; }
+
+  /* =====================================================
+     SCREEN 1 — 가치 제안
+  ===================================================== */
+  .s1{
+    padding: 96px 28px 40px;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FBFCFF 100%);
+  }
+
+  .s1-art{ position:relative; height:220px; margin-bottom: 8px; }
+  .blob{ position:absolute; border-radius:50%; }
+  .blob.b1{ width:180px; height:180px; background: var(--blue-tint); top:0; left:10px; }
+  .blob.b2{ width:96px; height:96px; background: var(--blue); opacity:0.14; top:60px; right:0; }
+  .icon-mark{
+    position:absolute; top:56px; left:56px;
+    width:108px; height:108px;
+    background: var(--blue);
+    border-radius: 30px;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 20px 30px -10px rgba(49,130,246,0.45);
+  }
+  .icon-mark svg{ width:52px; height:52px; }
+
+  .s1-badge{
+    display:inline-flex; align-items:center; gap:6px;
+    background: var(--blue-tint); color: var(--blue);
+    font-size:13px; font-weight:700;
+    padding:7px 12px; border-radius:100px;
+    width:fit-content; margin-bottom:18px;
+  }
+
+  .s1 h1{
+    font-size:30px; line-height:1.32; font-weight:800;
+    letter-spacing:-0.02em; color: var(--ink); margin-bottom:14px;
+  }
+  .s1 h1 em{ font-style:normal; color: var(--blue); }
+  .s1 p{ font-size:16px; line-height:1.6; color: var(--ink-2); font-weight:500; }
+  .s1-spacer{ flex:1; }
+  .s1-foot{ display:flex; flex-direction:column; gap:10px; }
+  .s1-foot-note{ font-size:13px; color: var(--gray); text-align:center; font-weight:500; }
+
+  .btn{
+    appearance:none; border:none; cursor:pointer; width:100%; height:58px;
+    border-radius: var(--radius-md); font-size:17px; font-weight:700; font-family:inherit;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    transition: transform 0.15s ease, filter 0.15s ease;
+  }
+  .btn:active{ transform: scale(0.97); }
+  .btn-primary{ background: var(--blue); color:#fff; box-shadow: 0 12px 24px -8px rgba(49,130,246,0.55); }
+  .btn-primary:hover{ filter:brightness(1.04); }
+
+  /* =====================================================
+     SCREEN 2 — 홈
+  ===================================================== */
+  .s2{
+    height:100%;
+    overflow-y:auto;
+    background: var(--surface);
+    padding-top:46px;
+    position:relative;
+  }
+  .s2::-webkit-scrollbar{ display:none; }
+
+  .s2-top{
+    background: var(--white);
+    padding: 18px 20px 20px;
+    border-radius: 0 0 28px 28px;
+    position:relative;
+  }
+
+  .s2-top-row{ display:flex; align-items:flex-start; justify-content:space-between; }
+
+  .s2-greet{ font-size:13px; color: var(--gray); font-weight:600; margin-bottom:4px; }
+  .s2-greet-name{ font-size:21px; font-weight:800; letter-spacing:-0.02em; margin-bottom:4px; }
+
+  .bell-btn{
+    all:unset; cursor:pointer; position:relative;
+    width:38px; height:38px; border-radius:50%;
+    background: var(--surface);
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .bell-btn:active{ transform: scale(0.93); }
+  .bell-dot{
+    position:absolute; top:8px; right:9px;
+    width:8px; height:8px; border-radius:50%;
+    background: var(--blush); border:2px solid var(--white);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  .bell-dot.read{ opacity:0; transform: scale(0); }
+
+  .notif-panel{
+    position:absolute; top:64px; right:16px; z-index:45;
+    width:250px;
+    background:#fff; border-radius: var(--radius-md);
+    box-shadow: 0 16px 32px -10px rgba(20,30,50,0.25), 0 0 0 1px var(--gray-line);
+    padding:14px;
+    opacity:0; transform: translateY(-8px) scale(0.97);
+    pointer-events:none;
+    transition: all 0.22s cubic-bezier(.22,.68,0,1.01);
+  }
+  .notif-panel.open{ opacity:1; transform: translateY(0) scale(1); pointer-events:auto; }
+  .notif-panel-title{ font-size:12.5px; font-weight:800; color: var(--gray); margin-bottom:10px; }
+  .notif-card{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    display:flex; gap:10px; align-items:flex-start;
+    width:100%; padding:10px; border-radius:12px;
+    background: var(--blush-tint);
+  }
+  .notif-card:active{ transform: scale(0.97); }
+  .notif-icon{ font-size:18px; flex-shrink:0; line-height:1.3; }
+  .notif-text strong{ display:block; font-size:12.5px; font-weight:800; color: var(--ink); line-height:1.4; margin-bottom:3px; }
+  .notif-text span{ font-size:11px; color: var(--ink-2); font-weight:600; line-height:1.4; }
+
+  .s2-body{ padding: 20px 20px 108px; }
+  .section-label{ font-size:15px; font-weight:800; letter-spacing:-0.01em; margin-bottom:12px; color: var(--ink); }
+
+  .tiles{ display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; margin-bottom:26px; }
+  .tile{
+    position:relative; background: var(--white); border-radius: var(--radius-sm);
+    padding: 14px 8px 12px; display:flex; flex-direction:column; align-items:center; gap:8px;
+    text-align:center; box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+  }
+  .tile-emoji{ width:44px; height:44px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:21px; }
+  .tile-label{ font-size:12.5px; font-weight:700; color: var(--ink); line-height:1.3; }
+
+  /* ---------- 뽀득 스탬프 카드 ---------- */
+  .stamp-card{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    display:block; width:100%;
+    background: var(--white); border-radius: var(--radius-md);
+    padding: 18px 18px 20px;
+    margin-bottom: 26px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+    transition: transform 0.15s ease;
+  }
+  .stamp-card:active{ transform: scale(0.985); }
+
+  .stamp-head{ display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:16px; }
+  .stamp-title{ font-size:12.5px; font-weight:700; color: var(--gray); margin-bottom:4px; }
+  .stamp-score{ font-size:26px; font-weight:800; color: var(--ink); letter-spacing:-0.02em; }
+  .stamp-score span{ font-size:13px; font-weight:600; color: var(--gray); }
+  .stamp-badge{
+    font-size:11.5px; font-weight:800; color:#A97400; background: var(--amber-tint);
+    padding:5px 10px; border-radius:100px; flex-shrink:0;
+    transition: all 0.3s ease;
+  }
+  .stamp-badge.clear{ color:#0D8F68; background: var(--green-tint); }
+
+  .stamp-row{ display:grid; grid-template-columns: repeat(3, 1fr); row-gap:16px; text-align:center; }
+  .stamp-item{ display:flex; flex-direction:column; align-items:center; gap:7px; }
+  .stamp-circle{
+    width:44px; height:44px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    transition: background 0.4s ease, border-color 0.4s ease, transform 0.4s cubic-bezier(.22,.68,0,1.01);
+  }
+  .stamp-circle.done{ background: var(--green-tint); border: 2px solid var(--green); }
+  .stamp-circle.soon{ background: var(--amber-tint); border: 2px solid var(--amber); }
+  .stamp-circle.late{ background: #fff; border: 2px dashed var(--blush); }
+  .stamp-circle.pop{ animation: stampPop 0.5s cubic-bezier(.22,.68,0,1.01); }
+  @keyframes stampPop{ 0%{ transform:scale(1); } 45%{ transform:scale(1.22); } 100%{ transform:scale(1); } }
+  .stamp-item-label{ font-size:11px; font-weight:700; color: var(--ink-2); }
+
+  /* ---------- Board card (empty / filled) ---------- */
+  .board-wrap{ position:relative; min-height:118px; }
+  .board-card{
+    background: var(--white); border-radius: var(--radius-md); padding: 26px 20px;
+    display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+  .board-card.hidden{ opacity:0; transform: scale(0.96); pointer-events:none; position:absolute; inset:0; }
+
+  .board-empty-icon{
+    width:52px; height:52px; border-radius:50%; background: var(--surface);
+    display:flex; align-items:center; justify-content:center; margin-bottom:4px;
+  }
+  .board-card strong{ font-size:14.5px; font-weight:700; color: var(--ink); }
+  .board-card span{ font-size:13px; color: var(--gray); font-weight:500; line-height:1.5; }
+
+  .routine-item{
+    position:absolute; inset:0;
+    background: var(--white); border-radius: var(--radius-md);
+    padding: 16px 16px;
+    display:flex; align-items:center; gap:12px;
+    text-align:left;
+    opacity:0; transform: translateY(10px) scale(0.97);
+    transition: opacity 0.45s ease, transform 0.45s cubic-bezier(.22,.68,0,1.01);
+  }
+  .routine-item.show{ opacity:1; transform: translateY(0) scale(1); }
+  .routine-icon{
+    width:44px; height:44px; border-radius:12px; background:#EAF6FF;
+    display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0;
+  }
+  .routine-info{ flex:1; }
+  .routine-info strong{ font-size:14.5px; font-weight:800; color: var(--ink); display:block; margin-bottom:3px; }
+  .routine-info span{ font-size:12.5px; color: var(--gray); font-weight:600; }
+  .routine-status{
+    display:flex; align-items:center; gap:5px;
+    font-size:11.5px; font-weight:700; color: var(--green);
+    background: var(--green-tint); padding:5px 9px; border-radius:100px; flex-shrink:0;
+  }
+  .routine-status .dot{ width:6px; height:6px; border-radius:50%; background: var(--green); }
+
+  /* ---------- Home: board 바로가기 nav card ---------- */
+  .board-nav-card{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    width:100%; display:flex; align-items:center; gap:12px;
+    background: var(--white); border-radius: var(--radius-md);
+    padding: 15px 16px; box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+    transition: transform 0.15s ease;
+  }
+  .board-nav-card:active{ transform: scale(0.98); }
+  .board-nav-icon{
+    width:42px; height:42px; border-radius:12px; background: var(--blue-tint);
+    display:flex; align-items:center; justify-content:center; font-size:19px; flex-shrink:0;
+  }
+  .board-nav-text{ flex:1; text-align:left; }
+  .board-nav-text strong{ font-size:14px; font-weight:800; color: var(--ink); display:block; margin-bottom:2px; }
+  .board-nav-text span{ font-size:12.5px; color: var(--gray); font-weight:600; }
+  .board-nav-badge{
+    font-size:11px; font-weight:800; color:#fff; background: var(--blue);
+    padding:3px 8px; border-radius:100px; flex-shrink:0;
+    opacity:0; transform: scale(0.8); transition: all 0.3s cubic-bezier(.22,.68,0,1.01);
+  }
+  .board-nav-badge.show{ opacity:1; transform: scale(1); }
+
+  /* =====================================================
+     SCREEN 3 — 주기 보드 (전용 페이지)
+  ===================================================== */
+  .s3{ height:100%; overflow-y:auto; background: var(--surface); padding-top:46px; position:relative; }
+  .s3-header{
+    background: var(--white);
+    padding: 14px 16px 16px;
+    display:flex; align-items:center; gap:12px;
+    border-radius: 0 0 20px 20px;
+  }
+  .s3-header .chat-back{ all:unset; cursor:pointer; width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+  .s3-header .chat-back:active{ background: var(--surface); }
+  .s3-header strong{ font-size:17px; font-weight:800; letter-spacing:-0.01em; }
+
+  .s3-body{ padding: 20px 20px 108px; }
+  .s3-body .board-wrap{ min-height:76px; }
+
+  /* =====================================================
+     하단 툴바 — 가운데 액션 버튼
+  ===================================================== */
+  .tabbar{
+    position:absolute; left:0; right:0; bottom:0;
+    height:84px;
+    background: var(--white);
+    border-top: 1px solid var(--gray-line);
+    display:flex; align-items:flex-start; justify-content:space-around;
+    padding-top:10px;
+    z-index:30;
+  }
+  .tab-item{
+    all:unset; cursor:pointer;
+    display:flex; flex-direction:column; align-items:center; gap:4px;
+    width:64px;
+    color: var(--gray);
+  }
+  .tab-item svg{ display:block; }
+  .tab-item span{ font-size:11px; font-weight:700; }
+  .tab-item.active{ color: var(--blue); }
+
+  .tab-center{
+    all:unset; cursor:pointer;
+    position:relative;
+    width:58px; height:58px;
+    border-radius:50%;
+    background: var(--blue);
+    display:flex; align-items:center; justify-content:center;
+    margin-top:-26px;
+    box-shadow: 0 10px 20px -6px rgba(49,130,246,0.55), 0 0 0 5px var(--white);
+    transition: transform 0.15s ease;
+  }
+  .tab-center:active{ transform: scale(0.93); }
+  .tab-center-emoji{
+    font-size:24px; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15));
+  }
+  .tab-center-ring{
+    position:absolute; inset:-5px;
+    border-radius:50%;
+    border: 2px solid var(--blue);
+    opacity:0.5;
+    animation: ringPulse 2.2s ease-out infinite;
+  }
+  @keyframes ringPulse{
+    0%{ transform:scale(1); opacity:0.55; }
+    100%{ transform:scale(1.35); opacity:0; }
+  }
+
+  /* =====================================================
+     CHAT OVERLAY
+  ===================================================== */
+  .clean-sheet{
+    position:absolute; inset:0;
+    background: var(--surface);
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(.22,.68,0,1.01);
+    z-index:60;
+    display:flex; flex-direction:column;
+  }
+  .clean-sheet.open{ transform: translateY(0); }
+
+  .clean-header{
+    padding-top:46px;
+    height:98px;
+    display:flex; align-items:center; gap:12px;
+    padding-left:16px; padding-right:16px;
+    background: var(--white);
+    border-bottom:1px solid var(--gray-line);
+    flex-shrink:0;
+  }
+  .clean-back{
+    all:unset; cursor:pointer; width:34px; height:34px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .clean-back:active{ background: var(--surface); }
+  .clean-header-text{ flex:1; }
+  .clean-title{ font-size:16px; font-weight:800; letter-spacing:-0.01em; }
+  .clean-subtitle{ font-size:12px; color: var(--gray); font-weight:600; margin-top:2px; }
+  .clean-step-dots{ display:flex; gap:5px; flex-shrink:0; }
+  .clean-step-dots span{ width:6px; height:6px; border-radius:50%; background: var(--gray-line); transition: all 0.25s ease; }
+  .clean-step-dots span.on{ background: var(--blue); width:16px; border-radius:3px; }
+
+  .clean-body{ flex:1; overflow-y:auto; padding: 20px 16px 32px; }
+  .clean-body::-webkit-scrollbar{ display:none; }
+
+  .clean-step{ display:none; }
+  .clean-step.active{ display:block; animation: stepIn 0.3s cubic-bezier(.22,.68,0,1.01); }
+  @keyframes stepIn{ from{ opacity:0; transform: translateY(10px); } to{ opacity:1; transform: translateY(0); } }
+
+  .clean-lead{ font-size:13.5px; color: var(--ink-2); font-weight:600; line-height:1.5; margin-bottom:18px; }
+
+  /* ---------- Step 1 : 주제 카드 (상태 기반) ---------- */
+  .topic-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:10px; }
+  .topic-card{
+    all:unset; box-sizing:border-box; position:relative;
+    background:#fff; border-radius: var(--radius-sm); padding: 16px 14px;
+    display:flex; flex-direction:column; gap:8px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+  }
+  .topic-card.actionable{ cursor:pointer; box-shadow: 0 0 0 1.5px var(--blush), 0 4px 10px -4px rgba(255,143,163,0.4); }
+  .topic-card.actionable:active{ transform: scale(0.97); }
+  .topic-card.muted{ opacity:0.55; }
+  .topic-emoji{ width:38px; height:38px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-size:18px; background: var(--surface); }
+  .topic-name{ font-size:13.5px; font-weight:800; color: var(--ink); }
+  .topic-status{
+    display:inline-flex; align-items:center; gap:4px; width:fit-content;
+    font-size:10.5px; font-weight:800; padding:3px 8px; border-radius:100px;
+  }
+  .topic-status.late{ color:#E0546B; background: var(--blush-tint); }
+  .topic-status.soon{ color:#A97400; background: var(--amber-tint); }
+  .topic-status.done{ color:#0D8F68; background: var(--green-tint); }
+
+  /* ---------- Step 2 : 세부 이슈 카드 ---------- */
+  .issue-list{ display:flex; flex-direction:column; gap:10px; }
+  .issue-card{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    display:flex; align-items:center; justify-content:space-between;
+    background:#fff; border-radius: var(--radius-sm); padding:16px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+    transition: box-shadow 0.2s ease;
+  }
+  .issue-card:active{ transform: scale(0.985); }
+  .issue-card-name{ font-size:14px; font-weight:700; color: var(--ink); }
+  .issue-card-arrow{ color: var(--gray); flex-shrink:0; }
+
+  /* ---------- Step 3 : 청소 방식 가이드 ---------- */
+  .guide-card{
+    background:#fff; border-radius: var(--radius-md); padding: 18px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+    margin-bottom:16px;
+  }
+  .guide-card .g-title{ font-size:14px; font-weight:800; margin-bottom:12px; display:flex; align-items:center; gap:6px; }
+  .guide-card .g-title .badge{
+    font-size:11px; font-weight:700; color: var(--blue); background: var(--blue-tint);
+    padding:3px 8px; border-radius:100px;
+  }
+  .guide-card ol{ padding-left:20px; display:flex; flex-direction:column; gap:9px; }
+  .guide-card li{ font-size:13.5px; color: var(--ink-2); font-weight:600; line-height:1.5; }
+
+  /* ---------- Step 4 : 도구 · 업체 비교 ---------- */
+  .compare-card{
+    background:#fff; border-radius: var(--radius-md); padding: 16px 18px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+    margin-bottom:18px;
+  }
+  .compare-card .c-title{ font-size:14px; font-weight:800; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
+  .compare-card .c-title .badge{
+    font-size:11px; font-weight:700; color: var(--blue); background: var(--blue-tint);
+    padding:3px 8px; border-radius:100px;
+  }
+  .compare-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:10px 0; border-top:1px solid var(--gray-line);
+  }
+  .compare-row:first-of-type{ border-top:none; }
+  .p-name{ font-size:13px; font-weight:700; color:var(--ink); }
+  .p-shop{ font-size:11.5px; color:var(--gray); font-weight:600; margin-top:2px; }
+  .p-price{ font-size:14px; font-weight:800; color:var(--ink); flex-shrink:0; margin-left:10px; }
+  .compare-row.best .p-price{ color: var(--blue); }
+  .best-tag{
+    font-size:10px; font-weight:800; color:#fff; background:var(--blue);
+    padding:2px 6px; border-radius:6px; margin-right:6px; vertical-align:middle;
+  }
+
+  .vendor-section-title{ font-size:14px; font-weight:800; color: var(--ink); margin-bottom:10px; }
+  .vendor-list{ display:flex; flex-direction:column; gap:10px; margin-bottom:22px; }
+  .vendor-card{
+    background:#fff; border-radius: var(--radius-md); padding:16px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+  }
+  .vendor-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:8px; }
+  .vendor-name-row{ display:flex; align-items:center; gap:6px; }
+  .vendor-name{ font-size:14.5px; font-weight:800; color: var(--ink); }
+  .vendor-tag-partner{
+    font-size:10px; font-weight:800; color: var(--blue); background: var(--blue-tint);
+    padding:2px 7px; border-radius:100px;
+  }
+  .vendor-price{ font-size:14px; font-weight:800; color: var(--ink); flex-shrink:0; white-space:nowrap; }
+  .vendor-desc{ font-size:12.5px; color: var(--ink-2); font-weight:600; line-height:1.5; margin-bottom:10px; }
+  .vendor-tags{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px; }
+  .vendor-tag{
+    font-size:11px; font-weight:700; color: var(--ink-2); background: var(--surface);
+    padding:4px 9px; border-radius:100px;
+  }
+  .vendor-cta{
+    all:unset; box-sizing:border-box; display:block; width:100%; text-align:center; cursor:pointer;
+    background: var(--blue-tint); color: var(--blue-dark); font-size:13px; font-weight:800;
+    padding:11px; border-radius:10px;
+  }
+
+  .finish-btn{
+    all:unset; box-sizing:border-box; display:block; width:100%; text-align:center; cursor:pointer;
+    background: var(--ink); color:#fff; font-size:15px; font-weight:800;
+    padding:15px; border-radius: var(--radius-md);
+    margin-top:4px;
+  }
+  .finish-btn:active{ transform: scale(0.98); }
+  .finish-hint{ font-size:12px; color: var(--gray); text-align:center; margin-top:10px; font-weight:600; }
+
+  /* ---------- 쓰레기 수거 서비스 광고 시트 ---------- */
+  .promo-hero{
+    text-align:center; padding: 22px 10px 24px;
+  }
+  .promo-hero-emoji{ font-size:40px; margin-bottom:12px; }
+  .promo-hero-title{ font-size:19px; font-weight:800; color: var(--ink); line-height:1.4; margin-bottom:8px; letter-spacing:-0.01em; }
+  .promo-hero-desc{ font-size:13px; color: var(--ink-2); font-weight:600; line-height:1.55; }
+
+  .package-list{ display:flex; flex-direction:column; gap:10px; margin-bottom:20px; }
+  .package-card{
+    position:relative;
+    background:#fff; border-radius: var(--radius-md); padding:14px 16px;
+    box-shadow: 0 1px 2px rgba(20,30,50,0.04);
+  }
+  .package-card.highlight{ box-shadow: 0 0 0 2px var(--blue), 0 8px 18px -8px rgba(49,130,246,0.35); }
+  .package-recommend{
+    position:absolute; top:-10px; left:16px;
+    font-size:10.5px; font-weight:800; color:#fff; background: var(--blue);
+    padding:3px 9px; border-radius:100px;
+  }
+  .package-top{ display:flex; align-items:center; justify-content:space-between; margin-bottom:4px; }
+  .package-name{ font-size:14.5px; font-weight:800; color: var(--ink); }
+  .package-price{ font-size:15px; font-weight:800; color: var(--ink); }
+  .package-price span{ font-size:11.5px; font-weight:600; color: var(--gray); }
+  .package-desc{ font-size:12.5px; color: var(--ink-2); font-weight:600; }
+
+  .feature-list{ display:flex; flex-direction:column; gap:9px; margin-bottom:22px; }
+  .feature-row{ font-size:13px; color: var(--ink-2); font-weight:600; }
+
+  .routine-toast{
+    background: var(--green-tint); border:1px solid #C9F3E1; border-radius:16px;
+    padding:14px 16px; display:flex; align-items:center; gap:10px;
+    margin-top:16px;
+    animation: stepIn 0.3s cubic-bezier(.22,.68,0,1.01);
+  }
+  .routine-toast .r-emoji{ font-size:20px; }
+  .routine-toast strong{ display:block; font-size:13px; font-weight:800; color: var(--ink); }
+  .routine-toast span{ font-size:12px; color: var(--ink-2); font-weight:600; }
+
+  /* ---------- Controls ---------- */
+  .controls{ display:flex; align-items:center; gap:18px; }
+  .nav-btn{
+    all:unset; cursor:pointer; width:40px; height:40px; border-radius:50%;
+    background: var(--white); display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 4px 12px rgba(20,30,50,0.12);
+    transition: opacity 0.2s ease, transform 0.15s ease;
+  }
+  .nav-btn:active{ transform: scale(0.92); }
+  .nav-btn[disabled]{ opacity:0.3; pointer-events:none; }
+  .step-label{ font-size:13px; font-weight:700; color: var(--ink-2); min-width:120px; text-align:center; }
+
+  @media (max-height: 780px){ .phone{ height: 80vh; } }
+</style>
+</head>
+<body>
+
+  <div class="backdrop-label">클린루프 · 온보딩 프로토타입</div>
+
+  <div class="rig">
+    <div class="phone">
+      <div class="notch"></div>
+
+      <div class="statusbar" id="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="1" y="7" width="2.5" height="4" rx="0.5" fill="currentColor"/><rect x="5" y="5" width="2.5" height="6" rx="0.5" fill="currentColor"/><rect x="9" y="3" width="2.5" height="8" rx="0.5" fill="currentColor"/><rect x="13" y="0.5" width="2.5" height="10.5" rx="0.5" fill="currentColor"/></svg>
+          <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="3" stroke="currentColor"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="currentColor"/><rect x="21.5" y="4" width="1.5" height="4" rx="0.7" fill="currentColor"/></svg>
+        </span>
+      </div>
+
+      <div class="screens" id="screens" data-active="1">
+
+        <!-- ===================== SCREEN 1 : 가치 제안 ===================== -->
+        <div class="screen">
+          <div class="s1">
+            <div class="s1-art">
+              <div class="blob b1"></div>
+              <div class="blob b2"></div>
+              <div class="icon-mark">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C12 3 6 9.5 6 14a6 6 0 0 0 12 0c0-4.5-6-11-6-11Z" fill="white"/></svg>
+              </div>
+            </div>
+
+            <div class="s1-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#3182F6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              등록 없이 시작
+            </div>
+
+            <h1>문제가 생기면,<br><em>그때</em> 해결하세요</h1>
+            <p>청소는 미리 계획하지 않아도 됩니다.<br>클린루프가 그 순간에 맞춰드릴게요.</p>
+
+            <div class="s1-spacer"></div>
+
+            <div class="s1-foot">
+              <button class="btn btn-primary" onclick="goTo(2)">시작하기</button>
+              <div class="s1-foot-note">가입 없이 바로 둘러볼 수 있어요</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== SCREEN 2 : 홈 ===================== -->
+        <div class="screen">
+          <div class="s2">
+            <div class="s2-top">
+              <div class="s2-top-row">
+                <div>
+                  <div class="s2-greet">좋은 아침이에요</div>
+                  <div class="s2-greet-name">보송님 👋</div>
+                </div>
+                <button class="bell-btn" onclick="toggleNotif()">
+                  <span class="bell-dot" id="bellDot"></span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 10a6 6 0 0 1 12 0c0 4 1.5 5.5 2 6H4c.5-.5 2-2 2-6Z" stroke="#191F28" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 19a2 2 0 0 0 4 0" stroke="#191F28" stroke-width="1.8" stroke-linecap="round"/></svg>
+                </button>
+              </div>
+
+              <div class="notif-panel" id="notifPanel">
+                <div class="notif-panel-title">알림</div>
+                <button class="notif-card" onclick="openTrashFromNotif()">
+                  <div class="notif-icon">🗑️</div>
+                  <div class="notif-text">
+                    <strong>쓰레기 배출이 지연되고 있어요</strong>
+                    <span>업체 연결로 간편하게 해결해보세요 · 2일 전</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <div class="s2-body">
+              <div class="section-label">무슨 일이세요?</div>
+              <button class="stamp-card" onclick="startClean()">
+                <div class="stamp-head">
+                  <div>
+                    <div class="stamp-title">이번 주 뽀득 스탬프</div>
+                    <div class="stamp-score" id="stampScore">72<span> / 100</span></div>
+                  </div>
+                  <span class="stamp-badge" id="stampBadge">2칸만 더!</span>
+                </div>
+                <div class="stamp-row">
+                  <div class="stamp-item">
+                    <div class="stamp-circle done">
+                      <svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span class="stamp-item-label">침구·빨래</span>
+                  </div>
+                  <div class="stamp-item" id="stampBathWrap">
+                    <div class="stamp-circle late" id="stampBathCircle">
+                      <svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10h10" stroke="#FF8FA3" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <span class="stamp-item-label">욕실·곰팡이</span>
+                  </div>
+                  <div class="stamp-item">
+                    <div class="stamp-circle done">
+                      <svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span class="stamp-item-label">주방</span>
+                  </div>
+                  <div class="stamp-item">
+                    <div class="stamp-circle soon" id="stampTrashCircle">
+                      <svg width="14" height="14" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.2" fill="#A97400"/></svg>
+                    </div>
+                    <span class="stamp-item-label">쓰레기·수거</span>
+                  </div>
+                  <div class="stamp-item">
+                    <div class="stamp-circle done">
+                      <svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span class="stamp-item-label">해충</span>
+                  </div>
+                  <div class="stamp-item">
+                    <div class="stamp-circle done">
+                      <svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span class="stamp-item-label">바닥·공간</span>
+                  </div>
+                </div>
+              </button>
+
+              <div class="section-label">내 주기 보드</div>
+              <button class="board-nav-card" onclick="goTo(3)">
+                <div class="board-nav-icon">🗓️</div>
+                <div class="board-nav-text">
+                  <strong>주기 보드 보기</strong>
+                  <span id="boardNavSub">아직 등록된 항목이 없어요</span>
+                </div>
+                <span class="board-nav-badge" id="boardNavBadge">NEW</span>
+              </button>
+            </div>
+
+            <!-- ============ 청소 플로우 시트 ============ -->
+            <div class="clean-sheet" id="cleanSheet">
+              <div class="clean-header">
+                <button class="clean-back" onclick="cleanBack()">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#191F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="clean-header-text">
+                  <div class="clean-title" id="cleanTitle">무슨 청소가 필요하세요?</div>
+                  <div class="clean-subtitle" id="cleanSubtitle">지금 확인이 필요한 항목이 있어요</div>
+                </div>
+                <div class="clean-step-dots" id="cleanDots">
+                  <span class="on"></span><span></span><span></span><span></span>
+                </div>
+              </div>
+
+              <div class="clean-body">
+
+                <!-- STEP 1 : 주제 선택 -->
+                <div class="clean-step active" data-step="1">
+                  <div class="topic-grid">
+                    <div class="topic-card muted">
+                      <div class="topic-emoji">🛏️</div>
+                      <div class="topic-name">침구·빨래</div>
+                      <span class="topic-status done">정상</span>
+                    </div>
+                    <button class="topic-card actionable" onclick="selectTopic()">
+                      <div class="topic-emoji">🫧</div>
+                      <div class="topic-name">욕실·곰팡이</div>
+                      <span class="topic-status late">11일 지연</span>
+                    </button>
+                    <div class="topic-card muted">
+                      <div class="topic-emoji">🍳</div>
+                      <div class="topic-name">주방</div>
+                      <span class="topic-status done">정상</span>
+                    </div>
+                    <div class="topic-card muted">
+                      <div class="topic-emoji">🗑️</div>
+                      <div class="topic-name">쓰레기·수거</div>
+                      <span class="topic-status soon">곧 밀려요</span>
+                    </div>
+                    <div class="topic-card muted">
+                      <div class="topic-emoji">🐜</div>
+                      <div class="topic-name">해충</div>
+                      <span class="topic-status done">정상</span>
+                    </div>
+                    <div class="topic-card muted">
+                      <div class="topic-emoji">🧹</div>
+                      <div class="topic-name">바닥·공간</div>
+                      <span class="topic-status done">정상</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- STEP 2 : 세부 이슈 선택 -->
+                <div class="clean-step" data-step="2">
+                  <div class="clean-lead">욕실·곰팡이, 어떤 문제인가요?</div>
+                  <div class="issue-list">
+                    <button class="issue-card" onclick="selectIssue('타일 곰팡이')">
+                      <span class="issue-card-name">타일 곰팡이</span>
+                      <svg class="issue-card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <button class="issue-card" onclick="selectIssue('배수구 냄새')">
+                      <span class="issue-card-name">배수구 냄새</span>
+                      <svg class="issue-card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <button class="issue-card" onclick="selectIssue('물때')">
+                      <span class="issue-card-name">물때</span>
+                      <svg class="issue-card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- STEP 3 : 청소 방식 설명 -->
+                <div class="clean-step" data-step="3">
+                  <div class="clean-lead"><span id="guideIssueLabel">타일 곰팡이</span>는 보통 3~4주면 다시 생겨요.<br>이렇게 없애보세요.</div>
+                  <div class="guide-card">
+                    <div class="g-title">제거 가이드 <span class="badge">5분 소요</span></div>
+                    <ol>
+                      <li>곰팡이 제거젤 바르기</li>
+                      <li>10분간 그대로 두기</li>
+                      <li>솔로 문지르기</li>
+                      <li>물로 헹구고 마무리</li>
+                    </ol>
+                  </div>
+                  <button class="finish-btn" onclick="showCleanStep(4)">청소 도구 · 업체 보기</button>
+                </div>
+
+                <!-- STEP 4 : 도구 · 업체 비교 -->
+                <div class="clean-step" data-step="4">
+                  <div class="compare-card">
+                    <div class="c-title">곰팡이 제거젤 가격 비교 <span class="badge">클린딜</span></div>
+                    <div class="compare-row best">
+                      <div><span class="best-tag">최저가</span><span class="p-name">홈스타 욕실 곰팡이 젤</span><div class="p-shop">다이소</div></div>
+                      <div class="p-price">3,000원</div>
+                    </div>
+                    <div class="compare-row">
+                      <div><span class="p-name">이지오프 곰팡이젤 500ml</span><div class="p-shop">쿠팡 · 로켓배송</div></div>
+                      <div class="p-price">6,900원</div>
+                    </div>
+                    <div class="compare-row">
+                      <div><span class="p-name">락스 곰팡이 리무버</span><div class="p-shop">이마트몰</div></div>
+                      <div class="p-price">7,500원</div>
+                    </div>
+                  </div>
+
+                  <div class="vendor-section-title">맡기고 싶다면 — 업체 비교</div>
+                  <div class="vendor-list">
+                    <div class="vendor-card">
+                      <div class="vendor-top">
+                        <div class="vendor-name-row">
+                          <span class="vendor-name">청소연구소</span>
+                          <span class="vendor-tag-partner">제휴</span>
+                        </div>
+                        <span class="vendor-price">29,000원~</span>
+                      </div>
+                      <div class="vendor-desc">자취생 특가 욕실 클리닝 · 오늘 예약 시 내일 방문</div>
+                      <div class="vendor-tags"><span class="vendor-tag">단일 공간</span><span class="vendor-tag">당일 예약</span></div>
+                      <button class="vendor-cta">예약하기</button>
+                    </div>
+                    <div class="vendor-card">
+                      <div class="vendor-top">
+                        <div class="vendor-name-row"><span class="vendor-name">미소</span></div>
+                        <span class="vendor-price">34,900원~</span>
+                      </div>
+                      <div class="vendor-desc">홈서비스 · 2시간 단위로 예약</div>
+                      <div class="vendor-tags"><span class="vendor-tag">전국</span><span class="vendor-tag">정기 할인</span></div>
+                      <button class="vendor-cta">견적 보기</button>
+                    </div>
+                    <div class="vendor-card">
+                      <div class="vendor-top">
+                        <div class="vendor-name-row"><span class="vendor-name">청연</span></div>
+                        <span class="vendor-price">41,900원~</span>
+                      </div>
+                      <div class="vendor-desc">가사청소 전문 · 욕실 집중 케어</div>
+                      <div class="vendor-tags"><span class="vendor-tag">정기 청소</span><span class="vendor-tag">크레딧 가능</span></div>
+                      <button class="vendor-cta">신청하기</button>
+                    </div>
+                  </div>
+
+                  <button class="finish-btn" id="finishBtn" onclick="finishClean()">해결 완료</button>
+                  <div class="finish-hint">도구를 구매했거나 업체를 예약하셨다면 눌러주세요</div>
+                  <div id="toastSlot"></div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- ============ 쓰레기 수거 서비스 광고 시트 ============ -->
+            <div class="clean-sheet" id="trashSheet">
+              <div class="clean-header">
+                <button class="clean-back" onclick="closeTrash()">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#191F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="clean-header-text">
+                  <div class="clean-title">쓰레기 수거 서비스</div>
+                  <div class="clean-subtitle">오늘수거 제휴 패키지</div>
+                </div>
+              </div>
+
+              <div class="clean-body">
+                <div class="promo-hero">
+                  <div class="promo-hero-emoji">🗑️</div>
+                  <div class="promo-hero-title">문 앞에 내놓으면 끝,<br>오늘수거</div>
+                  <div class="promo-hero-desc">분리수거·음식물·대형폐기물까지<br>한 번에 수거해드려요</div>
+                </div>
+
+                <div class="vendor-section-title">요금제 선택</div>
+                <div class="package-list">
+                  <div class="package-card">
+                    <div class="package-top">
+                      <span class="package-name">라이트</span>
+                      <span class="package-price">9,900<span>원/월</span></span>
+                    </div>
+                    <div class="package-desc">주 1회 수거</div>
+                  </div>
+                  <div class="package-card highlight">
+                    <span class="package-recommend">가장 많이 선택</span>
+                    <div class="package-top">
+                      <span class="package-name">스탠다드</span>
+                      <span class="package-price">15,900<span>원/월</span></span>
+                    </div>
+                    <div class="package-desc">주 2회 수거 · 분리배출 대행</div>
+                  </div>
+                  <div class="package-card">
+                    <div class="package-top">
+                      <span class="package-name">프리미엄</span>
+                      <span class="package-price">24,900<span>원/월</span></span>
+                    </div>
+                    <div class="package-desc">무제한 호출 · 대형폐기물 포함</div>
+                  </div>
+                </div>
+
+                <div class="feature-list">
+                  <div class="feature-row">✅ 문 앞 수거, 나갈 필요 없어요</div>
+                  <div class="feature-row">✅ 분리배출 기준 대신 확인해드려요</div>
+                  <div class="feature-row">✅ 대형폐기물 별도 신청 가능</div>
+                </div>
+
+                <button class="finish-btn" id="trashFinishBtn" onclick="subscribeTrash()">지금 시작하기</button>
+                <div class="finish-hint">제휴 서비스이며, 첫 달은 30% 할인돼요</div>
+                <div id="trashToastSlot"></div>
+              </div>
+            </div>
+
+            <div class="tabbar">
+              <button class="tab-item active">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1v-8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                <span>홈</span>
+              </button>
+              <button class="tab-center" onclick="startClean()">
+                <span class="tab-center-ring"></span>
+                <span class="tab-center-emoji">🫧</span>
+              </button>
+              <button class="tab-item" onclick="goTo(3)">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 9h16M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span>보드</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ===================== SCREEN 3 : 주기 보드 ===================== -->
+        <div class="screen">
+          <div class="s3">
+            <div class="s3-header">
+              <button class="chat-back" onclick="goTo(2)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="#191F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <strong>주기 보드</strong>
+            </div>
+            <div class="s3-body">
+              <div class="board-wrap">
+                <div class="board-card" id="emptyBoardFull">
+                  <div class="board-empty-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#8B95A1" stroke-width="1.8" stroke-dasharray="3 3"/></svg>
+                  </div>
+                  <strong>아직 비어 있어요</strong>
+                  <span>문제를 해결하면, 다음 주기가<br>자동으로 여기에 쌓여요</span>
+                </div>
+
+                <div class="routine-item" id="routineItemFull">
+                  <div class="routine-icon">🫧</div>
+                  <div class="routine-info">
+                    <strong>욕실 타일 곰팡이</strong>
+                    <span>마지막 완료: 오늘 · 다음 주기 3~4주 후</span>
+                  </div>
+                  <div class="routine-status"><span class="dot"></span>정상</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabbar">
+              <button class="tab-item" onclick="goTo(2)">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1v-8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                <span>홈</span>
+              </button>
+              <button class="tab-center" onclick="startClean()">
+                <span class="tab-center-ring"></span>
+                <span class="tab-center-emoji">🫧</span>
+              </button>
+              <button class="tab-item active">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 9h16M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span>보드</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="dots" id="dots">
+        <span class="on"></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="nav-btn" id="prevBtn" onclick="prev()" disabled>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="#191F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="step-label" id="stepLabel">1 · 가치 제안</div>
+      <button class="nav-btn" id="nextBtn" onclick="next()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="#191F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+<script>
+  /* ---------------- Screen navigation ---------------- */
+  const labels = { 1: '1 · 가치 제안', 2: '2 · 홈', 3: '3 · 주기 보드' };
+  let current = 1;
+
+  function renderNav(){
+    document.getElementById('screens').setAttribute('data-active', current);
+    document.getElementById('stepLabel').textContent = labels[current];
+    document.getElementById('prevBtn').disabled = current === 1;
+    document.getElementById('nextBtn').disabled = current === 3;
+    document.querySelectorAll('#dots span').forEach((d,i)=> d.classList.toggle('on', i === current-1));
+  }
+  function goTo(n){ current = n; renderNav(); }
+  function next(){ if(current < 3){ current++; renderNav(); } }
+  function prev(){ if(current > 1){ current--; renderNav(); } }
+  renderNav();
+
+  /* ---------------- 청소 플로우 엔진 (단계형, 사용자 주도) ---------------- */
+  const cleanSheet = document.getElementById('cleanSheet');
+  const cleanTitle = document.getElementById('cleanTitle');
+  const cleanSubtitle = document.getElementById('cleanSubtitle');
+  const cleanDots = document.querySelectorAll('#cleanDots span');
+  const guideIssueLabel = document.getElementById('guideIssueLabel');
+  const finishBtn = document.getElementById('finishBtn');
+  const toastSlot = document.getElementById('toastSlot');
+
+  const emptyBoard = document.getElementById('emptyBoardFull');
+  const routineItem = document.getElementById('routineItemFull');
+  const boardNavSub = document.getElementById('boardNavSub');
+  const boardNavBadge = document.getElementById('boardNavBadge');
+  const stampScore = document.getElementById('stampScore');
+  const stampBadge = document.getElementById('stampBadge');
+  const stampBathCircle = document.getElementById('stampBathCircle');
+  const stampTrashCircle = document.getElementById('stampTrashCircle');
+
+  const bellDot = document.getElementById('bellDot');
+  const notifPanel = document.getElementById('notifPanel');
+  const trashSheet = document.getElementById('trashSheet');
+  const trashFinishBtn = document.getElementById('trashFinishBtn');
+  const trashToastSlot = document.getElementById('trashToastSlot');
+
+  // 이번 주 뽀득 스탬프에서 "지연/임박" 상태였던 두 항목의 해결 여부
+  const stampResolved = { bath: false, trash: false };
+
+  function refreshStampSummary(){
+    const remaining = (stampResolved.bath ? 0 : 1) + (stampResolved.trash ? 0 : 1);
+    if(remaining === 2){
+      stampScore.innerHTML = '72<span> / 100</span>';
+      stampBadge.textContent = '2칸만 더!';
+      stampBadge.classList.remove('clear');
+    } else if(remaining === 1){
+      stampScore.innerHTML = '89<span> / 100</span>';
+      stampBadge.textContent = '1칸만 더!';
+      stampBadge.classList.remove('clear');
+    } else {
+      stampScore.innerHTML = '100<span> / 100</span>';
+      stampBadge.textContent = '이번 주 클리어!';
+      stampBadge.classList.add('clear');
+    }
+  }
+
+  let cleanStep = 1;
+  const stepMeta = {
+    1: { title: '무슨 청소가 필요하세요?', subtitle: '지금 확인이 필요한 항목이 있어요' },
+    2: { title: '어떤 문제인가요?',       subtitle: '욕실 · 곰팡이' },
+    3: { title: '청소 방법',             subtitle: '가이드를 따라 해보세요' },
+    4: { title: '도구 · 업체 비교',       subtitle: '직접 구매하거나 맡겨보세요' },
+  };
+
+  function showCleanStep(n){
+    cleanStep = n;
+    document.querySelectorAll('.clean-step').forEach(el => {
+      el.classList.toggle('active', +el.dataset.step === n);
+    });
+    cleanTitle.textContent = stepMeta[n].title;
+    cleanSubtitle.textContent = stepMeta[n].subtitle;
+    cleanDots.forEach((d, i) => d.classList.toggle('on', i === n - 1));
+    document.querySelector('.clean-body').scrollTop = 0;
+  }
+
+  // STEP 1 → 2 : 지연 중인 주제 카드를 탭
+  function selectTopic(){
+    showCleanStep(2);
+  }
+
+  // STEP 2 → 3 : 세부 이슈 카드를 탭
+  function selectIssue(label){
+    guideIssueLabel.textContent = label;
+    showCleanStep(3);
+  }
+
+  function resetClean(){
+    showCleanStep(1);
+    finishBtn.textContent = '해결 완료';
+    finishBtn.disabled = false;
+    toastSlot.innerHTML = '';
+    guideIssueLabel.textContent = '타일 곰팡이';
+  }
+
+  function openClean(){
+    resetClean();
+    cleanSheet.classList.add('open');
+  }
+  function closeClean(){
+    cleanSheet.classList.remove('open');
+  }
+  function cleanBack(){
+    if(cleanStep > 1){
+      showCleanStep(cleanStep - 1);
+    } else {
+      closeClean();
+    }
+  }
+  function startClean(){
+    // 청소 플로우 시트는 홈 화면 안에 있으므로, 다른 화면이면 먼저 홈으로 이동한 뒤 연다
+    if(current !== 2){
+      goTo(2);
+      setTimeout(openClean, 600);
+    } else {
+      openClean();
+    }
+  }
+
+  // STEP 4 : 해결 완료 — 확인 없이 자동으로 주기 등록
+  function finishClean(){
+    finishBtn.textContent = '등록했어요 ✓';
+    finishBtn.disabled = true;
+
+    toastSlot.innerHTML = `
+      <div class="routine-toast">
+        <div class="r-emoji">🔔</div>
+        <div>
+          <strong>욕실 타일 곰팡이 · 주기 등록 완료</strong>
+          <span>3~4주 뒤 다시 챙겨드릴게요</span>
+        </div>
+      </div>
+    `;
+
+    // 홈 바로가기 카드 갱신
+    boardNavSub.textContent = '1개 진행 중';
+    boardNavBadge.classList.add('show');
+
+    // 홈 스탬프도 즉시 반영 — 지연이던 욕실·곰팡이가 완료로 전환
+    stampBathCircle.classList.remove('late');
+    stampBathCircle.classList.add('done', 'pop');
+    stampBathCircle.innerHTML = '<svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    stampResolved.bath = true;
+    refreshStampSummary();
+
+    // 잠시 결과를 보여준 뒤 시트를 닫고 주기 보드 페이지로 이동
+    setTimeout(() => {
+      closeClean();
+      setTimeout(() => {
+        goTo(3);
+        setTimeout(() => {
+          emptyBoard.classList.add('hidden');
+          routineItem.classList.add('show');
+        }, 650);
+      }, 600);
+    }, 1100);
+  }
+
+  /* ---------------- 알림 (쓰레기 배출 지연) ---------------- */
+  function toggleNotif(){
+    notifPanel.classList.toggle('open');
+    bellDot.classList.add('read');
+  }
+
+  function openTrashFromNotif(){
+    notifPanel.classList.remove('open');
+    openTrash();
+  }
+
+  /* ---------------- 쓰레기 수거 서비스 광고 시트 ---------------- */
+  function openTrash(){
+    trashFinishBtn.textContent = '지금 시작하기';
+    trashFinishBtn.disabled = false;
+    trashToastSlot.innerHTML = '';
+    trashSheet.classList.add('open');
+  }
+  function closeTrash(){
+    trashSheet.classList.remove('open');
+  }
+
+  function subscribeTrash(){
+    trashFinishBtn.textContent = '신청 완료 ✓';
+    trashFinishBtn.disabled = true;
+
+    trashToastSlot.innerHTML = `
+      <div class="routine-toast">
+        <div class="r-emoji">🚚</div>
+        <div>
+          <strong>오늘수거 · 스탠다드 신청 완료</strong>
+          <span>다음 수거일부터 문 앞에 내놓기만 하면 돼요</span>
+        </div>
+      </div>
+    `;
+
+    // 홈 스탬프에 즉시 반영 — 임박이던 쓰레기·수거가 완료로 전환
+    stampTrashCircle.classList.remove('soon');
+    stampTrashCircle.classList.add('done', 'pop');
+    stampTrashCircle.innerHTML = '<svg width="18" height="18" viewBox="0 0 20 20"><path d="M5 10l3.5 3.5L15 6" stroke="#00C880" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    stampResolved.trash = true;
+    refreshStampSummary();
+
+    setTimeout(closeTrash, 1300);
+  }
+</script>
+
+</body>
+</html>

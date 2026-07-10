@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/SCG 코드 리뷰/무제/Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이.md",
+                "file": "1. Project/우아한바톤/청소주기/청소 관리 서비스 기획서.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이"
+              "title": "청소 관리 서비스 기획서"
             }
           }
         ]
@@ -204,16 +204,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e5bedd98fc8c33",
+  "active": "2bc5d761b7ec59ec",
   "lastOpenFiles": [
-    "1. Project/우아한바톤/실시간 회의 토픽 시각화 서비스 기획서.md",
+    "1. Project/우아한바톤/토픽시각화/몽이- 앱 프로토타입.html",
+    "1. Project/우아한바톤/청소주기",
     "1. Project/SCG 코드 리뷰/무제/Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이.md",
+    "1. Project/우아한바톤/청소주기/청소 관리 서비스 기획서.md",
+    "1. Project/우아한바톤/토픽시각화",
+    "1. Project/우아한바톤/기획전",
+    "1. Project/우아한바톤/실시간 회의 토픽 시각화 서비스 기획서.md",
     "1. Project/SCG 코드 리뷰/무제",
     "1. Project/우아한바톤/meeting-topic-prototype.html",
     "2. Area/기획/실시간 회의 토픽 시각화 서비스 기획서.md",
-    "1. Project/우아한바톤/기획 단계 아이템 선정 프레임워크.md",
+    "1. Project/우아한바톤/기획전/기획 단계 아이템 선정 프레임워크.md",
     "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
-    "1. Project/우아한바톤/우아한 바톤 사전 설명회.md",
+    "1. Project/우아한바톤/기획전/우아한 바톤 사전 설명회.md",
     "1. Project/스위프/개발/시큐리티/AES-256-GCM.md",
     "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md",
     "1. Project/스위프/개발/해야하는것.md",
@@ -246,11 +251,6 @@
     "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md",
     "1. Project/스위프/개발/빌트인클래스",
     "1. Project/개발/OS/공룡책/장별 내용 요약.md",
-    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기",
-    "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md",
-    "1. Project/스위프/개발/cicd/Why jenkins.md",
-    "1. Project/개발/OS/공룡책",
-    "1. Project/개발/OS",
     "Repository/OIDC-1.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",

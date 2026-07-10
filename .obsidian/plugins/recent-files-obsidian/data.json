@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "청소 관리 서비스 기획서",
+      "path": "1. Project/우아한바톤/청소주기/청소 관리 서비스 기획서.md"
+    },
+    {
       "basename": "Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이",
       "path": "1. Project/SCG 코드 리뷰/무제/Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이.md"
     },
@@ -10,7 +14,7 @@
     },
     {
       "basename": "기획 단계 아이템 선정 프레임워크",
-      "path": "1. Project/우아한바톤/기획 단계 아이템 선정 프레임워크.md"
+      "path": "1. Project/우아한바톤/기획전/기획 단계 아이템 선정 프레임워크.md"
     },
     {
       "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
@@ -18,7 +22,7 @@
     },
     {
       "basename": "우아한 바톤 사전 설명회",
-      "path": "1. Project/우아한바톤/우아한 바톤 사전 설명회.md"
+      "path": "1. Project/우아한바톤/기획전/우아한 바톤 사전 설명회.md"
     },
     {
       "basename": "AES-256-GCM",
@@ -195,10 +199,6 @@
     {
       "basename": "SessionCreationPolicy.STATELESS",
       "path": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md"
-    },
-    {
-      "basename": "SecurityContext",
-      "path": "1. Project/스위프/개발/시큐리티/SecurityContext.md"
     }
   ],
   "omittedPaths": [],
