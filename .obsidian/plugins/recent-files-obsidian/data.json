@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "오늘 일정 및 시작할 작업",
+      "path": "1. Project/우아한바톤/청소주기/오늘 일정 및 시작할 작업.md"
+    },
+    {
       "basename": "청소 관리 서비스 기획서",
       "path": "1. Project/우아한바톤/청소주기/청소 관리 서비스 기획서.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "스프링 시큐리티 도입 리뷰",
       "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
-    },
-    {
-      "basename": "SessionCreationPolicy.STATELESS",
-      "path": "1. Project/스위프/개발/시큐리티/SessionCreationPolicy.STATELESS.md"
     }
   ],
   "omittedPaths": [],
