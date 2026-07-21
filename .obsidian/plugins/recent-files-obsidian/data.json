@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CDN 접근 문제",
+      "path": "1. Project/스위프/개발/CDN 접근 문제.md"
+    },
+    {
       "basename": "CloudFront 도입 검토 - Troubleshooting 정리",
       "path": "1. Project/스위프/개발/CloudFront 도입 검토 - Troubleshooting 정리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "@ElementCollection",
       "path": "1. Project/스위프/개발/시큐리티/@ElementCollection.md"
-    },
-    {
-      "basename": "Instant expiresAt",
-      "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
     }
   ],
   "omittedPaths": [],
