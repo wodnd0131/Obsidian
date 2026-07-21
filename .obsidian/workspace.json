@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/스위프/개발/CDN 접근 문제.md",
+                "file": "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CDN 접근 문제"
+              "title": "이미지 람다 통계"
             }
           }
         ]
@@ -206,8 +206,10 @@
   },
   "active": "1672f66f2f09ed0a",
   "lastOpenFiles": [
-    "1. Project/스위프/개발/CloudFront 도입 검토 - Troubleshooting 정리.md",
-    "1. Project/스위프/개발/CDN 접근 문제.md",
+    "Repository/이미지 람다 통계.png",
+    "1. Project/스위프/개발/이미지 업로드/CloudFront 도입 검토 - Troubleshooting 정리.md",
+    "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md",
+    "1. Project/스위프/개발/이미지 업로드/CDN 접근 문제.md",
     "2. Area/기획/우아한바톤/청소주기/청소 관리 서비스 기획서.md",
     "2. Area/기획/우아한바톤/청소주기/오늘 일정 및 시작할 작업.md",
     "2. Area/기획/우아한바톤/인게임 플랜",
@@ -249,8 +251,6 @@
     "Repository/321.png",
     "Repository/123444.png",
     "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md",
-    "Daily/2026/06/06-17.md",
-    "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md",
     "Repository/OIDC-1.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",

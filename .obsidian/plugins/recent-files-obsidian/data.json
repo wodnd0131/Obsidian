@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CDN 접근 문제",
-      "path": "1. Project/스위프/개발/CDN 접근 문제.md"
+      "basename": "이미지 람다 통계",
+      "path": "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md"
     },
     {
       "basename": "CloudFront 도입 검토 - Troubleshooting 정리",
-      "path": "1. Project/스위프/개발/CloudFront 도입 검토 - Troubleshooting 정리.md"
+      "path": "1. Project/스위프/개발/이미지 업로드/CloudFront 도입 검토 - Troubleshooting 정리.md"
+    },
+    {
+      "basename": "CDN 접근 문제",
+      "path": "1. Project/스위프/개발/이미지 업로드/CDN 접근 문제.md"
     },
     {
       "basename": "청소 관리 서비스 기획서",
@@ -195,10 +199,6 @@
     {
       "basename": "JSON",
       "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
-    },
-    {
-      "basename": "@ElementCollection",
-      "path": "1. Project/스위프/개발/시큐리티/@ElementCollection.md"
     }
   ],
   "omittedPaths": [],

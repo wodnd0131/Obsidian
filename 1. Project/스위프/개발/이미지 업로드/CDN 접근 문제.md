@@ -1,17 +1,17 @@
 ## 확인 완료 / 배제된 요인
 
-|항목|결과|
-|---|---|
-|Presigned URL 만료 시간|정상 (Expires가 미래 시점)|
-|EC2 서버 시계 동기화|정상 (NTP synced)|
-|Private key ↔ Public key 쌍|일치 확인 (modulus 동일)|
-|컨테이너(`swyp-spring-blue`)에 주입된 키|로컬 파일과 동일|
-|CloudFront ↔ 콘솔 등록 공개키(`KFIP744J8UJUD`)|일치 확인|
-|DNS (`cdn.orbitss.xyz` → CloudFront)|정상|
-|CloudFront Behavior (Default *, Trusted Key Group)|정상 설정|
-|S3 Block Public Access|비활성화 (문제 없음)|
-|S3 Object Ownership|Bucket owner enforced (ACL 무시, 문제 없음)|
-|S3 버킷 정책|`PublicReadGetObject` 제거, OAC statement만 남김 (보안 개선 완료)|
+| 항목                                                 | 결과                                                     |
+| -------------------------------------------------- | ------------------------------------------------------ |
+| Presigned URL 만료 시간                                | 정상 (Expires가 미래 시점)                                    |
+| EC2 서버 시계 동기화                                      | 정상 (NTP synced)                                        |
+| Private key ↔ Public key 쌍                         | 일치 확인 (modulus 동일)                                     |
+| 컨테이너(`swyp-spring-blue`)에 주입된 키                    | 로컬 파일과 동일                                              |
+| CloudFront ↔ 콘솔 등록 공개키(`KFIP744J8UJUD`)            | 일치 확인                                                  |
+| DNS (`cdn.orbitss.xyz` → CloudFront)               | 정상                                                     |
+| CloudFront Behavior (Default *, Trusted Key Group) | 정상 설정                                                  |
+| S3 Block Public Access                             | 비활성화 (문제 없음)                                           |
+| S3 Object Ownership                                | Bucket owner enforced (ACL 무시, 문제 없음)                  |
+| S3 버킷 정책                                           | `PublicReadGetObject` 제거, OAC statement만 남김 (보안 개선 완료) |
 
 ## 진짜 원인 (확정)
 
