@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "07-23",
+      "path": "Daily/2026/07/07-23.md"
+    },
+    {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
       "basename": "이미지 람다 통계",
       "path": "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Hash",
       "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
-    },
-    {
-      "basename": "JWT Claims",
-      "path": "1. Project/스위프/개발/시큐리티/JWT Claims.md"
-    },
-    {
-      "basename": "JSON",
-      "path": "1. Project/개발/Network/HTTP/Json/JSON.md"
     }
   ],
   "omittedPaths": [],
