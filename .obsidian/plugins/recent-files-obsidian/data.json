@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "완주하지 못한 선수",
+      "path": "1. Project/코딩 테스트/무제/완주하지 못한 선수.md"
+    },
+    {
       "basename": "07-23",
       "path": "Daily/2026/07/07-23.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "JWT 저장 방식",
       "path": "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md"
-    },
-    {
-      "basename": "Hash",
-      "path": "1. Project/개발/Network/HTTP/Json/Hash.md"
     }
   ],
   "omittedPaths": [],
