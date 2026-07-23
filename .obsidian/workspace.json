@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/코딩 테스트/무제/완주하지 못한 선수.md",
+                "file": "1. Project/코딩 테스트/무제/코테용 문법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "완주하지 못한 선수"
+              "title": "코테용 문법"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -206,9 +207,11 @@
   },
   "active": "1672f66f2f09ed0a",
   "lastOpenFiles": [
+    "1. Project/코딩 테스트/무제/전화번호 목록.md",
+    "1. Project/코딩 테스트/무제/코테용 문법.md",
+    "1. Project/코딩 테스트/무제/완주하지 못한 선수.md",
     "1. Project/코딩 테스트/무제",
     "Daily/2026/07/07-23.md",
-    "1. Project/코딩 테스트/무제/완주하지 못한 선수.md",
     "1. Project/코딩 테스트",
     "Templates/DATE_TAMPLATE.md",
     "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md",
@@ -234,7 +237,6 @@
     "1. Project/스위프/개발/시큐리티/AES-256-GCM.md",
     "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md",
     "1. Project/스위프/개발/해야하는것.md",
-    "1. Project/스위프/개발/sso",
     "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md",
     "1. Project/스위프/개발/cicd/배포의 push와 pull.md",
     "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md",
@@ -249,7 +251,6 @@
     "Repository/우아한 바톤 사전 설명회-1.png",
     "1. Project/pickeat에서 감내해야할 것.md",
     "1. Project/스위프/개발/튜닝/최적화 루틴.md",
-    "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/장치 레지스터.md",
     "Repository/321.png",
     "Repository/123444.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "코테용 문법",
+      "path": "1. Project/코딩 테스트/무제/코테용 문법.md"
+    },
+    {
+      "basename": "전화번호 목록",
+      "path": "1. Project/코딩 테스트/무제/전화번호 목록.md"
+    },
+    {
       "basename": "완주하지 못한 선수",
       "path": "1. Project/코딩 테스트/무제/완주하지 못한 선수.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "User-Agent를 통한 미리보기 문제 해결",
       "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "1. Project/개발/Network/HTTP/Json/JWT.md"
-    },
-    {
-      "basename": "JWT 저장 방식",
-      "path": "1. Project/개발/Network/HTTP/Json/JWT 저장 방식.md"
     }
   ],
   "omittedPaths": [],
