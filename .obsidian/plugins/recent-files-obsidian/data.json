@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "의상",
+      "path": "1. Project/코딩 테스트/해시/의상.md"
+    },
+    {
       "basename": "코테용 문법",
-      "path": "1. Project/코딩 테스트/무제/코테용 문법.md"
+      "path": "1. Project/코딩 테스트/해시/코테용 문법.md"
     },
     {
       "basename": "전화번호 목록",
-      "path": "1. Project/코딩 테스트/무제/전화번호 목록.md"
+      "path": "1. Project/코딩 테스트/해시/전화번호 목록.md"
     },
     {
       "basename": "완주하지 못한 선수",
-      "path": "1. Project/코딩 테스트/무제/완주하지 못한 선수.md"
+      "path": "1. Project/코딩 테스트/해시/완주하지 못한 선수.md"
     },
     {
       "basename": "07-23",
@@ -195,10 +199,6 @@
     {
       "basename": "CICD 리태깅 복구",
       "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
-    },
-    {
-      "basename": "User-Agent를 통한 미리보기 문제 해결",
-      "path": "1. Project/취업 준비/소스들/User-Agent를 통한 미리보기 문제 해결.md"
     }
   ],
   "omittedPaths": [],
