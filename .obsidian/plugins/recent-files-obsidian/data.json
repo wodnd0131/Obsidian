@@ -5,12 +5,12 @@
       "path": "1. Project/코딩 테스트/해시/코테용 문법.md"
     },
     {
-      "basename": "의상",
-      "path": "1. Project/코딩 테스트/해시/의상.md"
-    },
-    {
       "basename": "전화번호 목록",
       "path": "1. Project/코딩 테스트/해시/전화번호 목록.md"
+    },
+    {
+      "basename": "의상",
+      "path": "1. Project/코딩 테스트/해시/의상.md"
     },
     {
       "basename": "완주하지 못한 선수",
