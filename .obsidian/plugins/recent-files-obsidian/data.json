@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "이력서 기반 면접 질문 리스트",
+      "path": "1. Project/취업 준비/이력서/이력서 기반 면접 질문 리스트.md"
+    },
+    {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "소프트 딜리트 패턴",
       "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
-    },
-    {
-      "basename": "CICD 리태깅 복구",
-      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
     }
   ],
   "omittedPaths": [],
