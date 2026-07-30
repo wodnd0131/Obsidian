@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
       "basename": "코테용 문법",
       "path": "1. Project/코딩 테스트/해시/코테용 문법.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "07-23",
       "path": "Daily/2026/07/07-23.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
     },
     {
       "basename": "이미지 람다 통계",
