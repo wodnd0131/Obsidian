@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "해야하는 일",
+      "path": "해야하는 일.md"
+    },
+    {
       "basename": "이력서 v4 기반 면접 질문 리스트",
       "path": "1. Project/취업 준비/이력서/이력서 v4 기반 면접 질문 리스트.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "버저닝 인터셉터",
       "path": "1. Project/취업 준비/소스들/버저닝 인터셉터.md"
-    },
-    {
-      "basename": "소프트 딜리트 패턴",
-      "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
     }
   ],
   "omittedPaths": [],

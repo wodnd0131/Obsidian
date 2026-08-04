@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/취업 준비/이력서/이력서 v4 기반 면접 질문 리스트.md",
+                "file": "해야하는 일.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "이력서 v4 기반 면접 질문 리스트"
+              "title": "해야하는 일"
             }
           }
         ]
@@ -204,8 +204,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1672f66f2f09ed0a",
+  "active": "2bc5d761b7ec59ec",
   "lastOpenFiles": [
+    "1. Project/취업 준비/이력서/이력서 v4 기반 면접 질문 리스트.md",
     "Templates/DATE_TAMPLATE.md",
     "1. Project/코딩 테스트/해시/코테용 문법.md",
     "1. Project/코딩 테스트/해시/전화번호 목록.md",
@@ -249,7 +250,6 @@
     "Repository/우아한 바톤 사전 설명회-2.png",
     "Repository/Pasted image 20260619200600.png",
     "Repository/우아한 바톤 사전 설명회-1.png",
-    "1. Project/pickeat에서 감내해야할 것.md",
     "Repository/321.png",
     "Repository/123444.png",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
