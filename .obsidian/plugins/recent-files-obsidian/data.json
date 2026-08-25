@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "08-24",
-      "path": "Daily/2026/08/08-24.md"
+      "basename": "2주차",
+      "path": "1. Project/코딩 테스트/스터디/2주차.md"
     },
     {
       "basename": "1주차",
       "path": "1. Project/코딩 테스트/스터디/1주차.md"
+    },
+    {
+      "basename": "08-24",
+      "path": "Daily/2026/08/08-24.md"
     },
     {
       "basename": "해야하는 일",
@@ -195,10 +199,6 @@
     {
       "basename": "로깅 애플리케이션",
       "path": "Repository/로깅 애플리케이션.png"
-    },
-    {
-      "basename": "글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전",
-      "path": "1. Project/취업 준비/소스들/글로벌 타깃팅 서비스, 수억 명의 고객을 향한 도전.md"
     }
   ],
   "omittedPaths": [],
