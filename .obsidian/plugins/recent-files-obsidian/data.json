@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "2주차",
-      "path": "1. Project/코딩 테스트/스터디/2주차.md"
+      "basename": "젠킨스 슬랙 알람 추가",
+      "path": "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
+    },
+    {
+      "basename": "배포의 push와 pull",
+      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
+    },
+    {
+      "basename": "배포 틀깨기",
+      "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
+    },
+    {
+      "basename": "CICD 리태깅 복구",
+      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
+    },
+    {
+      "basename": "소프트 딜리트 패턴",
+      "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
+    },
+    {
+      "basename": "더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지",
+      "path": "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md"
+    },
+    {
+      "basename": "Instant expiresAt",
+      "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
+    },
+    {
+      "basename": "Apple 회원탈퇴 시 revoke API 연동",
+      "path": "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
+    },
+    {
+      "basename": "스프링 시큐리티 도입 리뷰",
+      "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
+    },
+    {
+      "basename": "@ElementCollection",
+      "path": "1. Project/스위프/개발/시큐리티/@ElementCollection.md"
+    },
+    {
+      "basename": "@JsonProperty",
+      "path": "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md"
+    },
+    {
+      "basename": "@EntityListeners(AuditingEntityListener.class)",
+      "path": "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
+    },
+    {
+      "basename": "로깅 시스템 구축",
+      "path": "1. Project/스위프/개발/로깅/로깅 시스템 구축.md"
+    },
+    {
+      "basename": "수학적 지식",
+      "path": "2. Area/코딩 테스트/알고리즘/수학적 지식.md"
+    },
+    {
+      "basename": "실시간 회의 토픽 시각화 서비스 기획서",
+      "path": "2. Area/기획/실시간 회의 토픽 시각화 서비스 기획서.md"
+    },
+    {
+      "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
+      "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
     },
     {
       "basename": "1주차",
-      "path": "1. Project/코딩 테스트/스터디/1주차.md"
+      "path": "2. Area/코딩 테스트/스터디/1주차.md"
     },
     {
-      "basename": "08-24",
-      "path": "Daily/2026/08/08-24.md"
+      "basename": "완주하지 못한 선수",
+      "path": "2. Area/코딩 테스트/해시/완주하지 못한 선수.md"
+    },
+    {
+      "basename": "의상",
+      "path": "2. Area/코딩 테스트/해시/의상.md"
+    },
+    {
+      "basename": "2주차",
+      "path": "2. Area/코딩 테스트/스터디/2주차.md"
+    },
+    {
+      "basename": "최종 정리",
+      "path": "3. Resource/우아한 테크 코스/마틸다/최종 정리.md"
+    },
+    {
+      "basename": "프론트 포폴",
+      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md"
+    },
+    {
+      "basename": "프론트 작업내용",
+      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
+    },
+    {
+      "basename": "Index",
+      "path": "4. Archive/Index.md"
     },
     {
       "basename": "해야하는 일",
@@ -26,23 +110,11 @@
     },
     {
       "basename": "코테용 문법",
-      "path": "1. Project/코딩 테스트/해시/코테용 문법.md"
+      "path": "2. Area/코딩 테스트/해시/코테용 문법.md"
     },
     {
       "basename": "전화번호 목록",
-      "path": "1. Project/코딩 테스트/해시/전화번호 목록.md"
-    },
-    {
-      "basename": "의상",
-      "path": "1. Project/코딩 테스트/해시/의상.md"
-    },
-    {
-      "basename": "완주하지 못한 선수",
-      "path": "1. Project/코딩 테스트/해시/완주하지 못한 선수.md"
-    },
-    {
-      "basename": "07-23",
-      "path": "Daily/2026/07/07-23.md"
+      "path": "2. Area/코딩 테스트/해시/전화번호 목록.md"
     },
     {
       "basename": "이미지 람다 통계",
@@ -77,20 +149,12 @@
       "path": "2. Area/기획/우아한바톤/기획전/기획 단계 아이템 선정 프레임워크.md"
     },
     {
-      "basename": "기획자 없는 팀을 위한 아이디어 발굴 서비스",
-      "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
-    },
-    {
       "basename": "우아한 바톤 사전 설명회",
       "path": "2. Area/기획/우아한바톤/기획전/우아한 바톤 사전 설명회.md"
     },
     {
       "basename": "AES-256-GCM",
       "path": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md"
-    },
-    {
-      "basename": "Apple 회원탈퇴 시 revoke API 연동",
-      "path": "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
     },
     {
       "basename": "해야하는것",
@@ -101,20 +165,8 @@
       "path": "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md"
     },
     {
-      "basename": "배포의 push와 pull",
-      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
-    },
-    {
-      "basename": "젠킨스 슬랙 알람 추가",
-      "path": "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
-    },
-    {
       "basename": "현재 배포 환경 개선안(첫 배포 기준)",
       "path": "1. Project/스위프/개발/cicd/현재 배포 환경 개선안(첫 배포 기준).md"
-    },
-    {
-      "basename": "배포 틀깨기",
-      "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
     },
     {
       "basename": "우아한 바톤 사전 설명회-4",
@@ -145,60 +197,8 @@
       "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md"
     },
     {
-      "basename": "06-17",
-      "path": "Daily/2026/06/06-17.md"
-    },
-    {
-      "basename": "@JsonProperty",
-      "path": "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md"
-    },
-    {
-      "basename": "@EntityListeners(AuditingEntityListener.class)",
-      "path": "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
-    },
-    {
       "basename": "장별 내용 요약",
       "path": "1. Project/개발/OS/공룡책/장별 내용 요약.md"
-    },
-    {
-      "basename": "Operating System Concepts 학습 가이드 (1~15장)",
-      "path": "1. Project/개발/OS/공룡책/Operating System Concepts 학습 가이드 (1~15장).md"
-    },
-    {
-      "basename": "Why jenkins",
-      "path": "1. Project/스위프/개발/cicd/Why jenkins.md"
-    },
-    {
-      "basename": "How to Jenkins",
-      "path": "1. Project/스위프/개발/cicd/How to Jenkins.md"
-    },
-    {
-      "basename": "what is Jenkins",
-      "path": "1. Project/스위프/개발/cicd/what is Jenkins.md"
-    },
-    {
-      "basename": "OIDC",
-      "path": "1. Project/스위프/개발/시큐리티/OIDC/OIDC.md"
-    },
-    {
-      "basename": "Google SSO에 대한 Console 설정 가이드",
-      "path": "1. Project/스위프/개발/시큐리티/OIDC/Google SSO에 대한 Console 설정 가이드.md"
-    },
-    {
-      "basename": "로깅 시스템 구축",
-      "path": "1. Project/스위프/개발/로깅/로깅 시스템 구축.md"
-    },
-    {
-      "basename": "Pickeat Loging",
-      "path": "1. Project/개발/모니터링/Pickeat Loging.md"
-    },
-    {
-      "basename": "06-11",
-      "path": "Daily/2026/06/06-11.md"
-    },
-    {
-      "basename": "로깅 애플리케이션",
-      "path": "Repository/로깅 애플리케이션.png"
     }
   ],
   "omittedPaths": [],
