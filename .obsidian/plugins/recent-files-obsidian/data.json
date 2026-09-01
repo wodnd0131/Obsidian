@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "2. Area/코딩 테스트/스터디/무제.md"
+    },
+    {
       "basename": "젠킨스 슬랙 알람 추가",
       "path": "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2장. 운영체제 구조 (Operating-System Structures)",
       "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md"
-    },
-    {
-      "basename": "장별 내용 요약",
-      "path": "1. Project/개발/OS/공룡책/장별 내용 요약.md"
     }
   ],
   "omittedPaths": [],
