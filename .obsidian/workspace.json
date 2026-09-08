@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/코딩 테스트/알고리즘/수학적 지식.md",
+                "file": "2. Area/코딩 테스트/루퍼스-스터디/4주차.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "수학적 지식"
+              "title": "4주차"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "eb58f269061b4a8e",
   "lastOpenFiles": [
+    "2. Area/코딩 테스트/알고리즘/수학적 지식.md",
+    "2. Area/코딩 테스트/루퍼스-스터디/4주차.md",
     "2. Area/코딩 테스트/루퍼스-스터디/3주차.md",
     "Repository/3주차-3.png",
     "Repository/3주차-2.png",
@@ -229,7 +231,6 @@
     "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md",
     "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md",
     "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
-    "2. Area/코딩 테스트/알고리즘/수학적 지식.md",
     "2. Area/기획/실시간 회의 토픽 시각화 서비스 기획서.md",
     "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
     "2. Area/코딩 테스트/루퍼스-스터디/1주차.md",

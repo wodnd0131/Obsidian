@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "4주차",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/4주차.md"
+    },
+    {
       "basename": "수학적 지식",
       "path": "2. Area/코딩 테스트/알고리즘/수학적 지식.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "뤼이도 사용",
       "path": "1. Project/스위프/뤼이도 사용.md"
-    },
-    {
-      "basename": "2장. 운영체제 구조 (Operating-System Structures)",
-      "path": "1. Project/개발/OS/공룡책/Part.1 개관 -OS 큰 그림 잡기/2장. 운영체제 구조 (Operating-System Structures).md"
     }
   ],
   "omittedPaths": [],
