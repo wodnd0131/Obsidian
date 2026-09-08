@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/코딩 테스트/루퍼스-스터디/3주차.md",
+                "file": "2. Area/코딩 테스트/알고리즘/수학적 지식.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3주차"
+              "title": "수학적 지식"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -207,6 +206,7 @@
   },
   "active": "eb58f269061b4a8e",
   "lastOpenFiles": [
+    "2. Area/코딩 테스트/루퍼스-스터디/3주차.md",
     "Repository/3주차-3.png",
     "Repository/3주차-2.png",
     "Repository/3주차-1.png",
@@ -216,7 +216,6 @@
     "Repository/3주차-코드예시.png",
     "Repository/3주차-누적합예시2.png",
     "Repository/3주차-누적합 배열.png",
-    "2. Area/코딩 테스트/루퍼스-스터디/3주차.md",
     "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md",
     "1. Project/스위프/개발/cicd/배포의 push와 pull.md",
     "1. Project/스위프/개발/cicd/배포 틀깨기.md",
@@ -243,7 +242,6 @@
     "4. Archive/Index.md",
     "Daily/2026/08",
     "Repository/1주차-4.png",
-    "Repository/1주차-3.png",
     "2. Area/코딩 테스트/루퍼스-스터디",
     "2. Area/코딩 테스트/해시",
     "2. Area/코딩 테스트",
