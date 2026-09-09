@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/코딩 테스트/루퍼스-스터디/4주차.md",
+                "file": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4주차"
+              "title": "1분 자기소개와 마지막 어필"
             }
           }
         ]
@@ -206,12 +206,21 @@
   },
   "active": "eb58f269061b4a8e",
   "lastOpenFiles": [
+    "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md",
+    "1. Project/취업 준비/커멘트/인적성/기술 스택이 다른 분과 팀원이 되면 어떻게 하실 건지.md",
+    "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md",
+    "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
+    "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md",
+    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
+    "1. Project/취업 준비/커멘트/지원동기/똑독.md",
+    "1. Project/취업 준비/커멘트/지원동기/동아리.md",
+    "1. Project/취업 준비/커멘트/지원동기/미래에셋증권.md",
+    "2. Area/코딩 테스트/루퍼스-스터디/4주차.md",
     "Repository/4주차-2.png",
     "Repository/Pasted image 20260908212138.png",
     "Repository/4주차-1.png",
     "Repository/4주차.png",
     "2. Area/코딩 테스트/알고리즘/수학적 지식.md",
-    "2. Area/코딩 테스트/루퍼스-스터디/4주차.md",
     "2. Area/코딩 테스트/루퍼스-스터디/3주차.md",
     "Repository/3주차-3.png",
     "Repository/3주차-2.png",
@@ -219,7 +228,6 @@
     "Repository/3주차.png",
     "Repository/3주차-2d누적합.png",
     "Repository/3주차-창고 다각형.png",
-    "Repository/3주차-코드예시.png",
     "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md",
     "1. Project/스위프/개발/cicd/배포의 push와 pull.md",
     "1. Project/스위프/개발/cicd/배포 틀깨기.md",
@@ -234,14 +242,6 @@
     "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md",
     "1. Project/스위프/개발/로깅/로깅 시스템 구축.md",
     "2. Area/기획/실시간 회의 토픽 시각화 서비스 기획서.md",
-    "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md",
-    "2. Area/코딩 테스트/루퍼스-스터디/1주차.md",
-    "2. Area/코딩 테스트/해시/완주하지 못한 선수.md",
-    "2. Area/코딩 테스트/해시/의상.md",
-    "2. Area/코딩 테스트/루퍼스-스터디/2주차.md",
-    "3. Resource/우아한 테크 코스/마틸다/최종 정리.md",
-    "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md",
-    "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md",
     "Daily/2026/08",
     "2. Area/코딩 테스트/루퍼스-스터디",
     "2. Area/코딩 테스트/해시",
