@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "1. Project/취업 준비/커멘트/인적성/무제.md"
+    },
+    {
+      "basename": "페어, 코드 리뷰 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
+    },
+    {
+      "basename": "면접 기본 질문 모음",
+      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
       "basename": "1분 자기소개와 마지막 어필",
       "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "함께 일하기 힘든 유형",
       "path": "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md"
-    },
-    {
-      "basename": "페어, 코드 리뷰 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
     },
     {
       "basename": "4주차",
@@ -191,14 +199,6 @@
     {
       "basename": "AES-256-GCM",
       "path": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md"
-    },
-    {
-      "basename": "해야하는것",
-      "path": "1. Project/스위프/개발/해야하는것.md"
-    },
-    {
-      "basename": "이상적인 이미지 업로드 + 썸네일 생성 플로우",
-      "path": "1. Project/스위프/개발/이미지 업로드/이상적인 이미지 업로드 + 썸네일 생성 플로우.md"
     }
   ],
   "omittedPaths": [],
