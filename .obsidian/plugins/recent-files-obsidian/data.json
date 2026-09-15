@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "5주차",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/5주차.md"
+    },
+    {
       "basename": "무제",
       "path": "1. Project/취업 준비/커멘트/인적성/무제.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "우아한 바톤 사전 설명회",
       "path": "2. Area/기획/우아한바톤/기획전/우아한 바톤 사전 설명회.md"
-    },
-    {
-      "basename": "AES-256-GCM",
-      "path": "1. Project/스위프/개발/시큐리티/AES-256-GCM.md"
     }
   ],
   "omittedPaths": [],
