@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "09-21",
+      "path": "Daily/2026/09/09-21.md"
+    },
+    {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
       "basename": "데이터엔지니어링 과제 진행 과정",
       "path": "1. Project/취업 준비/과제풀이/데이터엔지니어링 과제 진행 과정.md"
     },
@@ -165,10 +173,6 @@
       "path": "1. Project/취업 준비/이력서/이력서 v4 기반 면접 질문 리스트.md"
     },
     {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
       "basename": "코테용 문법",
       "path": "2. Area/코딩 테스트/해시/코테용 문법.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "오늘 일정 및 시작할 작업",
       "path": "2. Area/기획/우아한바톤/청소주기/오늘 일정 및 시작할 작업.md"
-    },
-    {
-      "basename": "Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이",
-      "path": "2. Area/SCG 코드 리뷰/무제/Java 제네릭의 타입 소거로 인한 컴파일 타임과 런타임 간의 타입 검증 시점 차이.md"
     }
   ],
   "omittedPaths": [],
