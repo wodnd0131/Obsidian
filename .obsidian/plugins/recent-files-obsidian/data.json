@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Growth 도메인",
-      "path": "1. Project/취업 준비/GrowthEngineer/Growth 도메인.md"
-    },
-    {
-      "basename": "공고",
-      "path": "1. Project/취업 준비/GrowthEngineer/공고.md"
-    },
-    {
-      "basename": "# Growth Engineer 기초 이론 정리",
-      "path": "1. Project/취업 준비/GrowthEngineer/# Growth Engineer 기초 이론 정리.md"
+      "basename": "6주차",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/6주차.md"
     },
     {
       "basename": "09-22",
       "path": "Daily/2026/09/09-22.md"
-    },
-    {
-      "basename": "데이터엔지니어링 과제 진행 과정",
-      "path": "1. Project/취업 준비/GrowthEngineer/데이터엔지니어링 과제 진행 과정.md"
     },
     {
       "basename": "09-21",
@@ -82,15 +70,15 @@
     },
     {
       "basename": "젠킨스 슬랙 알람 추가",
-      "path": "1. Project/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
+      "path": "2. Area/스위프/개발/cicd/젠킨스 슬랙 알람 추가.md"
     },
     {
       "basename": "배포의 push와 pull",
-      "path": "1. Project/스위프/개발/cicd/배포의 push와 pull.md"
+      "path": "2. Area/스위프/개발/cicd/배포의 push와 pull.md"
     },
     {
       "basename": "배포 틀깨기",
-      "path": "1. Project/스위프/개발/cicd/배포 틀깨기.md"
+      "path": "2. Area/스위프/개발/cicd/배포 틀깨기.md"
     },
     {
       "basename": "CICD 리태깅 복구",
@@ -106,31 +94,31 @@
     },
     {
       "basename": "Instant expiresAt",
-      "path": "1. Project/스위프/개발/시큐리티/Instant expiresAt.md"
+      "path": "2. Area/스위프/개발/시큐리티/Instant expiresAt.md"
     },
     {
       "basename": "Apple 회원탈퇴 시 revoke API 연동",
-      "path": "1. Project/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
+      "path": "2. Area/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
     },
     {
       "basename": "스프링 시큐리티 도입 리뷰",
-      "path": "1. Project/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
+      "path": "2. Area/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
     },
     {
       "basename": "@ElementCollection",
-      "path": "1. Project/스위프/개발/시큐리티/@ElementCollection.md"
+      "path": "2. Area/스위프/개발/시큐리티/@ElementCollection.md"
     },
     {
       "basename": "@JsonProperty",
-      "path": "1. Project/스위프/개발/빌트인클래스/@JsonProperty.md"
+      "path": "2. Area/스위프/개발/빌트인클래스/@JsonProperty.md"
     },
     {
       "basename": "@EntityListeners(AuditingEntityListener.class)",
-      "path": "1. Project/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
+      "path": "2. Area/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
     },
     {
       "basename": "로깅 시스템 구축",
-      "path": "1. Project/스위프/개발/로깅/로깅 시스템 구축.md"
+      "path": "2. Area/스위프/개발/로깅/로깅 시스템 구축.md"
     },
     {
       "basename": "실시간 회의 토픽 시각화 서비스 기획서",
@@ -190,15 +178,15 @@
     },
     {
       "basename": "이미지 람다 통계",
-      "path": "1. Project/스위프/개발/이미지 업로드/이미지 람다 통계.md"
+      "path": "2. Area/스위프/개발/이미지 업로드/이미지 람다 통계.md"
     },
     {
       "basename": "CloudFront 도입 검토 - Troubleshooting 정리",
-      "path": "1. Project/스위프/개발/이미지 업로드/CloudFront 도입 검토 - Troubleshooting 정리.md"
+      "path": "2. Area/스위프/개발/이미지 업로드/CloudFront 도입 검토 - Troubleshooting 정리.md"
     },
     {
       "basename": "CDN 접근 문제",
-      "path": "1. Project/스위프/개발/이미지 업로드/CDN 접근 문제.md"
+      "path": "2. Area/스위프/개발/이미지 업로드/CDN 접근 문제.md"
     }
   ],
   "omittedPaths": [],
