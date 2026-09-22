@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "09-22",
+      "path": "Daily/2026/09/09-22.md"
+    },
+    {
+      "basename": "# Growth Engineer 기초 이론 정리",
+      "path": "1. Project/취업 준비/GrowthEngineer/# Growth Engineer 기초 이론 정리.md"
+    },
+    {
       "basename": "Growth 도메인",
-      "path": "1. Project/취업 준비/과제풀이/Growth 도메인.md"
+      "path": "1. Project/취업 준비/GrowthEngineer/Growth 도메인.md"
     },
     {
       "basename": "데이터엔지니어링 과제 진행 과정",
-      "path": "1. Project/취업 준비/과제풀이/데이터엔지니어링 과제 진행 과정.md"
+      "path": "1. Project/취업 준비/GrowthEngineer/데이터엔지니어링 과제 진행 과정.md"
     },
     {
       "basename": "공고",
-      "path": "1. Project/취업 준비/과제풀이/공고.md"
+      "path": "1. Project/취업 준비/GrowthEngineer/공고.md"
     },
     {
       "basename": "09-21",
@@ -191,14 +199,6 @@
     {
       "basename": "CDN 접근 문제",
       "path": "1. Project/스위프/개발/이미지 업로드/CDN 접근 문제.md"
-    },
-    {
-      "basename": "청소 관리 서비스 기획서",
-      "path": "2. Area/기획/우아한바톤/청소주기/청소 관리 서비스 기획서.md"
-    },
-    {
-      "basename": "오늘 일정 및 시작할 작업",
-      "path": "2. Area/기획/우아한바톤/청소주기/오늘 일정 및 시작할 작업.md"
     }
   ],
   "omittedPaths": [],
