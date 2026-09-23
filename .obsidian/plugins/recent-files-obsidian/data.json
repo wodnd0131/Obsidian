@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "6주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/6주차.md"
+      "basename": "6주차 - 백트래킹",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/6주차 - 백트래킹.md"
+    },
+    {
+      "basename": "2주차 - 완전 탐색",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md"
+    },
+    {
+      "basename": "1주차 - OT",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/1주차 - OT.md"
+    },
+    {
+      "basename": "3주차 - 누적합",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/3주차 - 누적합.md"
+    },
+    {
+      "basename": "4주차 - 투포인터",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md"
+    },
+    {
+      "basename": "5주차 - 이분탐색",
+      "path": "2. Area/코딩 테스트/루퍼스-스터디/5주차 - 이분탐색.md"
     },
     {
       "basename": "09-22",
@@ -15,10 +35,6 @@
     {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
-      "basename": "5주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/5주차.md"
     },
     {
       "basename": "무제",
@@ -57,16 +73,8 @@
       "path": "1. Project/취업 준비/커멘트/인적성/함께 일하기 힘든 유형.md"
     },
     {
-      "basename": "4주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/4주차.md"
-    },
-    {
       "basename": "수학적 지식",
       "path": "2. Area/코딩 테스트/알고리즘/수학적 지식.md"
-    },
-    {
-      "basename": "3주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/3주차.md"
     },
     {
       "basename": "젠킨스 슬랙 알람 추가",
@@ -129,20 +137,12 @@
       "path": "2. Area/기획/기획자 없는 팀을 위한 아이디어 발굴 서비스.md"
     },
     {
-      "basename": "1주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/1주차.md"
-    },
-    {
       "basename": "완주하지 못한 선수",
       "path": "2. Area/코딩 테스트/해시/완주하지 못한 선수.md"
     },
     {
       "basename": "의상",
       "path": "2. Area/코딩 테스트/해시/의상.md"
-    },
-    {
-      "basename": "2주차",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/2주차.md"
     },
     {
       "basename": "최종 정리",
