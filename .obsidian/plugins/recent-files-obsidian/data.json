@@ -1,32 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "2주차 - 완전 탐색",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md"
+    },
+    {
       "basename": "6주차 - 백트래킹",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/6주차 - 백트래킹.md"
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/6주차 - 백트래킹.md"
+    },
+    {
+      "basename": "코딩테스트 Java 문법 치트시트",
+      "path": "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md"
+    },
+    {
+      "basename": "코테용 문법",
+      "path": "1. Project/코딩 테스트/코테용 문법.md"
+    },
+    {
+      "basename": "09-29",
+      "path": "Daily/2026/09/09-29.md"
+    },
+    {
+      "basename": "Enum Class",
+      "path": "1. Project/개발/JAVA/CS/자료구조/Enum Class.md"
+    },
+    {
+      "basename": "Java Collections Framework",
+      "path": "1. Project/개발/JAVA/CS/자료구조/Java Collections Framework.md"
+    },
+    {
+      "basename": "Matcher와 Pattern",
+      "path": "1. Project/개발/JAVA/CS/자료구조/Matcher와 Pattern.md"
+    },
+    {
+      "basename": "Collections Func",
+      "path": "1. Project/개발/JAVA/CS/자료구조/Collections Func.md"
+    },
+    {
+      "basename": "자료형",
+      "path": "1. Project/개발/JAVA/CS/자료구조/자료형.md"
+    },
+    {
+      "basename": "전화번호 목록",
+      "path": "1. Project/코딩 테스트/해시/전화번호 목록.md"
     },
     {
       "basename": "09-23",
       "path": "Daily/2026/09/09-23.md"
     },
     {
-      "basename": "2주차 - 완전 탐색",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md"
-    },
-    {
       "basename": "1주차 - OT",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/1주차 - OT.md"
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/1주차 - OT.md"
     },
     {
       "basename": "3주차 - 누적합",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/3주차 - 누적합.md"
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/3주차 - 누적합.md"
     },
     {
       "basename": "4주차 - 투포인터",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md"
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md"
     },
     {
       "basename": "5주차 - 이분탐색",
-      "path": "2. Area/코딩 테스트/루퍼스-스터디/5주차 - 이분탐색.md"
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/5주차 - 이분탐색.md"
     },
     {
       "basename": "09-22",
@@ -78,7 +114,7 @@
     },
     {
       "basename": "수학적 지식",
-      "path": "2. Area/코딩 테스트/알고리즘/수학적 지식.md"
+      "path": "1. Project/코딩 테스트/알고리즘/수학적 지식.md"
     },
     {
       "basename": "젠킨스 슬랙 알람 추가",
@@ -142,11 +178,11 @@
     },
     {
       "basename": "완주하지 못한 선수",
-      "path": "2. Area/코딩 테스트/해시/완주하지 못한 선수.md"
+      "path": "1. Project/코딩 테스트/해시/완주하지 못한 선수.md"
     },
     {
       "basename": "의상",
-      "path": "2. Area/코딩 테스트/해시/의상.md"
+      "path": "1. Project/코딩 테스트/해시/의상.md"
     },
     {
       "basename": "최종 정리",
@@ -163,34 +199,6 @@
     {
       "basename": "Index",
       "path": "4. Archive/Index.md"
-    },
-    {
-      "basename": "해야하는 일",
-      "path": "해야하는 일.md"
-    },
-    {
-      "basename": "이력서 v4 기반 면접 질문 리스트",
-      "path": "1. Project/취업 준비/이력서/이력서 v4 기반 면접 질문 리스트.md"
-    },
-    {
-      "basename": "코테용 문법",
-      "path": "2. Area/코딩 테스트/해시/코테용 문법.md"
-    },
-    {
-      "basename": "전화번호 목록",
-      "path": "2. Area/코딩 테스트/해시/전화번호 목록.md"
-    },
-    {
-      "basename": "이미지 람다 통계",
-      "path": "2. Area/스위프/개발/이미지 업로드/이미지 람다 통계.md"
-    },
-    {
-      "basename": "CloudFront 도입 검토 - Troubleshooting 정리",
-      "path": "2. Area/스위프/개발/이미지 업로드/CloudFront 도입 검토 - Troubleshooting 정리.md"
-    },
-    {
-      "basename": "CDN 접근 문제",
-      "path": "2. Area/스위프/개발/이미지 업로드/CDN 접근 문제.md"
     }
   ],
   "omittedPaths": [],
