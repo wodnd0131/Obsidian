@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "7주차 - DP",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
+    },
+    {
       "basename": "4주차 - 투포인터",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "프론트 작업내용",
       "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
-    },
-    {
-      "basename": "Index",
-      "path": "4. Archive/Index.md"
     }
   ],
   "omittedPaths": [],

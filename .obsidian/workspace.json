@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7160c54ab8352325",
+        "id": "0953da543487b76e",
         "type": "tabs",
         "children": [
           {
-            "id": "c6efdbc90e1930c1",
+            "id": "a55b4a810ecdc522",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md",
+                "file": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4주차 - 투포인터"
-            }
-          },
-          {
-            "id": "dc9038fa27da4789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "코딩테스트 Java 문법 치트시트"
+              "title": "7주차 - DP"
             }
           }
         ]
@@ -219,12 +204,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2bc5d761b7ec59ec",
+  "active": "a55b4a810ecdc522",
   "lastOpenFiles": [
+    "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md",
+    "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md",
     "1. Project/코딩 테스트/루퍼스-스터디/3주차 - 누적합.md",
     "1. Project/코딩 테스트/루퍼스-스터디/6주차 - 백트래킹.md",
     "1. Project/코딩 테스트/루퍼스-스터디/5주차 - 이분탐색.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md",
     "1. Project/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md",
     "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md",
     "1. Project/코딩 테스트/코테용 문법.md",
@@ -259,7 +245,6 @@
     "Daily/2026",
     "1. Project/취업 준비/GrowthEngineer",
     "1. Project/취업 준비/커멘트/인적성/무제.md",
-    "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
     "Daily/2026/08",
     "1. Project/코딩 테스트/루퍼스-스터디",
     "1. Project/코딩 테스트/해시",
