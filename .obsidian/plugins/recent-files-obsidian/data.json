@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10-07",
+      "path": "Daily/2026/10/10-07.md"
+    },
+    {
       "basename": "7주차 - DP",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "프론트 포폴",
       "path": "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md"
-    },
-    {
-      "basename": "프론트 작업내용",
-      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 작업내용.md"
     }
   ],
   "omittedPaths": [],
