@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "10-07",
-      "path": "Daily/2026/10/10-07.md"
-    },
-    {
       "basename": "7주차 - DP",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
+    },
+    {
+      "basename": "10-08",
+      "path": "Daily/2026/10/10-08.md"
+    },
+    {
+      "basename": "10-07",
+      "path": "Daily/2026/10/10-07.md"
     },
     {
       "basename": "4주차 - 투포인터",
@@ -195,10 +199,6 @@
     {
       "basename": "최종 정리",
       "path": "3. Resource/우아한 테크 코스/마틸다/최종 정리.md"
-    },
-    {
-      "basename": "프론트 포폴",
-      "path": "3. Resource/우아한 테크 코스/마틸다/프론트 포폴.md"
     }
   ],
   "omittedPaths": [],
