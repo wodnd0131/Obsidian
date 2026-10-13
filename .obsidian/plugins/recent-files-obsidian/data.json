@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "10-13",
+      "path": "Daily/2026/10/10-13.md"
+    },
+    {
+      "basename": "DATE_TAMPLATE",
+      "path": "Templates/DATE_TAMPLATE.md"
+    },
+    {
       "basename": "7주차 - DP",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
     },
@@ -83,10 +91,6 @@
     {
       "basename": "09-21",
       "path": "Daily/2026/09/09-21.md"
-    },
-    {
-      "basename": "DATE_TAMPLATE",
-      "path": "Templates/DATE_TAMPLATE.md"
     },
     {
       "basename": "무제",
@@ -195,10 +199,6 @@
     {
       "basename": "의상",
       "path": "1. Project/코딩 테스트/해시/의상.md"
-    },
-    {
-      "basename": "최종 정리",
-      "path": "3. Resource/우아한 테크 코스/마틸다/최종 정리.md"
     }
   ],
   "omittedPaths": [],
