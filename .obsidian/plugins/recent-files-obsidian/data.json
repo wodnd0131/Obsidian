@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "8주차 - DFS,BFS,다익스트라",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/8주차 - DFS,BFS,다익스트라.md"
+    },
+    {
+      "basename": "코딩테스트 Java 문법 치트시트",
+      "path": "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md"
+    },
+    {
+      "basename": "7주차 - DP",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
+    },
+    {
+      "basename": "코테용 문법",
+      "path": "1. Project/코딩 테스트/코테용 문법.md"
+    },
+    {
       "basename": "10-13",
       "path": "Daily/2026/10/10-13.md"
     },
     {
       "basename": "DATE_TAMPLATE",
       "path": "Templates/DATE_TAMPLATE.md"
-    },
-    {
-      "basename": "7주차 - DP",
-      "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
     },
     {
       "basename": "10-08",
@@ -39,14 +51,6 @@
     {
       "basename": "2주차 - 완전 탐색",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md"
-    },
-    {
-      "basename": "코딩테스트 Java 문법 치트시트",
-      "path": "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md"
-    },
-    {
-      "basename": "코테용 문법",
-      "path": "1. Project/코딩 테스트/코테용 문법.md"
     },
     {
       "basename": "09-29",
@@ -195,10 +199,6 @@
     {
       "basename": "완주하지 못한 선수",
       "path": "1. Project/코딩 테스트/해시/완주하지 못한 선수.md"
-    },
-    {
-      "basename": "의상",
-      "path": "1. Project/코딩 테스트/해시/의상.md"
     }
   ],
   "omittedPaths": [],
