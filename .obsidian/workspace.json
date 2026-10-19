@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/코딩 테스트/루퍼스-스터디/8주차 - DFS,BFS,다익스트라.md",
+                "file": "1. Project/취업 준비/이력서/백엔드 이력서 제작 프레임워크.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "8주차 - DFS,BFS,다익스트라"
+              "title": "백엔드 이력서 제작 프레임워크"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "08ae71c57ee41445",
@@ -207,12 +206,15 @@
   },
   "active": "de1bfa3d750e7cfd",
   "lastOpenFiles": [
+    "1. Project/취업 준비/나의 컬처핏.md",
+    "1. Project/취업 준비/이력서/백엔드 이력서 제작 프레임워크.md",
+    "1. Project/취업 준비/이력서/백엔드 포트폴리오 제작 프레임워크.md",
+    "1. Project/코딩 테스트/루퍼스-스터디/8주차 - DFS,BFS,다익스트라.md",
     "Repository/8주차 - DFS,BFS,다익스트라-4.png",
     "Repository/8주차 - DFS,BFS,다익스트라-3.png",
     "Repository/8주차 - DFS,BFS,다익스트라-2.png",
     "Repository/8주차 - DFS,BFS,다익스트라-1.png",
     "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/8주차 - DFS,BFS,다익스트라.md",
     "Repository/8주차 - DFS,BFS,다익스트라.png",
     "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md",
     "1. Project/코딩 테스트/코테용 문법.md",
@@ -238,12 +240,9 @@
     "1. Project/pickeat에서 감내해야할 것.md",
     "Daily/2026/09/09-23.md",
     "1. Project/코딩 테스트/루퍼스-스터디/1주차 - OT.md",
-    "Daily/2026/09/09-22.md",
     "Repository/6주차-8.png",
     "Repository/Pasted image 20260922212135.png",
     "Repository/6주차-7.png",
-    "Repository/6주차-6.png",
-    "1. Project/취업 준비/GrowthEngineer/Growth 도메인.md",
     "Daily/2026/09",
     "Daily/2026",
     "1. Project/취업 준비/GrowthEngineer",
