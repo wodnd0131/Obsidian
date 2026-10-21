@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/코딩 테스트/루퍼스-스터디/9주차 - Tree.md",
+                "file": "1. Project/코드리뷰 하네스/초기 기획/07 작업·의사결정 로그.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9주차 - Tree"
+              "title": "07 작업·의사결정 로그"
             }
           }
         ]
@@ -206,8 +206,19 @@
   },
   "active": "4ca766d176582c92",
   "lastOpenFiles": [
-    "Repository/9주차 - Tree-19.png",
+    "1. Project/코드리뷰 하네스/초기 기획",
+    "1. Project/코드리뷰 하네스/초기 기획/06 AI 팀 역할 카드.md",
+    "1. Project/코드리뷰 하네스/초기 기획/07 작업·의사결정 로그.md",
+    "1. Project/코드리뷰 하네스/초기 기획/05 AI 팀 온보딩 (CLAUDE.md).md",
+    "1. Project/코드리뷰 하네스/초기 기획/04 평가 계획서.md",
+    "1. Project/코드리뷰 하네스/초기 기획/02 실행 계획서.md",
+    "Repository/02 실행 계획서.png",
+    "1. Project/코드리뷰 하네스/초기 기획/01 기획서 (PRD).md",
+    "1. Project/코드리뷰 하네스/초기 기획/03 기술 설계서.md",
+    "Repository/03 기술 설계서.png",
     "1. Project/코딩 테스트/루퍼스-스터디/9주차 - Tree.md",
+    "1. Project/코드리뷰 하네스",
+    "Repository/9주차 - Tree-19.png",
     "Repository/9주차 - Tree-20.png",
     "Repository/9주차 - Tree-20.png",
     "Repository/9주차 - Tree-18.png",
@@ -215,8 +226,6 @@
     "Repository/9주차 - Tree-16.png",
     "Repository/9주차 - Tree-15.png",
     "Repository/9주차 - Tree-15.png",
-    "Repository/9주차 - Tree-14.png",
-    "Repository/9주차 - Tree-13.png",
     "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md",
     "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md",
     "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md",
@@ -235,13 +244,6 @@
     "Daily/2026/10/10-08.md",
     "Daily/2026/10/10-07.md",
     "Daily/2026/10",
-    "1. Project/코딩 테스트/루퍼스-스터디/4주차 - 투포인터.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/3주차 - 누적합.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/6주차 - 백트래킹.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/5주차 - 이분탐색.md",
-    "1. Project/코딩 테스트/루퍼스-스터디/2주차 - 완전 탐색.md",
-    "Daily/2026/09/09-29.md",
-    "1. Project/개발/JAVA/CS/자료구조/Enum Class.md",
     "Daily/2026/09",
     "Daily/2026",
     "1. Project/취업 준비/GrowthEngineer",
@@ -250,7 +252,6 @@
     "1. Project/코딩 테스트/해시",
     "1. Project/코딩 테스트",
     "Daily/2026/07",
-    "2. Area/기획/우아한바톤/인게임 플랜",
     "3. Resource/독서/전공 도서/객체지향의 오해와 진실/3.타입과 추상화.canvas",
     "3. Resource/우아한 테크 코스/Level. 1/장기 - 메세징.canvas",
     "Todo/Canvas.todo.canvas",

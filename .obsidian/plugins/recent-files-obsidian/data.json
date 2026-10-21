@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "07 작업·의사결정 로그",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/07 작업·의사결정 로그.md"
+    },
+    {
+      "basename": "06 AI 팀 역할 카드",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/06 AI 팀 역할 카드.md"
+    },
+    {
+      "basename": "05 AI 팀 온보딩 (CLAUDE.md)",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/05 AI 팀 온보딩 (CLAUDE.md).md"
+    },
+    {
+      "basename": "04 평가 계획서",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/04 평가 계획서.md"
+    },
+    {
+      "basename": "02 실행 계획서",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/02 실행 계획서.md"
+    },
+    {
+      "basename": "01 기획서 (PRD)",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/01 기획서 (PRD).md"
+    },
+    {
+      "basename": "03 기술 설계서",
+      "path": "1. Project/코드리뷰 하네스/초기 기획/03 기술 설계서.md"
+    },
+    {
       "basename": "9주차 - Tree",
       "path": "1. Project/코딩 테스트/루퍼스-스터디/9주차 - Tree.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "배포 틀깨기",
       "path": "2. Area/스위프/개발/cicd/배포 틀깨기.md"
-    },
-    {
-      "basename": "CICD 리태깅 복구",
-      "path": "1. Project/취업 준비/소스들/CICD 리태깅 복구.md"
-    },
-    {
-      "basename": "소프트 딜리트 패턴",
-      "path": "1. Project/취업 준비/소스들/소프트 딜리트 패턴.md"
-    },
-    {
-      "basename": "더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지",
-      "path": "1. Project/취업 준비/소스들/더 나은 이상 탐지를 위한 여정- 서버부터 서비스 그리고 문화까지.md"
-    },
-    {
-      "basename": "Instant expiresAt",
-      "path": "2. Area/스위프/개발/시큐리티/Instant expiresAt.md"
-    },
-    {
-      "basename": "Apple 회원탈퇴 시 revoke API 연동",
-      "path": "2. Area/스위프/개발/시큐리티/Apple 회원탈퇴 시 revoke API 연동.md"
-    },
-    {
-      "basename": "스프링 시큐리티 도입 리뷰",
-      "path": "2. Area/스위프/개발/시큐리티/스프링 시큐리티 도입 리뷰.md"
-    },
-    {
-      "basename": "@ElementCollection",
-      "path": "2. Area/스위프/개발/시큐리티/@ElementCollection.md"
     }
   ],
   "omittedPaths": [],
