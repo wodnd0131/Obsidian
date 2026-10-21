@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "9주차 - Tree",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/9주차 - Tree.md"
+    },
+    {
+      "basename": "9주차 - Tree-19",
+      "path": "Repository/9주차 - Tree-19.png"
+    },
+    {
+      "basename": "7주차 - DP",
+      "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
+    },
+    {
+      "basename": "페어, 코드 리뷰 방식",
+      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
+    },
+    {
+      "basename": "협업할 때 어떤 역할인지",
+      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
+    },
+    {
+      "basename": "Claude All in one",
+      "path": "1. Project/취업 준비/커멘트/Claude All in one.md"
+    },
+    {
+      "basename": "AI는 어떻게 생각하시나요",
+      "path": "1. Project/취업 준비/커멘트/AI는 어떻게 생각하시나요.md"
+    },
+    {
+      "basename": "면접 기본 질문 모음",
+      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
+    },
+    {
+      "basename": "1분 자기소개와 마지막 어필",
+      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
+    },
+    {
       "basename": "백엔드 이력서 제작 프레임워크",
       "path": "1. Project/취업 준비/이력서/백엔드 이력서 제작 프레임워크.md"
     },
@@ -15,10 +51,6 @@
     {
       "basename": "코딩테스트 Java 문법 치트시트",
       "path": "1. Project/코딩 테스트/코딩테스트 Java 문법 치트시트.md"
-    },
-    {
-      "basename": "7주차 - DP",
-      "path": "1. Project/코딩 테스트/루퍼스-스터디/7주차 - DP.md"
     },
     {
       "basename": "코테용 문법",
@@ -109,18 +141,6 @@
       "path": "1. Project/취업 준비/커멘트/인적성/무제.md"
     },
     {
-      "basename": "페어, 코드 리뷰 방식",
-      "path": "1. Project/취업 준비/커멘트/인적성/페어, 코드 리뷰 방식.md"
-    },
-    {
-      "basename": "면접 기본 질문 모음",
-      "path": "1. Project/취업 준비/커멘트/면접 기본 질문 모음.md"
-    },
-    {
-      "basename": "1분 자기소개와 마지막 어필",
-      "path": "1. Project/취업 준비/커멘트/인적성/1분 자기소개와 마지막 어필.md"
-    },
-    {
       "basename": "개발자로서 강점,단점",
       "path": "1. Project/취업 준비/커멘트/인적성/개발자로서 강점,단점.md"
     },
@@ -131,10 +151,6 @@
     {
       "basename": "성격 장단점 특이사항등",
       "path": "1. Project/취업 준비/커멘트/인적성/성격 장단점 특이사항등.md"
-    },
-    {
-      "basename": "협업할 때 어떤 역할인지",
-      "path": "1. Project/취업 준비/커멘트/인적성/협업할 때 어떤 역할인지.md"
     },
     {
       "basename": "함께 일하기 힘든 유형",
@@ -183,18 +199,6 @@
     {
       "basename": "@ElementCollection",
       "path": "2. Area/스위프/개발/시큐리티/@ElementCollection.md"
-    },
-    {
-      "basename": "@JsonProperty",
-      "path": "2. Area/스위프/개발/빌트인클래스/@JsonProperty.md"
-    },
-    {
-      "basename": "@EntityListeners(AuditingEntityListener.class)",
-      "path": "2. Area/스위프/개발/빌트인클래스/@EntityListeners(AuditingEntityListener.class).md"
-    },
-    {
-      "basename": "로깅 시스템 구축",
-      "path": "2. Area/스위프/개발/로깅/로깅 시스템 구축.md"
     }
   ],
   "omittedPaths": [],
